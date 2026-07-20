@@ -1,37 +1,169 @@
 method,artist,topic,event_axis,pearson_r,pearson_p,spearman_r,spearman_p,perm_p,window_effect,n_years,event_window_years
-keywords,Los Tigres del Norte,migracion,drug_war_mx,0.2245,0.1096,0.2398,0.0868,0.113,0.867671,52,2
-keywords,Los Tigres del Norte,migracion,elections_mx,0.1769,0.2096,0.2159,0.1242,0.233,0.960574,52,2
-keywords,Los Tigres del Norte,migracion,immigration_usmx,0.1032,0.4666,0.0967,0.4951,0.491,0.490324,52,2
-keywords,Los Tigres del Norte,migracion,us_presidency,0.083,0.5584,0.1395,0.324,0.552,0.413009,52,2
-keywords,Los Tigres del Norte,narco,drug_war_mx,-0.0056,0.9688,0.0124,0.9307,0.974,-0.011954,52,2
-keywords,Los Tigres del Norte,narco,elections_mx,0.1641,0.245,0.1941,0.1678,0.258,0.495282,52,2
-keywords,Los Tigres del Norte,narco,immigration_usmx,0.1034,0.4658,0.1131,0.4247,0.476,0.273025,52,2
-keywords,Los Tigres del Norte,narco,us_presidency,0.1138,0.4218,0.1063,0.4532,0.433,0.314665,52,2
-keywords,Los Tigres del Norte,politica_mx,drug_war_mx,0.0546,0.7008,0.0661,0.6415,0.689,0.02718,52,2
-keywords,Los Tigres del Norte,politica_mx,elections_mx,0.1897,0.178,0.1725,0.2214,0.194,0.132752,52,2
-keywords,Los Tigres del Norte,politica_mx,immigration_usmx,0.2002,0.1547,0.2503,0.0735,0.156,0.122608,52,2
-keywords,Los Tigres del Norte,politica_mx,us_presidency,0.2097,0.1358,0.262,0.0606,0.11,0.134415,52,2
-keywords,Los Tucanes de Tijuana,migracion,drug_war_mx,-0.0255,0.8578,0.163,0.2483,0.866,-0.039552,52,2
-keywords,Los Tucanes de Tijuana,migracion,elections_mx,0.2156,0.1248,0.2373,0.0903,0.133,0.47036,52,2
-keywords,Los Tucanes de Tijuana,migracion,immigration_usmx,0.2102,0.1348,0.2027,0.1495,0.12,0.401321,52,2
-keywords,Los Tucanes de Tijuana,migracion,us_presidency,0.2763,0.0474,0.3067,0.027,0.032,0.552313,52,2
-keywords,Los Tucanes de Tijuana,narco,drug_war_mx,0.2409,0.0854,0.2653,0.0573,0.089,1.333799,52,2
-keywords,Los Tucanes de Tijuana,narco,elections_mx,0.2336,0.0956,0.2487,0.0754,0.107,1.816856,52,2
-keywords,Los Tucanes de Tijuana,narco,immigration_usmx,0.2384,0.0888,0.2663,0.0564,0.081,1.622654,52,2
-keywords,Los Tucanes de Tijuana,narco,us_presidency,0.063,0.6572,0.1665,0.2382,0.648,0.449088,52,2
-keywords,Los Tucanes de Tijuana,politica_mx,drug_war_mx,0.1198,0.3977,0.1687,0.232,0.491,0.078204,52,2
-keywords,Los Tucanes de Tijuana,politica_mx,elections_mx,0.0766,0.5892,0.0948,0.5039,0.779,0.070282,52,2
-keywords,Los Tucanes de Tijuana,politica_mx,immigration_usmx,0.1472,0.2976,0.2073,0.1403,0.207,0.11817,52,2
-keywords,Los Tucanes de Tijuana,politica_mx,us_presidency,0.1542,0.2752,0.2171,0.1221,0.351,0.129549,52,2
-keywords,all_artists,migracion,drug_war_mx,0.246,0.0787,0.3072,0.0267,0.065,0.765649,52,2
-keywords,all_artists,migracion,elections_mx,0.1829,0.1943,0.2375,0.09,0.181,0.799564,52,2
-keywords,all_artists,migracion,immigration_usmx,0.1396,0.3236,0.1493,0.2907,0.317,0.534079,52,2
-keywords,all_artists,migracion,us_presidency,0.098,0.4896,0.1907,0.1757,0.496,0.392401,52,2
-keywords,all_artists,narco,drug_war_mx,0.1964,0.1629,0.1916,0.1736,0.146,0.992354,52,2
-keywords,all_artists,narco,elections_mx,0.2332,0.0961,0.251,0.0727,0.096,1.655419,52,2
-keywords,all_artists,narco,immigration_usmx,0.1793,0.2034,0.2263,0.1066,0.21,1.113833,52,2
-keywords,all_artists,narco,us_presidency,0.0066,0.9629,0.1126,0.4269,0.969,0.043033,52,2
-keywords,all_artists,politica_mx,drug_war_mx,0.1145,0.419,0.1345,0.3416,0.46,0.062492,52,2
-keywords,all_artists,politica_mx,elections_mx,0.1326,0.3487,0.1449,0.3055,0.358,0.101662,52,2
-keywords,all_artists,politica_mx,immigration_usmx,0.238,0.0894,0.3084,0.0261,0.066,0.159659,52,2
-keywords,all_artists,politica_mx,us_presidency,0.2492,0.0749,0.3229,0.0196,0.052,0.175034,52,2
+keywords,Los Tigres del Norte,migracion,drug_war_mx,0.2636,0.0518,0.3017,0.0252,0.044,1.130288,55,2
+keywords,Los Tigres del Norte,migracion,elections_mx,0.2121,0.12,0.2679,0.048,0.108,1.223191,55,2
+keywords,Los Tigres del Norte,migracion,immigration_usmx,0.1471,0.2838,0.1638,0.2321,0.272,0.752941,55,2
+keywords,Los Tigres del Norte,migracion,us_presidency,0.1267,0.3565,0.2007,0.1417,0.371,0.675626,55,2
+keywords,Los Tigres del Norte,narco,drug_war_mx,0.0499,0.7177,0.0872,0.5265,0.711,0.118585,55,2
+keywords,Los Tigres del Norte,narco,elections_mx,0.1957,0.1522,0.2374,0.081,0.136,0.625821,55,2
+keywords,Los Tigres del Norte,narco,immigration_usmx,0.1422,0.3004,0.1662,0.2253,0.335,0.403564,55,2
+keywords,Los Tigres del Norte,narco,us_presidency,0.1506,0.2724,0.1598,0.2437,0.273,0.445204,55,2
+keywords,Los Tigres del Norte,politica_mx,drug_war_mx,0.0797,0.5629,0.0976,0.4783,0.567,0.043676,55,2
+keywords,Los Tigres del Norte,politica_mx,elections_mx,0.2025,0.1381,0.1913,0.1617,0.191,0.149248,55,2
+keywords,Los Tigres del Norte,politica_mx,immigration_usmx,0.2127,0.119,0.2656,0.0501,0.109,0.139104,55,2
+keywords,Los Tigres del Norte,politica_mx,us_presidency,0.2216,0.104,0.2766,0.0409,0.112,0.150911,55,2
+keywords,Los Tucanes de Tijuana,migracion,drug_war_mx,0.021,0.8791,0.203,0.1372,0.888,0.03598,55,2
+keywords,Los Tucanes de Tijuana,migracion,elections_mx,0.2368,0.0817,0.2643,0.0512,0.083,0.545892,55,2
+keywords,Los Tucanes de Tijuana,migracion,immigration_usmx,0.2331,0.0868,0.2327,0.0874,0.08,0.476853,55,2
+keywords,Los Tucanes de Tijuana,migracion,us_presidency,0.2947,0.029,0.3298,0.0139,0.02,0.627845,55,2
+keywords,Los Tucanes de Tijuana,narco,drug_war_mx,0.2711,0.0453,0.3035,0.0243,0.042,1.660683,55,2
+keywords,Los Tucanes de Tijuana,narco,elections_mx,0.2602,0.055,0.2822,0.0369,0.044,2.143741,55,2
+keywords,Los Tucanes de Tijuana,narco,immigration_usmx,0.2666,0.0491,0.3011,0.0255,0.043,1.949539,55,2
+keywords,Los Tucanes de Tijuana,narco,us_presidency,0.1019,0.4592,0.2089,0.1259,0.488,0.775973,55,2
+keywords,Los Tucanes de Tijuana,politica_mx,drug_war_mx,0.1312,0.3397,0.1845,0.1775,0.374,0.094103,55,2
+keywords,Los Tucanes de Tijuana,politica_mx,elections_mx,0.0893,0.5166,0.1134,0.4096,0.701,0.086182,55,2
+keywords,Los Tucanes de Tijuana,politica_mx,immigration_usmx,0.1566,0.2535,0.2202,0.1061,0.343,0.134069,55,2
+keywords,Los Tucanes de Tijuana,politica_mx,us_presidency,0.1631,0.2341,0.2294,0.092,0.252,0.145449,55,2
+keywords,all_artists,migracion,drug_war_mx,0.2948,0.0289,0.3818,0.004,0.021,1.023142,55,2
+keywords,all_artists,migracion,elections_mx,0.2265,0.0964,0.3009,0.0256,0.095,1.057057,55,2
+keywords,all_artists,migracion,immigration_usmx,0.1911,0.1623,0.2283,0.0936,0.164,0.791572,55,2
+keywords,all_artists,migracion,us_presidency,0.1506,0.2724,0.2639,0.0516,0.299,0.649894,55,2
+keywords,all_artists,narco,drug_war_mx,0.2375,0.0808,0.2632,0.0522,0.066,1.331123,55,2
+keywords,all_artists,narco,elections_mx,0.2646,0.0509,0.3013,0.0254,0.048,1.994188,55,2
+keywords,all_artists,narco,immigration_usmx,0.2172,0.1112,0.2833,0.0361,0.102,1.452602,55,2
+keywords,all_artists,narco,us_presidency,0.0548,0.6911,0.1795,0.1896,0.705,0.381802,55,2
+keywords,all_artists,politica_mx,drug_war_mx,0.1397,0.309,0.1681,0.2199,0.318,0.083973,55,2
+keywords,all_artists,politica_mx,elections_mx,0.1523,0.2668,0.1717,0.2099,0.301,0.123143,55,2
+keywords,all_artists,politica_mx,immigration_usmx,0.2525,0.0629,0.3266,0.0149,0.046,0.18114,55,2
+keywords,all_artists,politica_mx,us_presidency,0.263,0.0524,0.3402,0.011,0.034,0.196515,55,2
+bertopic,Los Tigres del Norte,0_que_te_me_no,drug_war_mx,0.3403,0.011,0.331,0.0136,0.01,0.052402,55,2
+bertopic,Los Tigres del Norte,0_que_te_me_no,elections_mx,0.1762,0.1981,0.2149,0.1152,0.192,0.036499,55,2
+bertopic,Los Tigres del Norte,0_que_te_me_no,immigration_usmx,0.2447,0.0717,0.2237,0.1007,0.081,0.044989,55,2
+bertopic,Los Tigres del Norte,0_que_te_me_no,us_presidency,0.2133,0.1178,0.1831,0.1808,0.106,0.040846,55,2
+bertopic,Los Tigres del Norte,-1_la_de_que_el,drug_war_mx,-0.0509,0.7123,-0.0742,0.5905,0.722,-0.006447,55,2
+bertopic,Los Tigres del Norte,-1_la_de_que_el,elections_mx,-0.0203,0.883,0.0404,0.7698,0.879,-0.003461,55,2
+bertopic,Los Tigres del Norte,-1_la_de_que_el,immigration_usmx,-0.0162,0.9068,-0.0381,0.7824,0.901,-0.002445,55,2
+bertopic,Los Tigres del Norte,-1_la_de_que_el,us_presidency,0.0735,0.5937,-0.0061,0.9649,0.599,0.011585,55,2
+bertopic,Los Tigres del Norte,2_que_me_no_la,drug_war_mx,-0.3495,0.0089,-0.2269,0.0958,0.012,-0.029023,55,2
+bertopic,Los Tigres del Norte,2_que_me_no_la,elections_mx,-0.3249,0.0155,-0.221,0.1049,0.015,-0.03629,55,2
+bertopic,Los Tigres del Norte,2_que_me_no_la,immigration_usmx,-0.2673,0.0485,-0.1677,0.221,0.047,-0.026495,55,2
+bertopic,Los Tigres del Norte,2_que_me_no_la,us_presidency,-0.4183,0.0015,-0.3515,0.0085,0.002,-0.043194,55,2
+bertopic,Los Tigres del Norte,1_el_la_de_los,drug_war_mx,-0.0914,0.507,-0.0932,0.4987,0.514,-0.005824,55,2
+bertopic,Los Tigres del Norte,1_el_la_de_los,elections_mx,-0.0177,0.8982,0.0025,0.9856,0.906,-0.001514,55,2
+bertopic,Los Tigres del Norte,1_el_la_de_los,immigration_usmx,-0.1059,0.4418,-0.0555,0.6873,0.433,-0.008054,55,2
+bertopic,Los Tigres del Norte,1_el_la_de_los,us_presidency,-0.0627,0.6492,-0.042,0.7606,0.667,-0.00497,55,2
+bertopic,Los Tigres del Norte,3_la_de_el_se,drug_war_mx,0.0647,0.6389,0.0651,0.6368,0.667,0.003217,55,2
+bertopic,Los Tigres del Norte,3_la_de_el_se,elections_mx,-0.157,0.2524,-0.1501,0.2741,0.275,-0.0105,55,2
+bertopic,Los Tigres del Norte,3_la_de_el_se,immigration_usmx,-0.1461,0.2871,-0.1496,0.2756,0.298,-0.008674,55,2
+bertopic,Los Tigres del Norte,3_la_de_el_se,us_presidency,-0.0754,0.5845,-0.2371,0.0814,0.572,-0.004659,55,2
+bertopic,Los Tigres del Norte,4_me_el_que_no,drug_war_mx,0.2027,0.1378,0.2041,0.1351,0.231,0.003264,55,2
+bertopic,Los Tigres del Norte,4_me_el_que_no,elections_mx,0.1368,0.3193,0.1481,0.2805,0.366,0.002963,55,2
+bertopic,Los Tigres del Norte,4_me_el_que_no,immigration_usmx,0.1338,0.3302,0.1286,0.3496,0.336,0.002572,55,2
+bertopic,Los Tigres del Norte,4_me_el_que_no,us_presidency,-0.1091,0.4279,-0.1113,0.4186,0.504,-0.002184,55,2
+bertopic,Los Tigres del Norte,5_me_que_soy_uh,drug_war_mx,0.0795,0.5639,0.0795,0.5639,0.83,0.000327,55,2
+bertopic,Los Tigres del Norte,5_me_que_soy_uh,elections_mx,0.1069,0.4371,0.1069,0.4371,1.0,0.000591,55,2
+bertopic,Los Tigres del Norte,5_me_que_soy_uh,immigration_usmx,0.0949,0.4906,0.0949,0.4906,0.606,0.000466,55,2
+bertopic,Los Tigres del Norte,5_me_que_soy_uh,us_presidency,0.0989,0.4727,0.0989,0.4727,0.479,0.000505,55,2
+bertopic,Los Tucanes de Tijuana,0_que_te_me_no,drug_war_mx,0.2443,0.0723,0.3213,0.0168,0.057,0.027069,55,2
+bertopic,Los Tucanes de Tijuana,0_que_te_me_no,elections_mx,0.0972,0.4804,0.2517,0.0638,0.512,0.014481,55,2
+bertopic,Los Tucanes de Tijuana,0_que_te_me_no,immigration_usmx,0.2507,0.0649,0.2966,0.0279,0.061,0.03316,55,2
+bertopic,Los Tucanes de Tijuana,0_que_te_me_no,us_presidency,0.003,0.9828,0.034,0.8056,0.986,0.00041,55,2
+bertopic,Los Tucanes de Tijuana,-1_la_de_que_el,drug_war_mx,0.1223,0.3738,0.2869,0.0337,0.401,0.017727,55,2
+bertopic,Los Tucanes de Tijuana,-1_la_de_que_el,elections_mx,0.3387,0.0114,0.4495,0.0006,0.008,0.06604,55,2
+bertopic,Los Tucanes de Tijuana,-1_la_de_que_el,immigration_usmx,0.2374,0.0809,0.3117,0.0205,0.07,0.041086,55,2
+bertopic,Los Tucanes de Tijuana,-1_la_de_que_el,us_presidency,-0.0055,0.9681,0.0087,0.9499,0.965,-0.000994,55,2
+bertopic,Los Tucanes de Tijuana,2_que_me_no_la,drug_war_mx,0.2006,0.142,0.2898,0.0319,0.121,0.018672,55,2
+bertopic,Los Tucanes de Tijuana,2_que_me_no_la,elections_mx,-0.0057,0.9673,0.1873,0.171,0.971,-0.000708,55,2
+bertopic,Los Tucanes de Tijuana,2_que_me_no_la,immigration_usmx,0.2192,0.1079,0.2638,0.0517,0.07,0.02435,55,2
+bertopic,Los Tucanes de Tijuana,2_que_me_no_la,us_presidency,0.1509,0.2716,0.0965,0.4832,0.272,0.017458,55,2
+bertopic,Los Tucanes de Tijuana,1_el_la_de_los,drug_war_mx,0.33,0.0139,0.4123,0.0018,0.008,0.041532,55,2
+bertopic,Los Tucanes de Tijuana,1_el_la_de_los,elections_mx,0.3269,0.0148,0.3975,0.0027,0.011,0.055347,55,2
+bertopic,Los Tucanes de Tijuana,1_el_la_de_los,immigration_usmx,0.3099,0.0213,0.354,0.008,0.02,0.046558,55,2
+bertopic,Los Tucanes de Tijuana,1_el_la_de_los,us_presidency,-0.0467,0.735,0.0398,0.7732,0.747,-0.007307,55,2
+bertopic,Los Tucanes de Tijuana,3_la_de_el_se,drug_war_mx,0.2741,0.0429,0.3212,0.0168,0.038,0.018429,55,2
+bertopic,Los Tucanes de Tijuana,3_la_de_el_se,elections_mx,0.1836,0.1798,0.258,0.0572,0.192,0.016601,55,2
+bertopic,Los Tucanes de Tijuana,3_la_de_el_se,immigration_usmx,0.2991,0.0266,0.3097,0.0214,0.016,0.024004,55,2
+bertopic,Los Tucanes de Tijuana,3_la_de_el_se,us_presidency,0.1579,0.2496,0.152,0.268,0.249,0.0132,55,2
+bertopic,Los Tucanes de Tijuana,4_me_el_que_no,drug_war_mx,0.1382,0.3142,0.2571,0.0581,0.289,0.011197,55,2
+bertopic,Los Tucanes de Tijuana,4_me_el_que_no,elections_mx,0.1673,0.2222,0.2488,0.0669,0.215,0.018225,55,2
+bertopic,Los Tucanes de Tijuana,4_me_el_que_no,immigration_usmx,0.0578,0.6749,0.0815,0.5543,0.859,0.005592,55,2
+bertopic,Los Tucanes de Tijuana,4_me_el_que_no,us_presidency,0.0998,0.4684,0.0168,0.903,0.669,0.010053,55,2
+bertopic,Los Tucanes de Tijuana,5_me_que_soy_uh,drug_war_mx,0.1527,0.2657,0.1845,0.1774,0.176,0.007472,55,2
+bertopic,Los Tucanes de Tijuana,5_me_que_soy_uh,elections_mx,0.2054,0.1326,0.2482,0.0677,0.118,0.013516,55,2
+bertopic,Los Tucanes de Tijuana,5_me_que_soy_uh,immigration_usmx,0.1823,0.1829,0.2203,0.1061,0.246,0.010646,55,2
+bertopic,Los Tucanes de Tijuana,5_me_que_soy_uh,us_presidency,0.0376,0.785,0.0942,0.494,0.648,0.00229,55,2
+bertopic,all_artists,0_que_te_me_no,drug_war_mx,0.2489,0.0669,0.2336,0.0861,0.068,0.029418,55,2
+bertopic,all_artists,0_que_te_me_no,elections_mx,0.1315,0.3384,0.1124,0.4138,0.351,0.020913,55,2
+bertopic,all_artists,0_que_te_me_no,immigration_usmx,0.2056,0.132,0.2132,0.1181,0.151,0.029014,55,2
+bertopic,all_artists,0_que_te_me_no,us_presidency,0.023,0.8676,0.0314,0.8198,0.875,0.00338,55,2
+bertopic,all_artists,-1_la_de_que_el,drug_war_mx,-0.0519,0.7067,-0.0646,0.6391,0.735,-0.006196,55,2
+bertopic,all_artists,-1_la_de_que_el,elections_mx,-0.0104,0.9398,0.0804,0.5594,0.935,-0.001675,55,2
+bertopic,all_artists,-1_la_de_que_el,immigration_usmx,0.0036,0.9791,-0.0208,0.8801,0.984,0.000515,55,2
+bertopic,all_artists,-1_la_de_que_el,us_presidency,0.0391,0.7771,-0.0616,0.6548,0.76,0.005799,55,2
+bertopic,all_artists,2_que_me_no_la,drug_war_mx,-0.2711,0.0453,-0.1577,0.2502,0.047,-0.02355,55,2
+bertopic,all_artists,2_que_me_no_la,elections_mx,-0.3642,0.0063,-0.2353,0.0838,0.006,-0.042555,55,2
+bertopic,all_artists,2_que_me_no_la,immigration_usmx,-0.1806,0.1869,-0.0808,0.5577,0.179,-0.018732,55,2
+bertopic,all_artists,2_que_me_no_la,us_presidency,-0.2973,0.0275,-0.2516,0.0639,0.026,-0.03211,55,2
+bertopic,all_artists,1_el_la_de_los,drug_war_mx,0.1446,0.2921,0.1545,0.2601,0.307,0.014426,55,2
+bertopic,all_artists,1_el_la_de_los,elections_mx,0.222,0.1033,0.246,0.0703,0.106,0.029786,55,2
+bertopic,all_artists,1_el_la_de_los,immigration_usmx,0.0908,0.5096,0.1026,0.456,0.519,0.010814,55,2
+bertopic,all_artists,1_el_la_de_los,us_presidency,-0.1301,0.3439,0.0,1.0,0.376,-0.01613,55,2
+bertopic,all_artists,3_la_de_el_se,drug_war_mx,0.215,0.1149,0.2422,0.0748,0.113,0.012036,55,2
+bertopic,all_artists,3_la_de_el_se,elections_mx,-0.0122,0.9298,0.0339,0.8059,0.922,-0.000915,55,2
+bertopic,all_artists,3_la_de_el_se,immigration_usmx,0.046,0.7388,0.0624,0.6509,0.713,0.003073,55,2
+bertopic,all_artists,3_la_de_el_se,us_presidency,0.0821,0.5513,-0.0128,0.9259,0.567,0.005712,55,2
+bertopic,all_artists,4_me_el_que_no,drug_war_mx,0.1474,0.283,0.3056,0.0233,0.286,0.01182,55,2
+bertopic,all_artists,4_me_el_que_no,elections_mx,0.1759,0.1989,0.3197,0.0173,0.166,0.01898,55,2
+bertopic,all_artists,4_me_el_que_no,immigration_usmx,0.0852,0.5365,0.1554,0.2573,0.72,0.008153,55,2
+bertopic,all_artists,4_me_el_que_no,us_presidency,0.0999,0.468,0.0183,0.8943,0.657,0.009963,55,2
+bertopic,all_artists,5_me_que_soy_uh,drug_war_mx,0.1427,0.2988,0.204,0.1351,0.269,0.00538,55,2
+bertopic,all_artists,5_me_que_soy_uh,elections_mx,0.1919,0.1605,0.2744,0.0426,0.163,0.009731,55,2
+bertopic,all_artists,5_me_que_soy_uh,immigration_usmx,0.1703,0.2139,0.2435,0.0732,0.191,0.007665,55,2
+bertopic,all_artists,5_me_que_soy_uh,us_presidency,0.1077,0.434,0.1291,0.3477,0.545,0.005047,55,2
+hybrid,Los Tigres del Norte,narco,drug_war_mx,0.0356,0.7962,0.0651,0.6367,0.799,0.004145,55,2
+hybrid,Los Tigres del Norte,narco,elections_mx,0.2122,0.1199,0.261,0.0543,0.13,0.033191,55,2
+hybrid,Los Tigres del Norte,narco,immigration_usmx,0.0186,0.8929,0.0629,0.6481,0.875,0.00258,55,2
+hybrid,Los Tigres del Norte,narco,us_presidency,0.0768,0.5774,0.1144,0.4054,0.597,0.011104,55,2
+hybrid,Los Tigres del Norte,migracion,drug_war_mx,0.0972,0.4801,0.1062,0.4405,0.457,0.01159,55,2
+hybrid,Los Tigres del Norte,migracion,elections_mx,0.1639,0.2319,0.1916,0.1612,0.261,0.026274,55,2
+hybrid,Los Tigres del Norte,migracion,immigration_usmx,-0.0518,0.7073,-0.0431,0.7546,0.69,-0.007369,55,2
+hybrid,Los Tigres del Norte,migracion,us_presidency,-0.1063,0.4398,-0.096,0.4855,0.437,-0.015758,55,2
+hybrid,Los Tigres del Norte,politica_mx,drug_war_mx,0.0284,0.8371,0.0589,0.6693,0.846,0.002663,55,2
+hybrid,Los Tigres del Norte,politica_mx,elections_mx,0.0869,0.5279,0.0862,0.5317,0.609,0.010978,55,2
+hybrid,Los Tigres del Norte,politica_mx,immigration_usmx,0.0451,0.7435,0.082,0.5517,0.808,0.005058,55,2
+hybrid,Los Tigres del Norte,politica_mx,us_presidency,0.0952,0.4892,0.044,0.7497,0.53,0.011116,55,2
+hybrid,Los Tigres del Norte,politica_us,drug_war_mx,0.1132,0.4105,0.1135,0.4094,0.725,0.00058,55,2
+hybrid,Los Tigres del Norte,politica_us,elections_mx,-0.061,0.6579,-0.0509,0.7122,0.583,-0.000421,55,2
+hybrid,Los Tigres del Norte,politica_us,immigration_usmx,-0.0569,0.6798,-0.0677,0.6232,0.997,-0.000348,55,2
+hybrid,Los Tigres del Norte,politica_us,us_presidency,-0.0772,0.5754,-0.0668,0.6278,0.768,-0.000492,55,2
+hybrid,Los Tucanes de Tijuana,narco,drug_war_mx,0.3693,0.0055,0.3835,0.0038,0.005,0.088073,55,2
+hybrid,Los Tucanes de Tijuana,narco,elections_mx,0.397,0.0027,0.4064,0.0021,0.002,0.127361,55,2
+hybrid,Los Tucanes de Tijuana,narco,immigration_usmx,0.441,0.0008,0.4586,0.0004,0.0,0.125542,55,2
+hybrid,Los Tucanes de Tijuana,narco,us_presidency,0.0726,0.5982,0.0452,0.7429,0.6,0.021537,55,2
+hybrid,Los Tucanes de Tijuana,migracion,drug_war_mx,0.2964,0.028,0.3522,0.0084,0.021,0.060521,55,2
+hybrid,Los Tucanes de Tijuana,migracion,elections_mx,0.3045,0.0238,0.373,0.005,0.023,0.083609,55,2
+hybrid,Los Tucanes de Tijuana,migracion,immigration_usmx,0.4076,0.002,0.4263,0.0012,0.002,0.099352,55,2
+hybrid,Los Tucanes de Tijuana,migracion,us_presidency,0.0852,0.5361,0.1021,0.4583,0.539,0.021636,55,2
+hybrid,Los Tucanes de Tijuana,politica_mx,drug_war_mx,0.2455,0.0708,0.3213,0.0168,0.064,0.012612,55,2
+hybrid,Los Tucanes de Tijuana,politica_mx,elections_mx,0.1027,0.4558,0.2548,0.0605,0.488,0.007093,55,2
+hybrid,Los Tucanes de Tijuana,politica_mx,immigration_usmx,0.2636,0.0518,0.3064,0.0229,0.043,0.016166,55,2
+hybrid,Los Tucanes de Tijuana,politica_mx,us_presidency,0.1449,0.2911,0.0744,0.5894,0.333,0.009256,55,2
+hybrid,Los Tucanes de Tijuana,politica_us,drug_war_mx,0.2135,0.1176,0.2225,0.1025,0.128,0.003042,55,2
+hybrid,Los Tucanes de Tijuana,politica_us,elections_mx,0.1813,0.1853,0.1873,0.171,0.207,0.003473,55,2
+hybrid,Los Tucanes de Tijuana,politica_us,immigration_usmx,0.2548,0.0604,0.2656,0.05,0.062,0.004333,55,2
+hybrid,Los Tucanes de Tijuana,politica_us,us_presidency,-0.0776,0.5735,-0.0686,0.6186,0.554,-0.001374,55,2
+hybrid,all_artists,narco,drug_war_mx,0.3169,0.0184,0.3069,0.0227,0.017,0.046911,55,2
+hybrid,all_artists,narco,elections_mx,0.4238,0.0013,0.4157,0.0016,0.002,0.084385,55,2
+hybrid,all_artists,narco,immigration_usmx,0.3084,0.022,0.3241,0.0158,0.018,0.054495,55,2
+hybrid,all_artists,narco,us_presidency,0.1426,0.299,0.1713,0.211,0.309,0.026245,55,2
+hybrid,all_artists,migracion,drug_war_mx,0.2864,0.034,0.3136,0.0197,0.035,0.034298,55,2
+hybrid,all_artists,migracion,elections_mx,0.2873,0.0334,0.2647,0.0509,0.034,0.046275,55,2
+hybrid,all_artists,migracion,immigration_usmx,0.214,0.1167,0.1933,0.1574,0.111,0.03059,55,2
+hybrid,all_artists,migracion,us_presidency,0.0848,0.5383,0.041,0.7661,0.559,0.012623,55,2
+hybrid,all_artists,politica_mx,drug_war_mx,0.0146,0.9156,0.1566,0.2536,0.919,0.000883,55,2
+hybrid,all_artists,politica_mx,elections_mx,0.0299,0.8283,0.1532,0.2643,0.827,0.002429,55,2
+hybrid,all_artists,politica_mx,immigration_usmx,0.0193,0.8887,0.1586,0.2475,0.899,0.001391,55,2
+hybrid,all_artists,politica_mx,us_presidency,0.0841,0.5413,0.0626,0.6499,0.575,0.006314,55,2
+hybrid,all_artists,politica_us,drug_war_mx,0.2302,0.0908,0.2401,0.0774,0.111,0.002214,55,2
+hybrid,all_artists,politica_us,elections_mx,0.1704,0.2135,0.2038,0.1357,0.252,0.002204,55,2
+hybrid,all_artists,politica_us,immigration_usmx,0.1724,0.2081,0.1752,0.2009,0.238,0.001979,55,2
+hybrid,all_artists,politica_us,us_presidency,-0.0303,0.8262,-0.0255,0.8532,0.854,-0.000362,55,2

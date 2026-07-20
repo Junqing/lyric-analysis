@@ -34,7 +34,7 @@ Lyrics are scraped from HTML using `BeautifulSoup` (Richardson 2007), targeting 
 
 **Known limitation — Cloudflare obstruction:** Genius enforces Cloudflare challenge-page protection on lyrics endpoints. The scraper bypasses this using a real browser `Cookie` header (specifically the `cf_clearance` token), extracted from an active browser session via Developer Tools. This token must be manually refreshed when it expires. Songs for which the lyrics fetch returned a Cloudflare challenge page are stored with an empty `lyrics` field and are excluded from content analysis.
 
-**Release date coverage:** The Genius API provides release date data as structured components (`release_date_components.year`, `.month`, `.day`). Coverage is incomplete: a substantial share of songs in both discographies either have no date recorded on Genius or have only a year-level entry. Songs with no year data are excluded from the time-series and correlation analyses. This is a known gap in the dataset; see Section 6.
+**Release date coverage:** The Genius API provides release date data as structured components (`release_date_components.year`, `.month`, `.day`). The initial scrape only queried the artist-level song list endpoint, whose entries are frequently missing both `album` and date fields; a subsequent enrichment pass (`enrich_metadata.py`) queried the richer per-song endpoint, and — where a song's own record still lacked a date — fell back to its album's `release_date_components` (an exact Genius ID lookup via the song's own album relationship, not a fuzzy match). This raised year coverage from 173/871 songs (20%) to 765/871 (88%); album attribution rose from 0/871 to 757/871. Songs with no year data are still excluded from the time-series and correlation analyses. The residual 106 undated songs (mostly singles/promotional tracks with no album on Genius) are a known gap; see Section 6.
 
 ### 2.3 Text Cleaning
 
@@ -98,7 +98,7 @@ The multilingual sentence transformer model `paraphrase-multilingual-MiniLM-L12-
 
 Topics are inferred from the cluster structure of the embedding space. Each song is assigned a topic label (`bertopic_topic_label`) and a probability score. Songs in the noise cluster (topic `-1`) are marked as unclassified.
 
-**Infrastructure note:** The `sentence-transformers` and BERTopic libraries require downloading pre-trained model weights from Hugging Face Hub (huggingface.co). In the current deployment environment, this domain is blocked by corporate network filtering (Zscaler). Method 2 therefore cannot be executed on this machine and its output files (`topics_bertopic.csv`) are absent. The correlation and dashboard export scripts are designed to proceed gracefully when these files are missing.
+**Infrastructure note:** The `sentence-transformers` and BERTopic libraries require downloading pre-trained model weights from Hugging Face Hub (huggingface.co). This was initially blocked by corporate network filtering (Zscaler) in the original deployment environment; run on a machine with unrestricted network access (Python 3.12, per `requirements.txt`), Method 2 completes in well under a minute for this corpus and produced 6 clusters (excluding the noise topic) across 871 songs, written to `topics_bertopic.csv` and `topics_bertopic_info.csv`. The correlation and dashboard export scripts still proceed gracefully if these files are absent.
 
 ### 4.3 Method 3 — Hybrid (Keywords + Sentiment)
 
@@ -106,7 +106,7 @@ Method 3 combines the keyword matching of Method 1 with sentiment and emotion cl
 
 Each song receives both topic tags (derived from the keyword lexicons, identical to Method 1 in logic) and a sentiment label + score and an emotion label + score. This allows longitudinal tracking of not only *what* is being discussed but the *affective framing* of that content.
 
-**Infrastructure note:** `pysentimiento` also downloads model weights from Hugging Face Hub and is blocked in the current environment.
+**Infrastructure note:** `pysentimiento` also downloads model weights from Hugging Face Hub; the same access constraint noted for Method 2 applied here. Run successfully, Method 3 produced a sentiment distribution of 410 NEG / 235 NEU / 226 POS and an emotion distribution led by "others" (367), sadness (237), anger (152), and joy (115) across the 871-song corpus, written to `topics_hybrid.csv` and `sentiment.csv`.
 
 ---
 
@@ -131,11 +131,11 @@ The correlation window of ±2 years was chosen on the basis of standard practice
 
 ## 6. Known Limitations and Gaps
 
-1. **Incomplete release year data.** Genius release date records are inconsistently populated; songs lacking a year cannot contribute to time-series or correlation analyses. The extent of this gap is reported in the dashboard summary statistics.
+1. **Incomplete release year data.** Genius release date records are inconsistently populated; after the metadata enrichment pass (Section 2.2), 106 of 871 songs (12%) still lack a release year and cannot contribute to time-series or correlation analyses. The extent of this gap is reported in the dashboard summary statistics.
 
 2. **Lyrics access gaps.** Cloudflare protection on genius.com means that songs retrieved without a valid browser cookie have empty lyrics and contribute zero hits to all lexicon analyses. These songs appear in the corpus table but their topic scores reflect the absence of content, not a genuine absence of themes.
 
-3. **Methods 2 and 3 are not yet executed.** HuggingFace model weights are required and currently inaccessible. All correlation results in the current dataset reflect Method 1 only.
+3. **Album-year as a release-date proxy.** Where a song's own Genius record lacked a release date, its album's release year was used as a same-year proxy (Section 2.2). This is Genius's own structured data via an exact ID lookup, not a fuzzy match, but it can misattribute a song's true release date when a compilation or reissue album postdates the song's original release.
 
 4. **Lexicon coverage.** The keyword lexicons cover the most common direct vocabulary but cannot detect metaphorical or indirect expression of political themes — a documented feature of corrido composition under institutional pressure (Wald 2001; Ramírez-Pimienta 2011).
 

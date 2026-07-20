@@ -1,0 +1,872 @@
+song_id,artist,title,release_year,topic_tags,sentiment_label,sentiment_score,emotion_label,emotion_score
+1753217,Los Tigres del Norte,Acércate a mí,1996,none,POS,0.814,joy,0.8226
+899288,Los Tigres del Norte,Acuarela potosina,1988,narco,POS,0.7551,joy,0.9651
+1400003,Los Tigres del Norte,Adiós amigo,1999,migracion|narco,NEU,0.6248,others,0.9225
+2114465,Los Tigres del Norte,Adiós madre querida - remastered,,none,NEG,0.7818,sadness,0.9295
+861663,Los Tigres del Norte,A ellas,2005,none,POS,0.8775,others,0.8909
+867947,Los Tigres del Norte,Agua salada,1994,narco,POS,0.6563,joy,0.8143
+1974919,Los Tigres del Norte,Aguas revueltas,2010,migracion|politica_mx,NEG,0.9215,anger,0.7873
+1528774,Los Tigres del Norte,Albacar china,1983,none,NEU,0.6463,others,0.8987
+1018393,Los Tigres del Norte,Al estilo mexicano,,migracion|narco,NEU,0.6058,others,0.6668
+1423294,Los Tigres del Norte,Alfilo Del Reloj,1989,migracion,NEG,0.8795,anger,0.8678
+1004576,Los Tigres del Norte,Allá nos juntamos,1983,migracion,NEG,0.6642,sadness,0.8083
+1503002,Los Tigres del Norte,Al mil por uno,2000,none,NEU,0.5985,others,0.4952
+11884727,Los Tigres del Norte,Al Rato,2025,none,NEU,0.0,others,0.0
+1051397,Los Tigres del Norte,Al sur del Bravo,2000,migracion|narco,NEG,0.9228,sadness,0.9866
+1446094,Los Tigres del Norte,A manos llenas,1996,none,NEG,0.9637,anger,0.8358
+1859046,Los Tigres del Norte,Amarte Me Hace Bien,2014,none,POS,0.7857,sadness,0.8263
+1549915,Los Tigres del Norte,América central,2007,narco,POS,0.848,joy,0.9708
+12019290,Los Tigres del Norte,"América (Live at MTV Los Angeles, CA/2011)",2011,migracion|narco,POS,0.8295,joy,0.9849
+1767792,Los Tigres del Norte,A mi enemigo,1988,migracion,NEG,0.634,others,0.7241
+914275,Los Tigres del Norte,Amigo Juan,2004,none,NEG,0.963,sadness,0.9559
+1212899,Los Tigres del Norte,Amigo querido,1986,none,NEU,0.6578,others,0.4916
+1517180,Los Tigres del Norte,Amigos y mujeres,1993,none,NEG,0.9398,anger,0.7494
+1449034,Los Tigres del Norte,Amorcito norteño,1976,migracion,NEU,0.5445,others,0.7679
+1499001,Los Tigres del Norte,Amor de madre,1985,none,NEU,0.4953,others,0.4809
+1195904,Los Tigres del Norte,Amores que van y vienen,1996,none,NEG,0.8997,sadness,0.934
+1220630,Los Tigres del Norte,Amor garantizado,1996,none,NEU,0.6674,others,0.7324
+1173702,Los Tigres del Norte,Ando amanecido,1999,migracion,NEU,0.6631,others,0.9299
+991372,Los Tigres del Norte,Apenas te fuiste ayer,1989,migracion,NEG,0.8533,sadness,0.9728
+2120907,Los Tigres del Norte,Apenas te fuistes ayer,,migracion,NEG,0.8533,sadness,0.9728
+1005446,Los Tigres del Norte,A peso el beso,1984,migracion,POS,0.6955,others,0.7127
+936842,Los Tigres del Norte,A quien corresponda,2000,migracion|narco,NEG,0.97,anger,0.9076
+1760350,Los Tigres del Norte,A quién no le gusta eso,1974,migracion|politica_mx,NEU,0.6549,others,0.9363
+1548817,Los Tigres del Norte,Arnulfo Gonzalez,,narco,NEU,0.5082,others,0.686
+860852,Los Tigres del Norte,Así como tú,1998,none,NEG,0.813,sadness,0.9787
+1858323,Los Tigres del Norte,Asi Es El Amor,,none,POS,0.8496,joy,0.9901
+1328603,Los Tigres del Norte,Así naciste,1990,none,NEU,0.5574,sadness,0.6389
+1594189,Los Tigres del Norte,Atrapado,2005,none,NEU,0.4777,others,0.8877
+1658824,Los Tigres del Norte,Aún hay esperanza,1991,migracion,NEU,0.5097,others,0.913
+1197225,Los Tigres del Norte,Ave de paso,1992,none,NEU,0.5955,joy,0.762
+1830320,Los Tigres del Norte,¡Ay que líos!,,narco,NEG,0.8174,others,0.9095
+1299999,Los Tigres del Norte,Ayúdame a creer,2004,none,NEG,0.7746,sadness,0.8186
+1475257,Los Tigres del Norte,Bajo el cielo de Morelia,1983,migracion,NEU,0.4648,sadness,0.6153
+1002742,Los Tigres del Norte,Barrio viejo,1986,none,NEU,0.5437,sadness,0.9648
+742298,Los Tigres del Norte,Bohemio de afición,1976,none,NEU,0.7361,sadness,0.4284
+1081242,Los Tigres del Norte,Bonita y mala,1992,narco,NEG,0.9433,anger,0.8034
+1707960,Los Tigres del Norte,Brisas de abril,1983,none,POS,0.9092,joy,0.9925
+1533044,Los Tigres del Norte,Camisa mojada,1984,migracion|narco,NEU,0.5809,others,0.564
+10384915,Los Tigres del Norte,Campesino Soy,1988,migracion,POS,0.824,joy,0.9921
+878602,Los Tigres del Norte,Cara de gitana,1984,none,NEU,0.6336,others,0.4785
+1406174,Los Tigres del Norte,Carga blanca,1972,migracion|narco,NEG,0.8111,sadness,0.4101
+978656,Los Tigres del Norte,Cariño dónde andarás,1993,migracion|narco,NEG,0.8376,sadness,0.9721
+1400106,Los Tigres del Norte,Cariño Sin Condición,1985,none,POS,0.9228,joy,0.9638
+1287486,Los Tigres del Norte,Carne quemada,1997,migracion|narco|politica_mx,NEG,0.8421,anger,0.4401
+1572464,Los Tigres del Norte,Carrera contra la muerte,1983,migracion,NEG,0.6284,sadness,0.8931
+922813,Los Tigres del Norte,Carta abierta,1976,none,NEU,0.5628,sadness,0.9177
+1144111,Los Tigres del Norte,Causame la muerte,,migracion,NEG,0.8832,sadness,0.9407
+993564,Los Tigres del Norte,César Chávez,1989,migracion,NEG,0.839,others,0.8148
+1089952,Los Tigres del Norte,Chayo Chaires,1971,none,NEU,0.5796,others,0.9687
+1600693,Los Tigres del Norte,Chin marín,,none,NEU,0.6443,others,0.9013
+1293476,Los Tigres del Norte,Cielo gris,1983,narco,NEG,0.9569,sadness,0.994
+1696453,Los Tigres del Norte,Cien años,2008,none,NEG,0.9433,sadness,0.9598
+1605205,Los Tigres del Norte,Como aceite y como el agua,1995,none,NEU,0.5354,others,0.8632
+1420690,Los Tigres del Norte,Como De Que No,1976,none,POS,0.7506,joy,0.9179
+1402230,Los Tigres del Norte,Como la vida sin futbol,2009,narco,NEG,0.9049,others,0.4699
+1614518,Los Tigres del Norte,Compañera,1991,none,NEG,0.9217,anger,0.7484
+1264375,Los Tigres del Norte,Con la soga al cuello,1999,migracion|narco,NEG,0.9625,sadness,0.5708
+1259027,Los Tigres del Norte,Con mi amigo no,1976,none,NEU,0.649,anger,0.5873
+1439321,Los Tigres del Norte,Con razón y sin razón,1980,politica_mx,NEG,0.8747,sadness,0.9841
+1269591,Los Tigres del Norte,Consejos,1980,none,NEG,0.4642,sadness,0.9013
+1612521,Los Tigres del Norte,Consuelo,1985,none,POS,0.5737,sadness,0.5743
+1358245,Los Tigres del Norte,Contrabando y robo,1976,narco,NEU,0.6465,others,0.6186
+228611,Los Tigres del Norte,Contrabando y Traición,1974,migracion|narco,NEG,0.7236,anger,0.6129
+2069009,Los Tigres del Norte,Con tus mismas palabras,2002,none,NEG,0.5097,anger,0.5807
+868956,Los Tigres del Norte,Corazoncito,1972,none,NEG,0.9205,anger,0.8517
+1638555,Los Tigres del Norte,Corazón de oro,1989,none,NEG,0.82,anger,0.5081
+1524394,Los Tigres del Norte,Corazón herido,,narco,NEG,0.8358,sadness,0.9901
+11884724,Los Tigres del Norte,Cosas Del Destino (El Divorcio),2025,none,NEG,0.7572,sadness,0.9778
+1724191,Los Tigres del Norte,Creíste,1976,none,NEG,0.7903,sadness,0.8228
+1145088,Los Tigres del Norte,Cruz de palo,1980,none,NEG,0.9629,sadness,0.9913
+1442203,Los Tigres del Norte,Cuando se muere un niño,1991,narco,NEG,0.844,sadness,0.9774
+1669969,Los Tigres del Norte,Cuando supe de tu engaño,1984,none,NEG,0.4855,sadness,0.8291
+1162971,Los Tigres del Norte,Cuba,1992,migracion|narco,NEU,0.4452,sadness,0.7743
+1211598,Los Tigres del Norte,Cuidado con la mesera,2007,none,NEG,0.6614,others,0.9469
+1683086,Los Tigres del Norte,Cumbia de amor,1992,none,POS,0.7198,joy,0.7611
+1695240,Los Tigres del Norte,Cumbia guajira,2004,narco,NEU,0.7287,others,0.8958
+1573478,Los Tigres del Norte,Cuquita,1971,none,NEG,0.7854,anger,0.4337
+878431,Los Tigres del Norte,Custodio,1971,narco,NEU,0.7335,others,0.9072
+920497,Los Tigres del Norte,Decepción,1992,none,NEG,0.9155,sadness,0.9933
+1450750,Los Tigres del Norte,¿De qué color es la suerte?,2002,none,NEG,0.8545,sadness,0.4906
+1416819,Los Tigres del Norte,Destino cruel,1986,none,NEG,0.8436,sadness,0.9747
+1406584,Los Tigres del Norte,Devuélveme,1995,none,NEU,0.5053,sadness,0.9355
+1244081,Los Tigres del Norte,Diamante negro,1989,narco,NEG,0.9339,anger,0.4729
+1224150,Los Tigres del Norte,Don nadie,2001,none,NEG,0.9054,anger,0.7039
+1628437,Los Tigres del Norte,Dos hojas sin rumbo,1972,none,NEG,0.6168,sadness,0.7153
+977242,Los Tigres del Norte,El agente del amor,1983,none,NEU,0.5108,others,0.8915
+1405764,Los Tigres del Norte,El aguilillo,,narco,NEU,0.6182,others,0.72
+1498584,Los Tigres del Norte,El amor es ciego,1992,none,NEU,0.5421,others,0.8037
+1715612,Los Tigres del Norte,El amor no se mide,1998,migracion,POS,0.6111,others,0.7874
+1690980,Los Tigres del Norte,El artista,2002,narco,NEG,0.8557,others,0.6695
+1621495,Los Tigres del Norte,El ausente,1976,none,NEG,0.8335,sadness,0.5528
+1349849,Los Tigres del Norte,El avión de la muerte,1989,narco|politica_mx,NEG,0.7784,anger,0.8143
+1177150,Los Tigres del Norte,El bilingüe,1988,migracion,NEU,0.6094,sadness,0.6486
+1423494,Los Tigres del Norte,El caballo chamacuz,1984,narco,NEG,0.5511,others,0.9704
+894690,Los Tigres del Norte,El canelo,1993,narco,NEU,0.7181,others,0.9582
+1629274,Los Tigres del Norte,El cantante,1983,migracion,POS,0.6632,joy,0.9349
+1392252,Los Tigres del Norte,El celular,1992,migracion|narco,NEU,0.8087,others,0.9909
+897183,Los Tigres del Norte,El centroamericano,2001,migracion|narco,NEU,0.6127,sadness,0.6097
+1112622,Los Tigres del Norte,El cheque,,none,POS,0.6591,others,0.8231
+1133998,Los Tigres del Norte,El chicano,1974,migracion|politica_mx,POS,0.6868,joy,0.7573
+1297863,Los Tigres del Norte,El circo,1996,migracion|narco,NEG,0.6308,others,0.4921
+1586592,Los Tigres del Norte,El corrido,1989,migracion|narco,POS,0.4866,others,0.6068
+1848171,Los Tigres del Norte,El corrido del Dr. Fonseca,1988,migracion|narco,NEU,0.4808,others,0.9171
+1092684,Los Tigres del Norte,El cura,1999,migracion|narco,NEG,0.6247,others,0.5797
+1134139,Los Tigres del Norte,El curita y la coqueta,2001,migracion,NEU,0.6789,others,0.8441
+1540997,Los Tigres del Norte,El diputado,2009,migracion|narco,NEG,0.9651,anger,0.8993
+1599631,Los Tigres del Norte,El dolor de un padre,1997,narco,NEG,0.8066,sadness,0.9671
+1274314,Los Tigres del Norte,El dorado,1986,migracion|narco,NEG,0.7641,others,0.8049
+1419143,Los Tigres del Norte,El emigrante,2009,migracion,NEG,0.9088,sadness,0.9916
+1983059,Los Tigres del Norte,El enfermito,2010,none,NEU,0.8338,others,0.9306
+1665797,Los Tigres del Norte,El engaño,1986,none,NEG,0.7533,anger,0.3702
+906513,Los Tigres del Norte,El espinazo del diablo,1989,none,NEG,0.8324,others,0.4763
+1154902,Los Tigres del Norte,El fin del mundo,2002,migracion|narco,NEG,0.8183,anger,0.3973
+1324248,Los Tigres del Norte,El gallo de pelea,1981,narco,NEU,0.6122,others,0.8852
+1325547,Los Tigres del Norte,El Gato Félix,1989,migracion|narco,NEU,0.6418,others,0.9698
+1341990,Los Tigres del Norte,El general,1997,migracion|narco,NEG,0.9804,anger,0.5443
+1713726,Los Tigres del Norte,El golpe traidor,2008,none,NEG,0.902,anger,0.7738
+1202370,Los Tigres del Norte,El gringo y el mexicano,,migracion,NEG,0.6445,sadness,0.4598
+1136959,Los Tigres del Norte,El gringo y el mexicano (La tragedia de un mojado),1980,migracion,NEG,0.6445,sadness,0.4598
+948932,Los Tigres del Norte,El hijo de Camelia,1977,narco,NEU,0.6234,others,0.8836
+1169703,Los Tigres del Norte,El hijo del pueblo,2008,migracion,NEU,0.4335,sadness,0.3754
+1673345,Los Tigres del Norte,El hijo de Tijuana,1998,migracion|narco,NEG,0.6177,anger,0.7636
+1574176,Los Tigres del Norte,El hijo menor,1983,none,NEG,0.5898,sadness,0.6326
+1704714,Los Tigres del Norte,El huacal,1974,none,NEG,0.5215,anger,0.6218
+690329,Los Tigres del Norte,El jefe de jefes,,migracion|narco,NEU,0.494,others,0.8458
+1455003,Los Tigres del Norte,El macho y el hombre,1986,migracion,NEG,0.8797,sadness,0.969
+893290,Los Tigres del Norte,El mojado acaudalado (acústico),1997,migracion|narco,NEG,0.4843,others,0.5928
+863410,Los Tigres del Norte,El Muro,2007,migracion|narco|politica_mx,NEG,0.9565,others,0.696
+1146042,Los Tigres del Norte,El niño de la calle,2004,migracion|narco,NEG,0.8819,sadness,0.7832
+888636,Los Tigres del Norte,El Niño y La Boda,1988,narco,NEG,0.8979,sadness,0.9787
+10384916,Los Tigres del Norte,Eloísa Me Lo Hizo,1988,narco,NEG,0.9052,sadness,0.9892
+1815590,Los Tigres del Norte,El otro México,1986,migracion|narco,NEU,0.4348,others,0.4449
+1471422,Los Tigres del Norte,El pájaro prieto,1978,none,NEU,0.7461,others,0.9812
+984275,Los Tigres del Norte,El perro mocho,,migracion|narco|politica_mx,NEU,0.5192,others,0.9882
+1154064,Los Tigres del Norte,El pescadito rojo,1993,none,NEG,0.9719,others,0.5311
+1622838,Los Tigres del Norte,El plantón,,narco,NEG,0.806,others,0.7745
+1304014,Los Tigres del Norte,El prisionero,1997,migracion|narco,NEG,0.9236,anger,0.3525
+1214009,Los Tigres del Norte,El que no había nacido,2001,migracion|narco,POS,0.6453,anger,0.5217
+1499620,Los Tigres del Norte,El rengo del gallo giro,1997,migracion,NEU,0.7184,others,0.8773
+1362296,Los Tigres del Norte,El reportero,1996,migracion|politica_mx,NEG,0.95,anger,0.7782
+1022449,Los Tigres del Norte,El rey,2008,narco,NEG,0.7232,sadness,0.9432
+1225011,Los Tigres del Norte,El santo de los mojados,2004,migracion|narco,NEG,0.6821,sadness,0.3278
+986285,Los Tigres del Norte,El sastre,1992,none,POS,0.5274,others,0.9552
+1671329,Los Tigres del Norte,El siete leguas,1999,migracion,NEU,0.605,others,0.9695
+1442059,Los Tigres del Norte,El sordomudo,1972,none,NEU,0.7727,others,0.9718
+1830242,Los Tigres del Norte,El sueño de bolivar,,migracion,POS,0.7079,others,0.8271
+1539612,Los Tigres del Norte,El tahúr,1984,narco,NEU,0.5485,others,0.8847
+1371615,Los Tigres del Norte,El tamal,1995,narco,NEU,0.7154,others,0.9594
+1250807,Los Tigres del Norte,El tarasco,1997,migracion,NEU,0.4832,others,0.6389
+1084449,Los Tigres del Norte,El titulado,1998,migracion|narco,NEG,0.9399,sadness,0.9029
+1077203,Los Tigres del Norte,El tren,1983,none,NEU,0.6539,sadness,0.9896
+1467539,Los Tigres del Norte,El triunfo en las manos,,none,NEU,0.4664,sadness,0.8829
+1319554,Los Tigres del Norte,El troquero,1972,migracion,POS,0.5335,others,0.6849
+958573,Los Tigres del Norte,El último atardecer,,narco,NEG,0.8286,anger,0.5375
+1142387,Los Tigres del Norte,El veredicto,1990,none,NEG,0.921,anger,0.8108
+1064369,Los Tigres del Norte,El vestido,2006,none,NEG,0.9612,anger,0.5837
+1384344,Los Tigres del Norte,El zacatecas,2006,narco,NEG,0.9319,others,0.8632
+1372244,Los Tigres del Norte,El zorro de ojinaga,1989,migracion|narco,NEG,0.7212,anger,0.7757
+1055758,Los Tigres del Norte,En la misma cantina,,none,NEG,0.8071,sadness,0.9221
+1665848,Los Tigres del Norte,Enséñate a respetar,1998,migracion,NEG,0.7612,sadness,0.7869
+977700,Los Tigres del Norte,En Tu Boda,1976,none,NEG,0.7224,sadness,0.5602
+1853125,Los Tigres del Norte,Era Diferente,2014,none,NEU,0.5041,others,0.5683
+1524820,Los Tigres del Norte,Esperando el cheque,1971,none,NEG,0.9689,anger,0.825
+1846475,Los Tigres del Norte,Esta Noche Voy a Verte,2014,none,POS,0.5942,joy,0.4084
+1276668,Los Tigres del Norte,Fallaste corazón,1988,none,NEG,0.9718,anger,0.6122
+1088710,Los Tigres del Norte,Falso amor,,none,NEG,0.6607,sadness,0.8523
+1107124,Los Tigres del Norte,Flor del río,1976,politica_mx,NEU,0.5626,sadness,0.9814
+952614,Los Tigres del Norte,Fue una mujer,,none,NEU,0.4706,others,0.6056
+2002439,Los Tigres del Norte,Gallo de pelea,,narco,NEU,0.6122,others,0.8852
+1262674,Los Tigres del Norte,Gavilán perdido,2002,migracion|narco,NEU,0.5158,others,0.8479
+1699437,Los Tigres del Norte,Gaviota,1989,narco|politica_mx,NEG,0.7784,anger,0.8143
+946865,Los Tigres del Norte,Gema,1990,narco,POS,0.9276,joy,0.7857
+1944652,Los Tigres del Norte,"Golpes En El Corazón (Live at MTV Los Angeles, CA/2011)",2011,none,NEG,0.9497,sadness,0.4977
+1010417,Los Tigres del Norte,Gracias… nada más,1989,none,POS,0.9361,joy,0.9897
+1861393,Los Tigres del Norte,Historia de Amor,2014,none,NEG,0.8357,sadness,0.8479
+1936911,Los Tigres del Norte,Historias de ciudad,2014,migracion|narco,NEG,0.9518,sadness,0.5322
+1848132,Los Tigres del Norte,Hoy Le Hablo a Diario,2014,migracion,NEG,0.9296,sadness,0.4476
+1346894,Los Tigres del Norte,Indiferencia,1976,none,NEG,0.8388,others,0.6433
+1757445,Los Tigres del Norte,Ingratitud,2006,migracion,NEG,0.8713,anger,0.6219
+1636429,Los Tigres del Norte,Jacinto Treviño,1971,migracion,NEU,0.6775,others,0.7085
+8512401,Los Tigres del Norte,Jefes de Jefes (Versión 2022),,none,NEU,0.0,others,0.0
+1077616,Los Tigres del Norte,Jesús Amado,,migracion|narco,NEU,0.5761,others,0.9385
+1499815,Los Tigres del Norte,Juana la traicionera,1972,narco,NEU,0.5771,others,0.5883
+960413,Los Tigres del Norte,Juan Guerrero,1984,narco,NEU,0.7068,others,0.8461
+1210352,Los Tigres del Norte,La basurita,1977,migracion,NEG,0.8515,sadness,0.99
+1718889,Los Tigres del Norte,La bota,1972,none,NEG,0.7796,others,0.9506
+1494157,Los Tigres del Norte,La bronco negra,1991,narco,NEG,0.4508,others,0.9222
+899087,Los Tigres del Norte,La camioneta gris,1989,migracion|narco|politica_mx,NEU,0.6199,others,0.962
+1286293,Los Tigres del Norte,La carretera,1971,narco,NEG,0.5544,others,0.9619
+1491596,Los Tigres del Norte,La cochicuina,1972,migracion,NEU,0.6275,others,0.8685
+1098897,Los Tigres del Norte,La creación,1992,migracion,NEG,0.8588,sadness,0.9421
+898425,Los Tigres del Norte,La crónica de un cambio,,narco,NEG,0.9812,anger,0.9278
+987787,Los Tigres del Norte,La daga,1993,narco,NEU,0.6254,sadness,0.7971
+1417537,Los Tigres del Norte,La fama de la pareja,1995,migracion|narco,NEU,0.7596,others,0.9702
+1177113,Los Tigres del Norte,La fuga del rojo,1995,migracion|narco,NEG,0.5612,others,0.7148
+1566010,Los Tigres del Norte,Lágrimas de sangre,2007,none,NEG,0.9441,sadness,0.9778
+1861231,Los Tigres del Norte,La Guardería,2014,none,NEG,0.668,sadness,0.6399
+1934937,Los Tigres del Norte,"La hija, la mama",2014,narco,NEG,0.8679,others,0.957
+969843,Los Tigres del Norte,La huella del alacrán,2007,narco,NEU,0.7067,others,0.8612
+1662565,Los Tigres del Norte,La interesada,1984,none,NEU,0.6789,others,0.9552
+1853237,Los Tigres del Norte,La Jefa Del Jefe,2014,narco,NEU,0.6361,others,0.941
+1104586,Los Tigres del Norte,La llamada,1984,none,NEG,0.5507,sadness,0.6558
+1103960,Los Tigres del Norte,La loba,2000,narco,NEU,0.4202,sadness,0.8441
+1626133,Los Tigres del Norte,La luz de tus ojos,2001,none,NEG,0.801,sadness,0.9882
+1766437,Los Tigres del Norte,La maestra,1983,migracion|narco|politica_mx,NEG,0.9249,sadness,0.53
+1327223,Los Tigres del Norte,La mafia muere,1989,migracion,NEG,0.9826,sadness,0.9904
+1232259,Los Tigres del Norte,La mancha del pobre,1976,migracion|narco,NEG,0.9552,anger,0.4636
+905981,Los Tigres del Norte,La marea,1984,none,POS,0.5249,joy,0.6412
+1401525,Los Tigres del Norte,La margarita,1984,none,NEU,0.7998,others,0.9373
+1005332,Los Tigres del Norte,La mesera,1974,narco|politica_mx,NEU,0.6897,others,0.951
+1771170,Los Tigres del Norte,La moneda,1983,narco,NEG,0.6588,others,0.8153
+1470839,Los Tigres del Norte,La neta de las netas,2005,none,NEG,0.9695,anger,0.8064
+1421594,Los Tigres del Norte,La novia de San Benito,1971,none,POS,0.7476,others,0.4868
+1246029,Los Tigres del Norte,La oferta,1993,none,NEU,0.6775,sadness,0.7141
+1636961,Los Tigres del Norte,La paloma,1997,narco|politica_mx,NEG,0.734,others,0.8547
+1514163,Los Tigres del Norte,La puerta abierta,1974,none,NEU,0.6477,sadness,0.9688
+2008264,Los Tigres del Norte,La puerta del rancho,2014,migracion|narco,NEG,0.666,anger,0.8004
+1565943,Los Tigres del Norte,La Puerta Negra,1986,none,NEG,0.7355,sadness,0.5745
+1071243,Los Tigres del Norte,La quinceañera,1978,none,POS,0.7407,others,0.4989
+1467120,Los Tigres del Norte,La ranita,1971,migracion,NEU,0.6775,others,0.7085
+1011612,Los Tigres del Norte,La resortera,1999,migracion|narco,NEU,0.6551,others,0.8291
+1435225,Los Tigres del Norte,Las dos apuestas,1980,none,NEG,0.9518,sadness,0.9915
+1284791,Los Tigres del Norte,La segunda carta,1993,none,POS,0.7483,joy,0.6429
+1609913,Los Tigres del Norte,Las flores de mi país,1986,narco|politica_mx,POS,0.8977,joy,0.9773
+1386448,Los Tigres del Norte,Las mismas costumbres,1984,none,NEG,0.7738,anger,0.5676
+1086818,Los Tigres del Norte,Las mujeres de Juárez,2004,migracion|narco,NEG,0.9563,anger,0.8959
+1624710,Los Tigres del Norte,La temporada es buena,1998,none,NEG,0.8762,anger,0.8763
+1749665,Los Tigres del Norte,La tumba del mojado,1976,migracion,NEG,0.9356,anger,0.6767
+1583660,Los Tigres del Norte,La tumba falsa,,none,NEG,0.9318,anger,0.4196
+1543715,Los Tigres del Norte,La vida es una,1994,none,POS,0.569,sadness,0.8561
+1422073,Los Tigres del Norte,La Yaquecita,1976,none,POS,0.792,joy,0.584
+1239291,Los Tigres del Norte,Leña del árbol caído,2000,none,NEG,0.8033,sadness,0.7355
+1206466,Los Tigres del Norte,Leopoldo Ríos,1993,narco,NEU,0.5158,anger,0.6801
+2121613,Los Tigres del Norte,Lgrimas del corazón,,none,NEG,0.9382,sadness,0.9822
+1627073,Los Tigres del Norte,"Liar, Liar",2004,migracion,NEG,0.8875,anger,0.8661
+1510115,Los Tigres del Norte,Libidinosamente,2006,none,POS,0.7257,others,0.9388
+2048506,Los Tigres del Norte,Libros de recuerdos,1999,none,NEG,0.7702,sadness,0.4914
+1772986,Los Tigres del Norte,Loca,1990,narco,NEG,0.8329,sadness,0.6811
+892830,Los Tigres del Norte,Lo del agua al agua,1980,none,NEG,0.827,sadness,0.985
+1558705,Los Tigres del Norte,Lo felicito amigo,2002,none,POS,0.7597,others,0.5369
+1248517,Los Tigres del Norte,Lo que sembré allá en la sierra,1997,migracion|narco|politica_mx,NEG,0.8073,sadness,0.6053
+1769652,Los Tigres del Norte,Los aguaceros de mayo,2009,none,NEU,0.5171,sadness,0.8501
+1226121,Los Tigres del Norte,Los barandales del puente,1976,narco|politica_mx,NEU,0.7091,others,0.7587
+1238871,Los Tigres del Norte,Los Felicito Amigo,,none,POS,0.7597,others,0.5369
+1146106,Los Tigres del Norte,Los hijos de Hernandez,1986,migracion,NEG,0.9544,anger,0.6773
+1148641,Los Tigres del Norte,Los mal portados,2007,none,NEU,0.5085,sadness,0.5446
+1946883,Los Tigres del Norte,Los tres amigos,1984,narco,POS,0.7453,others,0.8914
+1285024,Los Tigres del Norte,Los Tres Amigos (30 Segundos Para Morir),1988,narco,POS,0.7453,others,0.8914
+1625243,Los Tigres del Norte,Los tres de Zacatecas,1996,migracion|narco,NEU,0.6787,others,0.8399
+1317451,Los Tigres del Norte,Los tres gallos,1989,narco|politica_mx,NEG,0.9506,others,0.4928
+1238993,Los Tigres del Norte,Lo tomas o lo tiras,2001,none,NEG,0.9619,anger,0.9288
+1267002,Los Tigres del Norte,Madrecita querida,1985,none,NEG,0.8426,sadness,0.9258
+11467445,Los Tigres del Norte,Mal Negocio,2022,none,NEG,0.9678,anger,0.8549
+1203536,Los Tigres del Norte,Mañanitas a mi madre,1985,none,POS,0.8684,joy,0.7498
+1649098,Los Tigres del Norte,Mañanitas guadalupanas,1985,none,POS,0.9437,joy,0.9901
+1196187,Los Tigres del Norte,Mano larga,1986,none,NEG,0.6211,others,0.5165
+1337262,Los Tigres del Norte,Manos unidas,1993,migracion|narco,NEU,0.7488,others,0.5938
+1766845,Los Tigres del Norte,Margarita la de tijuana,1977,narco,NEG,0.5365,others,0.7592
+1040908,Los Tigres del Norte,Me dicen perseverante,2005,migracion,NEU,0.6001,others,0.4639
+1244454,Los Tigres del Norte,Me haces falta,2006,none,POS,0.7896,joy,0.9529
+1519763,Los Tigres del Norte,Me importa poco,1972,none,NEG,0.934,anger,0.7808
+1421493,Los Tigres del Norte,Me maldigo,1984,none,NEG,0.964,sadness,0.994
+1079832,Los Tigres del Norte,Mentira,1983,none,NEG,0.8248,anger,0.8204
+1520691,Los Tigres del Norte,Me quedas a la medida,,none,POS,0.7499,others,0.9126
+1375428,Los Tigres del Norte,Me regalo contigo,,none,POS,0.762,joy,0.7019
+1848284,Los Tigres del Norte,Me Siguen Llamando El Jefe,2014,migracion|narco,NEU,0.6854,others,0.6865
+1251482,Los Tigres del Norte,Mi chamaquita,1984,none,POS,0.9208,joy,0.8954
+1344575,Los Tigres del Norte,Mi curiosidad,2009,none,NEU,0.789,others,0.9641
+2249247,Los Tigres del Norte,Mi Distrito Federal,1986,migracion,NEG,0.8517,sadness,0.9904
+1673249,Los Tigres del Norte,Mi gusto es,,none,POS,0.4826,joy,0.494
+1473111,Los Tigres del Norte,Mi lamento,1989,migracion,POS,0.8904,joy,0.9618
+1932960,Los Tigres del Norte,Miles de sueños,2014,none,NEG,0.9684,sadness,0.9891
+1241727,Los Tigres del Norte,Mi linda esposa,1985,none,POS,0.6661,joy,0.5444
+1552729,Los Tigres del Norte,Mi negocio está seguro,2009,migracion|narco,NEU,0.5512,others,0.9458
+1712441,Los Tigres del Norte,Minita de oro,2009,migracion,NEU,0.7061,others,0.882
+11835725,Los Tigres del Norte,Mi Primer Adiós,1976,none,POS,0.8746,joy,0.7793
+1290972,Los Tigres del Norte,"Mira, mira, mira",2002,migracion,NEG,0.8942,sadness,0.8701
+1349385,Los Tigres del Norte,Mi soldado,2002,migracion|politica_mx,NEG,0.6376,sadness,0.9072
+1129590,Los Tigres del Norte,Montones de buena suerte,2004,migracion|narco,NEU,0.5433,sadness,0.9755
+1165932,Los Tigres del Norte,Morenita de ojos negros,,none,NEU,0.4774,joy,0.4267
+1493508,Los Tigres del Norte,Morir matando,1995,narco,NEG,0.8013,anger,0.8189
+1462862,Los Tigres del Norte,Mucho he sufrido,1977,none,NEG,0.9302,sadness,0.9641
+1483440,Los Tigres del Norte,Muerte anunciada,1994,migracion|narco,NEG,0.7541,anger,0.5454
+1648558,Los Tigres del Norte,Mujeres manejando,2001,narco,NEG,0.791,anger,0.8295
+1421644,Los Tigres del Norte,My promise / Mi promesa,1999,none,NEU,0.4221,sadness,0.8233
+1394440,Los Tigres del Norte,Nadie me quiere,1976,none,NEG,0.9709,sadness,0.9767
+1211837,Los Tigres del Norte,Navaja libre,,none,NEU,0.5826,others,0.5906
+1979918,Los Tigres del Norte,Necesitamos conversar,2014,narco,NEG,0.6465,sadness,0.586
+1198729,Los Tigres del Norte,Necesito mi libertad,2000,none,NEU,0.574,others,0.6667
+1959469,Los Tigres del Norte,Ni aqui ni all,,migracion,NEG,0.9349,anger,0.785
+1678851,Los Tigres del Norte,Ni Aqui Ni Alla,1997,migracion,NEG,0.9349,anger,0.785
+1219733,Los Tigres del Norte,Ni Parientes Somos,1989,none,NEG,0.8673,sadness,0.9802
+1566600,Los Tigres del Norte,No Diet,2006,none,NEG,0.9471,others,0.9107
+1370753,Los Tigres del Norte,No llores por él,2005,migracion,NEG,0.9095,sadness,0.9899
+2229333,Los Tigres del Norte,Nomás Cuando Estoy Sin Ti,2014,none,NEG,0.9576,sadness,0.99
+1332739,Los Tigres del Norte,No me amenaces,,none,NEU,0.4727,others,0.4878
+1132273,Los Tigres del Norte,No me ganarás,1998,narco,POS,0.6286,others,0.5581
+1092308,Los Tigres del Norte,No me quedaré,1994,none,NEU,0.6065,sadness,0.9543
+943792,Los Tigres del Norte,No merezco tus lágrimas,2002,none,NEU,0.5113,anger,0.3433
+1634703,Los Tigres del Norte,No puedo más,1995,migracion,NEG,0.9085,sadness,0.9661
+1180690,Los Tigres del Norte,Norma Corona,1991,narco,NEG,0.9558,anger,0.418
+1706698,Los Tigres del Norte,Nos estorbó la ropa,1995,none,NEU,0.5557,others,0.4437
+956778,Los Tigres del Norte,No Sufras Madre,1985,none,NEG,0.9649,sadness,0.9959
+1064033,Los Tigres del Norte,No tiene la culpa el indio,2004,migracion|narco,NEU,0.6344,others,0.8369
+1760240,Los Tigres del Norte,No volveré,2008,none,NEG,0.7118,sadness,0.9663
+1150765,Los Tigres del Norte,Nueva cita,1972,narco,NEG,0.7332,sadness,0.9918
+1950449,Los Tigres del Norte,Ojalá,2014,none,NEG,0.7894,sadness,0.7966
+1506023,Los Tigres del Norte,Ojos negros nunca engañan,1986,none,NEG,0.5359,sadness,0.9835
+861708,Los Tigres del Norte,Orgullo mexicano,2005,migracion,POS,0.6114,joy,0.7714
+885988,Los Tigres del Norte,Padre nuestro,1984,narco,NEG,0.5661,anger,0.4283
+1457457,Los Tigres del Norte,Padres tristes,1998,migracion,NEG,0.6107,sadness,0.8974
+1079107,Los Tigres del Norte,Pájaro en mano,1998,none,NEG,0.8087,sadness,0.9048
+1713731,Los Tigres del Norte,Palabras de mi madre,1981,none,NEU,0.4821,sadness,0.9335
+1046639,Los Tigres del Norte,Para siempre,2007,none,NEU,0.5827,others,0.6561
+1041339,Los Tigres del Norte,Paso a paso,1986,migracion,NEU,0.5506,joy,0.6467
+1605467,Los Tigres del Norte,Perdiendo el tiempo,1999,migracion|narco,NEG,0.5426,others,0.524
+1163376,Los Tigres del Norte,Perdonen mi canto,1994,migracion|narco|politica_mx,NEG,0.9225,anger,0.7672
+1853026,Los Tigres del Norte,Perdon Pero No,,none,NEG,0.8963,sadness,0.9726
+927993,Los Tigres del Norte,Plato de segunda mesa,,none,NEG,0.6162,others,0.7256
+1467234,Los Tigres del Norte,Playa Blanca,1976,none,POS,0.7936,joy,0.9321
+1365575,Los Tigres del Norte,Plaza Garibaldi,1980,politica_mx,POS,0.5498,others,0.8261
+1722398,Los Tigres del Norte,Pobreza fatal,1977,none,NEG,0.9157,sadness,0.9864
+1563286,Los Tigres del Norte,Popurrí: Allá en el rancho grande / La Valentina,1999,none,POS,0.7789,joy,0.8869
+2121627,Los Tigres del Norte,Popurri mexicano,,migracion|narco,NEU,0.6058,others,0.6668
+1084289,Los Tigres del Norte,Por alguien,1988,migracion,NEG,0.8627,sadness,0.8521
+910414,Los Tigres del Norte,Por debajo del agua,1997,migracion|narco|politica_us,NEG,0.8871,anger,0.4586
+1438432,Los Tigres del Norte,Por el amor de una mujer,1990,narco,NEU,0.5949,sadness,0.9827
+1478751,Los Tigres del Norte,Por lo menos hoy,1992,migracion|narco,POS,0.5954,others,0.7959
+985013,Los Tigres del Norte,Por ser sinaloense,1999,migracion|narco,NEG,0.5086,others,0.9108
+1114704,Los Tigres del Norte,Por una mujer casada,1971,none,NEG,0.8682,others,0.6174
+969870,Los Tigres del Norte,Prieta casada,1978,none,NEU,0.5929,others,0.881
+1088211,Los Tigres del Norte,Pueblo Querido,1976,migracion,NEG,0.9591,sadness,0.9957
+1387251,Los Tigres del Norte,"Puede que sí, puede que no",,none,NEU,0.6638,others,0.9868
+1808622,Los Tigres del Norte,Qué ganarías,1994,none,NEG,0.8641,sadness,0.8552
+1144070,Los Tigres del Norte,Que nunca se entere,2007,none,NEU,0.6087,others,0.6842
+974532,Los Tigres del Norte,Qué te hizo olvidarme,1983,none,NEU,0.4753,sadness,0.9816
+951511,Los Tigres del Norte,Qué te parece,2006,migracion,NEU,0.4969,sadness,0.3657
+1087643,Los Tigres del Norte,Qué te parece (karaoke),2006,narco,NEG,0.9319,others,0.8632
+1829528,Los Tigres del Norte,Que Voy Hacer Sin Ti,,narco,NEG,0.8833,sadness,0.9684
+1526908,Los Tigres del Norte,Quién,1995,narco,NEU,0.4656,sadness,0.9177
+862125,Los Tigres del Norte,Quién te entiende,2009,none,NEG,0.9514,others,0.6371
+1413152,Los Tigres del Norte,Quién te quiere como yo,1998,none,NEU,0.552,others,0.8611
+1115966,Los Tigres del Norte,Quiero volar contigo,1998,migracion,POS,0.6118,others,0.8396
+1501067,Los Tigres del Norte,Quisiera,1990,none,NEU,0.7139,others,0.9353
+1170622,Los Tigres del Norte,Ramiro Sierra,1989,narco,NEU,0.6477,others,0.679
+1215511,Los Tigres del Norte,Recuerdos que duelen,2001,none,NEG,0.7167,sadness,0.9641
+1267574,Los Tigres del Norte,Regalo caro,,narco,NEG,0.5861,anger,0.7461
+938043,Los Tigres del Norte,Reina de reinas,2009,narco,NEU,0.4825,others,0.9244
+1060613,Los Tigres del Norte,Reloj maldito,1978,migracion,NEG,0.9024,anger,0.7874
+1620305,Los Tigres del Norte,Rifaré Mi Suerte,1985,migracion,NEU,0.5129,sadness,0.9876
+1015052,Los Tigres del Norte,Rock del corazón,1992,none,POS,0.8145,joy,0.9109
+1074370,Los Tigres del Norte,Romance oculto,1976,none,POS,0.8985,joy,0.9474
+2122134,Los Tigres del Norte,Rosita de oliva,,none,NEU,0.4899,sadness,0.9603
+948251,Los Tigres del Norte,Rosita de Olivo,1977,migracion,NEG,0.8515,sadness,0.99
+1514860,Los Tigres del Norte,Rumbo al sur,2008,narco,POS,0.5148,joy,0.4953
+886753,Los Tigres del Norte,R-Uno,1989,migracion|narco|politica_mx|politica_us,NEG,0.5958,others,0.86
+1679413,Los Tigres del Norte,Sabas Lopez,,none,NEG,0.9698,anger,0.703
+1119392,Los Tigres del Norte,Sala de espera,2009,none,NEG,0.9534,sadness,0.7966
+1518593,Los Tigres del Norte,Sangre caliente,2008,narco,NEG,0.8717,others,0.6567
+1998861,Los Tigres del Norte,Se me acabó el tequila,2014,none,NEG,0.7867,sadness,0.8764
+1170950,Los Tigres del Norte,Será mi castigo,1986,none,NEG,0.7138,sadness,0.7914
+1178723,Los Tigres del Norte,Si estás durmiendo,,none,NEU,0.6408,others,0.9692
+937918,Los Tigres del Norte,Sigamos pecando,1990,none,NEG,0.5983,sadness,0.9257
+1604260,Los Tigres del Norte,Si me vas a dejar,1996,none,NEG,0.7983,anger,0.5749
+1115956,Los Tigres del Norte,Si mides el tamaño,2009,none,NEG,0.7828,sadness,0.5169
+1560713,Los Tigres del Norte,Sin fronteras,1986,narco|politica_mx,POS,0.5069,joy,0.8527
+1242661,Los Tigres del Norte,Sin ti,,none,NEG,0.9363,anger,0.5315
+1054732,Los Tigres del Norte,"Sí, sí, sí",1971,none,POS,0.4994,joy,0.6786
+860974,Los Tigres del Norte,Si volvemos otra vez,1983,none,NEG,0.7906,sadness,0.8833
+686635,Los Tigres del Norte,Somos Más Americanos,2001,migracion|narco,NEG,0.5888,anger,0.5058
+1709021,Los Tigres del Norte,Son tus perjúmenes mujer,1978,none,NEU,0.5937,others,0.9717
+1508207,Los Tigres del Norte,También las mujeres pueden,1997,migracion|narco,NEU,0.4664,others,0.8032
+1219845,Los Tigres del Norte,Tan bonita,1992,none,POS,0.5577,others,0.9581
+1669772,Los Tigres del Norte,Tan sólo un amigo,1989,none,NEG,0.6399,sadness,0.897
+2050059,Los Tigres del Norte,Tanta mentira,1988,none,NEG,0.635,sadness,0.98
+870757,Los Tigres del Norte,Te he de olvidar,1995,none,NEG,0.53,sadness,0.9646
+902781,Los Tigres del Norte,Te odio y te quiero,1990,none,NEG,0.9661,anger,0.8349
+1074414,Los Tigres del Norte,Te vengo a decir adiós,1990,none,NEG,0.6865,sadness,0.9753
+962252,Los Tigres del Norte,Tiempos de ayer,1996,none,POS,0.6027,joy,0.4396
+867873,Los Tigres del Norte,Tiempos de mayo,1995,migracion|narco,NEG,0.8108,sadness,0.6147
+1150208,Los Tigres del Norte,Tonta (tonto),2008,none,NEG,0.5996,anger,0.5564
+878793,Los Tigres del Norte,Trabajo Por Mi Cuenta,2001,migracion|narco,NEG,0.6163,others,0.5402
+896656,Los Tigres del Norte,Trigueña hermosa,1978,none,NEG,0.8177,others,0.6907
+12021482,Los Tigres del Norte,Tu Cárcel,2015,none,NEG,0.9417,sadness,0.9905
+12021481,Los Tigres del Norte,Tu Cárcel (En Vivo),2015,none,NEG,0.9417,sadness,0.9905
+921640,Los Tigres del Norte,Tu cariño,1971,narco,NEU,0.6059,others,0.8729
+1080699,Los Tigres del Norte,Tu Castigo,1976,none,NEG,0.9229,anger,0.6013
+1666873,Los Tigres del Norte,"Tú con él, yo con ella",1999,none,NEG,0.8091,sadness,0.8016
+1468796,Los Tigres del Norte,Tú decides,,migracion,NEU,0.7291,others,0.6783
+1023318,Los Tigres del Norte,Tu recuerdo y yo,2008,none,NEG,0.9406,sadness,0.5372
+1558597,Los Tigres del Norte,Tus ausencias,2007,none,NEG,0.9353,sadness,0.994
+1168633,Los Tigres del Norte,Tus dos vestidos,1984,none,POS,0.5409,sadness,0.4431
+11884726,Los Tigres del Norte,Tus Últimas Palabras,2025,none,NEU,0.0,others,0.0
+2053057,Los Tigres del Norte,Ultimo adiós,,migracion,NEG,0.4625,sadness,0.8186
+1409858,Los Tigres del Norte,Una mujer de este pueblo,1978,none,NEG,0.9506,sadness,0.677
+968297,Los Tigres del Norte,Un hasta aquí,2000,none,NEG,0.7566,others,0.4922
+1433671,Los Tigres del Norte,Un hombre de ley,2007,narco|politica_mx,NEG,0.4407,others,0.6361
+1537550,Los Tigres del Norte,Unidos para siempre,1996,none,NEU,0.4348,sadness,0.4913
+1067368,Los Tigres del Norte,Un mar de vino,1995,none,NEG,0.7338,anger,0.7007
+1377392,Los Tigres del Norte,Un Regalo Nomás,1976,none,NEU,0.4051,sadness,0.9724
+1564676,Los Tigres del Norte,Un sueño de tantos,1990,none,POS,0.669,sadness,0.5344
+1161540,Los Tigres del Norte,Vale la pena,2004,none,POS,0.5636,others,0.5929
+1535033,Los Tigres del Norte,Valentín Félix,1989,migracion|narco,NEU,0.6538,others,0.973
+1281601,Los Tigres del Norte,Vamos a Las Vegas,1999,none,POS,0.7303,others,0.8418
+1240584,Los Tigres del Norte,Va por ahí,2004,none,NEG,0.5256,sadness,0.8578
+1334200,Los Tigres del Norte,Ven,1986,none,NEG,0.8731,sadness,0.97
+1560816,Los Tigres del Norte,Veneno de amor,1991,none,NEU,0.6167,others,0.6582
+1159226,Los Tigres del Norte,Ven mi corazón,1984,none,POS,0.5946,others,0.6164
+1459894,Los Tigres del Norte,Viva mi Sinaloa,2005,migracion|narco|politica_mx,NEU,0.5061,others,0.9302
+1564409,Los Tigres del Norte,Vivan los mojados,1977,migracion|narco,NEG,0.9079,anger,0.8271
+1707313,Los Tigres del Norte,Ya Encontraron A Camelia,1976,narco,NEG,0.5694,others,0.3092
+1280258,Los Tigres del Norte,Ya lo sabía,1998,none,NEG,0.794,sadness,0.9112
+1678863,Los Tigres del Norte,Ya no hagas más sacrificios,1993,none,NEU,0.6466,sadness,0.9532
+868870,Los Tigres del Norte,Ya nos dieron permiso,1978,migracion|narco,NEG,0.8125,anger,0.7082
+1489943,Los Tigres del Norte,Ya te soñé conmigo,1998,none,POS,0.5738,joy,0.8305
+1282530,Los Tigres del Norte,Y dices que tú me amas,2001,migracion,NEG,0.8978,anger,0.6168
+1859811,Los Tucanes de Tijuana,365 Días,2012,none,POS,0.9513,joy,0.9545
+1991673,Los Tucanes de Tijuana,6 pies boca abajo,1995,none,NEG,0.8366,sadness,0.9565
+8281264,Los Tucanes de Tijuana,Adiós para siempre adiós,2008,none,NEG,0.945,sadness,0.4553
+8275694,Los Tucanes de Tijuana,Albino Quintero,2004,migracion|narco|politica_us,NEU,0.7025,others,0.8985
+8276847,Los Tucanes de Tijuana,Alegre y mujeriego,2008,none,POS,0.871,others,0.5424
+1984236,Los Tucanes de Tijuana,Alegre y mujeriego - con banda sinaloense,,none,POS,0.871,others,0.5424
+2047864,Los Tucanes de Tijuana,Alejandro Gamino,2008,migracion|narco,POS,0.948,joy,0.8068
+887953,Los Tucanes de Tijuana,Almas Gemelas,1995,none,POS,0.8294,others,0.5294
+1852723,Los Tucanes de Tijuana,Amante De Lo Bueno,2006,migracion|narco,POS,0.7978,joy,0.8688
+2007455,Los Tucanes de Tijuana,Amante de lo bueno - con banda sinaloense,2006,migracion|narco,POS,0.6175,joy,0.833
+1855996,Los Tucanes de Tijuana,Amor Compartido,2012,none,NEG,0.7749,others,0.4049
+1194653,Los Tucanes de Tijuana,Amor Platónico,1998,none,POS,0.6922,sadness,0.6007
+8276812,Los Tucanes de Tijuana,A mover el bote,2018,narco,POS,0.7692,joy,0.6899
+9063626,Los Tucanes de Tijuana,Ando Bien Agusto,2023,narco,NEG,0.4745,others,0.6019
+1693015,Los Tucanes de Tijuana,Ando Bien Arreglado,1997,none,NEU,0.5833,others,0.842
+2100048,Los Tucanes de Tijuana,Armando soto,1997,migracion|narco|politica_mx,NEG,0.5156,anger,0.4353
+8279917,Los Tucanes de Tijuana,Arreola Reyes,1995,migracion|narco,NEU,0.3955,others,0.6606
+2208115,Los Tucanes de Tijuana,Aventura Pasada,,none,NEG,0.8062,sadness,0.833
+1970756,Los Tucanes de Tijuana,Barbarino,,narco,NEU,0.4436,others,0.6584
+8280074,Los Tucanes de Tijuana,Caballeros del Camino,1998,migracion|narco|politica_mx,POS,0.8863,others,0.8939
+8276810,Los Tucanes de Tijuana,Cada vez que te miro,2018,none,POS,0.9256,joy,0.9158
+1770251,Los Tucanes de Tijuana,Carrera Prohibida,1995,migracion|narco,NEG,0.4436,others,0.8843
+973037,Los Tucanes de Tijuana,Cartel De Kilo,,narco,NEU,0.607,others,0.7978
+8281288,Los Tucanes de Tijuana,Cerveza y cassettes,2014,none,NEU,0.0,others,0.0
+1952925,Los Tucanes de Tijuana,Chapita de michoacan,2000,migracion,NEU,0.5797,others,0.9293
+2065981,Los Tucanes de Tijuana,Chuy espinosa (el michoacano),2007,migracion|narco,NEG,0.833,others,0.7462
+1268498,Los Tucanes de Tijuana,Cien Por Uno,2000,migracion|narco,NEG,0.6833,anger,0.6333
+1602276,Los Tucanes de Tijuana,Clave Nueva,,migracion|narco,NEU,0.7126,anger,0.5149
+896420,Los Tucanes de Tijuana,Clave Privada,1996,migracion|narco,NEU,0.624,others,0.9486
+2095559,Los Tucanes de Tijuana,Como el pez,2014,none,NEG,0.9647,sadness,0.9848
+8279956,Los Tucanes de Tijuana,Como me gustas,1995,none,POS,0.9557,joy,0.9005
+1266588,Los Tucanes de Tijuana,Consulado Privado,1997,migracion|narco|politica_us,NEU,0.511,anger,0.5879
+8281263,Los Tucanes de Tijuana,Cuando tu estás conmigo,2008,none,POS,0.8058,sadness,0.4622
+2116618,Los Tucanes de Tijuana,Cuando tú ests conmigo,,none,POS,0.8058,sadness,0.4622
+8281217,Los Tucanes de Tijuana,Decisiones Al Azar,2022,narco,POS,0.717,others,0.931
+1983268,Los Tucanes de Tijuana,Dejate querer,1995,none,POS,0.8484,joy,0.772
+1992293,Los Tucanes de Tijuana,Desatando el morral,1995,narco,POS,0.6405,others,0.8757
+1067809,Los Tucanes de Tijuana,Desde Que Te Amo,1998,none,POS,0.8634,joy,0.975
+1934676,Los Tucanes de Tijuana,De tin marin,,none,NEU,0.808,others,0.8093
+10669050,Los Tucanes de Tijuana,Drácula,2006,migracion|narco,NEG,0.4897,others,0.9693
+8275696,Los Tucanes de Tijuana,El 28,2004,migracion|narco,NEG,0.9386,anger,0.7622
+8275695,Los Tucanes de Tijuana,El 28 (Intro),2004,migracion|narco|politica_mx,NEG,0.6081,others,0.9708
+1845854,Los Tucanes de Tijuana,El 42,2008,migracion|narco,POS,0.623,others,0.8651
+2050435,Los Tucanes de Tijuana,El Agricultor,,narco,POS,0.653,others,0.5481
+2077743,Los Tucanes de Tijuana,El Águila Blanca,,narco|politica_mx,NEG,0.7182,anger,0.7468
+1689572,Los Tucanes de Tijuana,El Amor Soñado,2000,none,POS,0.8365,joy,0.8452
+1829984,Los Tucanes de Tijuana,El Árabe,1997,none,NEU,0.6247,others,0.9755
+2191019,Los Tucanes de Tijuana,El Bachoco,2022,narco,POS,0.8094,others,0.751
+2066907,Los Tucanes de Tijuana,El balido de mi ganado,1997,migracion|narco,NEG,0.7215,others,0.9017
+2060720,Los Tucanes de Tijuana,El benefactor de colima,,migracion|narco,NEG,0.5102,others,0.5404
+1852535,Los Tucanes de Tijuana,El Borrachín,2010,migracion|narco,POS,0.5812,others,0.7154
+1956738,Los Tucanes de Tijuana,El borrachin - con banda sinaloense,,migracion|narco,POS,0.5812,others,0.7154
+1626578,Los Tucanes de Tijuana,El Borrego,1995,migracion|narco|politica_us,NEU,0.6113,others,0.5489
+2060619,Los Tucanes de Tijuana,El bravo,,migracion|narco,NEG,0.4647,anger,0.5493
+1988046,Los Tucanes de Tijuana,El cartel de a kilo,1995,migracion|narco,NEU,0.6069,others,0.8152
+2061438,Los Tucanes de Tijuana,El catador,1998,migracion,POS,0.5586,others,0.9671
+2217208,Los Tucanes de Tijuana,El Centenario (En Vivo),,migracion|narco,NEU,0.4848,others,0.9105
+1545238,Los Tucanes de Tijuana,El Chaca,1995,migracion|narco,NEG,0.8806,anger,0.4278
+1185759,Los Tucanes de Tijuana,El Chaca De Michoacan,,migracion|narco,NEG,0.7357,others,0.8232
+8279916,Los Tucanes de Tijuana,El Chango Avilés,1995,narco,NEG,0.8945,anger,0.6126
+1181943,Los Tucanes de Tijuana,El Chapo Guzman,1996,migracion|narco,NEU,0.5836,others,0.607
+2085340,Los Tucanes de Tijuana,El charro de culiacan,1996,migracion|narco|politica_us,NEG,0.8291,anger,0.4621
+8275663,Los Tucanes de Tijuana,El Chemo López,2007,narco|politica_mx,NEG,0.7509,anger,0.7514
+2252550,Los Tucanes de Tijuana,El Chiricuas,,migracion|narco,NEG,0.9478,anger,0.7998
+8275757,Los Tucanes de Tijuana,El Clásico (Chivas vs América),2000,none,POS,0.8141,joy,0.5954
+2050931,Los Tucanes de Tijuana,El comandante de la torre,2000,migracion|narco,NEG,0.7442,others,0.6283
+2119069,Los Tucanes de Tijuana,El comandante metro 3,,migracion|narco,POS,0.8023,others,0.952
+1988531,Los Tucanes de Tijuana,El comando negro,2007,narco,POS,0.7899,others,0.9649
+1940548,Los Tucanes de Tijuana,El comando negro - con banda sinaloense,,narco,POS,0.7899,others,0.9649
+2247414,Los Tucanes de Tijuana,El Cris,2007,migracion|narco,NEG,0.9478,anger,0.7998
+1998982,Los Tucanes de Tijuana,El cruzador,2000,migracion,POS,0.5586,others,0.9671
+2058357,Los Tucanes de Tijuana,El cuate,2008,migracion|narco,POS,0.5436,others,0.8687
+2049893,Los Tucanes de Tijuana,El De La Bolsa Terciada,2008,migracion|narco,POS,0.9021,others,0.6972
+2080003,Los Tucanes de Tijuana,El diamante negro,2007,narco,POS,0.5316,others,0.8823
+1715427,Los Tucanes de Tijuana,El Doctor Del Pueblo,1997,migracion,NEU,0.7116,others,0.5051
+2050221,Los Tucanes de Tijuana,El Empresario,,migracion|narco|politica_us,NEG,0.9151,anger,0.832
+8280047,Los Tucanes de Tijuana,El Gallo,1997,narco,NEG,0.8704,others,0.4213
+8279954,Los Tucanes de Tijuana,El Gordito Country,1995,none,NEU,0.4503,sadness,0.7699
+2091957,Los Tucanes de Tijuana,El gran jefe (el mayel),2000,migracion|narco|politica_mx|politica_us,NEG,0.8848,anger,0.7657
+2098569,Los Tucanes de Tijuana,El guacho,2000,narco,NEU,0.5379,others,0.5628
+1859048,Los Tucanes de Tijuana,El Güicho,2010,narco,NEU,0.6533,others,0.9268
+2252636,Los Tucanes de Tijuana,El H2,2022,narco,NEU,0.5644,others,0.7091
+1993958,Los Tucanes de Tijuana,El hijo de la mafia,1995,migracion|narco,POS,0.6616,others,0.9562
+2063313,Los Tucanes de Tijuana,El jabali,1997,migracion|narco,NEG,0.4902,others,0.6117
+1862010,Los Tucanes de Tijuana,El Jb,2010,narco,NEU,0.5249,others,0.6902
+1224764,Los Tucanes de Tijuana,El Jefazo,1998,migracion|narco,NEU,0.7374,others,0.9697
+1854123,Los Tucanes de Tijuana,El Jefe De La Sierra,2010,narco|politica_mx|politica_us,NEG,0.6034,others,0.9271
+1969690,Los Tucanes de Tijuana,El jefe de la sierra - con banda sinaloense,,narco|politica_mx|politica_us,NEG,0.5864,others,0.8226
+1853875,Los Tucanes de Tijuana,El Karis,,narco|politica_mx,NEU,0.5118,others,0.8249
+1851509,Los Tucanes de Tijuana,El Mambo Del Bigote,,narco,POS,0.5537,joy,0.5189
+1854836,Los Tucanes de Tijuana,El Manny Flores,2010,migracion|narco,POS,0.7148,others,0.6917
+1766228,Los Tucanes de Tijuana,El Manos Verdes,1995,narco,NEU,0.5566,others,0.9126
+2081770,Los Tucanes de Tijuana,El mas bravo de los bravos,,migracion|narco,NEG,0.4647,anger,0.5493
+2066853,Los Tucanes de Tijuana,El metro,2007,narco|politica_mx,POS,0.6247,others,0.9208
+1055953,Los Tucanes de Tijuana,El Milagro,2004,migracion|narco,NEG,0.875,anger,0.5414
+1847623,Los Tucanes de Tijuana,El Muletas,2010,narco|politica_mx,NEG,0.9093,others,0.558
+1154567,Los Tucanes de Tijuana,El MZ,2007,none,NEG,0.7286,others,0.8594
+2122415,Los Tucanes de Tijuana,El narco,,narco,POS,0.4322,anger,0.6553
+1805038,Los Tucanes de Tijuana,El Narizon,,narco,NEU,0.5621,others,0.9448
+1494078,Los Tucanes de Tijuana,El Ojo De Agua,1997,narco,NEU,0.6787,others,0.9752
+2090779,Los Tucanes de Tijuana,El paisano,2008,migracion|narco|politica_mx,NEG,0.7593,others,0.9136
+1936915,Los Tucanes de Tijuana,El pap de los pollitos,,migracion|narco,NEG,0.7089,anger,0.8714
+2013415,Los Tucanes de Tijuana,El pap de los pollitos - con banda sinaloense,,migracion|narco,NEG,0.7089,anger,0.8714
+8280077,Los Tucanes de Tijuana,El Pariente,1998,migracion|narco,POS,0.7841,others,0.9633
+2071765,Los Tucanes de Tijuana,El paro,1998,migracion|narco,NEG,0.6475,others,0.9825
+1650699,Los Tucanes de Tijuana,El Pesado,2000,migracion|narco,NEG,0.6437,others,0.9798
+965611,Los Tucanes de Tijuana,El Poblano,1996,narco,POS,0.795,others,0.8656
+1860677,Los Tucanes de Tijuana,El Polimenso,2010,narco,NEU,0.7449,others,0.8946
+1175789,Los Tucanes de Tijuana,El Postre,1998,narco,POS,0.511,others,0.9664
+8281220,Los Tucanes de Tijuana,El Primito,2022,migracion|narco,POS,0.9542,joy,0.5132
+1511832,Los Tucanes de Tijuana,El Primo,1997,narco,NEG,0.9465,anger,0.8568
+9889147,Los Tucanes de Tijuana,El Primo De La Costa,,migracion|narco,POS,0.5051,others,0.7867
+1857875,Los Tucanes de Tijuana,El Puma,2010,migracion|narco,NEU,0.5646,others,0.9296
+1969477,Los Tucanes de Tijuana,El puño de polvo,1995,migracion|narco,NEU,0.7266,others,0.8614
+2081798,Los Tucanes de Tijuana,El rayito,2007,migracion|narco,NEU,0.5955,others,0.9515
+1933259,Los Tucanes de Tijuana,El rbol,2010,none,NEG,0.9158,anger,0.8473
+2010378,Los Tucanes de Tijuana,El rbol - con banda sinaloense,,none,NEG,0.9158,anger,0.8473
+2047979,Los Tucanes de Tijuana,El Regalito,,none,POS,0.7412,joy,0.5871
+1945332,Los Tucanes de Tijuana,El resbalón,2014,none,NEU,0.5872,others,0.8899
+2192142,Los Tucanes de Tijuana,El Shaka,,narco|politica_mx,NEU,0.4808,others,0.6535
+2071551,Los Tucanes de Tijuana,El sierra,2008,migracion|narco,POS,0.8023,others,0.952
+1859310,Los Tucanes de Tijuana,El Sinverguenza,2022,narco,NEU,0.5256,others,0.5154
+2048113,Los Tucanes de Tijuana,El Subconsciente,,narco,NEG,0.9319,others,0.3375
+1857824,Los Tucanes de Tijuana,El Tío Borrachales,2008,none,POS,0.4955,others,0.7323
+2082720,Los Tucanes de Tijuana,El tocayo,2007,migracion|narco,POS,0.8707,joy,0.5408
+1763215,Los Tucanes de Tijuana,El Trailero,2004,none,POS,0.8189,joy,0.8823
+1847556,Los Tucanes de Tijuana,El Tres Letras,2010,migracion|narco,NEG,0.8598,others,0.8265
+8281207,Los Tucanes de Tijuana,El Viejon,2022,none,NEU,0.626,others,0.9533
+1858045,Los Tucanes de Tijuana,El Virus Del Amor,,none,POS,0.7047,sadness,0.6734
+2224728,Los Tucanes de Tijuana,El Yanky,2008,narco|politica_mx,NEU,0.4808,others,0.6535
+2085679,Los Tucanes de Tijuana,Empinando el codo,1995,migracion,POS,0.4828,others,0.8329
+1934280,Los Tucanes de Tijuana,En cajita de oro,,none,POS,0.6938,sadness,0.747
+1755047,Los Tucanes de Tijuana,Eres Mi Sueño,1997,none,NEU,0.5054,others,0.6033
+1815388,Los Tucanes de Tijuana,Esa Loción Me Mata,1997,none,POS,0.5319,sadness,0.5385
+8281255,Los Tucanes de Tijuana,Eso Me Pasa,2008,none,NEG,0.9727,sadness,0.752
+919231,Los Tucanes de Tijuana,Espejeando,,narco,NEU,0.5718,others,0.9128
+1179815,Los Tucanes de Tijuana,Estoy A Dieta,2000,politica_mx,POS,0.9208,joy,0.9714
+2098616,Los Tucanes de Tijuana,Es tu bronca,1997,none,NEG,0.951,anger,0.9375
+1088237,Los Tucanes de Tijuana,Es Verdad,1997,none,POS,0.8876,joy,0.9872
+11225990,Los Tucanes de Tijuana,Es Verdad (En Vivo),2024,none,POS,0.9147,joy,0.9577
+1436052,Los Tucanes de Tijuana,Fiesta En La Sierra,2004,migracion|narco,POS,0.7998,others,0.8106
+1982530,Los Tucanes de Tijuana,Fiesta en la sierra - con banda sinaloense,2004,migracion|narco,POS,0.7998,others,0.8106
+2083127,Los Tucanes de Tijuana,Frontera roja,1996,migracion|narco|politica_mx,NEG,0.9312,anger,0.7122
+2092241,Los Tucanes de Tijuana,Gatos rayados,2000,migracion,NEG,0.9304,anger,0.9045
+2123979,Los Tucanes de Tijuana,Gente del crtel,2022,migracion|narco,NEG,0.6543,anger,0.5573
+2101133,Los Tucanes de Tijuana,Gerardo el poderoso,,narco|politica_mx,NEG,0.8785,anger,0.4217
+1854230,Los Tucanes de Tijuana,Gracias Porque Te Fuiste,2012,none,POS,0.9544,joy,0.9915
+1979659,Los Tucanes de Tijuana,Gracias Porque Te Fuiste (Versión Banda Sinaloense),2012,none,POS,0.9544,joy,0.9915
+8281592,Los Tucanes de Tijuana,Gracias Viejo,2014,none,POS,0.9448,joy,0.9962
+1326674,Los Tucanes de Tijuana,Hacemos Bonita Pareja,1997,none,POS,0.9244,joy,0.9186
+1462654,Los Tucanes de Tijuana,Hombre De Negocios,2004,narco|politica_mx,NEG,0.6991,anger,0.5177
+2058339,Los Tucanes de Tijuana,Hotel corazón,1998,none,NEU,0.6326,others,0.9087
+2121811,Los Tucanes de Tijuana,J.r.,2000,narco,POS,0.4322,anger,0.6553
+1474533,Los Tucanes de Tijuana,Jugo A La Vida,2002,none,POS,0.4891,others,0.7808
+2217122,Los Tucanes de Tijuana,Julián Pérez,2022,migracion|narco,NEG,0.7895,anger,0.4365
+2123239,Los Tucanes de Tijuana,Julin perez,,migracion|narco,NEG,0.7895,anger,0.4365
+1374790,Los Tucanes de Tijuana,Kiki Urias,1996,migracion|narco,NEG,0.8502,others,0.8213
+8281221,Los Tucanes de Tijuana,La Boda Prometida,2022,none,NEG,0.9702,sadness,0.9827
+1847617,Los Tucanes de Tijuana,La Chica Sexy,2002,none,POS,0.7482,joy,0.7159
+2048205,Los Tucanes de Tijuana,La Chiqui Baby,2008,none,POS,0.8583,joy,0.6918
+1829621,Los Tucanes de Tijuana,La Chona (Remix),,narco,NEU,0.7829,others,0.9722
+6888850,Los Tucanes de Tijuana,La Coyote (Serie de TV “Señora Acero 3” Soundtrack Version),2018,migracion|narco,NEG,0.7528,anger,0.575
+1858320,Los Tucanes de Tijuana,La Familia Michoacana,2010,migracion|narco,POS,0.4435,anger,0.4861
+1146754,Los Tucanes de Tijuana,La Fiesta De Los Panes,1997,none,NEU,0.5568,others,0.9286
+8275754,Los Tucanes de Tijuana,La Gran Noche,2000,none,POS,0.8863,joy,0.7639
+13870328,Los Tucanes de Tijuana,La Justiciera De La Frontera,,migracion|narco,NEG,0.9731,anger,0.6312
+8280026,Los Tucanes de Tijuana,La Ley 57,1997,migracion|narco,NEG,0.5163,others,0.8655
+2000418,Los Tucanes de Tijuana,La mesa servida,1997,migracion|narco,POS,0.5108,others,0.8605
+2048917,Los Tucanes de Tijuana,La Nacha Bustos,,none,POS,0.8529,others,0.817
+1851598,Los Tucanes de Tijuana,La Perra,2010,narco,NEG,0.7375,others,0.904
+2048639,Los Tucanes de Tijuana,La Perra De Parra,2012,narco,NEG,0.6644,others,0.8841
+2098259,Los Tucanes de Tijuana,La piedrita colombiana,1997,narco,NEG,0.8447,others,0.7689
+1020623,Los Tucanes de Tijuana,La Piñata,1997,narco,NEG,0.6644,others,0.8841
+1249120,Los Tucanes de Tijuana,La Pista Secreta,1996,narco,NEG,0.7732,anger,0.7655
+2048742,Los Tucanes de Tijuana,La Profecia,,narco,NEU,0.5712,others,0.9283
+1395506,Los Tucanes de Tijuana,La Recompensa,1996,migracion|narco,NEG,0.8233,anger,0.6038
+11225999,Los Tucanes de Tijuana,Las Heladas (En Vivo),2024,narco,NEU,0.7356,others,0.9198
+1983778,Los Tucanes de Tijuana,La Tambora Va A Sonar,2005,migracion|narco,POS,0.7171,joy,0.5007
+8281195,Los Tucanes de Tijuana,La Tartamuda,2022,narco,NEG,0.7041,anger,0.8982
+1047023,Los Tucanes de Tijuana,La Troca,2004,migracion|narco,NEU,0.6525,others,0.9543
+13869998,Los Tucanes de Tijuana,La Venganza De Sarita,2016,narco,NEG,0.8869,anger,0.7842
+8276855,Los Tucanes de Tijuana,La vida es alegría,2012,none,NEU,0.6512,sadness,0.8301
+2072362,Los Tucanes de Tijuana,Lista negra,,narco,NEG,0.4786,anger,0.7664
+2128284,Los Tucanes de Tijuana,Los borregos,,migracion|narco|politica_us,NEU,0.6113,others,0.5489
+1124923,Los Tucanes de Tijuana,Los Chiquinarcos,2004,migracion|narco,POS,0.6764,joy,0.631
+1938594,Los Tucanes de Tijuana,Los Chiquinarcos - Con Banda Sinaloense,2004,migracion|narco,POS,0.6764,joy,0.631
+8275698,Los Tucanes de Tijuana,Los Chiquinarcos (Intro),2004,narco,NEU,0.6929,others,0.9959
+10667734,Los Tucanes de Tijuana,Los Chiquinarcos - Intro Banda Sinaloense,2004,narco,NEU,0.5273,others,0.9929
+8279918,Los Tucanes de Tijuana,Los Compadres,1995,migracion|narco,POS,0.8383,others,0.5268
+1687893,Los Tucanes de Tijuana,Los Compas De Almoloya,1997,migracion|narco,NEG,0.6351,others,0.7192
+2239232,Los Tucanes de Tijuana,Los Dichos De Lupita,1995,none,NEU,0.6489,others,0.9546
+2055539,Los Tucanes de Tijuana,Los guardaespaldas,2000,narco,NEG,0.9075,others,0.3969
+1396602,Los Tucanes de Tijuana,Los Juniors,1998,narco,NEG,0.4896,anger,0.7513
+1248701,Los Tucanes de Tijuana,Los Mas Buscados,1998,none,NEG,0.6865,anger,0.6619
+2117056,Los Tucanes de Tijuana,Los ms buscadas,,none,NEG,0.719,anger,0.521
+8275703,Los Tucanes de Tijuana,Los Pelones,2004,migracion|narco,NEU,0.6123,others,0.7895
+8275702,Los Tucanes de Tijuana,Los Pelones (Intro),2004,migracion,POS,0.6863,others,0.8862
+1858742,Los Tucanes de Tijuana,Luna Llena,,narco,POS,0.7245,joy,0.9222
+2080471,Los Tucanes de Tijuana,Lupe bombas,1998,migracion,NEU,0.7515,others,0.9542
+8275661,Los Tucanes de Tijuana,Manuel Borgia (El Mexicano),2007,migracion|narco|politica_us,NEG,0.7129,anger,0.4192
+1513138,Los Tucanes de Tijuana,Manuel Caro Carrillo,1996,narco,NEG,0.537,others,0.5965
+8275699,Los Tucanes de Tijuana,Mario Peralta (El Plateado),2004,migracion|narco,POS,0.7045,joy,0.6034
+2087129,Los Tucanes de Tijuana,Masacre en vallarta,1997,migracion,NEG,0.7345,anger,0.4507
+8275659,Los Tucanes de Tijuana,Más Vale Cholo,2007,narco|politica_mx,POS,0.5468,others,0.9668
+8276854,Los Tucanes de Tijuana,Me acostumbre a tus besos,2012,none,NEG,0.6185,sadness,0.8909
+1859000,Los Tucanes de Tijuana,Me Gusta La Banda,2008,migracion|narco,POS,0.8443,others,0.4968
+871702,Los Tucanes de Tijuana,Me Haces Mucha Falta,2014,narco,NEG,0.8314,sadness,0.8947
+1125986,Los Tucanes de Tijuana,Me Robaste El Corazón,1995,none,POS,0.9573,joy,0.9897
+2051080,Los Tucanes de Tijuana,Mi Amor Inseparable,,none,POS,0.9167,joy,0.9864
+8280001,Los Tucanes de Tijuana,Mi Consuelo,1995,migracion,NEU,0.4582,sadness,0.7964
+8275761,Los Tucanes de Tijuana,Mi estrella de Hollywood,2000,none,POS,0.6771,others,0.6441
+1965726,Los Tucanes de Tijuana,Mil promesas,,none,POS,0.5018,others,0.7614
+8281187,Los Tucanes de Tijuana,Mis Tres Viejas (Intro),2000,narco,NEU,0.7747,others,0.9721
+8275657,Los Tucanes de Tijuana,Mi Tiendita,2007,migracion|narco,NEG,0.679,others,0.6104
+1981551,Los Tucanes de Tijuana,Mi venganza,2014,none,NEG,0.9442,sadness,0.9604
+2059599,Los Tucanes de Tijuana,Morenita querida,,politica_mx,POS,0.8457,joy,0.8646
+1775923,Los Tucanes de Tijuana,No Porque Se Muera Un Chivo,1995,migracion,NEG,0.581,sadness,0.942
+2083724,Los Tucanes de Tijuana,No solo de traficante,1997,migracion|narco,POS,0.6115,others,0.7572
+8281262,Los Tucanes de Tijuana,No te sorprendas,2008,none,NEG,0.908,sadness,0.4212
+2074391,Los Tucanes de Tijuana,Nuestro destino,1998,none,NEG,0.716,sadness,0.9888
+776061,Los Tucanes de Tijuana,Ombligo A Ombligo,2008,narco,POS,0.9397,joy,0.6111
+10919705,Los Tucanes de Tijuana,Ombligo A Ombligo (Tucanes Mix),2008,narco,POS,0.945,joy,0.5584
+1978283,Los Tucanes de Tijuana,Operacion casablanca,2000,politica_us,NEG,0.4707,anger,0.6305
+981722,Los Tucanes de Tijuana,Operacion Pesada,1997,migracion|narco,NEU,0.5382,others,0.8604
+981151,Los Tucanes de Tijuana,Parranda Y Parranda,1995,migracion,NEU,0.5491,joy,0.9056
+8276801,Los Tucanes de Tijuana,Parrandeando,2018,migracion|narco,POS,0.785,joy,0.8694
+2058502,Los Tucanes de Tijuana,Pellizcando al animal,1996,migracion|narco,NEU,0.7253,others,0.964
+2082960,Los Tucanes de Tijuana,Pensé pegarme un tiro,1997,narco,NEG,0.7404,others,0.4574
+1569649,Los Tucanes de Tijuana,Pies Boca Abajo,,none,NEG,0.757,sadness,0.9685
+8275760,Los Tucanes de Tijuana,Preciosura,2000,none,POS,0.9084,joy,0.6148
+8276842,Los Tucanes de Tijuana,Producto garantizado,2008,migracion|narco,POS,0.5544,others,0.8942
+1989539,Los Tucanes de Tijuana,Producto garantizado - con banda sinaloense,,migracion|narco,POS,0.5544,others,0.8942
+1218042,Los Tucanes de Tijuana,Promesas,2000,none,POS,0.4705,others,0.7894
+1860099,Los Tucanes de Tijuana,Propiedad Privada,2008,migracion|narco,NEU,0.6917,others,0.9571
+1972567,Los Tucanes de Tijuana,Propiedad privada - con banda sinaloense,,migracion|narco,NEU,0.6754,others,0.9534
+2207574,Los Tucanes de Tijuana,Que Me Entierren Con La Banda,,narco,POS,0.6539,joy,0.4265
+10669057,Los Tucanes de Tijuana,Que Te Perdone Tu Madre,2006,none,NEG,0.9877,anger,0.6779
+2052789,Los Tucanes de Tijuana,Rafa peña,2008,migracion|narco|politica_mx,POS,0.7274,others,0.7547
+1996066,Los Tucanes de Tijuana,Ramón arellano - con banda sinaloense,,migracion|narco,NEU,0.4678,others,0.8345
+11225989,Los Tucanes de Tijuana,Ramón Arellano (En Vivo),2024,migracion|narco,NEU,0.5656,others,0.7257
+1850841,Los Tucanes de Tijuana,Rehabilitado,2012,none,NEG,0.8316,sadness,0.9151
+13032554,Los Tucanes de Tijuana,Rehabilitado (Versión Banda Sinaloense),2012,none,NEG,0.8316,sadness,0.9151
+2062430,Los Tucanes de Tijuana,Rigo campos - retro,,narco,NEG,0.9183,anger,0.7013
+2248743,Los Tucanes de Tijuana,Ritmo Navideño,2006,none,POS,0.6084,joy,0.915
+1234847,Los Tucanes de Tijuana,Roberto Palazuelos,2004,narco|politica_mx,POS,0.796,joy,0.7851
+2049898,Los Tucanes de Tijuana,Salió Del Closet,2012,none,POS,0.4865,others,0.7911
+13032555,Los Tucanes de Tijuana,Salió Del Closet (Versión Banda Sinaloense),2012,none,POS,0.4865,others,0.7911
+11225988,Los Tucanes de Tijuana,Secuestro De Amor (En Vivo),2024,narco,NEU,0.5442,others,0.5816
+1768076,Los Tucanes de Tijuana,Se Desgrano La Mazorca,1997,narco|politica_us,NEG,0.609,others,0.5797
+1853084,Los Tucanes de Tijuana,Se Equivoco El Pístolero,,narco,NEU,0.6041,others,0.92
+952946,Los Tucanes de Tijuana,Seis Pies Boca Abajo,,none,NEG,0.7614,sadness,0.964
+1857107,Los Tucanes de Tijuana,Siempre Contigo,,none,POS,0.8901,joy,0.972
+1846876,Los Tucanes de Tijuana,Sin Ti Soy Un Loco,2006,migracion,NEG,0.9443,sadness,0.9638
+8276849,Los Tucanes de Tijuana,Si un gato muere,2012,none,NEG,0.9303,others,0.7994
+2098474,Los Tucanes de Tijuana,Socias de la mafia,,migracion|narco,NEU,0.4621,others,0.519
+1844787,Los Tucanes de Tijuana,Soltero Y Con Dinero,2012,none,POS,0.5302,others,0.5329
+1957271,Los Tucanes de Tijuana,Soy de durango,,migracion|narco,POS,0.6496,others,0.9061
+1354718,Los Tucanes de Tijuana,Soy Parrandero,2018,migracion|narco,POS,0.8027,joy,0.989
+977874,Los Tucanes de Tijuana,Soy Parrandero (Versión Banda Sinaloense),2018,migracion|narco,POS,0.8027,joy,0.989
+1860570,Los Tucanes de Tijuana,Soy Todo Tuyo,2008,none,POS,0.9685,joy,0.983
+908024,Los Tucanes de Tijuana,Suena La Banda,2014,migracion|narco,POS,0.6043,others,0.7865
+8281599,Los Tucanes de Tijuana,Suerte marcada,2014,narco|politica_mx,NEG,0.7012,others,0.6195
+8281265,Los Tucanes de Tijuana,Te deberías de morir,2008,none,NEG,0.6738,sadness,0.8826
+1712396,Los Tucanes de Tijuana,Temporada En La Sierra,1996,migracion,NEU,0.5363,others,0.5796
+2048843,Los Tucanes de Tijuana,Te Perdí Para Siempre,2008,none,NEG,0.948,sadness,0.9911
+1861813,Los Tucanes de Tijuana,Tolín Infante,2010,migracion|narco,NEG,0.71,others,0.6197
+1229543,Los Tucanes de Tijuana,Tus Verdades,1995,none,NEG,0.964,sadness,0.9504
+2067815,Los Tucanes de Tijuana,Veneno,1997,none,NEG,0.8631,sadness,0.9069
+1848140,Los Tucanes de Tijuana,Vicente Zambada,2010,narco,POS,0.7601,others,0.8576
+1993825,Los Tucanes de Tijuana,Vicente zambada - con banda sinaloense,,narco,POS,0.6208,others,0.9413
+2004867,Los Tucanes de Tijuana,Ya no existes,2014,narco,NEU,0.7847,others,0.8993
+8280006,Los Tucanes de Tijuana,Ya no quiero llorar,1995,none,NEG,0.9118,sadness,0.99
+8276856,Los Tucanes de Tijuana,Ya no te quiero,2012,none,NEG,0.9569,sadness,0.4249
+9933276,Los Tigres del Norte,La Rascadera,1974,none,NEU,0.604,others,0.965
+969467,Los Tigres del Norte,La Banda Del Carro Rojo,1975,migracion|narco,NEU,0.7019,others,0.7817
+1648680,Los Tigres del Norte,La Tumba De Mi Madre,1975,none,NEG,0.8503,sadness,0.9709
+1038906,Los Tigres del Norte,La muerte del soplón,1976,narco,NEG,0.8716,anger,0.648
+1620978,Los Tigres del Norte,Caja de muerto,1981,migracion|narco,NEG,0.8364,anger,0.7676
+1019607,Los Tigres del Norte,Un día a la vez,1981,narco,NEG,0.5381,sadness,0.807
+686622,Los Tigres del Norte,Jaula de Oro,1983,migracion,NEG,0.8343,anger,0.5231
+1332151,Los Tigres del Norte,Pedro y Pablo,1983,migracion|narco,POS,0.8146,joy,0.403
+1457668,Los Tigres del Norte,Por qué me quité del vicio,1983,migracion,NEG,0.7079,sadness,0.947
+1484679,Los Tigres del Norte,América,1986,migracion,POS,0.6516,joy,0.9681
+9937700,Los Tigres del Norte,"Ay, Ay, Hay",1986,none,NEU,0.6431,others,0.9243
+5345263,Los Tigres del Norte,Porque Te Extraño,1988,migracion,NEG,0.9206,sadness,0.9776
+1560297,Los Tigres del Norte,Tres Veces Mojado,1988,migracion,NEG,0.8338,sadness,0.8454
+970698,Los Tigres del Norte,El contagio,1989,none,NEU,0.519,sadness,0.7513
+1083808,Los Tigres del Norte,Mi Buena Suerte,1989,migracion,POS,0.8581,joy,0.972
+1353882,Los Tigres del Norte,Corazón Usado,1990,none,NEG,0.5994,sadness,0.6754
+882709,Los Tigres del Norte,Ya Te Velé,1990,none,POS,0.8474,joy,0.9446
+1539385,Los Tigres del Norte,Ahora Me Voy,1991,none,NEG,0.6157,sadness,0.9685
+1341688,Los Tigres del Norte,Cuando Se Llega a Viejo,1991,none,NEG,0.6035,others,0.8546
+1600258,Los Tigres del Norte,Hoy no es mi día,1991,migracion,NEG,0.9853,sadness,0.7473
+1061208,Los Tigres del Norte,La dieta,1991,politica_mx,NEG,0.8984,others,0.9007
+934449,Los Tigres del Norte,Orgullo Maldito,1991,none,NEG,0.9085,anger,0.9319
+2046170,Los Tucanes de Tijuana,Tú Eres,1991,none,POS,0.8845,joy,0.9068
+1211901,Los Tigres del Norte,El Maestro,1993,none,NEG,0.8606,anger,0.7131
+1511399,Los Tigres del Norte,En Nombre de Tu Padre,1993,narco,NEG,0.9127,anger,0.8217
+690325,Los Tigres del Norte,Pacas de a Kilo,1993,migracion|narco|politica_mx,POS,0.9339,joy,0.9562
+2002774,Los Tigres del Norte,Tumba Falsa,1993,none,NEG,0.895,anger,0.6813
+921064,Los Tucanes de Tijuana,El Centenario,1993,migracion|narco,NEG,0.815,anger,0.5254
+1365556,Los Tigres del Norte,Asómate a Mi Copa,1994,narco,NEG,0.8957,sadness,0.8896
+1550819,Los Tigres del Norte,Entre El Amor y Yo,1994,migracion,POS,0.9377,joy,0.9543
+999864,Los Tigres del Norte,La Mesa del Rincón,1994,narco,NEU,0.5051,sadness,0.9314
+1557421,Los Tigres del Norte,Los Dos Plebes,1994,migracion|narco,NEG,0.7363,others,0.9159
+1649459,Los Tigres del Norte,Si No Me Falla el Corazón,1994,none,POS,0.6473,sadness,0.6911
+1629929,Los Tigres del Norte,Te Malpasan de Amor,1994,none,NEG,0.8512,sadness,0.6717
+1646682,Los Tigres del Norte,El Ejemplo,1995,none,NEG,0.8052,anger,0.9061
+958211,Los Tigres del Norte,Golpes En El Corazón,1995,none,NEG,0.9283,anger,0.6904
+8792791,Los Tigres del Norte,También las Mujeres Pueden (Versión 1995),1995,migracion|narco,POS,0.5261,others,0.6838
+2089369,Los Tucanes de Tijuana,El Compositor,1995,narco,POS,0.8232,others,0.8608
+1797181,Los Tucanes de Tijuana,El Güero Palma,1995,narco,NEG,0.9118,anger,0.7081
+1948073,Los Tucanes de Tijuana,El Jefe X,1995,narco,NEU,0.4696,others,0.7177
+910519,Los Tucanes de Tijuana,La Chona,1995,narco,NEU,0.5556,joy,0.9656
+10351570,Los Tucanes de Tijuana,La Chona (En Vivo),1995,narco|politica_mx,POS,0.8482,joy,0.9849
+1668939,Los Tucanes de Tijuana,Mis Tres Animales,1995,migracion|narco,NEU,0.4799,others,0.6249
+10351572,Los Tucanes de Tijuana,Mis Tres Animales (En Vivo),1995,migracion|narco,NEU,0.5402,others,0.5304
+1626950,Los Tucanes de Tijuana,Mundo De Amor,1995,none,POS,0.6661,sadness,0.4411
+1947231,Los Tucanes de Tijuana,Porque Me Enamore De Ti,1995,none,POS,0.6085,others,0.7913
+1406533,Los Tigres del Norte,Cuestión Olvidada,1996,none,NEU,0.437,sadness,0.9915
+1370210,Los Tigres del Norte,Mi sangre prisionera,1996,none,NEG,0.6874,sadness,0.9505
+1434460,Los Tigres del Norte,No pude enamorarme más,1996,none,NEU,0.4971,sadness,0.698
+1325402,Los Tigres del Norte,Con Que Derecho,1997,none,NEG,0.8866,anger,0.8932
+1460436,Los Tigres del Norte,El mojado acaudalado,1997,migracion,NEG,0.7442,sadness,0.79
+1080084,Los Tigres del Norte,El Sucesor,1997,none,NEU,0.7416,others,0.8824
+1211561,Los Tigres del Norte,Jefe de Jefes,1997,migracion|narco,NEG,0.4451,others,0.7141
+10351574,Los Tigres del Norte,Jefe De Jefes (En Vivo),1997,migracion|narco,NEU,0.4502,others,0.7267
+1011650,Los Tigres del Norte,La Baraja Bendita,1997,narco,NEG,0.7631,others,0.4193
+875731,Los Tigres del Norte,Las Novías del Traficante,1997,narco,NEU,0.4644,others,0.6821
+1437789,Los Tigres del Norte,Mis Dos Patrias,1997,migracion,NEG,0.653,sadness,0.7077
+1671321,Los Tucanes de Tijuana,El Tucanazo,1997,none,NEU,0.6013,others,0.9369
+1706940,Los Tucanes de Tijuana,Secuestro De Amor,1997,narco,NEU,0.6316,others,0.683
+1951039,Los Tucanes de Tijuana,El Heredero,1998,migracion|narco,NEU,0.5305,others,0.931
+1322440,Los Tucanes de Tijuana,Las Heladas,1998,narco,NEU,0.544,others,0.9257
+1376562,Los Tigres del Norte,De Harina y de Maíz,1999,migracion|narco,POS,0.8649,joy,0.9788
+1777835,Los Tigres del Norte,El Triunfo,1999,none,NEG,0.9221,anger,0.8366
+1421286,Los Tigres del Norte,Lágrimas (Lágrimas del Corazón),1999,none,NEG,0.9299,sadness,0.9755
+1482872,Los Tigres del Norte,La Liebre,1999,migracion|narco,NEG,0.9733,anger,0.9055
+873087,Los Tigres del Norte,No Quiero Tu Lástima,1999,none,NEG,0.7036,sadness,0.8672
+1063617,Los Tigres del Norte,Prisión de Amor,1999,none,POS,0.707,sadness,0.6538
+2073731,Los Tucanes de Tijuana,Al Por Mayor,1999,none,NEG,0.4986,others,0.8671
+1428901,Los Tigres del Norte,De paisano a paisano,2000,migracion|narco,NEG,0.9223,sadness,0.9848
+1324877,Los Tigres del Norte,La inflación,2000,narco,NEG,0.9433,anger,0.5155
+984292,Los Tigres del Norte,Me Declaro Culpable,2000,none,NEG,0.515,sadness,0.836
+1303393,Los Tigres del Norte,Pokar Alto,2000,migracion|narco,NEG,0.7815,others,0.7816
+1765192,Los Tigres del Norte,"Tú, Yo y la Luna",2000,none,POS,0.9305,joy,0.8172
+1267726,Los Tucanes de Tijuana,Gripa Colombiana,2000,migracion|narco,NEG,0.7484,others,0.8869
+1667341,Los Tucanes de Tijuana,Me Gusta Vivir De Noche,2000,none,NEU,0.7192,others,0.7508
+1033138,Los Tucanes de Tijuana,Mis Tres Viejas,2000,migracion|narco,POS,0.9553,joy,0.6559
+1093828,Los Tigres del Norte,De Rama En Rama,2001,migracion,NEG,0.7855,sadness,0.9102
+1281526,Los Tigres del Norte,Mi Fantasía,2001,none,POS,0.55,sadness,0.6248
+1084702,Los Tigres del Norte,En Que Fallé,2002,narco,NEG,0.9685,sadness,0.758
+1258595,Los Tigres del Norte,La Reina del Sur,2002,migracion|narco,NEG,0.4926,others,0.7456
+1444550,Los Tigres del Norte,Al corazón le vale,2003,none,NEG,0.8591,sadness,0.9677
+1427758,Los Tigres del Norte,José Pérez León,2004,migracion,NEG,0.462,sadness,0.7644
+1761594,Los Tigres del Norte,La Manzanita,2004,none,POS,0.9246,others,0.9475
+1198047,Los Tigres del Norte,Celebrando Tu Partida,2005,narco,NEG,0.7543,sadness,0.8961
+1176183,Los Tigres del Norte,Directo al Corazón,2005,migracion,NEG,0.7439,sadness,0.7387
+1119972,Los Tigres del Norte,Infiel por Amor,2005,migracion|narco,NEU,0.5709,anger,0.4553
+1025627,Los Tigres del Norte,La Sorpresa,2005,narco,POS,0.6793,others,0.7291
+1486786,Los Tigres del Norte,Socios,2005,none,NEG,0.9197,anger,0.715
+1389266,Los Tigres del Norte,Le Compré la Muerte a Mi Hijo,2006,narco,POS,0.7344,joy,0.5801
+1611419,Los Tigres del Norte,Señor Locutor,2006,narco,NEG,0.5876,sadness,0.9736
+1571735,Los Tigres del Norte,Una Herida de Amor,2006,migracion,NEG,0.7689,sadness,0.993
+1265418,Los Tigres del Norte,Detalles,2007,none,POS,0.8907,joy,0.5835
+1655906,Los Tigres del Norte,Emociones,2007,politica_mx,POS,0.8636,sadness,0.8733
+1844854,Los Tucanes de Tijuana,Se Fue Mi Amor,2008,none,NEG,0.9593,sadness,0.9957
+211437,Los Tigres del Norte,La Granja,2009,migracion,NEG,0.9272,others,0.4879
+2048472,Los Tigres del Norte,Canción Mixteca,2010,migracion,NEG,0.8746,sadness,0.9942
+1845419,Los Tucanes de Tijuana,El Diablo,2010,narco|politica_mx,POS,0.6247,others,0.9208
+1852272,Los Tucanes de Tijuana,El Señor De La O,2013,narco,POS,0.681,others,0.8255
+1966939,Los Tigres del Norte,El gallo del mojado,2014,migracion,NEU,0.5486,sadness,0.6688
+1853165,Los Tigres del Norte,La Bala,2014,narco,NEG,0.7872,anger,0.6206
+4429169,Los Tigres del Norte,Que tal si eres tu,2014,migracion,POS,0.5173,others,0.9581
+2185132,Los Tucanes de Tijuana,La Señora De Acero (Soundtrack de la Serie de TV ”Señora Acero”),2014,narco,POS,0.5896,others,0.5197
+8822836,Los Tucanes de Tijuana,Laurita Garza,2015,migracion|narco|politica_mx,NEG,0.9204,anger,0.4221
+2499268,Los Tucanes de Tijuana,Panchito El F1,2015,migracion|narco,NEG,0.9566,anger,0.6446
+2460796,Los Tigres del Norte,Ataúd,2016,narco,NEG,0.4538,sadness,0.6453
+12203860,Los Tigres del Norte,Cuando Seas Grande,2016,none,NEU,0.0,others,0.0
+9930395,Los Tucanes de Tijuana,Los Implacables,2016,migracion|narco,POS,0.4841,others,0.9304
+10696737,Los Tucanes de Tijuana,Me Gusta Vivir De Noche / Amor Platónico / Mundo De Amor,2016,narco,POS,0.84,joy,0.9295
+1442502,Los Tucanes de Tijuana,El Papa De Los Pollitos,2017,migracion|narco,NEG,0.7809,anger,0.8882
+10271381,Los Tucanes de Tijuana,Suena La Banda (En Vivo),2018,migracion|narco,POS,0.5967,others,0.8398
+4873182,Los Tigres del Norte,América (Live At Folsom Prison),2019,migracion|narco,POS,0.8996,joy,0.994
+4873162,Los Tigres del Norte,De Paisano a Paisano (Live At Folsom Prison),2019,migracion|narco,NEG,0.8788,sadness,0.988
+4873172,Los Tigres del Norte,En Qué Fallé (Live At Folsom Prison),2019,narco,NEG,0.9767,sadness,0.8435
+4873176,Los Tigres del Norte,Golpes en el Corazón (Live At Folsom Prison),2019,none,NEG,0.9295,anger,0.5833
+4873152,Los Tigres del Norte,Introducción (Diálogo),2019,migracion,NEU,0.7193,others,0.7174
+4873183,Los Tigres del Norte,Jamás los Olvidaremos (Diálogo),2019,narco,POS,0.7334,joy,0.8962
+4873164,Los Tigres del Norte,La Bala (Live At Folsom Prison),2019,narco,NEG,0.7793,others,0.6948
+4873166,Los Tigres del Norte,La Baraja Bendita (Live At Folsom Prison),2019,narco,NEG,0.7081,others,0.5811
+4873160,Los Tigres del Norte,La Jaula de Oro (Live At Folsom Prison),2019,migracion,NEG,0.8479,anger,0.654
+4873158,Los Tigres del Norte,La Prisión de Folsom (Folsom Prison Blues) [Live At Folsom Prison],2019,none,NEU,0.4461,anger,0.5751
+4873180,Los Tigres del Norte,La Puerta Negra (Live At Folsom Prison),2019,none,NEG,0.7219,sadness,0.7125
+4873175,Los Tigres del Norte,Lo Que Merezco Yo (Diálogo),2019,none,POS,0.6276,others,0.705
+4873161,Los Tigres del Norte,Los Tigres del Norte Su Pueblo (Diálogo),2019,migracion,NEG,0.4563,others,0.8462
+4873173,Los Tigres del Norte,Mi Canción (Diálogo),2019,none,POS,0.9624,joy,0.922
+4873174,Los Tigres del Norte,Mi Sangre Prisionera (Live At Folsom Prison),2019,none,NEG,0.8763,sadness,0.989
+4873169,Los Tigres del Norte,Mis Ídolos (Diálogo),2019,migracion|narco,POS,0.7978,others,0.4963
+4873181,Los Tigres del Norte,No Están Solos (Diálogo),2019,none,POS,0.9368,joy,0.9733
+4873163,Los Tigres del Norte,Por Portar Un Arma (Diálogo),2019,narco,NEG,0.7153,others,0.874
+4873177,Los Tigres del Norte,Por un Momento (Diálogo),2019,migracion,POS,0.9221,others,0.9272
+4873178,Los Tigres del Norte,Señor Locutor (Live At Folsom Prison),2019,narco,NEG,0.5931,sadness,0.9736
+4873165,Los Tigres del Norte,Tres Strikes (Diálogo),2019,politica_mx,NEU,0.5857,anger,0.5485
+4873168,Los Tigres del Norte,Tres Veces Mojado (Live At Folsom Prison),2019,migracion,NEG,0.7959,sadness,0.7579
+4873179,Los Tigres del Norte,Una Persona Mejor (Diálogo),2019,none,POS,0.6755,others,0.9824
+4873167,Los Tigres del Norte,Una Vida Mejor (Diálogo),2019,none,NEU,0.5199,joy,0.5745
+4873170,Los Tigres del Norte,Un Día a la Vez (Live At Folsom Prison),2019,narco,NEG,0.6768,sadness,0.813
+4873171,Los Tigres del Norte,Vivir en las Sombras (Diálogo),2019,migracion|narco,NEG,0.8943,sadness,0.4992
+4873159,Los Tigres del Norte,Yo lo Conocí (Diálogo),2019,none,POS,0.8894,joy,0.9427
+5361867,Los Tigres del Norte,Acá Entre Nos,2020,migracion,NEU,0.5978,sadness,0.938
+5361868,Los Tigres del Norte,Aprendiste a Volar,2020,migracion|politica_mx,POS,0.5675,others,0.5957
+5361869,Los Tigres del Norte,De Qué Manera Te Olvido,2020,none,NEG,0.521,anger,0.5955
+5361879,Los Tigres del Norte,El Arracadas,2020,none,NEG,0.5209,anger,0.5837
+5361877,Los Tigres del Norte,El Último Beso,2020,none,NEU,0.5209,others,0.5722
+5361872,Los Tigres del Norte,Hermoso Cariño,2020,none,POS,0.9389,joy,0.9946
+5184974,Los Tigres del Norte,La Ley Del Monte,2020,none,NEU,0.6886,others,0.8857
+5361873,Los Tigres del Norte,Lástima Que Seas Ajena,2020,none,NEG,0.9582,sadness,0.9764
+5361875,Los Tigres del Norte,Los Mandados,2020,migracion|narco,NEG,0.5535,others,0.5172
+5361874,Los Tigres del Norte,Mujeres Divinas,2020,none,NEG,0.7995,anger,0.4986
+5361876,Los Tigres del Norte,Palabra de Rey,2020,none,NEU,0.7162,others,0.5927
+5361870,Los Tigres del Norte,Por Tu Maldito Amor,2020,none,NEG,0.8582,anger,0.6414
+5361871,Los Tigres del Norte,Si Acaso Vuelves,2020,none,NEG,0.7168,sadness,0.9793
+5361880,Los Tigres del Norte,Un Consentido de Dios,2020,migracion|narco,POS,0.9057,joy,0.9858
+5361878,Los Tigres del Norte,Yo Quiero Saber de Ti,2020,none,NEU,0.608,sadness,0.8705
+12007326,Los Tucanes de Tijuana,El Chapo Isidro,2020,migracion|narco,POS,0.7952,others,0.8806
+5567252,Los Tucanes de Tijuana,Hoy Más Que Nunca,2020,migracion,POS,0.831,joy,0.9079
+11467450,Los Tigres del Norte,La Reunión,2021,none,POS,0.732,joy,0.5262
+9146818,Los Tucanes de Tijuana,El Chavo,2021,migracion|narco,NEU,0.6978,others,0.7804
+11467430,Los Tigres del Norte,La Carta,2022,migracion|narco,POS,0.5581,sadness,0.8761
+8018974,Los Tucanes de Tijuana,Yo Las Pongo,2022,migracion|narco,NEU,0.6741,others,0.6685
+8416260,Los Tucanes de Tijuana,Yo Las Pongo (Mixed),2022,none,NEU,0.0,others,0.0
+10492139,Los Tigres del Norte,Pan Y Miel,2023,narco|politica_mx,POS,0.6508,others,0.8886
+10492140,Los Tigres del Norte,She is wow,2023,politica_mx,POS,0.9109,others,0.772
+9763477,Los Tucanes de Tijuana,Comandante 09,2023,migracion|narco|politica_mx,NEG,0.562,others,0.7105
+10265679,Los Tucanes de Tijuana,"La Mera Mera (Tijuana, Baja California Norte)",2023,migracion|narco,POS,0.9415,joy,0.9863
+9462754,Los Tucanes de Tijuana,La Tierra del Corrido,2023,migracion|narco,POS,0.6981,others,0.494
+9855500,Los Tucanes de Tijuana,Sa’Que Caray,2023,none,NEU,0.7058,others,0.9853
+10492109,Los Tigres del Norte,Aquí Mando Yo,2024,migracion|narco|politica_mx,NEG,0.9228,anger,0.7911
+10492141,Los Tigres del Norte,La Última Y Nos Vamos,2024,none,NEU,0.5653,others,0.7991
+10196077,Los Tigres del Norte,La Venganza,2024,none,NEG,0.9387,sadness,0.5843
+11132501,Los Tucanes de Tijuana,Le Apodan El Fresa,2024,migracion|narco|politica_mx,POS,0.7224,others,0.8176
+10766753,Los Tucanes de Tijuana,Yo Las Pongo (Mixed) [Partido Fest 2024],2024,migracion|narco,NEU,0.499,joy,0.6225
+12897890,Los Tigres del Norte,El Corrido De Pedro y Homero,2025,none,NEU,0.3819,sadness,0.6374
+11495941,Los Tigres del Norte,La Lotería,2025,migracion|narco,NEG,0.5129,sadness,0.9833
+12328230,Los Tucanes de Tijuana,Rigo Campos,2025,none,NEU,0.0,others,0.0

@@ -22,6 +22,9 @@ python src/scrape_genius.py --artist "Los Tigres del Norte"
 python src/scrape_genius.py --artist "Los Tucanes de Tijuana"
 python src/clean_lyrics.py
 
+# Backfill album/release_year from Genius (optional; only fills blanks, safe to re-run)
+python src/enrich_metadata.py
+
 # Analysis (can run in any order after cleaning)
 python src/analyze_keywords.py
 python src/analyze_bertopic.py   # requires HuggingFace access
@@ -54,7 +57,9 @@ The pipeline has four sequential stages:
 
 4. **Correlation** (`correlate.py`) reads all three topic CSVs + `data/processed/political_events.csv` and computes windowed Pearson/Spearman correlations → `correlations.csv`.
 
-5. **Export** (`export_dashboard.py`) merges all outputs into a single `dashboard/data.json` payload consumed by the browser app.
+5. **Export** (`export_dashboard.py`) merges all outputs — including a rendered `notes/methodology.md` and parsed `lexicons/*.txt` — into a single `dashboard/data.json` payload consumed by the browser app.
+
+`enrich_metadata.py` runs between stages 2 and 3: the original scraper only calls Genius's artist song-list endpoint, which is stripped of `album` and usually of release dates. This script calls the richer per-song endpoint (falling back to the song's album release year when the song itself has none) to backfill both — an exact Genius ID lookup, not a fuzzy match. Only fills currently-blank cells; backs up `songs.csv` before writing.
 
 ## Key Data Files
 

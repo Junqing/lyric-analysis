@@ -1,0 +1,872 @@
+song_id,artist,title,release_year,bertopic_topic_id,bertopic_topic_label,bertopic_prob
+1753217,Los Tigres del Norte,Acércate a mí,1996,0,0_que_te_me_no,0.6157
+899288,Los Tigres del Norte,Acuarela potosina,1988,-1,-1_la_de_que_el,0.2654
+1400003,Los Tigres del Norte,Adiós amigo,1999,2,2_que_me_no_la,0.46
+2114465,Los Tigres del Norte,Adiós madre querida - remastered,,2,2_que_me_no_la,1.0
+861663,Los Tigres del Norte,A ellas,2005,-1,-1_la_de_que_el,0.3161
+867947,Los Tigres del Norte,Agua salada,1994,0,0_que_te_me_no,0.258
+1974919,Los Tigres del Norte,Aguas revueltas,2010,1,1_el_la_de_los,0.2721
+1528774,Los Tigres del Norte,Albacar china,1983,2,2_que_me_no_la,0.3714
+1018393,Los Tigres del Norte,Al estilo mexicano,,-1,-1_la_de_que_el,0.1939
+1423294,Los Tigres del Norte,Alfilo Del Reloj,1989,-1,-1_la_de_que_el,0.3128
+1004576,Los Tigres del Norte,Allá nos juntamos,1983,2,2_que_me_no_la,0.4264
+1503002,Los Tigres del Norte,Al mil por uno,2000,0,0_que_te_me_no,0.6259
+1051397,Los Tigres del Norte,Al sur del Bravo,2000,2,2_que_me_no_la,0.2362
+1446094,Los Tigres del Norte,A manos llenas,1996,0,0_que_te_me_no,1.0
+1859046,Los Tigres del Norte,Amarte Me Hace Bien,2014,3,3_la_de_el_se,0.8834
+1549915,Los Tigres del Norte,América central,2007,-1,-1_la_de_que_el,0.1259
+12019290,Los Tigres del Norte,"América (Live at MTV Los Angeles, CA/2011)",2011,-1,-1_la_de_que_el,0.1212
+1767792,Los Tigres del Norte,A mi enemigo,1988,-1,-1_la_de_que_el,0.3109
+914275,Los Tigres del Norte,Amigo Juan,2004,0,0_que_te_me_no,0.4491
+1212899,Los Tigres del Norte,Amigo querido,1986,2,2_que_me_no_la,0.3405
+1517180,Los Tigres del Norte,Amigos y mujeres,1993,-1,-1_la_de_que_el,0.2005
+1449034,Los Tigres del Norte,Amorcito norteño,1976,2,2_que_me_no_la,1.0
+1499001,Los Tigres del Norte,Amor de madre,1985,0,0_que_te_me_no,0.5044
+1195904,Los Tigres del Norte,Amores que van y vienen,1996,2,2_que_me_no_la,1.0
+1220630,Los Tigres del Norte,Amor garantizado,1996,0,0_que_te_me_no,0.7829
+1173702,Los Tigres del Norte,Ando amanecido,1999,3,3_la_de_el_se,0.5971
+991372,Los Tigres del Norte,Apenas te fuiste ayer,1989,0,0_que_te_me_no,0.4058
+2120907,Los Tigres del Norte,Apenas te fuistes ayer,,0,0_que_te_me_no,0.3268
+1005446,Los Tigres del Norte,A peso el beso,1984,0,0_que_te_me_no,1.0
+936842,Los Tigres del Norte,A quien corresponda,2000,1,1_el_la_de_los,0.4694
+1760350,Los Tigres del Norte,A quién no le gusta eso,1974,2,2_que_me_no_la,0.2727
+1548817,Los Tigres del Norte,Arnulfo Gonzalez,,1,1_el_la_de_los,0.7147
+860852,Los Tigres del Norte,Así como tú,1998,0,0_que_te_me_no,1.0
+1858323,Los Tigres del Norte,Asi Es El Amor,,0,0_que_te_me_no,0.7039
+1328603,Los Tigres del Norte,Así naciste,1990,-1,-1_la_de_que_el,0.3471
+1594189,Los Tigres del Norte,Atrapado,2005,3,3_la_de_el_se,0.9125
+1658824,Los Tigres del Norte,Aún hay esperanza,1991,0,0_que_te_me_no,0.3245
+1197225,Los Tigres del Norte,Ave de paso,1992,2,2_que_me_no_la,0.4283
+1830320,Los Tigres del Norte,¡Ay que líos!,,1,1_el_la_de_los,1.0
+1299999,Los Tigres del Norte,Ayúdame a creer,2004,0,0_que_te_me_no,0.7971
+1475257,Los Tigres del Norte,Bajo el cielo de Morelia,1983,0,0_que_te_me_no,0.3203
+1002742,Los Tigres del Norte,Barrio viejo,1986,-1,-1_la_de_que_el,0.1545
+742298,Los Tigres del Norte,Bohemio de afición,1976,0,0_que_te_me_no,0.6471
+1081242,Los Tigres del Norte,Bonita y mala,1992,-1,-1_la_de_que_el,0.3427
+1707960,Los Tigres del Norte,Brisas de abril,1983,2,2_que_me_no_la,1.0
+1533044,Los Tigres del Norte,Camisa mojada,1984,-1,-1_la_de_que_el,0.3453
+10384915,Los Tigres del Norte,Campesino Soy,1988,0,0_que_te_me_no,0.5375
+878602,Los Tigres del Norte,Cara de gitana,1984,0,0_que_te_me_no,0.2222
+1406174,Los Tigres del Norte,Carga blanca,1972,1,1_el_la_de_los,1.0
+978656,Los Tigres del Norte,Cariño dónde andarás,1993,0,0_que_te_me_no,0.4521
+1400106,Los Tigres del Norte,Cariño Sin Condición,1985,0,0_que_te_me_no,0.6052
+1287486,Los Tigres del Norte,Carne quemada,1997,1,1_el_la_de_los,1.0
+1572464,Los Tigres del Norte,Carrera contra la muerte,1983,2,2_que_me_no_la,0.4897
+922813,Los Tigres del Norte,Carta abierta,1976,0,0_que_te_me_no,0.5474
+1144111,Los Tigres del Norte,Causame la muerte,,-1,-1_la_de_que_el,0.2792
+993564,Los Tigres del Norte,César Chávez,1989,1,1_el_la_de_los,0.6447
+1089952,Los Tigres del Norte,Chayo Chaires,1971,-1,-1_la_de_que_el,0.2688
+1600693,Los Tigres del Norte,Chin marín,,2,2_que_me_no_la,0.6873
+1293476,Los Tigres del Norte,Cielo gris,1983,0,0_que_te_me_no,0.418
+1696453,Los Tigres del Norte,Cien años,2008,0,0_que_te_me_no,0.5537
+1605205,Los Tigres del Norte,Como aceite y como el agua,1995,0,0_que_te_me_no,0.471
+1420690,Los Tigres del Norte,Como De Que No,1976,0,0_que_te_me_no,1.0
+1402230,Los Tigres del Norte,Como la vida sin futbol,2009,3,3_la_de_el_se,0.5302
+1614518,Los Tigres del Norte,Compañera,1991,2,2_que_me_no_la,0.5909
+1264375,Los Tigres del Norte,Con la soga al cuello,1999,-1,-1_la_de_que_el,0.35
+1259027,Los Tigres del Norte,Con mi amigo no,1976,2,2_que_me_no_la,1.0
+1439321,Los Tigres del Norte,Con razón y sin razón,1980,0,0_que_te_me_no,0.7252
+1269591,Los Tigres del Norte,Consejos,1980,-1,-1_la_de_que_el,0.295
+1612521,Los Tigres del Norte,Consuelo,1985,0,0_que_te_me_no,0.4357
+1358245,Los Tigres del Norte,Contrabando y robo,1976,1,1_el_la_de_los,1.0
+228611,Los Tigres del Norte,Contrabando y Traición,1974,1,1_el_la_de_los,1.0
+2069009,Los Tigres del Norte,Con tus mismas palabras,2002,0,0_que_te_me_no,0.7044
+868956,Los Tigres del Norte,Corazoncito,1972,0,0_que_te_me_no,0.4473
+1638555,Los Tigres del Norte,Corazón de oro,1989,0,0_que_te_me_no,0.3824
+1524394,Los Tigres del Norte,Corazón herido,,3,3_la_de_el_se,1.0
+11884724,Los Tigres del Norte,Cosas Del Destino (El Divorcio),2025,0,0_que_te_me_no,0.4456
+1724191,Los Tigres del Norte,Creíste,1976,0,0_que_te_me_no,0.6211
+1145088,Los Tigres del Norte,Cruz de palo,1980,0,0_que_te_me_no,0.4084
+1442203,Los Tigres del Norte,Cuando se muere un niño,1991,-1,-1_la_de_que_el,0.2549
+1669969,Los Tigres del Norte,Cuando supe de tu engaño,1984,-1,-1_la_de_que_el,0.3948
+1162971,Los Tigres del Norte,Cuba,1992,-1,-1_la_de_que_el,0.2797
+1211598,Los Tigres del Norte,Cuidado con la mesera,2007,2,2_que_me_no_la,0.3953
+1683086,Los Tigres del Norte,Cumbia de amor,1992,0,0_que_te_me_no,0.3261
+1695240,Los Tigres del Norte,Cumbia guajira,2004,2,2_que_me_no_la,0.431
+1573478,Los Tigres del Norte,Cuquita,1971,2,2_que_me_no_la,1.0
+878431,Los Tigres del Norte,Custodio,1971,1,1_el_la_de_los,1.0
+920497,Los Tigres del Norte,Decepción,1992,0,0_que_te_me_no,0.427
+1450750,Los Tigres del Norte,¿De qué color es la suerte?,2002,-1,-1_la_de_que_el,0.3911
+1416819,Los Tigres del Norte,Destino cruel,1986,0,0_que_te_me_no,0.6997
+1406584,Los Tigres del Norte,Devuélveme,1995,0,0_que_te_me_no,0.6454
+1244081,Los Tigres del Norte,Diamante negro,1989,-1,-1_la_de_que_el,0.1875
+1224150,Los Tigres del Norte,Don nadie,2001,0,0_que_te_me_no,0.8198
+1628437,Los Tigres del Norte,Dos hojas sin rumbo,1972,2,2_que_me_no_la,1.0
+977242,Los Tigres del Norte,El agente del amor,1983,-1,-1_la_de_que_el,0.4119
+1405764,Los Tigres del Norte,El aguilillo,,2,2_que_me_no_la,0.2994
+1498584,Los Tigres del Norte,El amor es ciego,1992,0,0_que_te_me_no,1.0
+1715612,Los Tigres del Norte,El amor no se mide,1998,0,0_que_te_me_no,0.8784
+1690980,Los Tigres del Norte,El artista,2002,1,1_el_la_de_los,0.6637
+1621495,Los Tigres del Norte,El ausente,1976,0,0_que_te_me_no,0.27
+1349849,Los Tigres del Norte,El avión de la muerte,1989,1,1_el_la_de_los,0.7214
+1177150,Los Tigres del Norte,El bilingüe,1988,0,0_que_te_me_no,0.314
+1423494,Los Tigres del Norte,El caballo chamacuz,1984,-1,-1_la_de_que_el,0.2506
+894690,Los Tigres del Norte,El canelo,1993,1,1_el_la_de_los,0.4838
+1629274,Los Tigres del Norte,El cantante,1983,0,0_que_te_me_no,0.2943
+1392252,Los Tigres del Norte,El celular,1992,-1,-1_la_de_que_el,0.2823
+897183,Los Tigres del Norte,El centroamericano,2001,-1,-1_la_de_que_el,0.1496
+1112622,Los Tigres del Norte,El cheque,,2,2_que_me_no_la,0.5395
+1133998,Los Tigres del Norte,El chicano,1974,3,3_la_de_el_se,0.8235
+1297863,Los Tigres del Norte,El circo,1996,1,1_el_la_de_los,1.0
+1586592,Los Tigres del Norte,El corrido,1989,3,3_la_de_el_se,0.4174
+1848171,Los Tigres del Norte,El corrido del Dr. Fonseca,1988,1,1_el_la_de_los,0.6129
+1092684,Los Tigres del Norte,El cura,1999,3,3_la_de_el_se,0.8026
+1134139,Los Tigres del Norte,El curita y la coqueta,2001,1,1_el_la_de_los,0.5853
+1540997,Los Tigres del Norte,El diputado,2009,3,3_la_de_el_se,0.2433
+1599631,Los Tigres del Norte,El dolor de un padre,1997,2,2_que_me_no_la,0.6378
+1274314,Los Tigres del Norte,El dorado,1986,1,1_el_la_de_los,1.0
+1419143,Los Tigres del Norte,El emigrante,2009,3,3_la_de_el_se,0.8788
+1983059,Los Tigres del Norte,El enfermito,2010,0,0_que_te_me_no,0.4877
+1665797,Los Tigres del Norte,El engaño,1986,2,2_que_me_no_la,0.3426
+906513,Los Tigres del Norte,El espinazo del diablo,1989,1,1_el_la_de_los,0.5688
+1154902,Los Tigres del Norte,El fin del mundo,2002,-1,-1_la_de_que_el,0.2503
+1324248,Los Tigres del Norte,El gallo de pelea,1981,2,2_que_me_no_la,0.2313
+1325547,Los Tigres del Norte,El Gato Félix,1989,-1,-1_la_de_que_el,0.2283
+1341990,Los Tigres del Norte,El general,1997,1,1_el_la_de_los,0.6576
+1713726,Los Tigres del Norte,El golpe traidor,2008,0,0_que_te_me_no,0.5838
+1202370,Los Tigres del Norte,El gringo y el mexicano,,1,1_el_la_de_los,0.89
+1136959,Los Tigres del Norte,El gringo y el mexicano (La tragedia de un mojado),1980,1,1_el_la_de_los,1.0
+948932,Los Tigres del Norte,El hijo de Camelia,1977,1,1_el_la_de_los,1.0
+1169703,Los Tigres del Norte,El hijo del pueblo,2008,3,3_la_de_el_se,0.7855
+1673345,Los Tigres del Norte,El hijo de Tijuana,1998,4,4_me_el_que_no,0.1751
+1574176,Los Tigres del Norte,El hijo menor,1983,0,0_que_te_me_no,0.5905
+1704714,Los Tigres del Norte,El huacal,1974,2,2_que_me_no_la,0.3807
+690329,Los Tigres del Norte,El jefe de jefes,,4,4_me_el_que_no,0.2816
+1455003,Los Tigres del Norte,El macho y el hombre,1986,-1,-1_la_de_que_el,0.2297
+893290,Los Tigres del Norte,El mojado acaudalado (acústico),1997,-1,-1_la_de_que_el,0.259
+863410,Los Tigres del Norte,El Muro,2007,3,3_la_de_el_se,1.0
+1146042,Los Tigres del Norte,El niño de la calle,2004,-1,-1_la_de_que_el,0.2908
+888636,Los Tigres del Norte,El Niño y La Boda,1988,0,0_que_te_me_no,0.3878
+10384916,Los Tigres del Norte,Eloísa Me Lo Hizo,1988,0,0_que_te_me_no,0.5464
+1815590,Los Tigres del Norte,El otro México,1986,-1,-1_la_de_que_el,0.2238
+1471422,Los Tigres del Norte,El pájaro prieto,1978,2,2_que_me_no_la,1.0
+984275,Los Tigres del Norte,El perro mocho,,-1,-1_la_de_que_el,0.4115
+1154064,Los Tigres del Norte,El pescadito rojo,1993,2,2_que_me_no_la,0.487
+1622838,Los Tigres del Norte,El plantón,,1,1_el_la_de_los,0.7099
+1304014,Los Tigres del Norte,El prisionero,1997,1,1_el_la_de_los,0.7145
+1214009,Los Tigres del Norte,El que no había nacido,2001,-1,-1_la_de_que_el,0.3015
+1499620,Los Tigres del Norte,El rengo del gallo giro,1997,-1,-1_la_de_que_el,0.2403
+1362296,Los Tigres del Norte,El reportero,1996,-1,-1_la_de_que_el,0.2042
+1022449,Los Tigres del Norte,El rey,2008,0,0_que_te_me_no,0.6328
+1225011,Los Tigres del Norte,El santo de los mojados,2004,2,2_que_me_no_la,0.6871
+986285,Los Tigres del Norte,El sastre,1992,0,0_que_te_me_no,0.5454
+1671329,Los Tigres del Norte,El siete leguas,1999,3,3_la_de_el_se,0.741
+1442059,Los Tigres del Norte,El sordomudo,1972,0,0_que_te_me_no,0.4261
+1830242,Los Tigres del Norte,El sueño de bolivar,,-1,-1_la_de_que_el,0.2895
+1539612,Los Tigres del Norte,El tahúr,1984,3,3_la_de_el_se,0.7357
+1371615,Los Tigres del Norte,El tamal,1995,1,1_el_la_de_los,0.5028
+1250807,Los Tigres del Norte,El tarasco,1997,2,2_que_me_no_la,0.4143
+1084449,Los Tigres del Norte,El titulado,1998,-1,-1_la_de_que_el,0.4626
+1077203,Los Tigres del Norte,El tren,1983,0,0_que_te_me_no,0.3305
+1467539,Los Tigres del Norte,El triunfo en las manos,,-1,-1_la_de_que_el,0.2625
+1319554,Los Tigres del Norte,El troquero,1972,3,3_la_de_el_se,0.6164
+958573,Los Tigres del Norte,El último atardecer,,1,1_el_la_de_los,0.6424
+1142387,Los Tigres del Norte,El veredicto,1990,-1,-1_la_de_que_el,0.2182
+1064369,Los Tigres del Norte,El vestido,2006,0,0_que_te_me_no,0.5354
+1384344,Los Tigres del Norte,El zacatecas,2006,-1,-1_la_de_que_el,0.2917
+1372244,Los Tigres del Norte,El zorro de ojinaga,1989,1,1_el_la_de_los,0.6409
+1055758,Los Tigres del Norte,En la misma cantina,,0,0_que_te_me_no,0.6237
+1665848,Los Tigres del Norte,Enséñate a respetar,1998,0,0_que_te_me_no,0.6299
+977700,Los Tigres del Norte,En Tu Boda,1976,0,0_que_te_me_no,0.4848
+1853125,Los Tigres del Norte,Era Diferente,2014,-1,-1_la_de_que_el,0.3085
+1524820,Los Tigres del Norte,Esperando el cheque,1971,-1,-1_la_de_que_el,0.2398
+1846475,Los Tigres del Norte,Esta Noche Voy a Verte,2014,0,0_que_te_me_no,0.7716
+1276668,Los Tigres del Norte,Fallaste corazón,1988,0,0_que_te_me_no,1.0
+1088710,Los Tigres del Norte,Falso amor,,-1,-1_la_de_que_el,0.3506
+1107124,Los Tigres del Norte,Flor del río,1976,0,0_que_te_me_no,0.2645
+952614,Los Tigres del Norte,Fue una mujer,,-1,-1_la_de_que_el,0.2869
+2002439,Los Tigres del Norte,Gallo de pelea,,2,2_que_me_no_la,0.2531
+1262674,Los Tigres del Norte,Gavilán perdido,2002,-1,-1_la_de_que_el,0.2491
+1699437,Los Tigres del Norte,Gaviota,1989,1,1_el_la_de_los,0.7137
+946865,Los Tigres del Norte,Gema,1990,2,2_que_me_no_la,0.7174
+1944652,Los Tigres del Norte,"Golpes En El Corazón (Live at MTV Los Angeles, CA/2011)",2011,0,0_que_te_me_no,0.7544
+1010417,Los Tigres del Norte,Gracias… nada más,1989,0,0_que_te_me_no,1.0
+1861393,Los Tigres del Norte,Historia de Amor,2014,0,0_que_te_me_no,0.4691
+1936911,Los Tigres del Norte,Historias de ciudad,2014,1,1_el_la_de_los,0.7024
+1848132,Los Tigres del Norte,Hoy Le Hablo a Diario,2014,-1,-1_la_de_que_el,0.4249
+1346894,Los Tigres del Norte,Indiferencia,1976,0,0_que_te_me_no,0.3885
+1757445,Los Tigres del Norte,Ingratitud,2006,0,0_que_te_me_no,0.5906
+1636429,Los Tigres del Norte,Jacinto Treviño,1971,2,2_que_me_no_la,1.0
+1077616,Los Tigres del Norte,Jesús Amado,,1,1_el_la_de_los,0.8077
+1499815,Los Tigres del Norte,Juana la traicionera,1972,-1,-1_la_de_que_el,0.2683
+960413,Los Tigres del Norte,Juan Guerrero,1984,0,0_que_te_me_no,0.5065
+1210352,Los Tigres del Norte,La basurita,1977,0,0_que_te_me_no,0.4368
+1718889,Los Tigres del Norte,La bota,1972,2,2_que_me_no_la,0.2972
+1494157,Los Tigres del Norte,La bronco negra,1991,3,3_la_de_el_se,0.3491
+899087,Los Tigres del Norte,La camioneta gris,1989,1,1_el_la_de_los,1.0
+1286293,Los Tigres del Norte,La carretera,1971,2,2_que_me_no_la,1.0
+1491596,Los Tigres del Norte,La cochicuina,1972,3,3_la_de_el_se,0.8244
+1098897,Los Tigres del Norte,La creación,1992,0,0_que_te_me_no,0.6578
+898425,Los Tigres del Norte,La crónica de un cambio,,4,4_me_el_que_no,0.4462
+987787,Los Tigres del Norte,La daga,1993,-1,-1_la_de_que_el,0.1475
+1417537,Los Tigres del Norte,La fama de la pareja,1995,1,1_el_la_de_los,1.0
+1177113,Los Tigres del Norte,La fuga del rojo,1995,2,2_que_me_no_la,0.3549
+1566010,Los Tigres del Norte,Lágrimas de sangre,2007,0,0_que_te_me_no,0.5902
+1861231,Los Tigres del Norte,La Guardería,2014,1,1_el_la_de_los,1.0
+1934937,Los Tigres del Norte,"La hija, la mama",2014,-1,-1_la_de_que_el,0.1968
+969843,Los Tigres del Norte,La huella del alacrán,2007,1,1_el_la_de_los,1.0
+1662565,Los Tigres del Norte,La interesada,1984,0,0_que_te_me_no,0.2955
+1853237,Los Tigres del Norte,La Jefa Del Jefe,2014,-1,-1_la_de_que_el,0.4395
+1104586,Los Tigres del Norte,La llamada,1984,2,2_que_me_no_la,0.7771
+1103960,Los Tigres del Norte,La loba,2000,-1,-1_la_de_que_el,0.2879
+1626133,Los Tigres del Norte,La luz de tus ojos,2001,0,0_que_te_me_no,0.5352
+1766437,Los Tigres del Norte,La maestra,1983,3,3_la_de_el_se,0.3308
+1327223,Los Tigres del Norte,La mafia muere,1989,1,1_el_la_de_los,0.8007
+1232259,Los Tigres del Norte,La mancha del pobre,1976,-1,-1_la_de_que_el,0.1665
+905981,Los Tigres del Norte,La marea,1984,0,0_que_te_me_no,0.4734
+1401525,Los Tigres del Norte,La margarita,1984,-1,-1_la_de_que_el,0.2651
+1005332,Los Tigres del Norte,La mesera,1974,2,2_que_me_no_la,0.5361
+1771170,Los Tigres del Norte,La moneda,1983,-1,-1_la_de_que_el,0.2447
+1470839,Los Tigres del Norte,La neta de las netas,2005,-1,-1_la_de_que_el,0.3513
+1421594,Los Tigres del Norte,La novia de San Benito,1971,-1,-1_la_de_que_el,0.2036
+1246029,Los Tigres del Norte,La oferta,1993,2,2_que_me_no_la,0.7008
+1636961,Los Tigres del Norte,La paloma,1997,1,1_el_la_de_los,0.5263
+1514163,Los Tigres del Norte,La puerta abierta,1974,0,0_que_te_me_no,0.6569
+2008264,Los Tigres del Norte,La puerta del rancho,2014,4,4_me_el_que_no,0.6591
+1565943,Los Tigres del Norte,La Puerta Negra,1986,0,0_que_te_me_no,0.4168
+1071243,Los Tigres del Norte,La quinceañera,1978,2,2_que_me_no_la,0.5415
+1467120,Los Tigres del Norte,La ranita,1971,2,2_que_me_no_la,0.9118
+1011612,Los Tigres del Norte,La resortera,1999,3,3_la_de_el_se,1.0
+1435225,Los Tigres del Norte,Las dos apuestas,1980,-1,-1_la_de_que_el,0.1775
+1284791,Los Tigres del Norte,La segunda carta,1993,-1,-1_la_de_que_el,0.3813
+1609913,Los Tigres del Norte,Las flores de mi país,1986,2,2_que_me_no_la,0.4188
+1386448,Los Tigres del Norte,Las mismas costumbres,1984,0,0_que_te_me_no,0.5565
+1086818,Los Tigres del Norte,Las mujeres de Juárez,2004,-1,-1_la_de_que_el,0.3408
+1624710,Los Tigres del Norte,La temporada es buena,1998,0,0_que_te_me_no,0.4595
+1749665,Los Tigres del Norte,La tumba del mojado,1976,3,3_la_de_el_se,0.3698
+1583660,Los Tigres del Norte,La tumba falsa,,0,0_que_te_me_no,0.775
+1543715,Los Tigres del Norte,La vida es una,1994,2,2_que_me_no_la,0.3192
+1422073,Los Tigres del Norte,La Yaquecita,1976,2,2_que_me_no_la,0.3267
+1239291,Los Tigres del Norte,Leña del árbol caído,2000,0,0_que_te_me_no,0.4982
+1206466,Los Tigres del Norte,Leopoldo Ríos,1993,1,1_el_la_de_los,0.8309
+2121613,Los Tigres del Norte,Lgrimas del corazón,,0,0_que_te_me_no,0.7122
+1627073,Los Tigres del Norte,"Liar, Liar",2004,0,0_que_te_me_no,0.3664
+1510115,Los Tigres del Norte,Libidinosamente,2006,0,0_que_te_me_no,1.0
+2048506,Los Tigres del Norte,Libros de recuerdos,1999,0,0_que_te_me_no,0.6816
+1772986,Los Tigres del Norte,Loca,1990,0,0_que_te_me_no,0.4883
+892830,Los Tigres del Norte,Lo del agua al agua,1980,0,0_que_te_me_no,0.572
+1558705,Los Tigres del Norte,Lo felicito amigo,2002,-1,-1_la_de_que_el,0.2674
+1248517,Los Tigres del Norte,Lo que sembré allá en la sierra,1997,1,1_el_la_de_los,0.5272
+1769652,Los Tigres del Norte,Los aguaceros de mayo,2009,-1,-1_la_de_que_el,0.4844
+1226121,Los Tigres del Norte,Los barandales del puente,1976,2,2_que_me_no_la,0.7248
+1238871,Los Tigres del Norte,Los Felicito Amigo,,-1,-1_la_de_que_el,0.3899
+1146106,Los Tigres del Norte,Los hijos de Hernandez,1986,1,1_el_la_de_los,0.5937
+1148641,Los Tigres del Norte,Los mal portados,2007,2,2_que_me_no_la,0.2921
+1946883,Los Tigres del Norte,Los tres amigos,1984,-1,-1_la_de_que_el,0.236
+1285024,Los Tigres del Norte,Los Tres Amigos (30 Segundos Para Morir),1988,-1,-1_la_de_que_el,0.2345
+1625243,Los Tigres del Norte,Los tres de Zacatecas,1996,1,1_el_la_de_los,1.0
+1317451,Los Tigres del Norte,Los tres gallos,1989,3,3_la_de_el_se,1.0
+1238993,Los Tigres del Norte,Lo tomas o lo tiras,2001,-1,-1_la_de_que_el,0.3072
+1267002,Los Tigres del Norte,Madrecita querida,1985,2,2_que_me_no_la,0.744
+11467445,Los Tigres del Norte,Mal Negocio,2022,0,0_que_te_me_no,0.4773
+1203536,Los Tigres del Norte,Mañanitas a mi madre,1985,2,2_que_me_no_la,0.7387
+1649098,Los Tigres del Norte,Mañanitas guadalupanas,1985,2,2_que_me_no_la,0.8533
+1196187,Los Tigres del Norte,Mano larga,1986,0,0_que_te_me_no,1.0
+1337262,Los Tigres del Norte,Manos unidas,1993,-1,-1_la_de_que_el,0.2172
+1766845,Los Tigres del Norte,Margarita la de tijuana,1977,-1,-1_la_de_que_el,0.2386
+1040908,Los Tigres del Norte,Me dicen perseverante,2005,4,4_me_el_que_no,0.4742
+1244454,Los Tigres del Norte,Me haces falta,2006,0,0_que_te_me_no,0.5254
+1519763,Los Tigres del Norte,Me importa poco,1972,0,0_que_te_me_no,1.0
+1421493,Los Tigres del Norte,Me maldigo,1984,0,0_que_te_me_no,0.463
+1079832,Los Tigres del Norte,Mentira,1983,2,2_que_me_no_la,1.0
+1520691,Los Tigres del Norte,Me quedas a la medida,,-1,-1_la_de_que_el,0.1634
+1375428,Los Tigres del Norte,Me regalo contigo,,-1,-1_la_de_que_el,0.2092
+1848284,Los Tigres del Norte,Me Siguen Llamando El Jefe,2014,4,4_me_el_que_no,1.0
+1251482,Los Tigres del Norte,Mi chamaquita,1984,2,2_que_me_no_la,0.7575
+1344575,Los Tigres del Norte,Mi curiosidad,2009,0,0_que_te_me_no,0.6285
+2249247,Los Tigres del Norte,Mi Distrito Federal,1986,3,3_la_de_el_se,0.3068
+1673249,Los Tigres del Norte,Mi gusto es,,2,2_que_me_no_la,0.6995
+1473111,Los Tigres del Norte,Mi lamento,1989,-1,-1_la_de_que_el,0.3391
+1932960,Los Tigres del Norte,Miles de sueños,2014,2,2_que_me_no_la,1.0
+1241727,Los Tigres del Norte,Mi linda esposa,1985,2,2_que_me_no_la,0.695
+1552729,Los Tigres del Norte,Mi negocio está seguro,2009,3,3_la_de_el_se,1.0
+1712441,Los Tigres del Norte,Minita de oro,2009,3,3_la_de_el_se,0.8955
+11835725,Los Tigres del Norte,Mi Primer Adiós,1976,0,0_que_te_me_no,0.6177
+1290972,Los Tigres del Norte,"Mira, mira, mira",2002,0,0_que_te_me_no,0.6448
+1349385,Los Tigres del Norte,Mi soldado,2002,1,1_el_la_de_los,0.8592
+1129590,Los Tigres del Norte,Montones de buena suerte,2004,0,0_que_te_me_no,0.4388
+1165932,Los Tigres del Norte,Morenita de ojos negros,,-1,-1_la_de_que_el,0.3003
+1493508,Los Tigres del Norte,Morir matando,1995,1,1_el_la_de_los,0.5057
+1462862,Los Tigres del Norte,Mucho he sufrido,1977,0,0_que_te_me_no,0.6097
+1483440,Los Tigres del Norte,Muerte anunciada,1994,1,1_el_la_de_los,0.737
+1648558,Los Tigres del Norte,Mujeres manejando,2001,-1,-1_la_de_que_el,0.1746
+1421644,Los Tigres del Norte,My promise / Mi promesa,1999,-1,-1_la_de_que_el,0.2906
+1394440,Los Tigres del Norte,Nadie me quiere,1976,2,2_que_me_no_la,0.3486
+1211837,Los Tigres del Norte,Navaja libre,,0,0_que_te_me_no,0.6036
+1979918,Los Tigres del Norte,Necesitamos conversar,2014,0,0_que_te_me_no,0.5861
+1198729,Los Tigres del Norte,Necesito mi libertad,2000,0,0_que_te_me_no,0.8273
+1959469,Los Tigres del Norte,Ni aqui ni all,,3,3_la_de_el_se,0.5015
+1678851,Los Tigres del Norte,Ni Aqui Ni Alla,1997,3,3_la_de_el_se,0.5308
+1219733,Los Tigres del Norte,Ni Parientes Somos,1989,0,0_que_te_me_no,0.6394
+1566600,Los Tigres del Norte,No Diet,2006,-1,-1_la_de_que_el,0.3085
+1370753,Los Tigres del Norte,No llores por él,2005,3,3_la_de_el_se,1.0
+2229333,Los Tigres del Norte,Nomás Cuando Estoy Sin Ti,2014,0,0_que_te_me_no,0.6408
+1332739,Los Tigres del Norte,No me amenaces,,0,0_que_te_me_no,0.4357
+1132273,Los Tigres del Norte,No me ganarás,1998,0,0_que_te_me_no,0.5997
+1092308,Los Tigres del Norte,No me quedaré,1994,0,0_que_te_me_no,1.0
+943792,Los Tigres del Norte,No merezco tus lágrimas,2002,0,0_que_te_me_no,0.7187
+1634703,Los Tigres del Norte,No puedo más,1995,0,0_que_te_me_no,0.692
+1180690,Los Tigres del Norte,Norma Corona,1991,1,1_el_la_de_los,1.0
+1706698,Los Tigres del Norte,Nos estorbó la ropa,1995,0,0_que_te_me_no,0.5906
+956778,Los Tigres del Norte,No Sufras Madre,1985,0,0_que_te_me_no,0.5457
+1064033,Los Tigres del Norte,No tiene la culpa el indio,2004,3,3_la_de_el_se,0.5323
+1760240,Los Tigres del Norte,No volveré,2008,0,0_que_te_me_no,0.6895
+1150765,Los Tigres del Norte,Nueva cita,1972,-1,-1_la_de_que_el,0.2468
+1950449,Los Tigres del Norte,Ojalá,2014,0,0_que_te_me_no,0.5298
+1506023,Los Tigres del Norte,Ojos negros nunca engañan,1986,0,0_que_te_me_no,1.0
+861708,Los Tigres del Norte,Orgullo mexicano,2005,-1,-1_la_de_que_el,0.1499
+885988,Los Tigres del Norte,Padre nuestro,1984,0,0_que_te_me_no,1.0
+1457457,Los Tigres del Norte,Padres tristes,1998,0,0_que_te_me_no,0.5201
+1079107,Los Tigres del Norte,Pájaro en mano,1998,3,3_la_de_el_se,1.0
+1713731,Los Tigres del Norte,Palabras de mi madre,1981,-1,-1_la_de_que_el,0.1932
+1046639,Los Tigres del Norte,Para siempre,2007,0,0_que_te_me_no,0.8338
+1041339,Los Tigres del Norte,Paso a paso,1986,0,0_que_te_me_no,0.4776
+1605467,Los Tigres del Norte,Perdiendo el tiempo,1999,-1,-1_la_de_que_el,0.3819
+1163376,Los Tigres del Norte,Perdonen mi canto,1994,1,1_el_la_de_los,0.5443
+1853026,Los Tigres del Norte,Perdon Pero No,,2,2_que_me_no_la,1.0
+927993,Los Tigres del Norte,Plato de segunda mesa,,0,0_que_te_me_no,0.5067
+1467234,Los Tigres del Norte,Playa Blanca,1976,2,2_que_me_no_la,0.6196
+1365575,Los Tigres del Norte,Plaza Garibaldi,1980,-1,-1_la_de_que_el,0.2344
+1722398,Los Tigres del Norte,Pobreza fatal,1977,0,0_que_te_me_no,1.0
+1563286,Los Tigres del Norte,Popurrí: Allá en el rancho grande / La Valentina,1999,3,3_la_de_el_se,1.0
+2121627,Los Tigres del Norte,Popurri mexicano,,-1,-1_la_de_que_el,0.1984
+1084289,Los Tigres del Norte,Por alguien,1988,0,0_que_te_me_no,1.0
+910414,Los Tigres del Norte,Por debajo del agua,1997,1,1_el_la_de_los,0.7277
+1438432,Los Tigres del Norte,Por el amor de una mujer,1990,0,0_que_te_me_no,0.6699
+1478751,Los Tigres del Norte,Por lo menos hoy,1992,0,0_que_te_me_no,0.4071
+985013,Los Tigres del Norte,Por ser sinaloense,1999,3,3_la_de_el_se,0.58
+1114704,Los Tigres del Norte,Por una mujer casada,1971,2,2_que_me_no_la,0.3051
+969870,Los Tigres del Norte,Prieta casada,1978,2,2_que_me_no_la,0.5515
+1088211,Los Tigres del Norte,Pueblo Querido,1976,0,0_que_te_me_no,0.4849
+1387251,Los Tigres del Norte,"Puede que sí, puede que no",,2,2_que_me_no_la,1.0
+1808622,Los Tigres del Norte,Qué ganarías,1994,0,0_que_te_me_no,0.7976
+1144070,Los Tigres del Norte,Que nunca se entere,2007,0,0_que_te_me_no,0.6456
+974532,Los Tigres del Norte,Qué te hizo olvidarme,1983,0,0_que_te_me_no,0.6339
+951511,Los Tigres del Norte,Qué te parece,2006,2,2_que_me_no_la,0.3147
+1087643,Los Tigres del Norte,Qué te parece (karaoke),2006,-1,-1_la_de_que_el,0.266
+1829528,Los Tigres del Norte,Que Voy Hacer Sin Ti,,0,0_que_te_me_no,0.5196
+1526908,Los Tigres del Norte,Quién,1995,0,0_que_te_me_no,1.0
+862125,Los Tigres del Norte,Quién te entiende,2009,0,0_que_te_me_no,1.0
+1413152,Los Tigres del Norte,Quién te quiere como yo,1998,2,2_que_me_no_la,0.5476
+1115966,Los Tigres del Norte,Quiero volar contigo,1998,0,0_que_te_me_no,0.9145
+1501067,Los Tigres del Norte,Quisiera,1990,0,0_que_te_me_no,0.7387
+1170622,Los Tigres del Norte,Ramiro Sierra,1989,1,1_el_la_de_los,0.6806
+1215511,Los Tigres del Norte,Recuerdos que duelen,2001,-1,-1_la_de_que_el,0.3027
+1267574,Los Tigres del Norte,Regalo caro,,1,1_el_la_de_los,1.0
+938043,Los Tigres del Norte,Reina de reinas,2009,1,1_el_la_de_los,1.0
+1060613,Los Tigres del Norte,Reloj maldito,1978,-1,-1_la_de_que_el,0.4361
+1620305,Los Tigres del Norte,Rifaré Mi Suerte,1985,-1,-1_la_de_que_el,0.3791
+1015052,Los Tigres del Norte,Rock del corazón,1992,2,2_que_me_no_la,0.5153
+1074370,Los Tigres del Norte,Romance oculto,1976,0,0_que_te_me_no,1.0
+2122134,Los Tigres del Norte,Rosita de oliva,,0,0_que_te_me_no,0.4411
+948251,Los Tigres del Norte,Rosita de Olivo,1977,0,0_que_te_me_no,0.4427
+1514860,Los Tigres del Norte,Rumbo al sur,2008,3,3_la_de_el_se,0.8041
+886753,Los Tigres del Norte,R-Uno,1989,1,1_el_la_de_los,0.6035
+1679413,Los Tigres del Norte,Sabas Lopez,,-1,-1_la_de_que_el,0.4223
+1119392,Los Tigres del Norte,Sala de espera,2009,2,2_que_me_no_la,0.9054
+1518593,Los Tigres del Norte,Sangre caliente,2008,2,2_que_me_no_la,0.2347
+1998861,Los Tigres del Norte,Se me acabó el tequila,2014,-1,-1_la_de_que_el,0.2291
+1170950,Los Tigres del Norte,Será mi castigo,1986,0,0_que_te_me_no,0.8999
+1178723,Los Tigres del Norte,Si estás durmiendo,,0,0_que_te_me_no,0.6549
+937918,Los Tigres del Norte,Sigamos pecando,1990,0,0_que_te_me_no,0.8185
+1604260,Los Tigres del Norte,Si me vas a dejar,1996,0,0_que_te_me_no,1.0
+1115956,Los Tigres del Norte,Si mides el tamaño,2009,0,0_que_te_me_no,0.7583
+1560713,Los Tigres del Norte,Sin fronteras,1986,-1,-1_la_de_que_el,0.2585
+1242661,Los Tigres del Norte,Sin ti,,0,0_que_te_me_no,1.0
+1054732,Los Tigres del Norte,"Sí, sí, sí",1971,-1,-1_la_de_que_el,0.1272
+860974,Los Tigres del Norte,Si volvemos otra vez,1983,0,0_que_te_me_no,0.569
+686635,Los Tigres del Norte,Somos Más Americanos,2001,-1,-1_la_de_que_el,0.1801
+1709021,Los Tigres del Norte,Son tus perjúmenes mujer,1978,2,2_que_me_no_la,1.0
+1508207,Los Tigres del Norte,También las mujeres pueden,1997,3,3_la_de_el_se,0.4796
+1219845,Los Tigres del Norte,Tan bonita,1992,2,2_que_me_no_la,1.0
+1669772,Los Tigres del Norte,Tan sólo un amigo,1989,0,0_que_te_me_no,0.6588
+2050059,Los Tigres del Norte,Tanta mentira,1988,0,0_que_te_me_no,0.6175
+870757,Los Tigres del Norte,Te he de olvidar,1995,2,2_que_me_no_la,0.3994
+902781,Los Tigres del Norte,Te odio y te quiero,1990,0,0_que_te_me_no,0.6533
+1074414,Los Tigres del Norte,Te vengo a decir adiós,1990,0,0_que_te_me_no,0.726
+962252,Los Tigres del Norte,Tiempos de ayer,1996,-1,-1_la_de_que_el,0.2691
+867873,Los Tigres del Norte,Tiempos de mayo,1995,-1,-1_la_de_que_el,0.2426
+1150208,Los Tigres del Norte,Tonta (tonto),2008,0,0_que_te_me_no,0.5332
+878793,Los Tigres del Norte,Trabajo Por Mi Cuenta,2001,4,4_me_el_que_no,1.0
+896656,Los Tigres del Norte,Trigueña hermosa,1978,3,3_la_de_el_se,0.7711
+12021482,Los Tigres del Norte,Tu Cárcel,2015,0,0_que_te_me_no,0.8368
+12021481,Los Tigres del Norte,Tu Cárcel (En Vivo),2015,0,0_que_te_me_no,0.8492
+921640,Los Tigres del Norte,Tu cariño,1971,0,0_que_te_me_no,0.6549
+1080699,Los Tigres del Norte,Tu Castigo,1976,0,0_que_te_me_no,0.7039
+1666873,Los Tigres del Norte,"Tú con él, yo con ella",1999,0,0_que_te_me_no,0.4526
+1468796,Los Tigres del Norte,Tú decides,,0,0_que_te_me_no,0.5663
+1023318,Los Tigres del Norte,Tu recuerdo y yo,2008,-1,-1_la_de_que_el,0.2431
+1558597,Los Tigres del Norte,Tus ausencias,2007,0,0_que_te_me_no,0.8352
+1168633,Los Tigres del Norte,Tus dos vestidos,1984,0,0_que_te_me_no,0.644
+2053057,Los Tigres del Norte,Ultimo adiós,,0,0_que_te_me_no,0.5
+1409858,Los Tigres del Norte,Una mujer de este pueblo,1978,2,2_que_me_no_la,0.4377
+968297,Los Tigres del Norte,Un hasta aquí,2000,0,0_que_te_me_no,0.4052
+1433671,Los Tigres del Norte,Un hombre de ley,2007,4,4_me_el_que_no,0.3384
+1537550,Los Tigres del Norte,Unidos para siempre,1996,0,0_que_te_me_no,0.8531
+1067368,Los Tigres del Norte,Un mar de vino,1995,-1,-1_la_de_que_el,0.178
+1377392,Los Tigres del Norte,Un Regalo Nomás,1976,2,2_que_me_no_la,0.4401
+1564676,Los Tigres del Norte,Un sueño de tantos,1990,0,0_que_te_me_no,0.2852
+1161540,Los Tigres del Norte,Vale la pena,2004,0,0_que_te_me_no,0.6915
+1535033,Los Tigres del Norte,Valentín Félix,1989,-1,-1_la_de_que_el,0.2448
+1281601,Los Tigres del Norte,Vamos a Las Vegas,1999,2,2_que_me_no_la,0.488
+1240584,Los Tigres del Norte,Va por ahí,2004,2,2_que_me_no_la,0.5335
+1334200,Los Tigres del Norte,Ven,1986,2,2_que_me_no_la,1.0
+1560816,Los Tigres del Norte,Veneno de amor,1991,0,0_que_te_me_no,0.6182
+1159226,Los Tigres del Norte,Ven mi corazón,1984,2,2_que_me_no_la,0.3068
+1459894,Los Tigres del Norte,Viva mi Sinaloa,2005,-1,-1_la_de_que_el,0.257
+1564409,Los Tigres del Norte,Vivan los mojados,1977,-1,-1_la_de_que_el,0.3079
+1707313,Los Tigres del Norte,Ya Encontraron A Camelia,1976,1,1_el_la_de_los,0.6704
+1280258,Los Tigres del Norte,Ya lo sabía,1998,0,0_que_te_me_no,0.3432
+1678863,Los Tigres del Norte,Ya no hagas más sacrificios,1993,0,0_que_te_me_no,0.5313
+868870,Los Tigres del Norte,Ya nos dieron permiso,1978,-1,-1_la_de_que_el,0.3108
+1489943,Los Tigres del Norte,Ya te soñé conmigo,1998,2,2_que_me_no_la,1.0
+1282530,Los Tigres del Norte,Y dices que tú me amas,2001,0,0_que_te_me_no,0.3917
+1859811,Los Tucanes de Tijuana,365 Días,2012,0,0_que_te_me_no,0.6922
+1991673,Los Tucanes de Tijuana,6 pies boca abajo,1995,-1,-1_la_de_que_el,0.2155
+8281264,Los Tucanes de Tijuana,Adiós para siempre adiós,2008,2,2_que_me_no_la,0.64
+8275694,Los Tucanes de Tijuana,Albino Quintero,2004,-1,-1_la_de_que_el,0.2643
+8276847,Los Tucanes de Tijuana,Alegre y mujeriego,2008,5,5_me_que_soy_uh,1.0
+1984236,Los Tucanes de Tijuana,Alegre y mujeriego - con banda sinaloense,,5,5_me_que_soy_uh,1.0
+2047864,Los Tucanes de Tijuana,Alejandro Gamino,2008,-1,-1_la_de_que_el,0.3405
+887953,Los Tucanes de Tijuana,Almas Gemelas,1995,0,0_que_te_me_no,0.8141
+1852723,Los Tucanes de Tijuana,Amante De Lo Bueno,2006,5,5_me_que_soy_uh,1.0
+2007455,Los Tucanes de Tijuana,Amante de lo bueno - con banda sinaloense,2006,5,5_me_que_soy_uh,1.0
+1855996,Los Tucanes de Tijuana,Amor Compartido,2012,0,0_que_te_me_no,0.6838
+1194653,Los Tucanes de Tijuana,Amor Platónico,1998,0,0_que_te_me_no,0.6556
+8276812,Los Tucanes de Tijuana,A mover el bote,2018,2,2_que_me_no_la,0.295
+9063626,Los Tucanes de Tijuana,Ando Bien Agusto,2023,0,0_que_te_me_no,0.639
+1693015,Los Tucanes de Tijuana,Ando Bien Arreglado,1997,2,2_que_me_no_la,0.3033
+2100048,Los Tucanes de Tijuana,Armando soto,1997,1,1_el_la_de_los,0.5805
+8279917,Los Tucanes de Tijuana,Arreola Reyes,1995,-1,-1_la_de_que_el,0.3028
+2208115,Los Tucanes de Tijuana,Aventura Pasada,,0,0_que_te_me_no,0.4643
+1970756,Los Tucanes de Tijuana,Barbarino,,1,1_el_la_de_los,0.9306
+8280074,Los Tucanes de Tijuana,Caballeros del Camino,1998,-1,-1_la_de_que_el,0.374
+8276810,Los Tucanes de Tijuana,Cada vez que te miro,2018,0,0_que_te_me_no,0.6094
+1770251,Los Tucanes de Tijuana,Carrera Prohibida,1995,-1,-1_la_de_que_el,0.2791
+973037,Los Tucanes de Tijuana,Cartel De Kilo,,4,4_me_el_que_no,0.5124
+1952925,Los Tucanes de Tijuana,Chapita de michoacan,2000,-1,-1_la_de_que_el,0.2062
+2065981,Los Tucanes de Tijuana,Chuy espinosa (el michoacano),2007,1,1_el_la_de_los,0.7499
+1268498,Los Tucanes de Tijuana,Cien Por Uno,2000,-1,-1_la_de_que_el,0.3115
+1602276,Los Tucanes de Tijuana,Clave Nueva,,4,4_me_el_que_no,1.0
+896420,Los Tucanes de Tijuana,Clave Privada,1996,-1,-1_la_de_que_el,0.4054
+2095559,Los Tucanes de Tijuana,Como el pez,2014,2,2_que_me_no_la,0.8128
+8279956,Los Tucanes de Tijuana,Como me gustas,1995,-1,-1_la_de_que_el,0.2543
+1266588,Los Tucanes de Tijuana,Consulado Privado,1997,-1,-1_la_de_que_el,0.2509
+8281263,Los Tucanes de Tijuana,Cuando tu estás conmigo,2008,2,2_que_me_no_la,0.3193
+2116618,Los Tucanes de Tijuana,Cuando tú ests conmigo,,2,2_que_me_no_la,0.2981
+8281217,Los Tucanes de Tijuana,Decisiones Al Azar,2022,1,1_el_la_de_los,0.6689
+1983268,Los Tucanes de Tijuana,Dejate querer,1995,3,3_la_de_el_se,1.0
+1992293,Los Tucanes de Tijuana,Desatando el morral,1995,3,3_la_de_el_se,0.277
+1067809,Los Tucanes de Tijuana,Desde Que Te Amo,1998,0,0_que_te_me_no,0.5854
+1934676,Los Tucanes de Tijuana,De tin marin,,2,2_que_me_no_la,0.3895
+10669050,Los Tucanes de Tijuana,Drácula,2006,1,1_el_la_de_los,0.7058
+8275696,Los Tucanes de Tijuana,El 28,2004,1,1_el_la_de_los,0.8357
+8275695,Los Tucanes de Tijuana,El 28 (Intro),2004,1,1_el_la_de_los,1.0
+1845854,Los Tucanes de Tijuana,El 42,2008,1,1_el_la_de_los,1.0
+2050435,Los Tucanes de Tijuana,El Agricultor,,3,3_la_de_el_se,0.7809
+2077743,Los Tucanes de Tijuana,El Águila Blanca,,1,1_el_la_de_los,0.4561
+1689572,Los Tucanes de Tijuana,El Amor Soñado,2000,0,0_que_te_me_no,0.9274
+1829984,Los Tucanes de Tijuana,El Árabe,1997,2,2_que_me_no_la,0.4073
+2191019,Los Tucanes de Tijuana,El Bachoco,2022,-1,-1_la_de_que_el,0.2056
+2066907,Los Tucanes de Tijuana,El balido de mi ganado,1997,3,3_la_de_el_se,0.5422
+2060720,Los Tucanes de Tijuana,El benefactor de colima,,1,1_el_la_de_los,0.7722
+1852535,Los Tucanes de Tijuana,El Borrachín,2010,5,5_me_que_soy_uh,1.0
+1956738,Los Tucanes de Tijuana,El borrachin - con banda sinaloense,,5,5_me_que_soy_uh,1.0
+1626578,Los Tucanes de Tijuana,El Borrego,1995,1,1_el_la_de_los,1.0
+2060619,Los Tucanes de Tijuana,El bravo,,1,1_el_la_de_los,0.8754
+1988046,Los Tucanes de Tijuana,El cartel de a kilo,1995,4,4_me_el_que_no,0.6462
+2061438,Los Tucanes de Tijuana,El catador,1998,-1,-1_la_de_que_el,0.2217
+2217208,Los Tucanes de Tijuana,El Centenario (En Vivo),,-1,-1_la_de_que_el,0.2289
+1545238,Los Tucanes de Tijuana,El Chaca,1995,1,1_el_la_de_los,1.0
+1185759,Los Tucanes de Tijuana,El Chaca De Michoacan,,1,1_el_la_de_los,0.7
+8279916,Los Tucanes de Tijuana,El Chango Avilés,1995,1,1_el_la_de_los,0.5346
+1181943,Los Tucanes de Tijuana,El Chapo Guzman,1996,-1,-1_la_de_que_el,0.2319
+2085340,Los Tucanes de Tijuana,El charro de culiacan,1996,1,1_el_la_de_los,0.6384
+8275663,Los Tucanes de Tijuana,El Chemo López,2007,1,1_el_la_de_los,1.0
+2252550,Los Tucanes de Tijuana,El Chiricuas,,1,1_el_la_de_los,1.0
+8275757,Los Tucanes de Tijuana,El Clásico (Chivas vs América),2000,3,3_la_de_el_se,0.5867
+2050931,Los Tucanes de Tijuana,El comandante de la torre,2000,3,3_la_de_el_se,0.6057
+2119069,Los Tucanes de Tijuana,El comandante metro 3,,-1,-1_la_de_que_el,0.3673
+1988531,Los Tucanes de Tijuana,El comando negro,2007,3,3_la_de_el_se,0.8075
+1940548,Los Tucanes de Tijuana,El comando negro - con banda sinaloense,,3,3_la_de_el_se,0.8619
+2247414,Los Tucanes de Tijuana,El Cris,2007,1,1_el_la_de_los,1.0
+1998982,Los Tucanes de Tijuana,El cruzador,2000,-1,-1_la_de_que_el,0.2545
+2058357,Los Tucanes de Tijuana,El cuate,2008,1,1_el_la_de_los,0.6571
+2049893,Los Tucanes de Tijuana,El De La Bolsa Terciada,2008,3,3_la_de_el_se,0.8683
+2080003,Los Tucanes de Tijuana,El diamante negro,2007,1,1_el_la_de_los,1.0
+1715427,Los Tucanes de Tijuana,El Doctor Del Pueblo,1997,4,4_me_el_que_no,1.0
+2050221,Los Tucanes de Tijuana,El Empresario,,-1,-1_la_de_que_el,0.4133
+8280047,Los Tucanes de Tijuana,El Gallo,1997,3,3_la_de_el_se,0.547
+8279954,Los Tucanes de Tijuana,El Gordito Country,1995,2,2_que_me_no_la,0.4933
+2091957,Los Tucanes de Tijuana,El gran jefe (el mayel),2000,1,1_el_la_de_los,0.6111
+2098569,Los Tucanes de Tijuana,El guacho,2000,-1,-1_la_de_que_el,0.2261
+1859048,Los Tucanes de Tijuana,El Güicho,2010,-1,-1_la_de_que_el,0.2037
+2252636,Los Tucanes de Tijuana,El H2,2022,4,4_me_el_que_no,0.3922
+1993958,Los Tucanes de Tijuana,El hijo de la mafia,1995,1,1_el_la_de_los,0.8771
+2063313,Los Tucanes de Tijuana,El jabali,1997,1,1_el_la_de_los,0.5484
+1862010,Los Tucanes de Tijuana,El Jb,2010,4,4_me_el_que_no,0.4384
+1224764,Los Tucanes de Tijuana,El Jefazo,1998,-1,-1_la_de_que_el,0.2454
+1854123,Los Tucanes de Tijuana,El Jefe De La Sierra,2010,1,1_el_la_de_los,0.71
+1969690,Los Tucanes de Tijuana,El jefe de la sierra - con banda sinaloense,,1,1_el_la_de_los,0.8123
+1853875,Los Tucanes de Tijuana,El Karis,,1,1_el_la_de_los,0.9556
+1851509,Los Tucanes de Tijuana,El Mambo Del Bigote,,2,2_que_me_no_la,1.0
+1854836,Los Tucanes de Tijuana,El Manny Flores,2010,1,1_el_la_de_los,0.5055
+1766228,Los Tucanes de Tijuana,El Manos Verdes,1995,3,3_la_de_el_se,1.0
+2081770,Los Tucanes de Tijuana,El mas bravo de los bravos,,1,1_el_la_de_los,0.8231
+2066853,Los Tucanes de Tijuana,El metro,2007,1,1_el_la_de_los,1.0
+1055953,Los Tucanes de Tijuana,El Milagro,2004,1,1_el_la_de_los,0.6768
+1847623,Los Tucanes de Tijuana,El Muletas,2010,1,1_el_la_de_los,0.6938
+1154567,Los Tucanes de Tijuana,El MZ,2007,-1,-1_la_de_que_el,0.4298
+2122415,Los Tucanes de Tijuana,El narco,,-1,-1_la_de_que_el,0.309
+1805038,Los Tucanes de Tijuana,El Narizon,,2,2_que_me_no_la,0.4273
+1494078,Los Tucanes de Tijuana,El Ojo De Agua,1997,-1,-1_la_de_que_el,0.2234
+2090779,Los Tucanes de Tijuana,El paisano,2008,3,3_la_de_el_se,0.7836
+1936915,Los Tucanes de Tijuana,El pap de los pollitos,,4,4_me_el_que_no,1.0
+2013415,Los Tucanes de Tijuana,El pap de los pollitos - con banda sinaloense,,4,4_me_el_que_no,1.0
+8280077,Los Tucanes de Tijuana,El Pariente,1998,1,1_el_la_de_los,0.604
+2071765,Los Tucanes de Tijuana,El paro,1998,-1,-1_la_de_que_el,0.2343
+1650699,Los Tucanes de Tijuana,El Pesado,2000,-1,-1_la_de_que_el,0.2487
+965611,Los Tucanes de Tijuana,El Poblano,1996,3,3_la_de_el_se,0.3166
+1860677,Los Tucanes de Tijuana,El Polimenso,2010,4,4_me_el_que_no,0.7136
+1175789,Los Tucanes de Tijuana,El Postre,1998,4,4_me_el_que_no,0.5226
+8281220,Los Tucanes de Tijuana,El Primito,2022,1,1_el_la_de_los,0.6653
+1511832,Los Tucanes de Tijuana,El Primo,1997,4,4_me_el_que_no,1.0
+9889147,Los Tucanes de Tijuana,El Primo De La Costa,,-1,-1_la_de_que_el,0.5224
+1857875,Los Tucanes de Tijuana,El Puma,2010,3,3_la_de_el_se,1.0
+1969477,Los Tucanes de Tijuana,El puño de polvo,1995,2,2_que_me_no_la,0.2808
+2081798,Los Tucanes de Tijuana,El rayito,2007,1,1_el_la_de_los,0.8202
+1933259,Los Tucanes de Tijuana,El rbol,2010,1,1_el_la_de_los,0.3969
+2010378,Los Tucanes de Tijuana,El rbol - con banda sinaloense,,1,1_el_la_de_los,0.4063
+2047979,Los Tucanes de Tijuana,El Regalito,,-1,-1_la_de_que_el,0.2148
+1945332,Los Tucanes de Tijuana,El resbalón,2014,2,2_que_me_no_la,0.703
+2192142,Los Tucanes de Tijuana,El Shaka,,1,1_el_la_de_los,0.9719
+2071551,Los Tucanes de Tijuana,El sierra,2008,-1,-1_la_de_que_el,0.3672
+1859310,Los Tucanes de Tijuana,El Sinverguenza,2022,-1,-1_la_de_que_el,0.1845
+2048113,Los Tucanes de Tijuana,El Subconsciente,,-1,-1_la_de_que_el,0.2102
+1857824,Los Tucanes de Tijuana,El Tío Borrachales,2008,3,3_la_de_el_se,0.7883
+2082720,Los Tucanes de Tijuana,El tocayo,2007,3,3_la_de_el_se,0.3124
+1763215,Los Tucanes de Tijuana,El Trailero,2004,-1,-1_la_de_que_el,0.313
+1847556,Los Tucanes de Tijuana,El Tres Letras,2010,1,1_el_la_de_los,1.0
+8281207,Los Tucanes de Tijuana,El Viejon,2022,4,4_me_el_que_no,1.0
+1858045,Los Tucanes de Tijuana,El Virus Del Amor,,0,0_que_te_me_no,0.8758
+2224728,Los Tucanes de Tijuana,El Yanky,2008,1,1_el_la_de_los,1.0
+2085679,Los Tucanes de Tijuana,Empinando el codo,1995,3,3_la_de_el_se,1.0
+1934280,Los Tucanes de Tijuana,En cajita de oro,,2,2_que_me_no_la,0.6622
+1755047,Los Tucanes de Tijuana,Eres Mi Sueño,1997,-1,-1_la_de_que_el,0.2991
+1815388,Los Tucanes de Tijuana,Esa Loción Me Mata,1997,0,0_que_te_me_no,0.4554
+8281255,Los Tucanes de Tijuana,Eso Me Pasa,2008,0,0_que_te_me_no,0.5396
+919231,Los Tucanes de Tijuana,Espejeando,,2,2_que_me_no_la,0.3479
+1179815,Los Tucanes de Tijuana,Estoy A Dieta,2000,2,2_que_me_no_la,0.4643
+2098616,Los Tucanes de Tijuana,Es tu bronca,1997,-1,-1_la_de_que_el,0.3057
+1088237,Los Tucanes de Tijuana,Es Verdad,1997,0,0_que_te_me_no,0.8034
+11225990,Los Tucanes de Tijuana,Es Verdad (En Vivo),2024,0,0_que_te_me_no,0.7839
+1436052,Los Tucanes de Tijuana,Fiesta En La Sierra,2004,1,1_el_la_de_los,0.8947
+1982530,Los Tucanes de Tijuana,Fiesta en la sierra - con banda sinaloense,2004,1,1_el_la_de_los,0.8959
+2083127,Los Tucanes de Tijuana,Frontera roja,1996,1,1_el_la_de_los,0.4335
+2092241,Los Tucanes de Tijuana,Gatos rayados,2000,-1,-1_la_de_que_el,0.1788
+2123979,Los Tucanes de Tijuana,Gente del crtel,2022,4,4_me_el_que_no,1.0
+2101133,Los Tucanes de Tijuana,Gerardo el poderoso,,1,1_el_la_de_los,0.7838
+1854230,Los Tucanes de Tijuana,Gracias Porque Te Fuiste,2012,0,0_que_te_me_no,0.4472
+1979659,Los Tucanes de Tijuana,Gracias Porque Te Fuiste (Versión Banda Sinaloense),2012,0,0_que_te_me_no,0.4122
+8281592,Los Tucanes de Tijuana,Gracias Viejo,2014,-1,-1_la_de_que_el,0.4428
+1326674,Los Tucanes de Tijuana,Hacemos Bonita Pareja,1997,0,0_que_te_me_no,1.0
+1462654,Los Tucanes de Tijuana,Hombre De Negocios,2004,4,4_me_el_que_no,0.7545
+2058339,Los Tucanes de Tijuana,Hotel corazón,1998,-1,-1_la_de_que_el,0.1646
+2121811,Los Tucanes de Tijuana,J.r.,2000,-1,-1_la_de_que_el,0.3108
+1474533,Los Tucanes de Tijuana,Jugo A La Vida,2002,-1,-1_la_de_que_el,0.3423
+2217122,Los Tucanes de Tijuana,Julián Pérez,2022,1,1_el_la_de_los,0.8537
+2123239,Los Tucanes de Tijuana,Julin perez,,1,1_el_la_de_los,0.8525
+1374790,Los Tucanes de Tijuana,Kiki Urias,1996,1,1_el_la_de_los,0.8333
+8281221,Los Tucanes de Tijuana,La Boda Prometida,2022,1,1_el_la_de_los,0.8579
+1847617,Los Tucanes de Tijuana,La Chica Sexy,2002,2,2_que_me_no_la,0.6919
+2048205,Los Tucanes de Tijuana,La Chiqui Baby,2008,3,3_la_de_el_se,1.0
+1829621,Los Tucanes de Tijuana,La Chona (Remix),,2,2_que_me_no_la,0.3332
+6888850,Los Tucanes de Tijuana,La Coyote (Serie de TV “Señora Acero 3” Soundtrack Version),2018,1,1_el_la_de_los,0.4275
+1858320,Los Tucanes de Tijuana,La Familia Michoacana,2010,1,1_el_la_de_los,0.8357
+1146754,Los Tucanes de Tijuana,La Fiesta De Los Panes,1997,2,2_que_me_no_la,0.3455
+8275754,Los Tucanes de Tijuana,La Gran Noche,2000,0,0_que_te_me_no,0.4806
+13870328,Los Tucanes de Tijuana,La Justiciera De La Frontera,,1,1_el_la_de_los,0.5491
+8280026,Los Tucanes de Tijuana,La Ley 57,1997,-1,-1_la_de_que_el,0.2095
+2000418,Los Tucanes de Tijuana,La mesa servida,1997,-1,-1_la_de_que_el,0.2394
+2048917,Los Tucanes de Tijuana,La Nacha Bustos,,3,3_la_de_el_se,0.4834
+1851598,Los Tucanes de Tijuana,La Perra,2010,-1,-1_la_de_que_el,0.41
+2048639,Los Tucanes de Tijuana,La Perra De Parra,2012,-1,-1_la_de_que_el,0.4084
+2098259,Los Tucanes de Tijuana,La piedrita colombiana,1997,-1,-1_la_de_que_el,0.2896
+1020623,Los Tucanes de Tijuana,La Piñata,1997,-1,-1_la_de_que_el,0.4068
+1249120,Los Tucanes de Tijuana,La Pista Secreta,1996,1,1_el_la_de_los,0.6507
+2048742,Los Tucanes de Tijuana,La Profecia,,0,0_que_te_me_no,0.3293
+1395506,Los Tucanes de Tijuana,La Recompensa,1996,1,1_el_la_de_los,0.7396
+11225999,Los Tucanes de Tijuana,Las Heladas (En Vivo),2024,-1,-1_la_de_que_el,0.1652
+1983778,Los Tucanes de Tijuana,La Tambora Va A Sonar,2005,-1,-1_la_de_que_el,0.2012
+8281195,Los Tucanes de Tijuana,La Tartamuda,2022,3,3_la_de_el_se,0.7382
+1047023,Los Tucanes de Tijuana,La Troca,2004,3,3_la_de_el_se,1.0
+13869998,Los Tucanes de Tijuana,La Venganza De Sarita,2016,1,1_el_la_de_los,0.845
+8276855,Los Tucanes de Tijuana,La vida es alegría,2012,0,0_que_te_me_no,1.0
+2072362,Los Tucanes de Tijuana,Lista negra,,-1,-1_la_de_que_el,0.3284
+2128284,Los Tucanes de Tijuana,Los borregos,,1,1_el_la_de_los,1.0
+1124923,Los Tucanes de Tijuana,Los Chiquinarcos,2004,1,1_el_la_de_los,0.4559
+1938594,Los Tucanes de Tijuana,Los Chiquinarcos - Con Banda Sinaloense,2004,1,1_el_la_de_los,0.4344
+8275698,Los Tucanes de Tijuana,Los Chiquinarcos (Intro),2004,1,1_el_la_de_los,0.4921
+10667734,Los Tucanes de Tijuana,Los Chiquinarcos - Intro Banda Sinaloense,2004,1,1_el_la_de_los,0.4656
+8279918,Los Tucanes de Tijuana,Los Compadres,1995,3,3_la_de_el_se,0.6656
+1687893,Los Tucanes de Tijuana,Los Compas De Almoloya,1997,1,1_el_la_de_los,1.0
+2239232,Los Tucanes de Tijuana,Los Dichos De Lupita,1995,2,2_que_me_no_la,0.4366
+2055539,Los Tucanes de Tijuana,Los guardaespaldas,2000,1,1_el_la_de_los,1.0
+1396602,Los Tucanes de Tijuana,Los Juniors,1998,-1,-1_la_de_que_el,0.3161
+1248701,Los Tucanes de Tijuana,Los Mas Buscados,1998,1,1_el_la_de_los,0.2921
+2117056,Los Tucanes de Tijuana,Los ms buscadas,,1,1_el_la_de_los,0.2573
+8275703,Los Tucanes de Tijuana,Los Pelones,2004,1,1_el_la_de_los,0.3053
+8275702,Los Tucanes de Tijuana,Los Pelones (Intro),2004,-1,-1_la_de_que_el,0.2028
+1858742,Los Tucanes de Tijuana,Luna Llena,,0,0_que_te_me_no,0.3058
+2080471,Los Tucanes de Tijuana,Lupe bombas,1998,-1,-1_la_de_que_el,0.2644
+8275661,Los Tucanes de Tijuana,Manuel Borgia (El Mexicano),2007,1,1_el_la_de_los,0.6236
+1513138,Los Tucanes de Tijuana,Manuel Caro Carrillo,1996,3,3_la_de_el_se,0.6007
+8275699,Los Tucanes de Tijuana,Mario Peralta (El Plateado),2004,1,1_el_la_de_los,0.7975
+2087129,Los Tucanes de Tijuana,Masacre en vallarta,1997,1,1_el_la_de_los,0.6351
+8275659,Los Tucanes de Tijuana,Más Vale Cholo,2007,1,1_el_la_de_los,0.7521
+8276854,Los Tucanes de Tijuana,Me acostumbre a tus besos,2012,0,0_que_te_me_no,0.6241
+1859000,Los Tucanes de Tijuana,Me Gusta La Banda,2008,2,2_que_me_no_la,0.3805
+871702,Los Tucanes de Tijuana,Me Haces Mucha Falta,2014,0,0_que_te_me_no,0.6413
+1125986,Los Tucanes de Tijuana,Me Robaste El Corazón,1995,0,0_que_te_me_no,1.0
+2051080,Los Tucanes de Tijuana,Mi Amor Inseparable,,0,0_que_te_me_no,1.0
+8280001,Los Tucanes de Tijuana,Mi Consuelo,1995,0,0_que_te_me_no,1.0
+8275761,Los Tucanes de Tijuana,Mi estrella de Hollywood,2000,0,0_que_te_me_no,0.4415
+1965726,Los Tucanes de Tijuana,Mil promesas,,0,0_que_te_me_no,0.7196
+8281187,Los Tucanes de Tijuana,Mis Tres Viejas (Intro),2000,-1,-1_la_de_que_el,0.168
+8275657,Los Tucanes de Tijuana,Mi Tiendita,2007,4,4_me_el_que_no,0.3235
+1981551,Los Tucanes de Tijuana,Mi venganza,2014,0,0_que_te_me_no,0.8413
+2059599,Los Tucanes de Tijuana,Morenita querida,,0,0_que_te_me_no,0.6259
+1775923,Los Tucanes de Tijuana,No Porque Se Muera Un Chivo,1995,2,2_que_me_no_la,0.6081
+2083724,Los Tucanes de Tijuana,No solo de traficante,1997,-1,-1_la_de_que_el,0.1611
+8281262,Los Tucanes de Tijuana,No te sorprendas,2008,0,0_que_te_me_no,1.0
+2074391,Los Tucanes de Tijuana,Nuestro destino,1998,0,0_que_te_me_no,0.4067
+776061,Los Tucanes de Tijuana,Ombligo A Ombligo,2008,-1,-1_la_de_que_el,0.3201
+10919705,Los Tucanes de Tijuana,Ombligo A Ombligo (Tucanes Mix),2008,-1,-1_la_de_que_el,0.2839
+1978283,Los Tucanes de Tijuana,Operacion casablanca,2000,3,3_la_de_el_se,0.7867
+981722,Los Tucanes de Tijuana,Operacion Pesada,1997,-1,-1_la_de_que_el,0.3588
+981151,Los Tucanes de Tijuana,Parranda Y Parranda,1995,2,2_que_me_no_la,0.5166
+8276801,Los Tucanes de Tijuana,Parrandeando,2018,5,5_me_que_soy_uh,1.0
+2058502,Los Tucanes de Tijuana,Pellizcando al animal,1996,3,3_la_de_el_se,1.0
+2082960,Los Tucanes de Tijuana,Pensé pegarme un tiro,1997,0,0_que_te_me_no,0.6549
+1569649,Los Tucanes de Tijuana,Pies Boca Abajo,,-1,-1_la_de_que_el,0.1904
+8275760,Los Tucanes de Tijuana,Preciosura,2000,0,0_que_te_me_no,0.5178
+8276842,Los Tucanes de Tijuana,Producto garantizado,2008,3,3_la_de_el_se,0.8454
+1989539,Los Tucanes de Tijuana,Producto garantizado - con banda sinaloense,,3,3_la_de_el_se,1.0
+1218042,Los Tucanes de Tijuana,Promesas,2000,0,0_que_te_me_no,0.7593
+1860099,Los Tucanes de Tijuana,Propiedad Privada,2008,3,3_la_de_el_se,0.7254
+1972567,Los Tucanes de Tijuana,Propiedad privada - con banda sinaloense,,3,3_la_de_el_se,0.6497
+2207574,Los Tucanes de Tijuana,Que Me Entierren Con La Banda,,3,3_la_de_el_se,1.0
+10669057,Los Tucanes de Tijuana,Que Te Perdone Tu Madre,2006,0,0_que_te_me_no,0.8279
+2052789,Los Tucanes de Tijuana,Rafa peña,2008,1,1_el_la_de_los,1.0
+1996066,Los Tucanes de Tijuana,Ramón arellano - con banda sinaloense,,1,1_el_la_de_los,1.0
+11225989,Los Tucanes de Tijuana,Ramón Arellano (En Vivo),2024,1,1_el_la_de_los,0.6648
+1850841,Los Tucanes de Tijuana,Rehabilitado,2012,0,0_que_te_me_no,0.4475
+13032554,Los Tucanes de Tijuana,Rehabilitado (Versión Banda Sinaloense),2012,0,0_que_te_me_no,0.4774
+2062430,Los Tucanes de Tijuana,Rigo campos - retro,,1,1_el_la_de_los,1.0
+2248743,Los Tucanes de Tijuana,Ritmo Navideño,2006,2,2_que_me_no_la,0.6964
+1234847,Los Tucanes de Tijuana,Roberto Palazuelos,2004,3,3_la_de_el_se,1.0
+2049898,Los Tucanes de Tijuana,Salió Del Closet,2012,0,0_que_te_me_no,0.4882
+13032555,Los Tucanes de Tijuana,Salió Del Closet (Versión Banda Sinaloense),2012,0,0_que_te_me_no,0.5017
+11225988,Los Tucanes de Tijuana,Secuestro De Amor (En Vivo),2024,-1,-1_la_de_que_el,0.1529
+1768076,Los Tucanes de Tijuana,Se Desgrano La Mazorca,1997,1,1_el_la_de_los,0.4056
+1853084,Los Tucanes de Tijuana,Se Equivoco El Pístolero,,1,1_el_la_de_los,0.6144
+952946,Los Tucanes de Tijuana,Seis Pies Boca Abajo,,2,2_que_me_no_la,0.5778
+1857107,Los Tucanes de Tijuana,Siempre Contigo,,2,2_que_me_no_la,0.5675
+1846876,Los Tucanes de Tijuana,Sin Ti Soy Un Loco,2006,0,0_que_te_me_no,0.7349
+8276849,Los Tucanes de Tijuana,Si un gato muere,2012,2,2_que_me_no_la,0.3537
+2098474,Los Tucanes de Tijuana,Socias de la mafia,,1,1_el_la_de_los,0.723
+1844787,Los Tucanes de Tijuana,Soltero Y Con Dinero,2012,-1,-1_la_de_que_el,0.2017
+1957271,Los Tucanes de Tijuana,Soy de durango,,3,3_la_de_el_se,1.0
+1354718,Los Tucanes de Tijuana,Soy Parrandero,2018,5,5_me_que_soy_uh,1.0
+977874,Los Tucanes de Tijuana,Soy Parrandero (Versión Banda Sinaloense),2018,5,5_me_que_soy_uh,1.0
+1860570,Los Tucanes de Tijuana,Soy Todo Tuyo,2008,0,0_que_te_me_no,0.6511
+908024,Los Tucanes de Tijuana,Suena La Banda,2014,2,2_que_me_no_la,0.2038
+8281599,Los Tucanes de Tijuana,Suerte marcada,2014,1,1_el_la_de_los,0.5389
+8281265,Los Tucanes de Tijuana,Te deberías de morir,2008,0,0_que_te_me_no,0.6752
+1712396,Los Tucanes de Tijuana,Temporada En La Sierra,1996,3,3_la_de_el_se,1.0
+2048843,Los Tucanes de Tijuana,Te Perdí Para Siempre,2008,0,0_que_te_me_no,0.6222
+1861813,Los Tucanes de Tijuana,Tolín Infante,2010,3,3_la_de_el_se,0.5665
+1229543,Los Tucanes de Tijuana,Tus Verdades,1995,0,0_que_te_me_no,0.5192
+2067815,Los Tucanes de Tijuana,Veneno,1997,2,2_que_me_no_la,0.4782
+1848140,Los Tucanes de Tijuana,Vicente Zambada,2010,3,3_la_de_el_se,1.0
+1993825,Los Tucanes de Tijuana,Vicente zambada - con banda sinaloense,,3,3_la_de_el_se,0.8172
+2004867,Los Tucanes de Tijuana,Ya no existes,2014,-1,-1_la_de_que_el,0.346
+8280006,Los Tucanes de Tijuana,Ya no quiero llorar,1995,2,2_que_me_no_la,0.3602
+8276856,Los Tucanes de Tijuana,Ya no te quiero,2012,0,0_que_te_me_no,0.7952
+9933276,Los Tigres del Norte,La Rascadera,1974,-1,-1_la_de_que_el,0.2992
+969467,Los Tigres del Norte,La Banda Del Carro Rojo,1975,1,1_el_la_de_los,1.0
+1648680,Los Tigres del Norte,La Tumba De Mi Madre,1975,-1,-1_la_de_que_el,0.392
+1038906,Los Tigres del Norte,La muerte del soplón,1976,1,1_el_la_de_los,0.6563
+1620978,Los Tigres del Norte,Caja de muerto,1981,-1,-1_la_de_que_el,0.3543
+1019607,Los Tigres del Norte,Un día a la vez,1981,-1,-1_la_de_que_el,0.3796
+686622,Los Tigres del Norte,Jaula de Oro,1983,-1,-1_la_de_que_el,0.1996
+1332151,Los Tigres del Norte,Pedro y Pablo,1983,1,1_el_la_de_los,0.7468
+1457668,Los Tigres del Norte,Por qué me quité del vicio,1983,0,0_que_te_me_no,0.5469
+1484679,Los Tigres del Norte,América,1986,-1,-1_la_de_que_el,0.1229
+9937700,Los Tigres del Norte,"Ay, Ay, Hay",1986,2,2_que_me_no_la,1.0
+5345263,Los Tigres del Norte,Porque Te Extraño,1988,0,0_que_te_me_no,0.6058
+1560297,Los Tigres del Norte,Tres Veces Mojado,1988,-1,-1_la_de_que_el,0.1943
+970698,Los Tigres del Norte,El contagio,1989,0,0_que_te_me_no,0.8852
+1083808,Los Tigres del Norte,Mi Buena Suerte,1989,0,0_que_te_me_no,0.6543
+1353882,Los Tigres del Norte,Corazón Usado,1990,-1,-1_la_de_que_el,0.1522
+882709,Los Tigres del Norte,Ya Te Velé,1990,0,0_que_te_me_no,0.5933
+1539385,Los Tigres del Norte,Ahora Me Voy,1991,0,0_que_te_me_no,0.6353
+1341688,Los Tigres del Norte,Cuando Se Llega a Viejo,1991,0,0_que_te_me_no,0.4781
+1600258,Los Tigres del Norte,Hoy no es mi día,1991,0,0_que_te_me_no,0.615
+1061208,Los Tigres del Norte,La dieta,1991,3,3_la_de_el_se,1.0
+934449,Los Tigres del Norte,Orgullo Maldito,1991,0,0_que_te_me_no,0.6196
+2046170,Los Tucanes de Tijuana,Tú Eres,1991,0,0_que_te_me_no,0.8777
+1211901,Los Tigres del Norte,El Maestro,1993,0,0_que_te_me_no,1.0
+1511399,Los Tigres del Norte,En Nombre de Tu Padre,1993,0,0_que_te_me_no,1.0
+690325,Los Tigres del Norte,Pacas de a Kilo,1993,-1,-1_la_de_que_el,0.2561
+2002774,Los Tigres del Norte,Tumba Falsa,1993,0,0_que_te_me_no,0.8411
+921064,Los Tucanes de Tijuana,El Centenario,1993,-1,-1_la_de_que_el,0.2367
+1365556,Los Tigres del Norte,Asómate a Mi Copa,1994,-1,-1_la_de_que_el,0.3399
+1550819,Los Tigres del Norte,Entre El Amor y Yo,1994,0,0_que_te_me_no,0.9286
+999864,Los Tigres del Norte,La Mesa del Rincón,1994,0,0_que_te_me_no,0.6806
+1557421,Los Tigres del Norte,Los Dos Plebes,1994,1,1_el_la_de_los,1.0
+1649459,Los Tigres del Norte,Si No Me Falla el Corazón,1994,0,0_que_te_me_no,0.3804
+1629929,Los Tigres del Norte,Te Malpasan de Amor,1994,0,0_que_te_me_no,0.5182
+1646682,Los Tigres del Norte,El Ejemplo,1995,0,0_que_te_me_no,0.6994
+958211,Los Tigres del Norte,Golpes En El Corazón,1995,0,0_que_te_me_no,0.5
+8792791,Los Tigres del Norte,También las Mujeres Pueden (Versión 1995),1995,-1,-1_la_de_que_el,0.2802
+2089369,Los Tucanes de Tijuana,El Compositor,1995,-1,-1_la_de_que_el,0.2836
+1797181,Los Tucanes de Tijuana,El Güero Palma,1995,1,1_el_la_de_los,0.5387
+1948073,Los Tucanes de Tijuana,El Jefe X,1995,1,1_el_la_de_los,0.6556
+910519,Los Tucanes de Tijuana,La Chona,1995,2,2_que_me_no_la,0.3026
+10351570,Los Tucanes de Tijuana,La Chona (En Vivo),1995,3,3_la_de_el_se,0.6251
+1668939,Los Tucanes de Tijuana,Mis Tres Animales,1995,-1,-1_la_de_que_el,0.1994
+10351572,Los Tucanes de Tijuana,Mis Tres Animales (En Vivo),1995,-1,-1_la_de_que_el,0.1925
+1626950,Los Tucanes de Tijuana,Mundo De Amor,1995,0,0_que_te_me_no,1.0
+1947231,Los Tucanes de Tijuana,Porque Me Enamore De Ti,1995,0,0_que_te_me_no,1.0
+1406533,Los Tigres del Norte,Cuestión Olvidada,1996,0,0_que_te_me_no,0.5931
+1370210,Los Tigres del Norte,Mi sangre prisionera,1996,0,0_que_te_me_no,0.7814
+1434460,Los Tigres del Norte,No pude enamorarme más,1996,0,0_que_te_me_no,0.7154
+1325402,Los Tigres del Norte,Con Que Derecho,1997,0,0_que_te_me_no,0.6155
+1460436,Los Tigres del Norte,El mojado acaudalado,1997,-1,-1_la_de_que_el,0.2592
+1080084,Los Tigres del Norte,El Sucesor,1997,0,0_que_te_me_no,0.4108
+1211561,Los Tigres del Norte,Jefe de Jefes,1997,4,4_me_el_que_no,0.3038
+10351574,Los Tigres del Norte,Jefe De Jefes (En Vivo),1997,4,4_me_el_que_no,0.2678
+1011650,Los Tigres del Norte,La Baraja Bendita,1997,-1,-1_la_de_que_el,0.2513
+875731,Los Tigres del Norte,Las Novías del Traficante,1997,-1,-1_la_de_que_el,0.304
+1437789,Los Tigres del Norte,Mis Dos Patrias,1997,-1,-1_la_de_que_el,0.1229
+1671321,Los Tucanes de Tijuana,El Tucanazo,1997,2,2_que_me_no_la,0.6813
+1706940,Los Tucanes de Tijuana,Secuestro De Amor,1997,0,0_que_te_me_no,0.4272
+1951039,Los Tucanes de Tijuana,El Heredero,1998,4,4_me_el_que_no,1.0
+1322440,Los Tucanes de Tijuana,Las Heladas,1998,-1,-1_la_de_que_el,0.1729
+1376562,Los Tigres del Norte,De Harina y de Maíz,1999,-1,-1_la_de_que_el,0.2426
+1777835,Los Tigres del Norte,El Triunfo,1999,0,0_que_te_me_no,0.4264
+1421286,Los Tigres del Norte,Lágrimas (Lágrimas del Corazón),1999,0,0_que_te_me_no,0.9165
+1482872,Los Tigres del Norte,La Liebre,1999,1,1_el_la_de_los,0.2519
+873087,Los Tigres del Norte,No Quiero Tu Lástima,1999,0,0_que_te_me_no,0.4558
+1063617,Los Tigres del Norte,Prisión de Amor,1999,0,0_que_te_me_no,1.0
+2073731,Los Tucanes de Tijuana,Al Por Mayor,1999,-1,-1_la_de_que_el,0.2272
+1428901,Los Tigres del Norte,De paisano a paisano,2000,-1,-1_la_de_que_el,0.1872
+1324877,Los Tigres del Norte,La inflación,2000,-1,-1_la_de_que_el,0.2381
+984292,Los Tigres del Norte,Me Declaro Culpable,2000,0,0_que_te_me_no,0.5748
+1303393,Los Tigres del Norte,Pokar Alto,2000,1,1_el_la_de_los,1.0
+1765192,Los Tigres del Norte,"Tú, Yo y la Luna",2000,0,0_que_te_me_no,0.496
+1267726,Los Tucanes de Tijuana,Gripa Colombiana,2000,4,4_me_el_que_no,0.261
+1667341,Los Tucanes de Tijuana,Me Gusta Vivir De Noche,2000,2,2_que_me_no_la,0.2428
+1033138,Los Tucanes de Tijuana,Mis Tres Viejas,2000,-1,-1_la_de_que_el,0.3664
+1093828,Los Tigres del Norte,De Rama En Rama,2001,0,0_que_te_me_no,0.6307
+1281526,Los Tigres del Norte,Mi Fantasía,2001,0,0_que_te_me_no,0.4799
+1084702,Los Tigres del Norte,En Que Fallé,2002,0,0_que_te_me_no,0.9146
+1258595,Los Tigres del Norte,La Reina del Sur,2002,-1,-1_la_de_que_el,0.2618
+1444550,Los Tigres del Norte,Al corazón le vale,2003,-1,-1_la_de_que_el,0.4071
+1427758,Los Tigres del Norte,José Pérez León,2004,1,1_el_la_de_los,0.5036
+1761594,Los Tigres del Norte,La Manzanita,2004,-1,-1_la_de_que_el,0.2661
+1198047,Los Tigres del Norte,Celebrando Tu Partida,2005,0,0_que_te_me_no,0.6906
+1176183,Los Tigres del Norte,Directo al Corazón,2005,0,0_que_te_me_no,0.5442
+1119972,Los Tigres del Norte,Infiel por Amor,2005,0,0_que_te_me_no,0.7727
+1025627,Los Tigres del Norte,La Sorpresa,2005,-1,-1_la_de_que_el,0.3054
+1486786,Los Tigres del Norte,Socios,2005,0,0_que_te_me_no,0.4413
+1389266,Los Tigres del Norte,Le Compré la Muerte a Mi Hijo,2006,-1,-1_la_de_que_el,0.2805
+1611419,Los Tigres del Norte,Señor Locutor,2006,-1,-1_la_de_que_el,0.3291
+1571735,Los Tigres del Norte,Una Herida de Amor,2006,0,0_que_te_me_no,0.5623
+1265418,Los Tigres del Norte,Detalles,2007,-1,-1_la_de_que_el,0.1777
+1655906,Los Tigres del Norte,Emociones,2007,0,0_que_te_me_no,0.6333
+1844854,Los Tucanes de Tijuana,Se Fue Mi Amor,2008,0,0_que_te_me_no,0.5998
+211437,Los Tigres del Norte,La Granja,2009,-1,-1_la_de_que_el,0.2055
+2048472,Los Tigres del Norte,Canción Mixteca,2010,0,0_que_te_me_no,0.5726
+1845419,Los Tucanes de Tijuana,El Diablo,2010,1,1_el_la_de_los,1.0
+1852272,Los Tucanes de Tijuana,El Señor De La O,2013,1,1_el_la_de_los,1.0
+1966939,Los Tigres del Norte,El gallo del mojado,2014,5,5_me_que_soy_uh,0.4607
+1853165,Los Tigres del Norte,La Bala,2014,-1,-1_la_de_que_el,0.3487
+4429169,Los Tigres del Norte,Que tal si eres tu,2014,0,0_que_te_me_no,0.4315
+2185132,Los Tucanes de Tijuana,La Señora De Acero (Soundtrack de la Serie de TV ”Señora Acero”),2014,1,1_el_la_de_los,0.829
+8822836,Los Tucanes de Tijuana,Laurita Garza,2015,3,3_la_de_el_se,0.2585
+2499268,Los Tucanes de Tijuana,Panchito El F1,2015,1,1_el_la_de_los,1.0
+2460796,Los Tigres del Norte,Ataúd,2016,0,0_que_te_me_no,0.5905
+9930395,Los Tucanes de Tijuana,Los Implacables,2016,3,3_la_de_el_se,0.7463
+10696737,Los Tucanes de Tijuana,Me Gusta Vivir De Noche / Amor Platónico / Mundo De Amor,2016,5,5_me_que_soy_uh,1.0
+1442502,Los Tucanes de Tijuana,El Papa De Los Pollitos,2017,4,4_me_el_que_no,0.7979
+10271381,Los Tucanes de Tijuana,Suena La Banda (En Vivo),2018,2,2_que_me_no_la,0.1958
+4873182,Los Tigres del Norte,América (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.1224
+4873162,Los Tigres del Norte,De Paisano a Paisano (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.179
+4873172,Los Tigres del Norte,En Qué Fallé (Live At Folsom Prison),2019,0,0_que_te_me_no,0.9053
+4873176,Los Tigres del Norte,Golpes en el Corazón (Live At Folsom Prison),2019,0,0_que_te_me_no,0.5635
+4873152,Los Tigres del Norte,Introducción (Diálogo),2019,1,1_el_la_de_los,0.3493
+4873183,Los Tigres del Norte,Jamás los Olvidaremos (Diálogo),2019,-1,-1_la_de_que_el,0.3821
+4873164,Los Tigres del Norte,La Bala (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.3147
+4873166,Los Tigres del Norte,La Baraja Bendita (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.2422
+4873160,Los Tigres del Norte,La Jaula de Oro (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.2
+4873158,Los Tigres del Norte,La Prisión de Folsom (Folsom Prison Blues) [Live At Folsom Prison],2019,-1,-1_la_de_que_el,0.3766
+4873180,Los Tigres del Norte,La Puerta Negra (Live At Folsom Prison),2019,0,0_que_te_me_no,0.3805
+4873175,Los Tigres del Norte,Lo Que Merezco Yo (Diálogo),2019,-1,-1_la_de_que_el,0.1972
+4873161,Los Tigres del Norte,Los Tigres del Norte Su Pueblo (Diálogo),2019,1,1_el_la_de_los,0.3237
+4873173,Los Tigres del Norte,Mi Canción (Diálogo),2019,0,0_que_te_me_no,0.3956
+4873174,Los Tigres del Norte,Mi Sangre Prisionera (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.4418
+4873169,Los Tigres del Norte,Mis Ídolos (Diálogo),2019,-1,-1_la_de_que_el,0.1558
+4873181,Los Tigres del Norte,No Están Solos (Diálogo),2019,-1,-1_la_de_que_el,0.43
+4873163,Los Tigres del Norte,Por Portar Un Arma (Diálogo),2019,-1,-1_la_de_que_el,0.3338
+4873177,Los Tigres del Norte,Por un Momento (Diálogo),2019,-1,-1_la_de_que_el,0.2956
+4873178,Los Tigres del Norte,Señor Locutor (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.3428
+4873165,Los Tigres del Norte,Tres Strikes (Diálogo),2019,-1,-1_la_de_que_el,0.1924
+4873168,Los Tigres del Norte,Tres Veces Mojado (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.1935
+4873179,Los Tigres del Norte,Una Persona Mejor (Diálogo),2019,-1,-1_la_de_que_el,0.2291
+4873167,Los Tigres del Norte,Una Vida Mejor (Diálogo),2019,-1,-1_la_de_que_el,0.4579
+4873170,Los Tigres del Norte,Un Día a la Vez (Live At Folsom Prison),2019,-1,-1_la_de_que_el,0.3792
+4873171,Los Tigres del Norte,Vivir en las Sombras (Diálogo),2019,-1,-1_la_de_que_el,0.1716
+4873159,Los Tigres del Norte,Yo lo Conocí (Diálogo),2019,-1,-1_la_de_que_el,0.3354
+5361867,Los Tigres del Norte,Acá Entre Nos,2020,0,0_que_te_me_no,0.489
+5361868,Los Tigres del Norte,Aprendiste a Volar,2020,2,2_que_me_no_la,0.5501
+5361869,Los Tigres del Norte,De Qué Manera Te Olvido,2020,-1,-1_la_de_que_el,0.3365
+5361879,Los Tigres del Norte,El Arracadas,2020,1,1_el_la_de_los,0.5808
+5361877,Los Tigres del Norte,El Último Beso,2020,0,0_que_te_me_no,0.647
+5361872,Los Tigres del Norte,Hermoso Cariño,2020,2,2_que_me_no_la,0.5286
+5184974,Los Tigres del Norte,La Ley Del Monte,2020,2,2_que_me_no_la,0.5022
+5361873,Los Tigres del Norte,Lástima Que Seas Ajena,2020,0,0_que_te_me_no,0.5118
+5361875,Los Tigres del Norte,Los Mandados,2020,-1,-1_la_de_que_el,0.1883
+5361874,Los Tigres del Norte,Mujeres Divinas,2020,-1,-1_la_de_que_el,0.2779
+5361876,Los Tigres del Norte,Palabra de Rey,2020,2,2_que_me_no_la,0.3332
+5361870,Los Tigres del Norte,Por Tu Maldito Amor,2020,0,0_que_te_me_no,0.6633
+5361871,Los Tigres del Norte,Si Acaso Vuelves,2020,0,0_que_te_me_no,0.6227
+5361880,Los Tigres del Norte,Un Consentido de Dios,2020,3,3_la_de_el_se,0.3635
+5361878,Los Tigres del Norte,Yo Quiero Saber de Ti,2020,0,0_que_te_me_no,0.6084
+12007326,Los Tucanes de Tijuana,El Chapo Isidro,2020,1,1_el_la_de_los,0.7092
+5567252,Los Tucanes de Tijuana,Hoy Más Que Nunca,2020,0,0_que_te_me_no,0.5597
+11467450,Los Tigres del Norte,La Reunión,2021,0,0_que_te_me_no,0.4131
+9146818,Los Tucanes de Tijuana,El Chavo,2021,2,2_que_me_no_la,0.2341
+11467430,Los Tigres del Norte,La Carta,2022,-1,-1_la_de_que_el,0.3769
+8018974,Los Tucanes de Tijuana,Yo Las Pongo,2022,2,2_que_me_no_la,0.3341
+10492139,Los Tigres del Norte,Pan Y Miel,2023,0,0_que_te_me_no,0.4192
+10492140,Los Tigres del Norte,She is wow,2023,-1,-1_la_de_que_el,0.2301
+9763477,Los Tucanes de Tijuana,Comandante 09,2023,1,1_el_la_de_los,0.6014
+10265679,Los Tucanes de Tijuana,"La Mera Mera (Tijuana, Baja California Norte)",2023,3,3_la_de_el_se,0.2776
+9462754,Los Tucanes de Tijuana,La Tierra del Corrido,2023,-1,-1_la_de_que_el,0.2313
+9855500,Los Tucanes de Tijuana,Sa’Que Caray,2023,3,3_la_de_el_se,0.8305
+10492109,Los Tigres del Norte,Aquí Mando Yo,2024,0,0_que_te_me_no,0.506
+10492141,Los Tigres del Norte,La Última Y Nos Vamos,2024,0,0_que_te_me_no,0.5928
+10196077,Los Tigres del Norte,La Venganza,2024,0,0_que_te_me_no,0.5631
+11132501,Los Tucanes de Tijuana,Le Apodan El Fresa,2024,1,1_el_la_de_los,0.6507
+10766753,Los Tucanes de Tijuana,Yo Las Pongo (Mixed) [Partido Fest 2024],2024,3,3_la_de_el_se,0.6584
+12897890,Los Tigres del Norte,El Corrido De Pedro y Homero,2025,1,1_el_la_de_los,0.7596
+11495941,Los Tigres del Norte,La Lotería,2025,-1,-1_la_de_que_el,0.4221
+11884727,Los Tigres del Norte,Al Rato,2025,-1,insufficient_lyrics,0.0
+8512401,Los Tigres del Norte,Jefes de Jefes (Versión 2022),,-1,insufficient_lyrics,0.0
+11884726,Los Tigres del Norte,Tus Últimas Palabras,2025,-1,insufficient_lyrics,0.0
+8281288,Los Tucanes de Tijuana,Cerveza y cassettes,2014,-1,insufficient_lyrics,0.0
+12203860,Los Tigres del Norte,Cuando Seas Grande,2016,-1,insufficient_lyrics,0.0
+8416260,Los Tucanes de Tijuana,Yo Las Pongo (Mixed),2022,-1,insufficient_lyrics,0.0
+12328230,Los Tucanes de Tijuana,Rigo Campos,2025,-1,insufficient_lyrics,0.0

@@ -17,13 +17,14 @@ A scientific data pipeline correlating lyric themes in the discographies of *Los
 | Genius API scrape | Done | 558 Tigres + 317 Tucanes raw JSON files in `data/raw/` |
 | songs.csv | Done | ~31,876 rows (includes duplicates pre-clean; also includes songs with empty lyrics) |
 | clean_lyrics.py | Done | `lyrics_clean` column populated; language detection run; deduplication applied |
+| enrich_metadata.py | Done | Backfilled `album` (0→757/871) and `release_year` (173→765/871) via Genius per-song + album-fallback lookups |
 | Method 1 (keywords) | Done | `data/analysis/topics_keywords.csv` exists and is populated |
-| Method 2 (BERTopic) | Blocked | Requires HuggingFace model weights; `huggingface.co` blocked by Zscaler at original machine |
-| Method 3 (Hybrid/sentiment) | Blocked | Same HuggingFace/Zscaler issue |
-| correlate.py | Partial | Ran on Method 1 only; `correlations.csv` and `timeseries.json` exist |
-| export_dashboard.py | Done | `dashboard/data.json` is current |
-| Dashboard | Working | Open `dashboard/index.html` via local HTTP server |
-| Release date coverage | Incomplete | Many songs have empty `release_year`; dataset adjustment ongoing |
+| Method 2 (BERTopic) | Done | `huggingface.co` reachable on this machine (Zscaler block from the original machine no longer applies); `topics_bertopic.csv` + `topics_bertopic_info.csv` populated, 6 topics found |
+| Method 3 (Hybrid/sentiment) | Done | `topics_hybrid.csv` + `sentiment.csv` populated |
+| correlate.py | Done | Ran on all 3 methods; `correlations.csv` (168 rows) and `timeseries.json` exist |
+| export_dashboard.py | Done | `dashboard/data.json` is current, includes methodology + lexicon payloads |
+| Dashboard | Working | Open `dashboard/index.html` directly — standalone, no server needed |
+| Release date coverage | Mostly complete | 106/871 songs (12%) still lack a release year — no album on Genius to fall back to |
 
 ---
 
@@ -51,14 +52,14 @@ pip install -r requirements.txt
 
 ### HuggingFace access (for Methods 2 and 3)
 
-Methods 2 and 3 require downloading model weights from `huggingface.co`. If your network allows it:
+Methods 2 and 3 require downloading model weights from `huggingface.co`, and `torch` needs Python 3.11/3.12 (no wheels for newer interpreters as of this writing). A `.python-version` file in the repo root pins 3.12.13 via `pyenv` for this reason — run `pyenv install 3.12.13` if you don't have it, then recreate `.venv` as below. If your network allows it:
 
 ```bash
 # Test access
 python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')"
 ```
 
-If this fails due to network restrictions (corporate proxy, Zscaler, etc.), Methods 2 and 3 cannot run. The pipeline continues to work without them — Method 1 results and the dashboard remain fully functional.
+If this fails due to network restrictions (corporate proxy, Zscaler, etc.), Methods 2 and 3 cannot run. The pipeline continues to work without them — Method 1 results and the dashboard remain fully functional. (Confirmed working as of 2026-07-20 — the Zscaler block noted in earlier project history no longer applies on this machine.)
 
 ---
 
@@ -75,6 +76,9 @@ python src/scrape_genius.py --artist "Los Tucanes de Tijuana"
 
 # 2. Clean
 python src/clean_lyrics.py
+
+# 2b. Backfill album/release date from Genius (optional, safe to re-run — only fills blanks)
+python src/enrich_metadata.py
 
 # 3. Analysis (can run in parallel; skip any blocked by HuggingFace)
 python src/analyze_keywords.py
@@ -124,8 +128,11 @@ A significant number of songs in the Genius database have incomplete or missing 
 - Summary statistics in the dashboard
 
 **To improve year coverage:**
-1. Manually check songs with empty `release_year` in `data/processed/songs.csv`
-2. Edit `songs.csv` directly to add known years
+1. Run `python src/enrich_metadata.py` — backfills `album` and `release_year`/`release_date`
+   from Genius (per-song endpoint, falling back to the song's album release year when the
+   song's own record has no date). Only fills blanks; safe to re-run.
+2. For any remaining gaps, manually check songs with empty `release_year` in
+   `data/processed/songs.csv` and edit directly, or use the collaborator round-trip below.
 3. Re-run `correlate.py` and `export_dashboard.py` to regenerate analysis
 
 The dashboard automatically adapts to whatever year range and song count is present in `data.json` — the year sliders and stats are computed dynamically from the data at load time.
@@ -246,7 +253,8 @@ lyric-analysis/
     ├── analyze_hybrid.py
     ├── correlate.py
     ├── export_dashboard.py
-    └── ingest_songs.py    ← Validates and re-ingests a collaborator's edited songs.csv
+    ├── ingest_songs.py    ← Validates and re-ingests a collaborator's edited songs.csv
+    └── enrich_metadata.py ← Backfills album/release_year from Genius per-song + album lookups
 ```
 
 ---
@@ -259,3 +267,4 @@ lyric-analysis/
 4. Check `data/processed/songs.csv` column counts and year coverage to assess current data quality
 5. Check whether `data/analysis/topics_bertopic.csv` and `topics_hybrid.csv` exist yet
 6. If HuggingFace is accessible on this machine, run Methods 2 and 3 (see pipeline above)
+7. If many songs are missing `release_year`/`album`, try `python src/enrich_metadata.py` first — it usually resolves most of the gap
