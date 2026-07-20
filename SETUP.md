@@ -143,7 +143,7 @@ event_id, date, axis, subtype, title, description, source_url, source_type, note
 - `axis` must be one of: `drug_war_mx`, `immigration_usmx`, `elections_mx`, `us_presidency`
 - `date` format: `YYYY-MM-DD`
 - `source_url` is required for the paper citation corpus
-- After editing: re-run `correlate.py` → `export_dashboard.py`
+- After editing: run `python src/build_events.py` to validate schema/required fields, then re-run `correlate.py` → `export_dashboard.py`
 
 ---
 

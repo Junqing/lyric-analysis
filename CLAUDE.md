@@ -28,6 +28,9 @@ python src/analyze_bertopic.py   # requires HuggingFace access
 python src/analyze_hybrid.py     # requires HuggingFace access
 python src/correlate.py
 
+# Validate political events (optional, any time after editing political_events.csv)
+python src/build_events.py
+
 # Dashboard
 python src/export_dashboard.py
 python -m http.server 8000 -d dashboard   # then open http://localhost:8000
