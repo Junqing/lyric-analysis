@@ -23,8 +23,9 @@ A scientific data pipeline correlating lyric themes in the discographies of *Los
 | Method 3 (Hybrid/sentiment) | Done | `topics_hybrid.csv` + `sentiment.csv` populated |
 | correlate.py | Done | Ran on all 3 methods; `correlations.csv` (168 rows) and `timeseries.json` exist |
 | export_dashboard.py | Done | `dashboard/data.json` is current, includes methodology + lexicon payloads |
-| Dashboard | Working | Open `dashboard/index.html` directly — standalone, no server needed |
+| Dashboard | Working | Open `dashboard/index.html` directly — standalone, no server needed. Tabs: Analysis, Lyrics Browser, Political Events (table + timeline), Methodology, Lexicon, Initial Prompt |
 | Release date coverage | Mostly complete | 106/871 songs (12%) still lack a release year — no album on Genius to fall back to |
+| Collaborator round trip | Working | `songs.csv`, `political_events.csv`, `lexicons/*.txt` all have bundled editable copies + validated ingest scripts — see below |
 
 ---
 
@@ -151,58 +152,58 @@ event_id, date, axis, subtype, title, description, source_url, source_type, note
 - `date` format: `YYYY-MM-DD`
 - `source_url` is required for the paper citation corpus
 - After editing: run `python src/build_events.py` to validate schema/required fields, then re-run `correlate.py` → `export_dashboard.py`
+- If you received an edited copy back from a collaborator (see below) instead of editing directly, use `python src/ingest_events.py path/to/returned_political_events.csv` rather than overwriting the file yourself — it validates before writing.
 
 ---
 
 ## Sending Data to a Collaborator for Review
 
-Many songs are missing `release_year`. To get help filling those in from
-someone without Python or repo access:
+Three files can be handed to someone without Python or repo access: `songs.csv`
+(missing release years), `political_events.csv` (event review/additions), and
+`lexicons/*.txt` (Spanish term lists). Use whichever apply — you don't need to
+send all three.
 
-1. Regenerate the dashboard so the bundled copy is current:
+1. Regenerate the dashboard so the bundled copies are current:
    ```bash
    python src/export_dashboard.py
    ```
-   This refreshes `dashboard/songs.csv` (an exact copy of
-   `data/processed/songs.csv`) and `dashboard/EDITING_INSTRUCTIONS.md`
+   This refreshes `dashboard/songs.csv`, `dashboard/political_events.csv`,
+   `dashboard/lexicons/*.txt`, and `dashboard/EDITING_INSTRUCTIONS.md`
    alongside `index.html`.
-2. Zip the `dashboard/` folder and send it. The recipient only needs
-   `index.html` (to view) and `songs.csv` + `EDITING_INSTRUCTIONS.md` (to
-   edit) — no server, no Python, no repo access required.
-3. When they send `songs.csv` back, validate and ingest it:
+2. Zip the `dashboard/` folder and send it. `index.html` (to view — all data
+   is inlined, works standalone) plus whichever of the three editable files
+   apply — no server, no Python, no repo access required. `EDITING_INSTRUCTIONS.md`
+   walks the collaborator through all three.
+3. When they send a file back, validate and ingest it with the matching script:
    ```bash
    python src/ingest_songs.py path/to/returned_songs.csv
+   python src/ingest_events.py path/to/returned_political_events.csv
+   python src/ingest_lexicons.py path/to/returned/lexicons/
    ```
-   This compares the returned file against the current
-   `data/processed/songs.csv` and refuses to overwrite it if it finds signs
-   of trouble: a song that went missing, lyrics that got blanked out or
-   changed length dramatically (a sign a spreadsheet app mangled the file),
-   a `release_year`/`release_date` that isn't in the expected format, a
-   non-UTF-8 file (breaks Spanish accents), or any column other than
-   `release_year`/`release_date` that changed. It prints exactly what it
-   found. If the flagged changes are expected, re-run with `--force`.
-   Non-UTF-8 encoding and a changed column set are always hard stops —
-   fix the file and try again rather than forcing those.
-4. On success, `ingest_songs.py` backs up the previous file to
-   `data/processed/songs.backup-<timestamp>.csv` before writing the new one,
-   so you can always recover the prior version.
-5. Re-run the pipeline to pick up the new dates:
+   Each one compares the returned file(s) against the current canonical
+   version and refuses to overwrite it if it finds signs of trouble —
+   `ingest_songs.py`: a song that went missing, lyrics blanked out or changed
+   length dramatically, a malformed `release_year`/`release_date`, non-UTF-8
+   encoding, or an unexpected column change. `ingest_events.py`: a deleted
+   event, an invalid `axis`, a malformed `date`, or a blank required field
+   (new events are expected and not flagged). `ingest_lexicons.py`: a renamed
+   file or section header (adding/removing terms within a section is
+   expected and not flagged). Each prints exactly what it found; if the
+   flagged changes are expected, re-run with `--force`. Non-UTF-8 encoding
+   and structural mismatches (columns, file sets, section headers) are
+   always hard stops that `--force` cannot bypass.
+4. On success, each script backs up the previous file(s) first —
+   `data/processed/songs.backup-<timestamp>.csv`,
+   `data/processed/political_events.backup-<timestamp>.csv`, or
+   `lexicons.backup-<timestamp>/` — so you can always recover the prior version.
+5. Re-run the affected parts of the pipeline:
    ```bash
+   # if songs.csv or lexicons changed:
    python src/analyze_keywords.py   # + analyze_bertopic.py / analyze_hybrid.py if you've run those
+   # always, if anything changed:
    python src/correlate.py
    python src/export_dashboard.py
    ```
-
----
-
-## Editing Lexicons
-
-`lexicons/*.txt` — one Spanish term per line; lines beginning with `#` are comments.
-
-After editing any lexicon:
-1. Re-run `python src/analyze_keywords.py`
-2. Re-run `python src/correlate.py`
-3. Re-run `python src/export_dashboard.py`
 
 ---
 
@@ -210,19 +211,24 @@ After editing any lexicon:
 
 ```
 lyric-analysis/
+├── README.md              ← Public-facing project overview
 ├── CLAUDE.md              ← Instructions for Claude Code sessions
 ├── SETUP.md               ← This file
 ├── requirements.txt
 ├── .env.example
+├── .python-version        ← Pins 3.12.13 via pyenv (torch has no 3.14 wheels yet)
 ├── dashboard/
 │   ├── index.html         ← Interactive dashboard (data is inlined — open directly, no server needed)
 │   ├── app.js
+│   ├── plotly-2.32.0.min.js
 │   ├── data.json          ← Generated — do not edit manually
 │   ├── songs.csv          ← Generated copy of data/processed/songs.csv — safe for a collaborator to edit
+│   ├── political_events.csv ← Generated copy of data/processed/political_events.csv — safe to edit
+│   ├── lexicons/           ← Generated copies of lexicons/*.txt — safe to edit
 │   ├── EDITING_INSTRUCTIONS.md ← Generated — instructions for a non-technical collaborator
 │   └── prompts/           ← Session log JSON files
 ├── data/
-│   ├── raw/               ← Per-song JSON from Genius (one file per song)
+│   ├── raw/               ← Per-song JSON from Genius (one file per song, gitignored)
 │   │   ├── los_tigres_del_norte/
 │   │   └── los_tucanes_de_tijuana/
 │   ├── processed/
@@ -230,9 +236,11 @@ lyric-analysis/
 │   │   ├── songs.json     ← Generated mirror of songs.csv
 │   │   └── political_events.csv
 │   └── analysis/
-│       ├── topics_keywords.csv
-│       ├── topics_bertopic.csv  (absent if Method 2 not run)
-│       ├── topics_hybrid.csv    (absent if Method 3 not run)
+│       ├── topics_keywords.csv        (Method 1)
+│       ├── topics_bertopic.csv        (Method 2)
+│       ├── topics_bertopic_info.csv   (Method 2 topic summary)
+│       ├── topics_hybrid.csv          (Method 3)
+│       ├── sentiment.csv              (Method 3)
 │       ├── correlations.csv
 │       └── timeseries.json
 ├── lexicons/
@@ -247,14 +255,16 @@ lyric-analysis/
 └── src/
     ├── scrape_genius.py
     ├── clean_lyrics.py
+    ├── enrich_metadata.py  ← Backfills album/release_year from Genius per-song + album lookups
     ├── build_events.py
     ├── analyze_keywords.py
     ├── analyze_bertopic.py
     ├── analyze_hybrid.py
     ├── correlate.py
     ├── export_dashboard.py
-    ├── ingest_songs.py    ← Validates and re-ingests a collaborator's edited songs.csv
-    └── enrich_metadata.py ← Backfills album/release_year from Genius per-song + album lookups
+    ├── ingest_songs.py     ← Validates and re-ingests a collaborator's edited songs.csv
+    ├── ingest_events.py    ← Validates and re-ingests a collaborator's edited political_events.csv
+    └── ingest_lexicons.py  ← Validates and re-ingests a collaborator's edited lexicons/
 ```
 
 ---
