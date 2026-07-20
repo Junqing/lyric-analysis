@@ -1,0 +1,125 @@
+# Narco / Crimen organizado — términos de narcotráfico y crimen en corridos
+# Fuentes: Astorga (2005) "El siglo de las drogas"; Wald (2001) "Narcocorrido";
+#          Simonett (2001) "Banda: Mexican Musical Life"; curación manual.
+
+# Drogas
+droga
+narcótico
+cocaína
+coca
+polvo
+nieve
+hierba
+mota
+marijuana
+marihuana
+mariguana
+heroína
+goma
+cristal
+metanfetamina
+perico
+piedra
+enervante
+carga
+kilo
+gramo
+cuadro
+bulto
+paquete
+laboratorio
+
+# Organización y estructura
+cartel
+cártel
+organización
+plaza
+territorio
+jefe
+patrón
+señor
+capo
+narco
+narcocorrido
+sicario
+halcón
+halcones
+pistolero
+gatillero
+guardaespaldas
+escolta
+tropa
+mando
+célula
+federación
+
+# Violencia
+bala
+plomo
+rafagazo
+rafaguear
+cuerno de chivo
+ak-47
+ak47
+ar-15
+ar15
+fusil
+rifle
+pistola
+calibre
+tiro
+balacera
+emboscada
+ejecutar
+ejecución
+levantón
+secuestro
+extorsión
+cobrar derecho de piso
+sicariato
+guerra
+enfrentamiento
+operativo
+
+# Grupos específicos (nominales)
+sinaloa
+zeta
+zetas
+gulf cartel
+golfo
+juárez
+arellano
+tijuana
+beltrán
+leyva
+familia michoacana
+templarios
+caballeros templarios
+jalisco
+cjng
+guerreros unidos
+
+# Argot y simbolismo
+buchón
+buchona
+narco junior
+compa
+compadre
+corrido
+corrido prohibido
+tiro
+mover
+traer
+bajar
+pagar
+plata o plomo
+levantar
+pozolero
+
+# Personajes (menciones frecuentes en letras)
+chapo
+el chapo
+félix gallardo
+amado carrillo
+señor de los cielos
+escobar

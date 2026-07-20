@@ -1,0 +1,99 @@
+# Migración / Frontera — términos relacionados con migración México-EE.UU.
+# Fuentes: Rouse (1991) "Mexican Migration and the Social Space of Postmodernism";
+#          Massey et al. (1987) "Return to Aztlan"; curación manual de letras.
+
+# Cruce y viaje
+frontera
+cruzar
+alambre
+cerco
+muro
+barda
+río bravo
+río grande
+desierto
+coyote
+pollero
+pasador
+guía
+brinca
+brincar
+cruce
+norteño
+norte
+mojado
+espalda mojada
+alambre de púas
+línea
+la línea
+
+# Documentos y estatus
+papeles
+indocumentado
+ilegal
+residente
+ciudadano
+visa
+permiso
+green card
+amnistía
+deportar
+deportación
+deportado
+repatriado
+repatriación
+migra
+inmigración
+patrulla fronteriza
+border patrol
+redada
+
+# Destino y trabajo
+gabacho
+gringo
+americano
+estados unidos
+california
+texas
+arizona
+chicago
+los ángeles
+el norte
+trabajo
+jornalero
+bracero
+piscar
+pizca
+campo
+cosecha
+fábrica
+dólar
+
+# Sentimiento / identidad
+patria
+tierra
+raza
+paisano
+extranjero
+nostálgico
+nostalgia
+soledad
+familia lejos
+separación
+exilio
+añoranza
+raíces
+orígenes
+mexicano
+
+# Instituciones y política
+irca
+nafta
+tlcan
+daca
+prop 187
+ley arizona
+sb1070
+operación gatekeeper
+muro trump
+tolerancia cero

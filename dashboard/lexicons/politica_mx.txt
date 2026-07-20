@@ -1,0 +1,81 @@
+# Política México — presidentes, partidos, instituciones
+# Fuentes: INE, Diario Oficial de la Federación, Wikipedia (nombres propios verificados).
+
+# Presidentes (por nombre más frecuente en corridos)
+echeverría
+lópez portillo
+de la madrid
+salinas
+ernesto zedillo
+zedillo
+vicente fox
+fox
+felipe calderón
+calderón
+enrique peña nieto
+peña nieto
+andrés manuel
+amlo
+obrador
+claudia sheinbaum
+sheinbaum
+
+# Partidos
+pri
+pan
+prd
+morena
+pvem
+pt
+mc
+movimiento ciudadano
+perredista
+priísta
+panista
+morenista
+
+# Instituciones y fuerzas
+ejército
+militares
+soldados
+marina
+armada
+policía federal
+pf
+afi
+cisen
+pgr
+fgr
+fiscalía
+judiciales
+federales
+federales
+ministerio público
+mp
+
+# Eventos políticos clave
+nafta
+tlcan
+tlc
+fraude electoral
+2 de julio
+1988
+1994
+levantamiento
+ezln
+zapatista
+subcomandante marcos
+chiapas
+ayotzinapa
+43 desaparecidos
+normalistas
+iguala
+guerra contra el narco
+declaratoria de guerra
+operativo conjunto
+militarización
+culiacanazo
+chapiza
+mañanera
+cuarta transformación
+4t

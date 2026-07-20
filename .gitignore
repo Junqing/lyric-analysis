@@ -20,6 +20,8 @@ data/raw/
 # Generated files (re-created by export_dashboard.py)
 dashboard/prompts/
 
-# Local safety backups written by ingest_songs.py before each overwrite
+# Local safety backups written by ingest_*.py before each overwrite
 data/processed/songs.backup-*.csv
 data/processed/songs.json
+data/processed/political_events.backup-*.csv
+lexicons.backup-*/
