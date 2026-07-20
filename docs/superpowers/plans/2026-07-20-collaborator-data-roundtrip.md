@@ -694,7 +694,10 @@ python src/ingest_songs.py path/to/returned_songs.csv
 grep -c "ingest_songs.py" SETUP.md CLAUDE.md
 ```
 
-Expected: both files report a count of at least 2.
+Expected: `SETUP.md` reports at least 2 (it appears in the new round-trip
+section and the file structure diagram); `CLAUDE.md` reports at least 1 (it
+appears once, in the Commands section — the Key Data Files table entry
+added in Step 3 references `songs.csv` but not `ingest_songs.py` by name).
 
 - [ ] **Step 6: Commit**
 
