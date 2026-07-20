@@ -33,7 +33,10 @@ python src/build_events.py
 
 # Dashboard
 python src/export_dashboard.py
-python -m http.server 8000 -d dashboard   # then open http://localhost:8000
+# dashboard/index.html now works standalone — open it directly, no server needed
+
+# Re-ingest a collaborator's edited songs.csv (see SETUP.md for the full round trip)
+python src/ingest_songs.py path/to/returned_songs.csv
 ```
 
 ## Architecture
@@ -62,6 +65,7 @@ The pipeline has four sequential stages:
 | `data/analysis/topics_keywords.csv` | Per-song topic hits per lexicon, normalized by lyric length |
 | `data/analysis/correlations.csv` | Per-`(topic, event_axis, method, artist)` Pearson r + p-value |
 | `dashboard/data.json` | Generated payload — do NOT edit manually |
+| `dashboard/songs.csv` | Generated copy of `songs.csv`, bundled for a collaborator to edit and return — see SETUP.md |
 
 ## Lexicons
 

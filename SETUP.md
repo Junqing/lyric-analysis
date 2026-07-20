@@ -147,6 +147,47 @@ event_id, date, axis, subtype, title, description, source_url, source_type, note
 
 ---
 
+## Sending Data to a Collaborator for Review
+
+Many songs are missing `release_year`. To get help filling those in from
+someone without Python or repo access:
+
+1. Regenerate the dashboard so the bundled copy is current:
+   ```bash
+   python src/export_dashboard.py
+   ```
+   This refreshes `dashboard/songs.csv` (an exact copy of
+   `data/processed/songs.csv`) and `dashboard/EDITING_INSTRUCTIONS.md`
+   alongside `index.html`.
+2. Zip the `dashboard/` folder and send it. The recipient only needs
+   `index.html` (to view) and `songs.csv` + `EDITING_INSTRUCTIONS.md` (to
+   edit) — no server, no Python, no repo access required.
+3. When they send `songs.csv` back, validate and ingest it:
+   ```bash
+   python src/ingest_songs.py path/to/returned_songs.csv
+   ```
+   This compares the returned file against the current
+   `data/processed/songs.csv` and refuses to overwrite it if it finds signs
+   of trouble: a song that went missing, lyrics that got blanked out or
+   changed length dramatically (a sign a spreadsheet app mangled the file),
+   a `release_year`/`release_date` that isn't in the expected format, a
+   non-UTF-8 file (breaks Spanish accents), or any column other than
+   `release_year`/`release_date` that changed. It prints exactly what it
+   found. If the flagged changes are expected, re-run with `--force`.
+   Non-UTF-8 encoding and a changed column set are always hard stops —
+   fix the file and try again rather than forcing those.
+4. On success, `ingest_songs.py` backs up the previous file to
+   `data/processed/songs.backup-<timestamp>.csv` before writing the new one,
+   so you can always recover the prior version.
+5. Re-run the pipeline to pick up the new dates:
+   ```bash
+   python src/analyze_keywords.py   # + analyze_bertopic.py / analyze_hybrid.py if you've run those
+   python src/correlate.py
+   python src/export_dashboard.py
+   ```
+
+---
+
 ## Editing Lexicons
 
 `lexicons/*.txt` — one Spanish term per line; lines beginning with `#` are comments.
@@ -167,9 +208,11 @@ lyric-analysis/
 ├── requirements.txt
 ├── .env.example
 ├── dashboard/
-│   ├── index.html         ← Interactive dashboard (serves from data.json)
+│   ├── index.html         ← Interactive dashboard (data is inlined — open directly, no server needed)
 │   ├── app.js
 │   ├── data.json          ← Generated — do not edit manually
+│   ├── songs.csv          ← Generated copy of data/processed/songs.csv — safe for a collaborator to edit
+│   ├── EDITING_INSTRUCTIONS.md ← Generated — instructions for a non-technical collaborator
 │   └── prompts/           ← Session log JSON files
 ├── data/
 │   ├── raw/               ← Per-song JSON from Genius (one file per song)
@@ -202,7 +245,8 @@ lyric-analysis/
     ├── analyze_bertopic.py
     ├── analyze_hybrid.py
     ├── correlate.py
-    └── export_dashboard.py
+    ├── export_dashboard.py
+    └── ingest_songs.py    ← Validates and re-ingests a collaborator's edited songs.csv
 ```
 
 ---
