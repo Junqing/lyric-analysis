@@ -481,9 +481,21 @@ Expected: first run prints `song_id 1: lyrics_clean was non-empty and is now bla
 
 - [ ] **Step 6: Scenario (c) — missing song_id refused**
 
+`clean_edit.csv`'s song 1 row has a multi-line quoted `lyrics_clean` field (from
+Step 3's fixture), so it spans several physical lines — a plain `sed -n '2p'`
+line extraction would grab a truncated, unclosed-quote fragment instead of the
+whole logical CSV row. Use Python's `csv` module instead, which is
+record-aware:
+
 ```bash
-head -1 /tmp/ingest_test/clean_edit.csv > /tmp/ingest_test/missing_row.csv
-sed -n '2p' /tmp/ingest_test/clean_edit.csv >> /tmp/ingest_test/missing_row.csv
+python3 - <<'EOF'
+import csv
+rows = list(csv.reader(open("/tmp/ingest_test/clean_edit.csv", encoding="utf-8")))
+with open("/tmp/ingest_test/missing_row.csv", "w", encoding="utf-8", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(rows[0])  # header
+    w.writerow(rows[1])  # song 1 only — song 2 dropped
+EOF
 cp /tmp/ingest_test/current.csv /tmp/ingest_test/current3.csv
 python src/ingest_songs.py /tmp/ingest_test/missing_row.csv --current /tmp/ingest_test/current3.csv
 echo "exit code: $?"
