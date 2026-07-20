@@ -148,8 +148,58 @@ def run():
             sessions[f.name] = json.loads(f.read_text())
         print(f"Copied {len(list(prompts_src.glob('*.json')))} prompt file(s) to {prompts_dst}")
 
+    # --- Bundle an editable copy of songs.csv + instructions for a collaborator ---
+    bundle_editable_songs()
+
     # --- Inline data + sessions into index.html so it opens standalone (no server) ---
     inject_inline_data(payload, sessions)
+
+
+EDITING_INSTRUCTIONS = """\
+# Editing songs.csv
+
+This folder contains an interactive dashboard (`index.html`) and a spreadsheet
+(`songs.csv`) with every song in the dataset.
+
+## What to do
+
+Many songs are missing a release year, which means they don't show up in the
+timeline or topic charts. If you know (or can look up) when a song was
+released, please fill it in.
+
+1. Open `songs.csv` in Excel, Google Sheets, or Numbers.
+2. Find rows where `release_year` is blank.
+3. Fill in `release_year` (a 4-digit year, e.g. `1998`) and, if you know the
+   exact date, `release_date` (format `YYYY-MM-DD`, e.g. `1998-06-15`).
+4. Leave every other column exactly as it is — especially `lyrics_clean`,
+   `song_id`, and `genius_url`. Those are used internally, and changing them
+   (even by accident) can break the re-import.
+5. When you're done, save the file:
+   - **Excel:** File → Save As → File Format: "CSV UTF-8 (Comma delimited)".
+     Do NOT use the plain "CSV" option — it can save with the wrong
+     character encoding and break the Spanish accents.
+   - **Google Sheets:** File → Download → Comma-separated values (.csv) —
+     this is UTF-8 by default, no extra steps needed.
+   - **Numbers:** File → Export To → CSV → Text Encoding: Unicode (UTF-8).
+6. Send `songs.csv` back. You don't need to send anything else.
+
+## Viewing the data
+
+Open `index.html` in any browser — no internet connection or installation
+needed. Use the Analysis tab for charts, Lyrics Browser to read individual
+songs, and Political Events for the reference timeline the analysis is
+compared against.
+"""
+
+
+def bundle_editable_songs() -> None:
+    if not SONGS_CSV.exists():
+        print(f"Warning: {SONGS_CSV} not found — skipping editable songs.csv bundle")
+        return
+    dst = DASHBOARD_DIR / "songs.csv"
+    shutil.copy2(SONGS_CSV, dst)
+    (DASHBOARD_DIR / "EDITING_INSTRUCTIONS.md").write_text(EDITING_INSTRUCTIONS)
+    print(f"Bundled {dst} and EDITING_INSTRUCTIONS.md for collaborator hand-off")
 
 
 def inject_inline_data(payload: dict, sessions: dict) -> None:
