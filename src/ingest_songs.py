@@ -61,9 +61,28 @@ def diff_songs(current: pd.DataFrame, incoming: pd.DataFrame) -> dict:
             f"current data: {sorted(added_ids)[:10]}"
         )
 
+    current_id_counts = current["song_id"].value_counts()
+    incoming_id_counts = incoming["song_id"].value_counts()
+    current_dupe_ids = set(current_id_counts[current_id_counts > 1].index)
+    incoming_dupe_ids = set(incoming_id_counts[incoming_id_counts > 1].index)
+    if current_dupe_ids:
+        flags.append(
+            f"{len(current_dupe_ids)} song_id(s) are duplicated in the current file: "
+            f"{sorted(current_dupe_ids)[:10]}"
+        )
+    if incoming_dupe_ids:
+        flags.append(
+            f"{len(incoming_dupe_ids)} song_id(s) are duplicated in the incoming file: "
+            f"{sorted(incoming_dupe_ids)[:10]}"
+        )
+    # Duplicated ids make a per-row .loc lookup return a DataFrame instead of a
+    # Series (row-level diff logic assumes one row per id), so exclude them from
+    # the row-by-row comparison below — they're already captured as a flag above.
+    dupe_ids = current_dupe_ids | incoming_dupe_ids
+
     current_by_id = current.set_index("song_id")
     incoming_by_id = incoming.set_index("song_id")
-    shared_ids = current_ids & incoming_ids
+    shared_ids = (current_ids & incoming_ids) - dupe_ids
 
     for song_id in shared_ids:
         cur_row = current_by_id.loc[song_id]
@@ -93,7 +112,10 @@ def diff_songs(current: pd.DataFrame, incoming: pd.DataFrame) -> dict:
         if date_val and not DATE_RE.match(date_val):
             flags.append(f"song_id {song_id}: release_date '{date_val}' is not YYYY-MM-DD")
 
-        other_cols = [c for c in current.columns if c not in DATE_COLUMNS and c != "song_id"]
+        other_cols = [
+            c for c in current.columns
+            if c not in DATE_COLUMNS and c not in ("song_id", "lyrics_clean")
+        ]
         for col in other_cols:
             if cur_row.get(col, "") != inc_row.get(col, ""):
                 changes["other"] += 1

@@ -60,7 +60,7 @@ The pipeline has four sequential stages:
 
 | File | Description |
 |------|-------------|
-| `data/processed/songs.csv` | Canonical song table — `song_id, artist, title, album, release_year, genius_url, retrieved_at` |
+| `data/processed/songs.csv` | Canonical song table — `song_id, artist, title, album, release_year, release_date, genius_url, retrieved_at, lyrics_raw_path, language, word_count, lyrics_clean` |
 | `data/processed/political_events.csv` | Hand-curated ~100 events — schema: `event_id, date, axis, title, description, source_url` |
 | `data/analysis/topics_keywords.csv` | Per-song topic hits per lexicon, normalized by lyric length |
 | `data/analysis/correlations.csv` | Per-`(topic, event_axis, method, artist)` Pearson r + p-value |
