@@ -7,6 +7,7 @@ Usage:
 """
 
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -139,11 +140,45 @@ def run():
     # --- Copy prompts into dashboard/ so they're reachable when serving from project root ---
     prompts_src = BASE_DIR / "prompts"
     prompts_dst = DASHBOARD_DIR / "prompts"
+    sessions = {}
     if prompts_src.exists():
         prompts_dst.mkdir(parents=True, exist_ok=True)
         for f in prompts_src.glob("*.json"):
             shutil.copy2(f, prompts_dst / f.name)
+            sessions[f.name] = json.loads(f.read_text())
         print(f"Copied {len(list(prompts_src.glob('*.json')))} prompt file(s) to {prompts_dst}")
+
+    # --- Inline data + sessions into index.html so it opens standalone (no server) ---
+    inject_inline_data(payload, sessions)
+
+
+def inject_inline_data(payload: dict, sessions: dict) -> None:
+    index_path = DASHBOARD_DIR / "index.html"
+    html = index_path.read_text()
+
+    def js_json(obj):
+        return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
+
+    block = (
+        "<!-- INLINE_DATA_START -->\n"
+        "<!-- Populated by src/export_dashboard.py — do not edit by hand -->\n"
+        f"<script>window.__DASHBOARD_DATA__ = {js_json(payload)};\n"
+        f"window.__SESSION_DATA__ = {js_json(sessions)};</script>\n"
+        "<!-- INLINE_DATA_END -->"
+    )
+
+    pattern = re.compile(
+        r"<!-- INLINE_DATA_START -->.*?<!-- INLINE_DATA_END -->", re.DOTALL
+    )
+    if not pattern.search(html):
+        raise RuntimeError(
+            "index.html is missing the INLINE_DATA_START/END markers — cannot inject data"
+        )
+    html = pattern.sub(lambda m: block, html)
+    index_path.write_text(html)
+
+    size_kb = index_path.stat().st_size / 1024
+    print(f"Embedded data + {len(sessions)} session file(s) into {index_path} ({size_kb:.1f} KB)")
 
 
 if __name__ == "__main__":

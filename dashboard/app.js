@@ -198,7 +198,16 @@ function initControls() {
     artistPills.appendChild(btn);
   });
 
-  document.getElementById('method-select').addEventListener('change', e => {
+  const availableMethods = new Set(DATA?.meta?.methods || Object.keys(DATA?.topics || {}));
+  const methodSelect = document.getElementById('method-select');
+  [...methodSelect.options].forEach(opt => {
+    if (!availableMethods.has(opt.value)) {
+      opt.disabled = true;
+      opt.textContent += ' — no data yet';
+    }
+  });
+
+  methodSelect.addEventListener('change', e => {
     state.method = e.target.value;
     renderAnalysisWithCharts();
   });
@@ -302,6 +311,19 @@ function renderTimeline() {
   }, PLY_CFG);
 }
 
+// ── Analysis: shared "no data for this method" placeholder ───────────────────
+
+const METHOD_SCRIPTS = { bertopic: 'analyze_bertopic.py', hybrid: 'analyze_hybrid.py' };
+
+function showNoMethodData(containerId, method, height) {
+  const script = METHOD_SCRIPTS[method];
+  document.getElementById(containerId).innerHTML =
+    `<div class="loading" style="flex-direction:column;gap:6px;height:${height}px">
+      <div style="color:var(--muted)">No data for this method yet</div>
+      ${script ? `<div style="font-size:11px;color:var(--muted)">Run <code style="color:#f0a940">python src/${script}</code>, then <code style="color:#f0a940">python src/export_dashboard.py</code></div>` : ''}
+    </div>`;
+}
+
 // ── Analysis: Panel B ─────────────────────────────────────────────────────────
 
 function renderTopics() {
@@ -312,7 +334,7 @@ function renderTopics() {
   const topicsData = DATA?.topics?.[method];
 
   if (!topicsData) {
-    Plotly.react('chart-topics', [], { ...PLY, height:280 }, PLY_CFG);
+    showNoMethodData('chart-topics', method, 280);
     return;
   }
 
@@ -364,7 +386,10 @@ function renderHeatmap() {
   const songs = filteredSongs();
   const method = state.method;
   const td = DATA?.topics?.[method];
-  if (!td) return;
+  if (!td) {
+    showNoMethodData('chart-heatmap', method, 260);
+    return;
+  }
 
   const decades = [...new Set(songs.map(s=>{ const y=parseInt(s.release_year,10); return isNaN(y)?null:Math.floor(y/10)*10; }).filter(Boolean))].sort();
   let topicNames = [];
@@ -403,7 +428,10 @@ function renderHeatmap() {
 function renderSentiment() {
   const songs = filteredSongs();
   const hd = DATA?.topics?.hybrid;
-  if (!hd) return;
+  if (!hd) {
+    showNoMethodData('chart-sentiment', 'hybrid', 260);
+    return;
+  }
 
   const allYears = [...new Set(songs.map(s=>s.release_year).filter(Boolean))].sort();
   const by = {};
@@ -817,6 +845,12 @@ document.getElementById('events-sort').addEventListener('change', e => { eventsS
 async function loadSession(filename) {
   const container = document.getElementById('session-messages');
   container.innerHTML = '<div class="loading">Loading…</div>';
+
+  if (window.__SESSION_DATA__ && window.__SESSION_DATA__[filename]) {
+    renderSession(window.__SESSION_DATA__[filename], container);
+    return;
+  }
+
   try {
     const res = await fetch(`prompts/${filename}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -860,17 +894,21 @@ document.getElementById('session-file-select').addEventListener('change', e => {
 // ── Boot ──────────────────────────────────────────────────────────────────────
 
 async function boot() {
-  try {
-    const res = await fetch('data.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    DATA = await res.json();
-  } catch(e) {
-    document.getElementById('chart-timeline').innerHTML =
-      `<div class="loading" style="flex-direction:column;gap:8px">
-        <div style="color:#e74c6a">data.json not found</div>
-        <div style="font-size:11px;color:var(--muted)">Run <code style="color:#f0a940">python src/export_dashboard.py</code> then serve with <code style="color:#f0a940">python -m http.server 8000 -d dashboard</code></div>
-      </div>`;
-    return;
+  if (window.__DASHBOARD_DATA__) {
+    DATA = window.__DASHBOARD_DATA__;
+  } else {
+    try {
+      const res = await fetch('data.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      DATA = await res.json();
+    } catch(e) {
+      document.getElementById('chart-timeline').innerHTML =
+        `<div class="loading" style="flex-direction:column;gap:8px">
+          <div style="color:#e74c6a">No dashboard data found</div>
+          <div style="font-size:11px;color:var(--muted)">Run <code style="color:#f0a940">python src/export_dashboard.py</code> to regenerate index.html with embedded data.</div>
+        </div>`;
+      return;
+    }
   }
   initControls();
   // Stats and song table render immediately; charts load Plotly first
