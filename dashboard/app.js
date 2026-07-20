@@ -22,7 +22,7 @@ function loadPlotly(cb) {
   };
   s.onerror = () => {
     const el = document.getElementById('chart-timeline');
-    if (el) el.innerHTML = '<div class="loading" style="color:#e74c6a">Plotly failed to load — charts unavailable.<br><span style="font-size:11px;color:var(--muted)">Other tabs (Lyrics, Events, Session Log) still work.</span></div>';
+    if (el) el.innerHTML = '<div class="loading" style="color:#e74c6a">Plotly failed to load — charts unavailable.<br><span style="font-size:11px;color:var(--muted)">Other tabs (Lyrics, Events table, Methodology, Lexicon, Initial Prompt) still work.</span></div>';
   };
   document.head.appendChild(s);
 }
@@ -172,7 +172,9 @@ document.querySelectorAll('.nav-tab').forEach(btn => {
     document.querySelectorAll('.page').forEach(p => p.classList.toggle('active', p.id === target));
     if (target === 'analysis-page' && DATA) renderAnalysisWithCharts();
     if (target === 'lyrics-page' && DATA) renderLyricsList();
-    if (target === 'events-page' && DATA) renderEventsTable();
+    if (target === 'events-page' && DATA) renderEventsActive();
+    if (target === 'methodology-page' && DATA) renderMethodology();
+    if (target === 'lexicon-page' && DATA) renderLexicon();
     if (target === 'session-page') loadSession(document.getElementById('session-file-select').value);
   });
 });
@@ -786,17 +788,17 @@ document.getElementById('lyrics-sort').addEventListener('change', e => {
 
 // ── Political Events page ─────────────────────────────────────────────────────
 
-function renderEventsTable() {
-  let events = DATA?.events ? [...DATA.events] : [];
-
-  // populate type filter once
+function ensureEventsTypeFilterPopulated(events) {
   const tf = document.getElementById('events-type-filter');
   if (tf.options.length === 1) {
     [...new Set(events.map(e=>e.subtype).filter(Boolean))].sort().forEach(t => {
       const o = document.createElement('option'); o.value=t; o.textContent=t; tf.appendChild(o);
     });
   }
+}
 
+function filterSortEvents(rawEvents) {
+  let events = [...rawEvents];
   const q = eventsState.search.toLowerCase();
   if (eventsState.axis) events = events.filter(e=>e.axis===eventsState.axis);
   if (eventsState.type) events = events.filter(e=>e.subtype===eventsState.type);
@@ -805,13 +807,19 @@ function renderEventsTable() {
     (e.description||'').toLowerCase().includes(q) ||
     (e.notes||'').toLowerCase().includes(q)
   );
-
   const sorters = {
     date_asc:  (a,b) => a.date.localeCompare(b.date),
     date_desc: (a,b) => b.date.localeCompare(a.date),
     axis:      (a,b) => a.axis.localeCompare(b.axis) || a.date.localeCompare(b.date),
   };
   events.sort(sorters[eventsState.sort] || sorters.date_asc);
+  return events;
+}
+
+function renderEventsTable() {
+  const raw = DATA?.events ? [...DATA.events] : [];
+  ensureEventsTypeFilterPopulated(raw);
+  const events = filterSortEvents(raw);
 
   document.getElementById('ev-count').textContent = `${events.length} event${events.length!==1?'s':''}`;
 
@@ -834,11 +842,106 @@ function renderEventsTable() {
   tbody.appendChild(frag);
 }
 
+function renderEventsTimeline() {
+  const raw = DATA?.events ? [...DATA.events] : [];
+  ensureEventsTypeFilterPopulated(raw);
+  const events = filterSortEvents(raw);
+  const container = document.getElementById('events-timeline');
+
+  document.getElementById('ev-count').textContent = `${events.length} event${events.length!==1?'s':''}`;
+
+  if (!events.length) {
+    container.innerHTML = '<div class="loading">No events match the current filters.</div>';
+    return;
+  }
+
+  loadPlotly(() => {
+    const axes = Object.keys(AXIS_LABELS);
+    const traces = axes.map(axis => {
+      const evs = events.filter(e => e.axis === axis);
+      return {
+        type: 'scatter', mode: 'markers',
+        name: AXIS_LABELS[axis],
+        x: evs.map(e => e.date),
+        y: evs.map(() => AXIS_LABELS[axis]),
+        text: evs.map(e => `<b>${e.title||''}</b><br>${e.description||''}`),
+        hovertemplate: '%{text}<extra></extra>',
+        marker: { color: AXIS_COLORS[axis], size: 11, line: { color: '#0f1117', width: 1 } },
+        customdata: evs.map(e => e.source_url || ''),
+      };
+    });
+    const layout = {
+      ...PLY,
+      margin: { t: 16, b: 40, l: 150, r: 18 },
+      height: Math.max(340, container.clientHeight || 340),
+      xaxis: { ...PLY.xaxis, type: 'date' },
+      yaxis: { ...PLY.yaxis, type: 'category', categoryarray: [...axes].reverse().map(a => AXIS_LABELS[a]) },
+      showlegend: false,
+    };
+    Plotly.newPlot(container, traces, layout, PLY_CFG).then(gd => {
+      gd.on('plotly_click', d => {
+        const pt = d.points && d.points[0];
+        const url = pt && pt.data.customdata[pt.pointIndex];
+        if (url) window.open(url, '_blank');
+      });
+    });
+  });
+}
+
+function renderEventsActive() {
+  const activeBtn = document.querySelector('#events-subtabs .subtab-btn.active');
+  const sub = activeBtn ? activeBtn.dataset.subtab : 'table';
+  if (sub === 'timeline') renderEventsTimeline(); else renderEventsTable();
+}
+
 // Events page wiring
-document.getElementById('events-search').addEventListener('input', e => { eventsState.search=e.target.value; renderEventsTable(); });
-document.getElementById('events-axis-filter').addEventListener('change', e => { eventsState.axis=e.target.value; renderEventsTable(); });
-document.getElementById('events-type-filter').addEventListener('change', e => { eventsState.type=e.target.value; renderEventsTable(); });
-document.getElementById('events-sort').addEventListener('change', e => { eventsState.sort=e.target.value; renderEventsTable(); });
+document.getElementById('events-search').addEventListener('input', e => { eventsState.search=e.target.value; renderEventsActive(); });
+document.getElementById('events-axis-filter').addEventListener('change', e => { eventsState.axis=e.target.value; renderEventsActive(); });
+document.getElementById('events-type-filter').addEventListener('change', e => { eventsState.type=e.target.value; renderEventsActive(); });
+document.getElementById('events-sort').addEventListener('change', e => { eventsState.sort=e.target.value; renderEventsActive(); });
+
+document.querySelectorAll('#events-subtabs .subtab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#events-subtabs .subtab-btn').forEach(b => b.classList.toggle('active', b === btn));
+    const sub = btn.dataset.subtab;
+    document.getElementById('events-tbl-wrap').style.display = sub === 'table' ? '' : 'none';
+    document.getElementById('events-timeline').style.display = sub === 'timeline' ? '' : 'none';
+    renderEventsActive();
+  });
+});
+
+// ── Methodology page ──────────────────────────────────────────────────────────
+
+function renderMethodology() {
+  const el = document.getElementById('methodology-content');
+  el.innerHTML = DATA?.methodology_html || '<div class="loading">No methodology notes found — run <code>python src/export_dashboard.py</code> after adding notes/methodology.md.</div>';
+}
+
+// ── Lexicon page ───────────────────────────────────────────────────────────────
+
+function renderLexicon() {
+  const el = document.getElementById('lexicon-content');
+  const lexicons = DATA?.lexicons || [];
+  if (!lexicons.length) {
+    el.innerHTML = '<div class="loading">No lexicons found.</div>';
+    return;
+  }
+  el.innerHTML = lexicons.map(lex => `
+    <div class="panel" style="margin-bottom:20px">
+      <div class="panel-header lex-card-header">
+        <h2>${lex.name}</h2>
+        <span class="lex-count">${lex.term_count} terms · ${lex.sections.length} sections</span>
+      </div>
+      ${lex.description ? `<div class="lex-desc">${lex.description}</div>` : ''}
+      ${lex.sections.map(sec => `
+        <div class="lex-section">
+          <div class="lex-section-title">${sec.header} (${sec.terms.length})</div>
+          <div class="lex-terms">${sec.terms.map(t => `<span class="lex-term">${t}</span>`).join('')}</div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
 
 // ── Session Log page ─────────────────────────────────────────────────────────
 

@@ -17,6 +17,8 @@ BASE_DIR = Path(__file__).parent.parent
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 ANALYSIS_DIR = BASE_DIR / "data" / "analysis"
 DASHBOARD_DIR = BASE_DIR / "dashboard"
+NOTES_DIR = BASE_DIR / "notes"
+LEXICONS_DIR = BASE_DIR / "lexicons"
 
 SONGS_CSV = PROCESSED_DIR / "songs.csv"
 EVENTS_CSV = PROCESSED_DIR / "political_events.csv"
@@ -25,6 +27,168 @@ BERTOPIC_CSV = ANALYSIS_DIR / "topics_bertopic.csv"
 HYBRID_CSV = ANALYSIS_DIR / "topics_hybrid.csv"
 CORRELATIONS_CSV = ANALYSIS_DIR / "correlations.csv"
 TIMESERIES_JSON = ANALYSIS_DIR / "timeseries.json"
+METHODOLOGY_MD = NOTES_DIR / "methodology.md"
+
+
+# --- Minimal markdown → HTML renderer (headings, hr, bold/italic, inline code,
+#     links, bare-URL autolink, ordered/unordered lists, GFM pipe tables,
+#     paragraphs) — just enough to render notes/methodology.md without a
+#     third-party dependency, so the dashboard stays a standalone HTML file. ---
+
+def _inline_md(text: str) -> str:
+    text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    stash = []
+
+    def stash_it(html: str) -> str:
+        token = f"\x00{len(stash)}\x00"
+        stash.append(html)
+        return token
+
+    text = re.sub(r"`([^`]+)`", lambda m: stash_it(f"<code>{m.group(1)}</code>"), text)
+    text = re.sub(
+        r"\[([^\]]+)\]\(([^)]+)\)",
+        lambda m: stash_it(
+            f'<a href="{m.group(2).replace("&", "&amp;")}" target="_blank" rel="noopener">{m.group(1)}</a>'
+        ),
+        text,
+    )
+    text = re.sub(
+        r'(https?://[^\s<>"\']+)',
+        lambda m: stash_it(
+            f'<a href="{m.group(1).replace("&", "&amp;")}" target="_blank" rel="noopener">{m.group(1)}</a>'
+        ),
+        text,
+    )
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
+    for idx, html in enumerate(stash):
+        text = text.replace(f"\x00{idx}\x00", html)
+    return text
+
+
+def render_markdown(md_text: str) -> str:
+    lines = md_text.split("\n")
+    out = []
+    para_buf: list[str] = []
+    i, n = 0, len(lines)
+
+    def flush_para():
+        if para_buf:
+            text = " ".join(l.strip() for l in para_buf if l.strip())
+            if text:
+                out.append(f"<p>{_inline_md(text)}</p>")
+            para_buf.clear()
+
+    table_sep_re = re.compile(r"^\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)*\|?$")
+    heading_re = re.compile(r"^(#{1,6})\s+(.*)$")
+    ordered_re = re.compile(r"^\d+\.\s+")
+    unordered_re = re.compile(r"^[-*]\s+")
+
+    while i < n:
+        stripped = lines[i].strip()
+
+        if stripped == "":
+            flush_para()
+            i += 1
+            continue
+
+        m = heading_re.match(stripped)
+        if m:
+            flush_para()
+            level = len(m.group(1))
+            out.append(f"<h{level}>{_inline_md(m.group(2))}</h{level}>")
+            i += 1
+            continue
+
+        if re.match(r"^-{3,}$", stripped):
+            flush_para()
+            out.append("<hr>")
+            i += 1
+            continue
+
+        if stripped.startswith("|") and i + 1 < n and table_sep_re.match(lines[i + 1].strip()):
+            flush_para()
+            header_cells = [c.strip() for c in stripped.strip("|").split("|")]
+            i += 2
+            rows = []
+            while i < n and lines[i].strip().startswith("|"):
+                rows.append([c.strip() for c in lines[i].strip().strip("|").split("|")])
+                i += 1
+            thead = "".join(f"<th>{_inline_md(c)}</th>" for c in header_cells)
+            tbody = "".join(
+                "<tr>" + "".join(f"<td>{_inline_md(c)}</td>" for c in row) + "</tr>"
+                for row in rows
+            )
+            out.append(f"<table><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table>")
+            continue
+
+        if ordered_re.match(stripped):
+            flush_para()
+            items = []
+            while i < n and ordered_re.match(lines[i].strip()):
+                items.append(ordered_re.sub("", lines[i].strip()))
+                i += 1
+            out.append("<ol>" + "".join(f"<li>{_inline_md(it)}</li>" for it in items) + "</ol>")
+            continue
+
+        if unordered_re.match(stripped):
+            flush_para()
+            items = []
+            while i < n and unordered_re.match(lines[i].strip()):
+                items.append(unordered_re.sub("", lines[i].strip()))
+                i += 1
+            out.append("<ul>" + "".join(f"<li>{_inline_md(it)}</li>" for it in items) + "</ul>")
+            continue
+
+        para_buf.append(lines[i])
+        i += 1
+
+    flush_para()
+    return "\n".join(out)
+
+
+def parse_lexicons() -> list[dict]:
+    """Parse lexicons/*.txt into {name, description, sections:[{header, terms[]}]}.
+
+    File convention: leading '#' comment lines (until the first blank line) are
+    the file header/citation; each subsequent '# Section Name' comment starts a
+    new section whose terms are the following non-comment lines, until the next
+    blank line + comment or EOF.
+    """
+    lexicons = []
+    if not LEXICONS_DIR.exists():
+        return lexicons
+
+    for path in sorted(LEXICONS_DIR.glob("*.txt")):
+        lines = path.read_text(encoding="utf-8").split("\n")
+        header_lines = []
+        i = 0
+        while i < len(lines) and lines[i].strip().startswith("#"):
+            header_lines.append(lines[i].strip().lstrip("#").strip())
+            i += 1
+        description = " ".join(header_lines)
+
+        sections = []
+        current = None
+        while i < len(lines):
+            stripped = lines[i].strip()
+            if stripped == "":
+                i += 1
+                continue
+            if stripped.startswith("#"):
+                current = {"header": stripped.lstrip("#").strip(), "terms": []}
+                sections.append(current)
+            elif current is not None:
+                current["terms"].append(stripped)
+            i += 1
+
+        lexicons.append({
+            "name": path.stem,
+            "description": description,
+            "sections": sections,
+            "term_count": sum(len(s["terms"]) for s in sections),
+        })
+    return lexicons
 
 
 def safe_read_csv(path: Path) -> pd.DataFrame | None:
@@ -115,6 +279,19 @@ def run():
     if TIMESERIES_JSON.exists():
         payload["timeseries"] = json.loads(TIMESERIES_JSON.read_text())
         print(f"Time series keys: {len(payload['timeseries'])}")
+
+    # --- Methodology (rendered from notes/methodology.md) ---
+    if METHODOLOGY_MD.exists():
+        payload["methodology_html"] = render_markdown(METHODOLOGY_MD.read_text(encoding="utf-8"))
+        print(f"Methodology: rendered {METHODOLOGY_MD.name}")
+    else:
+        print(f"Warning: {METHODOLOGY_MD} not found — skipping methodology tab")
+
+    # --- Lexicons ---
+    lexicons = parse_lexicons()
+    if lexicons:
+        payload["lexicons"] = lexicons
+        print(f"Lexicons: {len(lexicons)} file(s), {sum(l['term_count'] for l in lexicons)} terms")
 
     # --- Metadata ---
     if songs is not None:
