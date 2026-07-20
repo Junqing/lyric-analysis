@@ -18,6 +18,5 @@ venv/
 data/raw/
 
 # Generated files (re-created by export_dashboard.py)
-dashboard/data.json
 dashboard/prompts/
 data/processed/songs.json
