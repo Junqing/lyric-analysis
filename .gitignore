@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+*.ipynb_checkpoints
+
+# Raw scraped data (large, reproducible)
+data/raw/
+
+# Generated files (re-created by export_dashboard.py)
+dashboard/data.json
+dashboard/prompts/
+data/processed/songs.json

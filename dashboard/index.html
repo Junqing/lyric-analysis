@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lyric Analysis — Los Tigres del Norte & Los Tucanes de Tijuana</title>
+<!-- Plotly loaded lazily on first Analysis tab open; see app.js loadPlotly() -->
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --surface2: #22263a;
+  --surface3: #2a2f46;
+  --border: #2e3350;
+  --text: #e8eaf0;
+  --muted: #7b80a0;
+  --accent: #5b8dee;
+  --accent2: #e86b3a;
+  --accent3: #4ecb88;
+  --accent4: #c97ef0;
+  --axis-drug: #e74c6a;
+  --axis-immig: #5b8dee;
+  --axis-elecmx: #4ecb88;
+  --axis-uspres: #f0a940;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+
+/* ── Shell ── */
+#shell { display: flex; flex-direction: column; height: 100vh; }
+
+header {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 0 24px; display: flex; align-items: center; gap: 0; flex-shrink: 0; height: 48px;
+}
+header .brand { font-size: 14px; font-weight: 700; color: var(--text); white-space: nowrap; margin-right: 32px; }
+header .brand span { color: var(--muted); font-weight: 400; }
+
+/* ── Nav tabs ── */
+nav { display: flex; height: 100%; gap: 2px; }
+.nav-tab {
+  display: flex; align-items: center; gap: 7px; padding: 0 18px;
+  font-size: 13px; font-weight: 500; color: var(--muted); cursor: pointer;
+  border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
+  user-select: none; white-space: nowrap; background: none; border-top: none; border-left: none; border-right: none;
+}
+.nav-tab:hover { color: var(--text); }
+.nav-tab.active { color: var(--text); border-bottom-color: var(--accent); }
+.nav-tab .icon { font-size: 15px; line-height: 1; }
+
+/* ── Pages ── */
+.page { display: none; flex: 1; overflow: hidden; flex-direction: column; }
+.page.active { display: flex; }
+
+/* ── Controls bar ── */
+.controls-bar {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 10px 24px; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; flex-shrink: 0;
+}
+.ctrl-group { display: flex; align-items: center; gap: 8px; }
+.ctrl-group label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+
+.pill-btn {
+  background: var(--surface2); border: 1px solid var(--border); color: var(--muted);
+  padding: 4px 11px; border-radius: 20px; cursor: pointer; font-size: 12px;
+  transition: .12s; user-select: none; white-space: nowrap;
+}
+.pill-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.pill-btn:hover:not(.active) { border-color: var(--accent); color: var(--text); }
+#axis-pills .pill-btn[data-axis="drug_war_mx"].active     { background: var(--axis-drug);  border-color: var(--axis-drug); }
+#axis-pills .pill-btn[data-axis="immigration_usmx"].active{ background: var(--axis-immig); border-color: var(--axis-immig); }
+#axis-pills .pill-btn[data-axis="elections_mx"].active    { background: var(--axis-elecmx);border-color: var(--axis-elecmx); }
+#axis-pills .pill-btn[data-axis="us_presidency"].active   { background: var(--axis-uspres);border-color: var(--axis-uspres); }
+
+select {
+  background: var(--surface2); border: 1px solid var(--border); color: var(--text);
+  padding: 4px 10px; border-radius: 6px; font-size: 12px; cursor: pointer;
+}
+select:focus { outline: none; border-color: var(--accent); }
+input[type=range] { accent-color: var(--accent); width: 110px; }
+.range-val { color: var(--text); font-size: 12px; min-width: 68px; }
+
+/* ── Scrollable page content ── */
+.page-scroll { flex: 1; overflow-y: auto; padding: 20px 24px; display: flex; flex-direction: column; gap: 20px; }
+
+/* ── Cards / panels ── */
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.panel-header {
+  padding: 10px 16px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+}
+.panel-header h2 { font-size: 12px; font-weight: 600; }
+.panel-desc { font-size: 11px; color: var(--muted); }
+.panel-body { padding: 4px; }
+.panels-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+/* ── Stats bar ── */
+.stat-row { display: flex; gap: 28px; flex-wrap: wrap; padding: 10px 16px; }
+.stat .val { font-size: 20px; font-weight: 700; }
+.stat .lbl { font-size: 11px; color: var(--muted); margin-top: 1px; }
+
+/* ── Tables (shared) ── */
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+thead th {
+  background: var(--surface2); color: var(--muted); font-size: 10px; text-transform: uppercase;
+  letter-spacing: .05em; padding: 7px 12px; text-align: left; position: sticky; top: 0; z-index: 2;
+  white-space: nowrap;
+}
+thead th.sortable { cursor: pointer; user-select: none; }
+thead th.sortable:hover { color: var(--text); }
+thead th .sort-arrow { opacity: .4; margin-left: 4px; }
+thead th.sort-asc .sort-arrow::after  { content: '↑'; opacity: 1; }
+thead th.sort-desc .sort-arrow::after { content: '↓'; opacity: 1; }
+tbody tr { border-bottom: 1px solid var(--border); transition: background .08s; }
+tbody tr:hover { background: var(--surface2); cursor: pointer; }
+tbody td { padding: 7px 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 280px; }
+
+/* ── Tags ── */
+.tag { display: inline-block; padding: 2px 7px; border-radius: 10px; font-size: 10px; font-weight: 600; margin: 1px; }
+.tag-narco        { background: rgba(231,76,106,.18); color: var(--axis-drug); }
+.tag-migracion    { background: rgba(91,141,238,.18); color: var(--accent); }
+.tag-politica_mx  { background: rgba(78,203,136,.18); color: var(--accent3); }
+.tag-politica_us  { background: rgba(240,169,64,.18);  color: var(--axis-uspres); }
+.tag-none         { color: var(--muted); font-style: italic; }
+.sent-POS { color: var(--accent3); } .sent-NEG { color: var(--axis-drug); } .sent-NEU { color: var(--muted); }
+
+/* ── Search input ── */
+.search-input {
+  background: var(--surface2); border: 1px solid var(--border); color: var(--text);
+  padding: 7px 14px; width: 100%; font-size: 13px; border-radius: 0;
+  border-left: none; border-right: none; border-top: none;
+}
+.search-input:focus { outline: none; border-color: var(--accent); }
+
+/* ── Lyrics browser layout ── */
+#lyrics-page { flex-direction: row; overflow: hidden; }
+#lyrics-left {
+  width: 340px; flex-shrink: 0; border-right: 1px solid var(--border);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+#lyrics-list-controls {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0;
+}
+#lyrics-search { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 7px 12px; border-radius: 6px; font-size: 12px; width: 100%; }
+#lyrics-search:focus { outline: none; border-color: var(--accent); }
+#lyrics-filters { display: flex; gap: 6px; flex-wrap: wrap; }
+#lyrics-artist-filter, #lyrics-topic-filter, #lyrics-sort { font-size: 11px; padding: 3px 8px; }
+#lyrics-count { font-size: 11px; color: var(--muted); padding: 4px 0 0; }
+#lyrics-list { flex: 1; overflow-y: auto; }
+.lyric-item {
+  padding: 11px 14px; border-bottom: 1px solid var(--border); cursor: pointer;
+  transition: background .08s;
+}
+.lyric-item:hover { background: var(--surface2); }
+.lyric-item.selected { background: var(--surface3); border-left: 3px solid var(--accent); padding-left: 11px; }
+.lyric-item .li-title { font-size: 13px; font-weight: 500; line-height: 1.3; }
+.lyric-item .li-meta  { font-size: 11px; color: var(--muted); margin-top: 3px; display: flex; gap: 10px; flex-wrap: wrap; }
+.lyric-item .li-tags  { margin-top: 4px; }
+
+#lyrics-right { flex: 1; overflow-y: auto; padding: 24px 28px; }
+#lyrics-right.empty { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 13px; }
+#song-detail { display: flex; flex-direction: column; gap: 20px; }
+#song-detail .song-title { font-size: 22px; font-weight: 700; line-height: 1.2; }
+#song-detail .song-meta-row {
+  display: flex; flex-wrap: wrap; gap: 20px; padding: 12px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+}
+.song-meta-item .smk { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 4px; }
+.song-meta-item .smv { font-size: 13px; }
+.song-meta-item a { color: var(--accent); }
+.section-label { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 8px; }
+.topic-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.keyword-detail { background: var(--surface2); border-radius: 8px; padding: 12px 16px; }
+.keyword-detail table { font-size: 12px; }
+.keyword-detail td { padding: 3px 10px 3px 0; }
+.keyword-detail td:last-child { color: var(--accent); font-weight: 600; text-align: right; padding-right: 0; }
+.lyrics-full {
+  background: var(--surface2); border-radius: 8px; padding: 18px 20px;
+  font-size: 13px; line-height: 1.9; white-space: pre-wrap; color: var(--text);
+  font-family: 'Georgia', serif;
+}
+.nearby-events { display: flex; flex-direction: column; gap: 8px; }
+.ev-card { padding: 10px 14px; border-radius: 6px; border-left: 3px solid; }
+.ev-card .ev-title { font-weight: 600; font-size: 13px; }
+.ev-card .ev-desc { font-size: 11px; color: var(--muted); margin-top: 4px; line-height: 1.5; }
+.ev-card .ev-src { font-size: 10px; color: var(--muted); margin-top: 4px; }
+.ev-card .ev-src a { color: var(--accent); }
+.ev-drug_war_mx    { border-color: var(--axis-drug);  background: rgba(231,76,106,.07); }
+.ev-immigration_usmx{ border-color: var(--axis-immig); background: rgba(91,141,238,.07); }
+.ev-elections_mx   { border-color: var(--axis-elecmx); background: rgba(78,203,136,.07); }
+.ev-us_presidency  { border-color: var(--axis-uspres); background: rgba(240,169,64,.07); }
+
+/* ── Events page ── */
+#events-page .page-scroll { gap: 0; padding: 0; }
+#events-tbl-wrap { flex: 1; overflow: auto; }
+#events-tbl-wrap table thead th { top: 0; }
+.ev-axis-pill {
+  display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;
+}
+.axis-drug_war_mx     { background: rgba(231,76,106,.18); color: var(--axis-drug); }
+.axis-immigration_usmx{ background: rgba(91,141,238,.18); color: var(--axis-immig); }
+.axis-elections_mx    { background: rgba(78,203,136,.18); color: var(--axis-elecmx); }
+.axis-us_presidency   { background: rgba(240,169,64,.18);  color: var(--axis-uspres); }
+.events-controls {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 10px 20px; display: flex; gap: 12px; align-items: center; flex-shrink: 0;
+}
+.events-controls input { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 6px 12px; border-radius: 6px; font-size: 12px; width: 260px; }
+.events-controls input:focus { outline: none; border-color: var(--accent); }
+.events-controls select { font-size: 12px; padding: 6px 10px; }
+#ev-count { font-size: 11px; color: var(--muted); margin-left: auto; }
+
+/* ── Loading ── */
+.loading { display: flex; align-items: center; justify-content: center; height: 200px; color: var(--muted); }
+
+/* ── Modal (analysis page song detail) ── */
+#modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.72); z-index: 100; align-items: center; justify-content: center; }
+#modal-overlay.open { display: flex; }
+#modal { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; width: min(760px, 96vw); max-height: 88vh; display: flex; flex-direction: column; }
+#modal-head { padding: 16px 20px 12px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; }
+#modal-head h3 { font-size: 15px; font-weight: 700; }
+#modal-head .meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
+#modal-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 22px; line-height: 1; }
+#modal-close:hover { color: var(--text); }
+#modal-body { overflow-y: auto; padding: 16px 20px; display: flex; flex-direction: column; gap: 16px; }
+.modal-section h4 { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 7px; }
+.modal-method-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.modal-method { background: var(--surface2); border-radius: 8px; padding: 10px 14px; flex: 1; min-width: 150px; }
+.modal-method .method-name { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 6px; }
+.lyrics-box { background: var(--surface2); border-radius: 8px; padding: 14px; font-size: 13px; line-height: 1.8; white-space: pre-wrap; max-height: 240px; overflow-y: auto; font-family: Georgia, serif; }
+.modal-events-list { display: flex; flex-direction: column; gap: 6px; }
+.modal-event { padding: 8px 12px; border-radius: 6px; border-left: 3px solid; font-size: 12px; }
+.modal-event .ev-title { font-weight: 600; }
+.modal-event .ev-meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.modal-event a { color: var(--accent); font-size: 10px; }
+
+/* ── Session Log page ── */
+#session-page .page-scroll { max-width: 820px; margin: 0 auto; width: 100%; }
+.session-header { margin-bottom: 8px; }
+.session-header h2 { font-size: 15px; font-weight: 700; }
+.session-header p { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.5; }
+.session-select { display: flex; gap: 10px; align-items: center; margin-bottom: 20px; }
+.session-select label { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.msg { display: flex; gap: 14px; margin-bottom: 18px; }
+.msg.user { flex-direction: row-reverse; }
+.msg-avatar {
+  width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; margin-top: 2px;
+}
+.msg.user .msg-avatar    { background: #3a5a9e; color: #fff; }
+.msg.assistant .msg-avatar { background: #2a4a3e; color: var(--accent3); }
+.msg-bubble {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 16px; max-width: 680px;
+  font-size: 13px; line-height: 1.65;
+}
+.msg.user .msg-bubble { background: var(--surface2); border-radius: 12px 4px 12px 12px; }
+.msg.assistant .msg-bubble { border-radius: 4px 12px 12px 12px; }
+.msg-role { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 5px; font-weight: 600; }
+.msg.user .msg-role { text-align: right; }
+.msg-note { font-size: 11px; color: var(--muted); font-style: italic; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border); }
+.msg-id { font-size: 10px; color: var(--border); margin-bottom: 2px; }
+.msg.user .msg-id { text-align: right; }
+
+@media (max-width: 768px) {
+  .panels-row { grid-template-columns: 1fr; }
+  #lyrics-page { flex-direction: column; }
+  #lyrics-left { width: 100%; height: 40vh; border-right: none; border-bottom: 1px solid var(--border); }
+  #lyrics-right { padding: 16px; }
+}
+</style>
+</head>
+<body>
+<div id="shell">
+
+<!-- ── Header + nav ── -->
+<header>
+  <div class="brand">Lyric Analysis <span>/ Los Tigres & Los Tucanes</span></div>
+  <nav>
+    <button class="nav-tab active" data-page="analysis-page">
+      <span class="icon">📊</span> Analysis
+    </button>
+    <button class="nav-tab" data-page="lyrics-page">
+      <span class="icon">🎵</span> Lyrics Browser
+    </button>
+    <button class="nav-tab" data-page="events-page">
+      <span class="icon">📰</span> Political Events
+    </button>
+    <button class="nav-tab" data-page="session-page">
+      <span class="icon">💬</span> Session Log
+    </button>
+  </nav>
+</header>
+
+<!-- ══════════════════════════════════════════════════
+     PAGE 1: ANALYSIS
+══════════════════════════════════════════════════ -->
+<div class="page active" id="analysis-page">
+  <div class="controls-bar">
+    <div class="ctrl-group">
+      <label>Artist</label>
+      <div id="artist-pills"></div>
+    </div>
+    <div class="ctrl-group">
+      <label>Method</label>
+      <select id="method-select">
+        <option value="keywords">Keywords (M1)</option>
+        <option value="bertopic">BERTopic (M2)</option>
+        <option value="hybrid">Hybrid (M3)</option>
+      </select>
+    </div>
+    <div class="ctrl-group">
+      <label>Event axes</label>
+      <div id="axis-pills"></div>
+    </div>
+    <div class="ctrl-group">
+      <label>Years</label>
+      <input type="range" id="year-min" min="1960" max="2030" value="1960">
+      <span class="range-val" id="year-range-label">—</span>
+      <input type="range" id="year-max" min="1960" max="2030" value="2030">
+    </div>
+  </div>
+
+  <div class="page-scroll">
+    <!-- Stats -->
+    <div class="panel">
+      <div class="stat-row" id="stat-row">
+        <div class="stat"><div class="val" id="stat-songs">—</div><div class="lbl">Songs</div></div>
+        <div class="stat"><div class="val" id="stat-events">—</div><div class="lbl">Political events</div></div>
+        <div class="stat"><div class="val" id="stat-years">—</div><div class="lbl">Year span</div></div>
+        <div class="stat"><div class="val" id="stat-artists">—</div><div class="lbl">Artists</div></div>
+        <div class="stat"><div class="val" id="stat-no-year" style="color:var(--muted)">—</div><div class="lbl">Undated songs</div></div>
+      </div>
+    </div>
+    <!-- Panel A -->
+    <div class="panel">
+      <div class="panel-header">
+        <h2>Panel A — Songs per Year</h2>
+        <span class="panel-desc">Dotted vertical lines = political events, color-coded by axis.</span>
+      </div>
+      <div class="panel-body"><div id="chart-timeline" style="min-height:260px"><div class="loading">Loading…</div></div></div>
+    </div>
+    <!-- Panel B -->
+    <div class="panel">
+      <div class="panel-header">
+        <h2>Panel B — Topic Prevalence Over Time</h2>
+        <span class="panel-desc">Normalized topic score per year by selected method.</span>
+      </div>
+      <div class="panel-body"><div id="chart-topics" style="min-height:280px"></div></div>
+    </div>
+    <!-- Panels C + D -->
+    <div class="panels-row">
+      <div class="panel">
+        <div class="panel-header"><h2>Panel C — Topic × Decade Heatmap</h2></div>
+        <div class="panel-body"><div id="chart-heatmap" style="min-height:260px"></div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Panel D — Sentiment Over Time</h2>
+          <span class="panel-desc">Method 3 only.</span>
+        </div>
+        <div class="panel-body"><div id="chart-sentiment" style="min-height:260px"></div></div>
+      </div>
+    </div>
+    <!-- Panel E -->
+    <div class="panel" id="panel-songs">
+      <div class="panel-header">
+        <h2>Panel E — Song Corpus</h2>
+        <span class="panel-desc">Click a row to inspect lyrics, topics, and nearby events.</span>
+      </div>
+      <input class="search-input" id="search-box" placeholder="Search title, artist, topic, year…">
+      <div class="tbl-wrap" style="max-height:380px; overflow-y:auto;">
+        <table>
+          <thead><tr>
+            <th class="sortable" data-col="release_year">Year<span class="sort-arrow"></span></th>
+            <th>Artist</th>
+            <th>Title</th>
+            <th>Topics (KW)</th>
+            <th>Words</th>
+            <th>Source</th>
+          </tr></thead>
+          <tbody id="songs-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════
+     PAGE 2: LYRICS BROWSER
+══════════════════════════════════════════════════ -->
+<div class="page" id="lyrics-page">
+  <!-- Left column: list -->
+  <div id="lyrics-left">
+    <div id="lyrics-list-controls">
+      <input id="lyrics-search" placeholder="Search title, album, year, lyrics…" autocomplete="off">
+      <div id="lyrics-filters">
+        <select id="lyrics-artist-filter">
+          <option value="">All artists</option>
+        </select>
+        <select id="lyrics-topic-filter">
+          <option value="">All topics</option>
+        </select>
+        <select id="lyrics-sort">
+          <option value="year_asc">Year ↑</option>
+          <option value="year_desc">Year ↓</option>
+          <option value="title_asc">Title A→Z</option>
+          <option value="words_desc">Most words</option>
+        </select>
+      </div>
+      <div id="lyrics-count"></div>
+    </div>
+    <div id="lyrics-list"></div>
+  </div>
+
+  <!-- Right column: song detail -->
+  <div id="lyrics-right" class="empty">
+    <span>Select a song to view its full lyrics and metadata</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════
+     PAGE 3: POLITICAL EVENTS
+══════════════════════════════════════════════════ -->
+<div class="page" id="events-page">
+  <div class="events-controls">
+    <input id="events-search" placeholder="Search events…" autocomplete="off">
+    <select id="events-axis-filter">
+      <option value="">All axes</option>
+      <option value="drug_war_mx">Drug War MX</option>
+      <option value="immigration_usmx">Immigration US-MX</option>
+      <option value="elections_mx">Elections MX</option>
+      <option value="us_presidency">US Presidency</option>
+    </select>
+    <select id="events-type-filter">
+      <option value="">All types</option>
+    </select>
+    <select id="events-sort">
+      <option value="date_asc">Date ↑</option>
+      <option value="date_desc">Date ↓</option>
+      <option value="axis">By axis</option>
+    </select>
+    <span id="ev-count"></span>
+  </div>
+  <div id="events-tbl-wrap">
+    <table>
+      <thead><tr>
+        <th class="sortable" data-col="date" style="width:100px">Date<span class="sort-arrow sort-asc"></span></th>
+        <th style="width:150px">Axis</th>
+        <th style="width:120px">Type</th>
+        <th>Title</th>
+        <th style="max-width:360px">Description</th>
+        <th style="width:100px">Source</th>
+        <th style="width:80px">Notes</th>
+      </tr></thead>
+      <tbody id="events-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════
+     PAGE 4: SESSION LOG
+══════════════════════════════════════════════════ -->
+<div class="page" id="session-page">
+  <div class="page-scroll">
+    <div class="session-header">
+      <h2>Session Log</h2>
+      <p>The prompting session that produced this project — useful for reproducing the workflow or understanding the research design decisions made during development.</p>
+    </div>
+    <div class="session-select">
+      <label>Session</label>
+      <select id="session-file-select">
+        <option value="session_01.json">Session 01 — Initial build</option>
+      </select>
+    </div>
+    <div id="session-messages"><div class="loading">Loading session…</div></div>
+  </div>
+</div>
+
+</div><!-- #shell -->
+
+<!-- ── Song modal (analysis page) ── -->
+<div id="modal-overlay">
+  <div id="modal">
+    <div id="modal-head">
+      <div>
+        <h3 id="modal-title"></h3>
+        <div class="meta" id="modal-meta"></div>
+      </div>
+      <button id="modal-close">&times;</button>
+    </div>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

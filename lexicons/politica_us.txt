@@ -1,0 +1,68 @@
+# Política EE.UU. — presidentes, legislación, eventos relevantes
+# Fuentes: White House Archives, Congressional Research Service, USCIS.
+
+# Presidentes
+reagan
+ronald reagan
+bush
+george bush
+clinton
+bill clinton
+george w bush
+obama
+barack obama
+trump
+donald trump
+biden
+joe biden
+
+# Legislación e instituciones de inmigración
+irca
+immigration reform
+amnistía
+proposition 187
+operación gatekeeper
+operación hold the line
+operación wetback
+secure fence act
+daca
+dreamers
+tps
+tpo
+mpp
+remain in mexico
+título 42
+title 42
+tolerancia cero
+zero tolerance
+executive order
+orden ejecutiva
+dhs
+ice
+cbp
+uscis
+ins
+border patrol
+
+# Temas generales EE.UU.
+pentágono
+washington
+congreso
+senate
+congress
+blanca casa
+casa blanca
+white house
+embajada
+consulado
+extradición
+extraditar
+dea
+fbi
+cia
+war on drugs
+guerra contra las drogas
+plan mérida
+mérida initiative
+fast and furious
+operación rapido y furioso

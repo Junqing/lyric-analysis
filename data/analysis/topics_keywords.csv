@@ -1,0 +1,872 @@
+song_id,artist,title,release_year,migracion_hits,migracion_score,narco_hits,narco_score,politica_mx_hits,politica_mx_score,politica_us_hits,politica_us_score,dominant_topic
+1753217,Los Tigres del Norte,Acércate a mí,,0,0.0,0,0.0,0,0.0,0,0.0,none
+899288,Los Tigres del Norte,Acuarela potosina,,0,0.0,1,6.6225,0,0.0,0,0.0,narco
+1400003,Los Tigres del Norte,Adiós amigo,,1,4.7619,1,4.7619,0,0.0,0,0.0,migracion
+2114465,Los Tigres del Norte,Adiós madre querida - remastered,,0,0.0,0,0.0,0,0.0,0,0.0,none
+861663,Los Tigres del Norte,A ellas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+867947,Los Tigres del Norte,Agua salada,,0,0.0,1,7.2464,0,0.0,0,0.0,narco
+1974919,Los Tigres del Norte,Aguas revueltas,,3,16.9492,0,0.0,1,5.6497,0,0.0,migracion
+1528774,Los Tigres del Norte,Albacar china,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1018393,Los Tigres del Norte,Al estilo mexicano,,5,19.305,1,3.861,0,0.0,0,0.0,migracion
+1423294,Los Tigres del Norte,Alfilo Del Reloj,,2,11.6959,0,0.0,0,0.0,0,0.0,migracion
+1004576,Los Tigres del Norte,Allá nos juntamos,,4,18.7793,0,0.0,0,0.0,0,0.0,migracion
+1503002,Los Tigres del Norte,Al mil por uno,,0,0.0,0,0.0,0,0.0,0,0.0,none
+11884727,Los Tigres del Norte,Al Rato,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1051397,Los Tigres del Norte,Al sur del Bravo,,2,11.5607,2,11.5607,0,0.0,0,0.0,migracion
+1446094,Los Tigres del Norte,A manos llenas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1859046,Los Tigres del Norte,Amarte Me Hace Bien,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1549915,Los Tigres del Norte,América central,,0,0.0,2,9.2593,0,0.0,0,0.0,narco
+12019290,Los Tigres del Norte,"América (Live at MTV Los Angeles, CA/2011)",,8,21.8579,1,2.7322,0,0.0,0,0.0,migracion
+1767792,Los Tigres del Norte,A mi enemigo,,2,9.6154,0,0.0,0,0.0,0,0.0,migracion
+914275,Los Tigres del Norte,Amigo Juan,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1212899,Los Tigres del Norte,Amigo querido,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1517180,Los Tigres del Norte,Amigos y mujeres,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1449034,Los Tigres del Norte,Amorcito norteño,,3,23.0769,0,0.0,0,0.0,0,0.0,migracion
+1499001,Los Tigres del Norte,Amor de madre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1195904,Los Tigres del Norte,Amores que van y vienen,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1220630,Los Tigres del Norte,Amor garantizado,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1173702,Los Tigres del Norte,Ando amanecido,,2,12.3457,0,0.0,0,0.0,0,0.0,migracion
+991372,Los Tigres del Norte,Apenas te fuiste ayer,,1,9.009,0,0.0,0,0.0,0,0.0,migracion
+2120907,Los Tigres del Norte,Apenas te fuistes ayer,,1,9.009,0,0.0,0,0.0,0,0.0,migracion
+1005446,Los Tigres del Norte,A peso el beso,,2,14.7059,0,0.0,0,0.0,0,0.0,migracion
+936842,Los Tigres del Norte,A quien corresponda,,2,10.3093,1,5.1546,0,0.0,0,0.0,migracion
+1760350,Los Tigres del Norte,A quién no le gusta eso,,1,5.618,0,0.0,2,11.236,0,0.0,politica_mx
+1548817,Los Tigres del Norte,Arnulfo Gonzalez,,0,0.0,5,30.6748,0,0.0,0,0.0,narco
+860852,Los Tigres del Norte,Así como tú,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1858323,Los Tigres del Norte,Asi Es El Amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1328603,Los Tigres del Norte,Así naciste,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1594189,Los Tigres del Norte,Atrapado,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1658824,Los Tigres del Norte,Aún hay esperanza,,1,4.8309,0,0.0,0,0.0,0,0.0,migracion
+1197225,Los Tigres del Norte,Ave de paso,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1830320,Los Tigres del Norte,¡Ay que líos!,,0,0.0,4,15.9363,0,0.0,0,0.0,narco
+1299999,Los Tigres del Norte,Ayúdame a creer,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1475257,Los Tigres del Norte,Bajo el cielo de Morelia,,7,39.3258,0,0.0,0,0.0,0,0.0,migracion
+1002742,Los Tigres del Norte,Barrio viejo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+742298,Los Tigres del Norte,Bohemio de afición,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1081242,Los Tigres del Norte,Bonita y mala,,0,0.0,2,12.1212,0,0.0,0,0.0,narco
+1707960,Los Tigres del Norte,Brisas de abril,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1533044,Los Tigres del Norte,Camisa mojada,,2,11.2994,1,5.6497,0,0.0,0,0.0,migracion
+10384915,Los Tigres del Norte,Campesino Soy,,2,12.3457,0,0.0,0,0.0,0,0.0,migracion
+878602,Los Tigres del Norte,Cara de gitana,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1406174,Los Tigres del Norte,Carga blanca,,1,8.2645,4,33.0579,0,0.0,0,0.0,narco
+978656,Los Tigres del Norte,Cariño dónde andarás,,2,15.748,1,7.874,0,0.0,0,0.0,migracion
+1400106,Los Tigres del Norte,Cariño Sin Condición,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1287486,Los Tigres del Norte,Carne quemada,,2,12.5786,2,12.5786,2,12.5786,0,0.0,migracion
+1572464,Los Tigres del Norte,Carrera contra la muerte,,3,12.766,0,0.0,0,0.0,0,0.0,migracion
+922813,Los Tigres del Norte,Carta abierta,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1144111,Los Tigres del Norte,Causame la muerte,,1,4.7619,0,0.0,0,0.0,0,0.0,migracion
+993564,Los Tigres del Norte,César Chávez,,6,25.7511,0,0.0,0,0.0,0,0.0,migracion
+1089952,Los Tigres del Norte,Chayo Chaires,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1600693,Los Tigres del Norte,Chin marín,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1293476,Los Tigres del Norte,Cielo gris,,0,0.0,2,10.929,0,0.0,0,0.0,narco
+1696453,Los Tigres del Norte,Cien años,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1605205,Los Tigres del Norte,Como aceite y como el agua,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1420690,Los Tigres del Norte,Como De Que No,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1402230,Los Tigres del Norte,Como la vida sin futbol,,0,0.0,2,4.7281,0,0.0,0,0.0,narco
+1614518,Los Tigres del Norte,Compañera,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1264375,Los Tigres del Norte,Con la soga al cuello,,3,13.5135,11,49.5495,0,0.0,0,0.0,narco
+1259027,Los Tigres del Norte,Con mi amigo no,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1439321,Los Tigres del Norte,Con razón y sin razón,,0,0.0,0,0.0,1,4.9505,0,0.0,politica_mx
+1269591,Los Tigres del Norte,Consejos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1612521,Los Tigres del Norte,Consuelo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1358245,Los Tigres del Norte,Contrabando y robo,,0,0.0,4,24.2424,0,0.0,0,0.0,narco
+228611,Los Tigres del Norte,Contrabando y Traición,,1,6.1728,4,24.6914,0,0.0,0,0.0,narco
+2069009,Los Tigres del Norte,Con tus mismas palabras,,0,0.0,0,0.0,0,0.0,0,0.0,none
+868956,Los Tigres del Norte,Corazoncito,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1638555,Los Tigres del Norte,Corazón de oro,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1524394,Los Tigres del Norte,Corazón herido,,0,0.0,2,11.9048,0,0.0,0,0.0,narco
+11884724,Los Tigres del Norte,Cosas Del Destino (El Divorcio),,0,0.0,0,0.0,0,0.0,0,0.0,none
+1724191,Los Tigres del Norte,Creíste,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1145088,Los Tigres del Norte,Cruz de palo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1442203,Los Tigres del Norte,Cuando se muere un niño,,0,0.0,2,13.1579,0,0.0,0,0.0,narco
+1669969,Los Tigres del Norte,Cuando supe de tu engaño,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1162971,Los Tigres del Norte,Cuba,,1,4.5455,5,22.7273,0,0.0,0,0.0,narco
+1211598,Los Tigres del Norte,Cuidado con la mesera,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1683086,Los Tigres del Norte,Cumbia de amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1695240,Los Tigres del Norte,Cumbia guajira,,0,0.0,1,2.6042,0,0.0,0,0.0,narco
+1573478,Los Tigres del Norte,Cuquita,,0,0.0,0,0.0,0,0.0,0,0.0,none
+878431,Los Tigres del Norte,Custodio,,0,0.0,5,39.3701,0,0.0,0,0.0,narco
+920497,Los Tigres del Norte,Decepción,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1450750,Los Tigres del Norte,¿De qué color es la suerte?,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1416819,Los Tigres del Norte,Destino cruel,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1406584,Los Tigres del Norte,Devuélveme,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1244081,Los Tigres del Norte,Diamante negro,,0,0.0,2,12.6582,0,0.0,0,0.0,narco
+1224150,Los Tigres del Norte,Don nadie,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1628437,Los Tigres del Norte,Dos hojas sin rumbo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+977242,Los Tigres del Norte,El agente del amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1405764,Los Tigres del Norte,El aguilillo,,0,0.0,1,5.2356,0,0.0,0,0.0,narco
+1498584,Los Tigres del Norte,El amor es ciego,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1715612,Los Tigres del Norte,El amor no se mide,,1,6.135,0,0.0,0,0.0,0,0.0,migracion
+1690980,Los Tigres del Norte,El artista,,0,0.0,2,15.5039,0,0.0,0,0.0,narco
+1621495,Los Tigres del Norte,El ausente,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1349849,Los Tigres del Norte,El avión de la muerte,,0,0.0,2,9.434,1,4.717,0,0.0,narco
+1177150,Los Tigres del Norte,El bilingüe,,1,4.2735,0,0.0,0,0.0,0,0.0,migracion
+1423494,Los Tigres del Norte,El caballo chamacuz,,0,0.0,2,11.4943,0,0.0,0,0.0,narco
+894690,Los Tigres del Norte,El canelo,,0,0.0,5,27.6243,0,0.0,0,0.0,narco
+1629274,Los Tigres del Norte,El cantante,,1,6.7568,0,0.0,0,0.0,0,0.0,migracion
+1392252,Los Tigres del Norte,El celular,,1,5.1282,2,10.2564,0,0.0,0,0.0,narco
+897183,Los Tigres del Norte,El centroamericano,,12,45.977,2,7.6628,0,0.0,0,0.0,migracion
+1112622,Los Tigres del Norte,El cheque,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1133998,Los Tigres del Norte,El chicano,,4,32.7869,0,0.0,1,8.1967,0,0.0,migracion
+1297863,Los Tigres del Norte,El circo,,1,5.7471,2,11.4943,0,0.0,0,0.0,narco
+1586592,Los Tigres del Norte,El corrido,,2,12.1951,6,36.5854,0,0.0,0,0.0,narco
+1848171,Los Tigres del Norte,El corrido del Dr. Fonseca,,3,13.9535,2,9.3023,0,0.0,0,0.0,migracion
+1092684,Los Tigres del Norte,El cura,,2,9.5238,4,19.0476,0,0.0,0,0.0,narco
+1134139,Los Tigres del Norte,El curita y la coqueta,,2,8.9686,0,0.0,0,0.0,0,0.0,migracion
+1540997,Los Tigres del Norte,El diputado,,1,6.4103,2,12.8205,0,0.0,0,0.0,narco
+1599631,Los Tigres del Norte,El dolor de un padre,,0,0.0,2,8.6207,0,0.0,0,0.0,narco
+1274314,Los Tigres del Norte,El dorado,,1,5.3476,2,10.6952,0,0.0,0,0.0,narco
+1419143,Los Tigres del Norte,El emigrante,,6,29.5567,0,0.0,0,0.0,0,0.0,migracion
+1983059,Los Tigres del Norte,El enfermito,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1665797,Los Tigres del Norte,El engaño,,0,0.0,0,0.0,0,0.0,0,0.0,none
+906513,Los Tigres del Norte,El espinazo del diablo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1154902,Los Tigres del Norte,El fin del mundo,,1,5.2356,4,20.9424,0,0.0,0,0.0,narco
+1324248,Los Tigres del Norte,El gallo de pelea,,0,0.0,1,5.7803,0,0.0,0,0.0,narco
+1325547,Los Tigres del Norte,El Gato Félix,,1,5.4645,5,27.3224,0,0.0,0,0.0,narco
+1341990,Los Tigres del Norte,El general,,3,12.8755,7,30.0429,0,0.0,0,0.0,narco
+1713726,Los Tigres del Norte,El golpe traidor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1202370,Los Tigres del Norte,El gringo y el mexicano,,9,48.913,0,0.0,0,0.0,0,0.0,migracion
+1136959,Los Tigres del Norte,El gringo y el mexicano (La tragedia de un mojado),,9,48.913,0,0.0,0,0.0,0,0.0,migracion
+948932,Los Tigres del Norte,El hijo de Camelia,,0,0.0,2,14.4928,0,0.0,0,0.0,narco
+1169703,Los Tigres del Norte,El hijo del pueblo,,1,6.7568,0,0.0,0,0.0,0,0.0,migracion
+1673345,Los Tigres del Norte,El hijo de Tijuana,,1,4.2918,4,17.1674,0,0.0,0,0.0,narco
+1574176,Los Tigres del Norte,El hijo menor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1704714,Los Tigres del Norte,El huacal,,0,0.0,0,0.0,0,0.0,0,0.0,none
+690329,Los Tigres del Norte,El jefe de jefes,,2,7.7821,2,7.7821,0,0.0,0,0.0,migracion
+1455003,Los Tigres del Norte,El macho y el hombre,,2,11.9048,0,0.0,0,0.0,0,0.0,migracion
+893290,Los Tigres del Norte,El mojado acaudalado (acústico),,14,81.8713,1,5.848,0,0.0,0,0.0,migracion
+863410,Los Tigres del Norte,El Muro,,23,54.8926,1,2.3866,3,7.1599,0,0.0,migracion
+1146042,Los Tigres del Norte,El niño de la calle,,4,8.9686,1,2.2422,0,0.0,0,0.0,migracion
+888636,Los Tigres del Norte,El Niño y La Boda,,0,0.0,2,8.8496,0,0.0,0,0.0,narco
+10384916,Los Tigres del Norte,Eloísa Me Lo Hizo,,0,0.0,1,2.8818,0,0.0,0,0.0,narco
+1815590,Los Tigres del Norte,El otro México,,6,31.5789,1,5.2632,0,0.0,0,0.0,migracion
+1471422,Los Tigres del Norte,El pájaro prieto,,0,0.0,0,0.0,0,0.0,0,0.0,none
+984275,Los Tigres del Norte,El perro mocho,,3,11.4504,3,11.4504,1,3.8168,0,0.0,migracion
+1154064,Los Tigres del Norte,El pescadito rojo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1622838,Los Tigres del Norte,El plantón,,0,0.0,1,6.1728,0,0.0,0,0.0,narco
+1304014,Los Tigres del Norte,El prisionero,,3,18.6335,1,6.2112,0,0.0,0,0.0,migracion
+1214009,Los Tigres del Norte,El que no había nacido,,1,5.2356,1,5.2356,0,0.0,0,0.0,migracion
+1499620,Los Tigres del Norte,El rengo del gallo giro,,1,6.3694,0,0.0,0,0.0,0,0.0,migracion
+1362296,Los Tigres del Norte,El reportero,,1,5.814,0,0.0,2,11.6279,0,0.0,politica_mx
+1022449,Los Tigres del Norte,El rey,,0,0.0,1,7.2464,0,0.0,0,0.0,narco
+1225011,Los Tigres del Norte,El santo de los mojados,,4,18.7793,4,18.7793,0,0.0,0,0.0,migracion
+986285,Los Tigres del Norte,El sastre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1671329,Los Tigres del Norte,El siete leguas,,1,8.1301,0,0.0,0,0.0,0,0.0,migracion
+1442059,Los Tigres del Norte,El sordomudo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1830242,Los Tigres del Norte,El sueño de bolivar,,2,12.8205,0,0.0,0,0.0,0,0.0,migracion
+1539612,Los Tigres del Norte,El tahúr,,0,0.0,2,9.2166,0,0.0,0,0.0,narco
+1371615,Los Tigres del Norte,El tamal,,0,0.0,3,17.6471,0,0.0,0,0.0,narco
+1250807,Los Tigres del Norte,El tarasco,,1,5.848,0,0.0,0,0.0,0,0.0,migracion
+1084449,Los Tigres del Norte,El titulado,,3,12.5,1,4.1667,0,0.0,0,0.0,migracion
+1077203,Los Tigres del Norte,El tren,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1467539,Los Tigres del Norte,El triunfo en las manos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1319554,Los Tigres del Norte,El troquero,,1,6.4935,0,0.0,0,0.0,0,0.0,migracion
+958573,Los Tigres del Norte,El último atardecer,,0,0.0,2,10.6952,0,0.0,0,0.0,narco
+1142387,Los Tigres del Norte,El veredicto,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1064369,Los Tigres del Norte,El vestido,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1384344,Los Tigres del Norte,El zacatecas,,0,0.0,1,5.988,0,0.0,0,0.0,narco
+1372244,Los Tigres del Norte,El zorro de ojinaga,,2,12.1212,1,6.0606,0,0.0,0,0.0,migracion
+1055758,Los Tigres del Norte,En la misma cantina,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1665848,Los Tigres del Norte,Enséñate a respetar,,2,10.6952,0,0.0,0,0.0,0,0.0,migracion
+977700,Los Tigres del Norte,En Tu Boda,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1853125,Los Tigres del Norte,Era Diferente,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1524820,Los Tigres del Norte,Esperando el cheque,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1846475,Los Tigres del Norte,Esta Noche Voy a Verte,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1276668,Los Tigres del Norte,Fallaste corazón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1088710,Los Tigres del Norte,Falso amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1107124,Los Tigres del Norte,Flor del río,,0,0.0,0,0.0,1,7.0423,0,0.0,politica_mx
+952614,Los Tigres del Norte,Fue una mujer,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2002439,Los Tigres del Norte,Gallo de pelea,,0,0.0,1,5.7803,0,0.0,0,0.0,narco
+1262674,Los Tigres del Norte,Gavilán perdido,,3,11.583,7,27.027,0,0.0,0,0.0,narco
+1699437,Los Tigres del Norte,Gaviota,,0,0.0,2,9.434,1,4.717,0,0.0,narco
+946865,Los Tigres del Norte,Gema,,0,0.0,1,7.7519,0,0.0,0,0.0,narco
+1944652,Los Tigres del Norte,"Golpes En El Corazón (Live at MTV Los Angeles, CA/2011)",,0,0.0,0,0.0,0,0.0,0,0.0,none
+1010417,Los Tigres del Norte,Gracias… nada más,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1861393,Los Tigres del Norte,Historia de Amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1936911,Los Tigres del Norte,Historias de ciudad,,1,4.7847,1,4.7847,0,0.0,0,0.0,migracion
+1848132,Los Tigres del Norte,Hoy Le Hablo a Diario,,2,9.901,0,0.0,0,0.0,0,0.0,migracion
+1346894,Los Tigres del Norte,Indiferencia,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1757445,Los Tigres del Norte,Ingratitud,,2,10.8696,0,0.0,0,0.0,0,0.0,migracion
+1636429,Los Tigres del Norte,Jacinto Treviño,,4,27.7778,0,0.0,0,0.0,0,0.0,migracion
+8512401,Los Tigres del Norte,Jefes de Jefes (Versión 2022),,0,0.0,0,0.0,0,0.0,0,0.0,none
+1077616,Los Tigres del Norte,Jesús Amado,,1,6.3291,2,12.6582,0,0.0,0,0.0,narco
+1499815,Los Tigres del Norte,Juana la traicionera,,0,0.0,1,5.988,0,0.0,0,0.0,narco
+960413,Los Tigres del Norte,Juan Guerrero,,0,0.0,4,20.8333,0,0.0,0,0.0,narco
+1210352,Los Tigres del Norte,La basurita,,4,31.4961,0,0.0,0,0.0,0,0.0,migracion
+1718889,Los Tigres del Norte,La bota,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1494157,Los Tigres del Norte,La bronco negra,,0,0.0,4,22.2222,0,0.0,0,0.0,narco
+899087,Los Tigres del Norte,La camioneta gris,,1,6.0606,2,12.1212,2,12.1212,0,0.0,narco
+1286293,Los Tigres del Norte,La carretera,,0,0.0,2,6.0976,0,0.0,0,0.0,narco
+1491596,Los Tigres del Norte,La cochicuina,,2,10.582,0,0.0,0,0.0,0,0.0,migracion
+1098897,Los Tigres del Norte,La creación,,1,5.0,0,0.0,0,0.0,0,0.0,migracion
+898425,Los Tigres del Norte,La crónica de un cambio,,0,0.0,2,9.2166,0,0.0,0,0.0,narco
+987787,Los Tigres del Norte,La daga,,0,0.0,2,14.8148,0,0.0,0,0.0,narco
+1417537,Los Tigres del Norte,La fama de la pareja,,2,10.582,5,26.455,0,0.0,0,0.0,narco
+1177113,Los Tigres del Norte,La fuga del rojo,,1,4.717,1,4.717,0,0.0,0,0.0,migracion
+1566010,Los Tigres del Norte,Lágrimas de sangre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1861231,Los Tigres del Norte,La Guardería,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1934937,Los Tigres del Norte,"La hija, la mama",,0,0.0,1,2.6667,0,0.0,0,0.0,narco
+969843,Los Tigres del Norte,La huella del alacrán,,0,0.0,2,10.582,0,0.0,0,0.0,narco
+1662565,Los Tigres del Norte,La interesada,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1853237,Los Tigres del Norte,La Jefa Del Jefe,,0,0.0,3,11.8577,0,0.0,0,0.0,narco
+1104586,Los Tigres del Norte,La llamada,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1103960,Los Tigres del Norte,La loba,,0,0.0,1,5.4054,0,0.0,0,0.0,narco
+1626133,Los Tigres del Norte,La luz de tus ojos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1766437,Los Tigres del Norte,La maestra,,1,5.7143,2,11.4286,1,5.7143,0,0.0,narco
+1327223,Los Tigres del Norte,La mafia muere,,1,7.7519,0,0.0,0,0.0,0,0.0,migracion
+1232259,Los Tigres del Norte,La mancha del pobre,,3,18.75,1,6.25,0,0.0,0,0.0,migracion
+905981,Los Tigres del Norte,La marea,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1401525,Los Tigres del Norte,La margarita,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1005332,Los Tigres del Norte,La mesera,,0,0.0,1,5.5556,1,5.5556,0,0.0,narco
+1771170,Los Tigres del Norte,La moneda,,0,0.0,1,9.8039,0,0.0,0,0.0,narco
+1470839,Los Tigres del Norte,La neta de las netas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1421594,Los Tigres del Norte,La novia de San Benito,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1246029,Los Tigres del Norte,La oferta,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1636961,Los Tigres del Norte,La paloma,,0,0.0,2,12.1212,3,18.1818,0,0.0,politica_mx
+1514163,Los Tigres del Norte,La puerta abierta,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2008264,Los Tigres del Norte,La puerta del rancho,,2,11.0497,1,5.5249,0,0.0,0,0.0,migracion
+1565943,Los Tigres del Norte,La Puerta Negra,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1071243,Los Tigres del Norte,La quinceañera,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1467120,Los Tigres del Norte,La ranita,,4,27.7778,0,0.0,0,0.0,0,0.0,migracion
+1011612,Los Tigres del Norte,La resortera,,5,26.455,2,10.582,0,0.0,0,0.0,migracion
+1435225,Los Tigres del Norte,Las dos apuestas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1284791,Los Tigres del Norte,La segunda carta,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1609913,Los Tigres del Norte,Las flores de mi país,,0,0.0,3,11.0294,1,3.6765,0,0.0,narco
+1386448,Los Tigres del Norte,Las mismas costumbres,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1086818,Los Tigres del Norte,Las mujeres de Juárez,,1,4.5455,2,9.0909,0,0.0,0,0.0,narco
+1624710,Los Tigres del Norte,La temporada es buena,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1749665,Los Tigres del Norte,La tumba del mojado,,12,88.8889,0,0.0,0,0.0,0,0.0,migracion
+1583660,Los Tigres del Norte,La tumba falsa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1543715,Los Tigres del Norte,La vida es una,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1422073,Los Tigres del Norte,La Yaquecita,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1239291,Los Tigres del Norte,Leña del árbol caído,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1206466,Los Tigres del Norte,Leopoldo Ríos,,0,0.0,5,23.5849,0,0.0,0,0.0,narco
+2121613,Los Tigres del Norte,Lgrimas del corazón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1627073,Los Tigres del Norte,"Liar, Liar",,2,9.2166,0,0.0,0,0.0,0,0.0,migracion
+1510115,Los Tigres del Norte,Libidinosamente,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2048506,Los Tigres del Norte,Libros de recuerdos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1772986,Los Tigres del Norte,Loca,,0,0.0,1,7.5188,0,0.0,0,0.0,narco
+892830,Los Tigres del Norte,Lo del agua al agua,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1558705,Los Tigres del Norte,Lo felicito amigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1248517,Los Tigres del Norte,Lo que sembré allá en la sierra,,1,5.848,2,11.6959,2,11.6959,0,0.0,narco
+1769652,Los Tigres del Norte,Los aguaceros de mayo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1226121,Los Tigres del Norte,Los barandales del puente,,0,0.0,1,9.5238,6,57.1429,0,0.0,politica_mx
+1238871,Los Tigres del Norte,Los Felicito Amigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1146106,Los Tigres del Norte,Los hijos de Hernandez,,8,37.3832,0,0.0,0,0.0,0,0.0,migracion
+1148641,Los Tigres del Norte,Los mal portados,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1946883,Los Tigres del Norte,Los tres amigos,,0,0.0,4,19.3237,0,0.0,0,0.0,narco
+1285024,Los Tigres del Norte,Los Tres Amigos (30 Segundos Para Morir),,0,0.0,4,19.3237,0,0.0,0,0.0,narco
+1625243,Los Tigres del Norte,Los tres de Zacatecas,,1,7.1942,2,14.3885,0,0.0,0,0.0,narco
+1317451,Los Tigres del Norte,Los tres gallos,,0,0.0,2,12.4224,1,6.2112,0,0.0,narco
+1238993,Los Tigres del Norte,Lo tomas o lo tiras,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1267002,Los Tigres del Norte,Madrecita querida,,0,0.0,0,0.0,0,0.0,0,0.0,none
+11467445,Los Tigres del Norte,Mal Negocio,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1203536,Los Tigres del Norte,Mañanitas a mi madre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1649098,Los Tigres del Norte,Mañanitas guadalupanas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1196187,Los Tigres del Norte,Mano larga,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1337262,Los Tigres del Norte,Manos unidas,,3,9.8039,1,3.268,0,0.0,0,0.0,migracion
+1766845,Los Tigres del Norte,Margarita la de tijuana,,0,0.0,7,50.0,0,0.0,0,0.0,narco
+1040908,Los Tigres del Norte,Me dicen perseverante,,2,11.1732,0,0.0,0,0.0,0,0.0,migracion
+1244454,Los Tigres del Norte,Me haces falta,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1519763,Los Tigres del Norte,Me importa poco,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1421493,Los Tigres del Norte,Me maldigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1079832,Los Tigres del Norte,Mentira,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1520691,Los Tigres del Norte,Me quedas a la medida,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1375428,Los Tigres del Norte,Me regalo contigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1848284,Los Tigres del Norte,Me Siguen Llamando El Jefe,,1,5.3763,5,26.8817,0,0.0,0,0.0,narco
+1251482,Los Tigres del Norte,Mi chamaquita,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1344575,Los Tigres del Norte,Mi curiosidad,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2249247,Los Tigres del Norte,Mi Distrito Federal,,1,5.814,0,0.0,0,0.0,0,0.0,migracion
+1673249,Los Tigres del Norte,Mi gusto es,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1473111,Los Tigres del Norte,Mi lamento,,1,5.4054,0,0.0,0,0.0,0,0.0,migracion
+1932960,Los Tigres del Norte,Miles de sueños,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1241727,Los Tigres del Norte,Mi linda esposa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1552729,Los Tigres del Norte,Mi negocio está seguro,,1,5.9172,1,5.9172,0,0.0,0,0.0,migracion
+1712441,Los Tigres del Norte,Minita de oro,,1,2.7778,0,0.0,0,0.0,0,0.0,migracion
+11835725,Los Tigres del Norte,Mi Primer Adiós,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1290972,Los Tigres del Norte,"Mira, mira, mira",,1,4.2553,0,0.0,0,0.0,0,0.0,migracion
+1349385,Los Tigres del Norte,Mi soldado,,3,12.6582,0,0.0,2,8.4388,0,0.0,migracion
+1129590,Los Tigres del Norte,Montones de buena suerte,,1,7.1429,1,7.1429,0,0.0,0,0.0,migracion
+1165932,Los Tigres del Norte,Morenita de ojos negros,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1493508,Los Tigres del Norte,Morir matando,,0,0.0,3,17.7515,0,0.0,0,0.0,narco
+1462862,Los Tigres del Norte,Mucho he sufrido,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1483440,Los Tigres del Norte,Muerte anunciada,,1,6.1728,3,18.5185,0,0.0,0,0.0,narco
+1648558,Los Tigres del Norte,Mujeres manejando,,0,0.0,1,5.988,0,0.0,0,0.0,narco
+1421644,Los Tigres del Norte,My promise / Mi promesa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1394440,Los Tigres del Norte,Nadie me quiere,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1211837,Los Tigres del Norte,Navaja libre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1979918,Los Tigres del Norte,Necesitamos conversar,,0,0.0,1,4.3103,0,0.0,0,0.0,narco
+1198729,Los Tigres del Norte,Necesito mi libertad,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1959469,Los Tigres del Norte,Ni aqui ni all,,1,9.2593,0,0.0,0,0.0,0,0.0,migracion
+1678851,Los Tigres del Norte,Ni Aqui Ni Alla,,1,9.2593,0,0.0,0,0.0,0,0.0,migracion
+1219733,Los Tigres del Norte,Ni Parientes Somos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1566600,Los Tigres del Norte,No Diet,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1370753,Los Tigres del Norte,No llores por él,,1,6.2112,0,0.0,0,0.0,0,0.0,migracion
+2229333,Los Tigres del Norte,Nomás Cuando Estoy Sin Ti,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1332739,Los Tigres del Norte,No me amenaces,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1132273,Los Tigres del Norte,No me ganarás,,0,0.0,1,6.1728,0,0.0,0,0.0,narco
+1092308,Los Tigres del Norte,No me quedaré,,0,0.0,0,0.0,0,0.0,0,0.0,none
+943792,Los Tigres del Norte,No merezco tus lágrimas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1634703,Los Tigres del Norte,No puedo más,,1,4.878,0,0.0,0,0.0,0,0.0,migracion
+1180690,Los Tigres del Norte,Norma Corona,,0,0.0,1,6.0241,0,0.0,0,0.0,narco
+1706698,Los Tigres del Norte,Nos estorbó la ropa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+956778,Los Tigres del Norte,No Sufras Madre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1064033,Los Tigres del Norte,No tiene la culpa el indio,,2,9.5694,5,23.9234,0,0.0,0,0.0,narco
+1760240,Los Tigres del Norte,No volveré,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1150765,Los Tigres del Norte,Nueva cita,,0,0.0,1,9.901,0,0.0,0,0.0,narco
+1950449,Los Tigres del Norte,Ojalá,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1506023,Los Tigres del Norte,Ojos negros nunca engañan,,0,0.0,0,0.0,0,0.0,0,0.0,none
+861708,Los Tigres del Norte,Orgullo mexicano,,5,31.6456,0,0.0,0,0.0,0,0.0,migracion
+885988,Los Tigres del Norte,Padre nuestro,,0,0.0,1,5.7471,0,0.0,0,0.0,narco
+1457457,Los Tigres del Norte,Padres tristes,,1,5.618,0,0.0,0,0.0,0,0.0,migracion
+1079107,Los Tigres del Norte,Pájaro en mano,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1713731,Los Tigres del Norte,Palabras de mi madre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1046639,Los Tigres del Norte,Para siempre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1041339,Los Tigres del Norte,Paso a paso,,2,16.3934,0,0.0,0,0.0,0,0.0,migracion
+1605467,Los Tigres del Norte,Perdiendo el tiempo,,2,14.1844,1,7.0922,0,0.0,0,0.0,migracion
+1163376,Los Tigres del Norte,Perdonen mi canto,,1,5.2083,3,15.625,1,5.2083,0,0.0,narco
+1853026,Los Tigres del Norte,Perdon Pero No,,0,0.0,0,0.0,0,0.0,0,0.0,none
+927993,Los Tigres del Norte,Plato de segunda mesa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1467234,Los Tigres del Norte,Playa Blanca,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1365575,Los Tigres del Norte,Plaza Garibaldi,,0,0.0,0,0.0,1,6.0606,0,0.0,politica_mx
+1722398,Los Tigres del Norte,Pobreza fatal,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1563286,Los Tigres del Norte,Popurrí: Allá en el rancho grande / La Valentina,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2121627,Los Tigres del Norte,Popurri mexicano,,5,19.305,1,3.861,0,0.0,0,0.0,migracion
+1084289,Los Tigres del Norte,Por alguien,,2,13.0719,0,0.0,0,0.0,0,0.0,migracion
+910414,Los Tigres del Norte,Por debajo del agua,,2,12.7389,4,25.4777,0,0.0,2,12.7389,narco
+1438432,Los Tigres del Norte,Por el amor de una mujer,,0,0.0,1,5.1813,0,0.0,0,0.0,narco
+1478751,Los Tigres del Norte,Por lo menos hoy,,2,9.009,2,9.009,0,0.0,0,0.0,migracion
+985013,Los Tigres del Norte,Por ser sinaloense,,3,17.0455,2,11.3636,0,0.0,0,0.0,migracion
+1114704,Los Tigres del Norte,Por una mujer casada,,0,0.0,0,0.0,0,0.0,0,0.0,none
+969870,Los Tigres del Norte,Prieta casada,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1088211,Los Tigres del Norte,Pueblo Querido,,3,14.8515,0,0.0,0,0.0,0,0.0,migracion
+1387251,Los Tigres del Norte,"Puede que sí, puede que no",,0,0.0,0,0.0,0,0.0,0,0.0,none
+1808622,Los Tigres del Norte,Qué ganarías,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1144070,Los Tigres del Norte,Que nunca se entere,,0,0.0,0,0.0,0,0.0,0,0.0,none
+974532,Los Tigres del Norte,Qué te hizo olvidarme,,0,0.0,0,0.0,0,0.0,0,0.0,none
+951511,Los Tigres del Norte,Qué te parece,,1,3.2258,0,0.0,0,0.0,0,0.0,migracion
+1087643,Los Tigres del Norte,Qué te parece (karaoke),,0,0.0,1,5.988,0,0.0,0,0.0,narco
+1829528,Los Tigres del Norte,Que Voy Hacer Sin Ti,,0,0.0,1,13.5135,0,0.0,0,0.0,narco
+1526908,Los Tigres del Norte,Quién,,0,0.0,1,5.5249,0,0.0,0,0.0,narco
+862125,Los Tigres del Norte,Quién te entiende,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1413152,Los Tigres del Norte,Quién te quiere como yo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1115966,Los Tigres del Norte,Quiero volar contigo,,1,7.1942,0,0.0,0,0.0,0,0.0,migracion
+1501067,Los Tigres del Norte,Quisiera,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1170622,Los Tigres del Norte,Ramiro Sierra,,0,0.0,5,27.7778,0,0.0,0,0.0,narco
+1215511,Los Tigres del Norte,Recuerdos que duelen,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1267574,Los Tigres del Norte,Regalo caro,,0,0.0,6,35.0877,0,0.0,0,0.0,narco
+938043,Los Tigres del Norte,Reina de reinas,,0,0.0,1,5.4645,0,0.0,0,0.0,narco
+1060613,Los Tigres del Norte,Reloj maldito,,6,43.4783,0,0.0,0,0.0,0,0.0,migracion
+1620305,Los Tigres del Norte,Rifaré Mi Suerte,,1,10.8696,0,0.0,0,0.0,0,0.0,migracion
+1015052,Los Tigres del Norte,Rock del corazón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1074370,Los Tigres del Norte,Romance oculto,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2122134,Los Tigres del Norte,Rosita de oliva,,0,0.0,0,0.0,0,0.0,0,0.0,none
+948251,Los Tigres del Norte,Rosita de Olivo,,4,31.4961,0,0.0,0,0.0,0,0.0,migracion
+1514860,Los Tigres del Norte,Rumbo al sur,,0,0.0,1,6.4935,0,0.0,0,0.0,narco
+886753,Los Tigres del Norte,R-Uno,,1,5.848,1,5.848,3,17.5439,2,11.6959,politica_mx
+1679413,Los Tigres del Norte,Sabas Lopez,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1119392,Los Tigres del Norte,Sala de espera,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1518593,Los Tigres del Norte,Sangre caliente,,0,0.0,5,32.0513,0,0.0,0,0.0,narco
+1998861,Los Tigres del Norte,Se me acabó el tequila,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1170950,Los Tigres del Norte,Será mi castigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1178723,Los Tigres del Norte,Si estás durmiendo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+937918,Los Tigres del Norte,Sigamos pecando,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1604260,Los Tigres del Norte,Si me vas a dejar,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1115956,Los Tigres del Norte,Si mides el tamaño,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1560713,Los Tigres del Norte,Sin fronteras,,0,0.0,2,10.7527,1,5.3763,0,0.0,narco
+1242661,Los Tigres del Norte,Sin ti,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1054732,Los Tigres del Norte,"Sí, sí, sí",,0,0.0,0,0.0,0,0.0,0,0.0,none
+860974,Los Tigres del Norte,Si volvemos otra vez,,0,0.0,0,0.0,0,0.0,0,0.0,none
+686635,Los Tigres del Norte,Somos Más Americanos,,11,46.6102,1,4.2373,0,0.0,0,0.0,migracion
+1709021,Los Tigres del Norte,Son tus perjúmenes mujer,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1508207,Los Tigres del Norte,También las mujeres pueden,,3,13.3333,5,22.2222,0,0.0,0,0.0,narco
+1219845,Los Tigres del Norte,Tan bonita,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1669772,Los Tigres del Norte,Tan sólo un amigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2050059,Los Tigres del Norte,Tanta mentira,,0,0.0,0,0.0,0,0.0,0,0.0,none
+870757,Los Tigres del Norte,Te he de olvidar,,0,0.0,0,0.0,0,0.0,0,0.0,none
+902781,Los Tigres del Norte,Te odio y te quiero,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1074414,Los Tigres del Norte,Te vengo a decir adiós,,0,0.0,0,0.0,0,0.0,0,0.0,none
+962252,Los Tigres del Norte,Tiempos de ayer,,0,0.0,0,0.0,0,0.0,0,0.0,none
+867873,Los Tigres del Norte,Tiempos de mayo,,2,9.1743,1,4.5872,0,0.0,0,0.0,migracion
+1150208,Los Tigres del Norte,Tonta (tonto),,0,0.0,0,0.0,0,0.0,0,0.0,none
+878793,Los Tigres del Norte,Trabajo Por Mi Cuenta,,3,16.7598,1,5.5866,0,0.0,0,0.0,migracion
+896656,Los Tigres del Norte,Trigueña hermosa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+12021482,Los Tigres del Norte,Tu Cárcel,,0,0.0,0,0.0,0,0.0,0,0.0,none
+12021481,Los Tigres del Norte,Tu Cárcel (En Vivo),,0,0.0,0,0.0,0,0.0,0,0.0,none
+921640,Los Tigres del Norte,Tu cariño,,0,0.0,1,9.5238,0,0.0,0,0.0,narco
+1080699,Los Tigres del Norte,Tu Castigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1666873,Los Tigres del Norte,"Tú con él, yo con ella",,0,0.0,0,0.0,0,0.0,0,0.0,none
+1468796,Los Tigres del Norte,Tú decides,,2,27.3973,0,0.0,0,0.0,0,0.0,migracion
+1023318,Los Tigres del Norte,Tu recuerdo y yo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1558597,Los Tigres del Norte,Tus ausencias,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1168633,Los Tigres del Norte,Tus dos vestidos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+11884726,Los Tigres del Norte,Tus Últimas Palabras,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2053057,Los Tigres del Norte,Ultimo adiós,,1,2.6738,0,0.0,0,0.0,0,0.0,migracion
+1409858,Los Tigres del Norte,Una mujer de este pueblo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+968297,Los Tigres del Norte,Un hasta aquí,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1433671,Los Tigres del Norte,Un hombre de ley,,0,0.0,2,9.0909,2,9.0909,0,0.0,narco
+1537550,Los Tigres del Norte,Unidos para siempre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1067368,Los Tigres del Norte,Un mar de vino,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1377392,Los Tigres del Norte,Un Regalo Nomás,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1564676,Los Tigres del Norte,Un sueño de tantos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1161540,Los Tigres del Norte,Vale la pena,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1535033,Los Tigres del Norte,Valentín Félix,,2,9.6154,6,28.8462,0,0.0,0,0.0,narco
+1281601,Los Tigres del Norte,Vamos a Las Vegas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1240584,Los Tigres del Norte,Va por ahí,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1334200,Los Tigres del Norte,Ven,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1560816,Los Tigres del Norte,Veneno de amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1159226,Los Tigres del Norte,Ven mi corazón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1459894,Los Tigres del Norte,Viva mi Sinaloa,,1,4.7847,4,19.1388,2,9.5694,0,0.0,narco
+1564409,Los Tigres del Norte,Vivan los mojados,,3,17.341,1,5.7803,0,0.0,0,0.0,migracion
+1707313,Los Tigres del Norte,Ya Encontraron A Camelia,,0,0.0,2,12.987,0,0.0,0,0.0,narco
+1280258,Los Tigres del Norte,Ya lo sabía,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1678863,Los Tigres del Norte,Ya no hagas más sacrificios,,0,0.0,0,0.0,0,0.0,0,0.0,none
+868870,Los Tigres del Norte,Ya nos dieron permiso,,6,34.4828,4,22.9885,0,0.0,0,0.0,migracion
+1489943,Los Tigres del Norte,Ya te soñé conmigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1282530,Los Tigres del Norte,Y dices que tú me amas,,2,19.6078,0,0.0,0,0.0,0,0.0,migracion
+1859811,Los Tucanes de Tijuana,365 Días,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1991673,Los Tucanes de Tijuana,6 pies boca abajo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8281264,Los Tucanes de Tijuana,Adiós para siempre adiós,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8275694,Los Tucanes de Tijuana,Albino Quintero,,3,17.2414,5,28.7356,0,0.0,1,5.7471,narco
+8276847,Los Tucanes de Tijuana,Alegre y mujeriego,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1984236,Los Tucanes de Tijuana,Alegre y mujeriego - con banda sinaloense,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2047864,Los Tucanes de Tijuana,Alejandro Gamino,,2,9.1743,2,9.1743,0,0.0,0,0.0,migracion
+887953,Los Tucanes de Tijuana,Almas Gemelas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1852723,Los Tucanes de Tijuana,Amante De Lo Bueno,,1,5.0251,1,5.0251,0,0.0,0,0.0,migracion
+2007455,Los Tucanes de Tijuana,Amante de lo bueno - con banda sinaloense,,1,5.1813,1,5.1813,0,0.0,0,0.0,migracion
+1855996,Los Tucanes de Tijuana,Amor Compartido,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1194653,Los Tucanes de Tijuana,Amor Platónico,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8276812,Los Tucanes de Tijuana,A mover el bote,,0,0.0,7,24.735,0,0.0,0,0.0,narco
+9063626,Los Tucanes de Tijuana,Ando Bien Agusto,,0,0.0,1,3.5971,0,0.0,0,0.0,narco
+1693015,Los Tucanes de Tijuana,Ando Bien Arreglado,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2100048,Los Tucanes de Tijuana,Armando soto,,1,5.1282,6,30.7692,2,10.2564,0,0.0,narco
+8279917,Los Tucanes de Tijuana,Arreola Reyes,,1,5.2356,2,10.4712,0,0.0,0,0.0,narco
+2208115,Los Tucanes de Tijuana,Aventura Pasada,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1970756,Los Tucanes de Tijuana,Barbarino,,0,0.0,2,11.6959,0,0.0,0,0.0,narco
+8280074,Los Tucanes de Tijuana,Caballeros del Camino,,1,5.5556,2,11.1111,2,11.1111,0,0.0,narco
+8276810,Los Tucanes de Tijuana,Cada vez que te miro,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1770251,Los Tucanes de Tijuana,Carrera Prohibida,,1,5.8824,1,5.8824,0,0.0,0,0.0,migracion
+973037,Los Tucanes de Tijuana,Cartel De Kilo,,0,0.0,6,27.027,0,0.0,0,0.0,narco
+8281288,Los Tucanes de Tijuana,Cerveza y cassettes,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1952925,Los Tucanes de Tijuana,Chapita de michoacan,,1,5.4945,0,0.0,0,0.0,0,0.0,migracion
+2065981,Los Tucanes de Tijuana,Chuy espinosa (el michoacano),,1,4.7619,4,19.0476,0,0.0,0,0.0,narco
+1268498,Los Tucanes de Tijuana,Cien Por Uno,,4,17.5439,3,13.1579,0,0.0,0,0.0,migracion
+1602276,Los Tucanes de Tijuana,Clave Nueva,,3,15.3061,2,10.2041,0,0.0,0,0.0,migracion
+896420,Los Tucanes de Tijuana,Clave Privada,,1,5.291,3,15.873,0,0.0,0,0.0,narco
+2095559,Los Tucanes de Tijuana,Como el pez,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8279956,Los Tucanes de Tijuana,Como me gustas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1266588,Los Tucanes de Tijuana,Consulado Privado,,8,50.3145,2,12.5786,0,0.0,1,6.2893,migracion
+8281263,Los Tucanes de Tijuana,Cuando tu estás conmigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2116618,Los Tucanes de Tijuana,Cuando tú ests conmigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8281217,Los Tucanes de Tijuana,Decisiones Al Azar,,0,0.0,7,38.674,0,0.0,0,0.0,narco
+1983268,Los Tucanes de Tijuana,Dejate querer,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1992293,Los Tucanes de Tijuana,Desatando el morral,,0,0.0,2,11.5607,0,0.0,0,0.0,narco
+1067809,Los Tucanes de Tijuana,Desde Que Te Amo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1934676,Los Tucanes de Tijuana,De tin marin,,0,0.0,0,0.0,0,0.0,0,0.0,none
+10669050,Los Tucanes de Tijuana,Drácula,,2,8.7719,1,4.386,0,0.0,0,0.0,migracion
+8275696,Los Tucanes de Tijuana,El 28,,2,12.6582,5,31.6456,0,0.0,0,0.0,narco
+8275695,Los Tucanes de Tijuana,El 28 (Intro),,4,68.9655,2,34.4828,1,17.2414,0,0.0,migracion
+1845854,Los Tucanes de Tijuana,El 42,,3,14.8515,5,24.7525,0,0.0,0,0.0,narco
+2050435,Los Tucanes de Tijuana,El Agricultor,,0,0.0,1,6.5789,0,0.0,0,0.0,narco
+2077743,Los Tucanes de Tijuana,El Águila Blanca,,0,0.0,4,26.4901,1,6.6225,0,0.0,narco
+1689572,Los Tucanes de Tijuana,El Amor Soñado,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1829984,Los Tucanes de Tijuana,El Árabe,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2191019,Los Tucanes de Tijuana,El Bachoco,,0,0.0,2,10.2564,0,0.0,0,0.0,narco
+2066907,Los Tucanes de Tijuana,El balido de mi ganado,,1,6.4516,2,12.9032,0,0.0,0,0.0,narco
+2060720,Los Tucanes de Tijuana,El benefactor de colima,,1,5.7471,2,11.4943,0,0.0,0,0.0,narco
+1852535,Los Tucanes de Tijuana,El Borrachín,,2,10.929,3,16.3934,0,0.0,0,0.0,narco
+1956738,Los Tucanes de Tijuana,El borrachin - con banda sinaloense,,2,10.929,3,16.3934,0,0.0,0,0.0,narco
+1626578,Los Tucanes de Tijuana,El Borrego,,2,8.1967,6,24.5902,0,0.0,2,8.1967,narco
+2060619,Los Tucanes de Tijuana,El bravo,,1,4.2735,4,17.094,0,0.0,0,0.0,narco
+1988046,Los Tucanes de Tijuana,El cartel de a kilo,,1,4.5045,5,22.5225,0,0.0,0,0.0,narco
+2061438,Los Tucanes de Tijuana,El catador,,2,11.4286,0,0.0,0,0.0,0,0.0,migracion
+2217208,Los Tucanes de Tijuana,El Centenario (En Vivo),,3,10.0334,5,16.7224,0,0.0,0,0.0,narco
+1545238,Los Tucanes de Tijuana,El Chaca,,5,25.1256,2,10.0503,0,0.0,0,0.0,migracion
+1185759,Los Tucanes de Tijuana,El Chaca De Michoacan,,5,25.3807,2,10.1523,0,0.0,0,0.0,migracion
+8279916,Los Tucanes de Tijuana,El Chango Avilés,,0,0.0,4,25.641,0,0.0,0,0.0,narco
+1181943,Los Tucanes de Tijuana,El Chapo Guzman,,1,6.0241,14,84.3373,0,0.0,0,0.0,narco
+2085340,Los Tucanes de Tijuana,El charro de culiacan,,2,12.5786,4,25.1572,0,0.0,1,6.2893,narco
+8275663,Los Tucanes de Tijuana,El Chemo López,,0,0.0,6,28.5714,2,9.5238,0,0.0,narco
+2252550,Los Tucanes de Tijuana,El Chiricuas,,1,5.291,10,52.9101,0,0.0,0,0.0,narco
+8275757,Los Tucanes de Tijuana,El Clásico (Chivas vs América),,0,0.0,0,0.0,0,0.0,0,0.0,none
+2050931,Los Tucanes de Tijuana,El comandante de la torre,,3,18.4049,6,36.8098,0,0.0,0,0.0,narco
+2119069,Los Tucanes de Tijuana,El comandante metro 3,,4,19.7044,7,34.4828,0,0.0,0,0.0,narco
+1988531,Los Tucanes de Tijuana,El comando negro,,0,0.0,11,51.1628,0,0.0,0,0.0,narco
+1940548,Los Tucanes de Tijuana,El comando negro - con banda sinaloense,,0,0.0,11,51.1628,0,0.0,0,0.0,narco
+2247414,Los Tucanes de Tijuana,El Cris,,1,5.291,10,52.9101,0,0.0,0,0.0,narco
+1998982,Los Tucanes de Tijuana,El cruzador,,2,11.4286,0,0.0,0,0.0,0,0.0,migracion
+2058357,Los Tucanes de Tijuana,El cuate,,2,8.1633,2,8.1633,0,0.0,0,0.0,migracion
+2049893,Los Tucanes de Tijuana,El De La Bolsa Terciada,,1,4.9261,3,14.7783,0,0.0,0,0.0,narco
+2080003,Los Tucanes de Tijuana,El diamante negro,,0,0.0,5,24.1546,0,0.0,0,0.0,narco
+1715427,Los Tucanes de Tijuana,El Doctor Del Pueblo,,5,29.2398,0,0.0,0,0.0,0,0.0,migracion
+2050221,Los Tucanes de Tijuana,El Empresario,,3,15.2284,2,10.1523,0,0.0,1,5.0761,migracion
+8280047,Los Tucanes de Tijuana,El Gallo,,0,0.0,5,25.641,0,0.0,0,0.0,narco
+8279954,Los Tucanes de Tijuana,El Gordito Country,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2091957,Los Tucanes de Tijuana,El gran jefe (el mayel),,2,12.2699,1,6.135,2,12.2699,1,6.135,migracion
+2098569,Los Tucanes de Tijuana,El guacho,,0,0.0,3,15.0,0,0.0,0,0.0,narco
+1859048,Los Tucanes de Tijuana,El Güicho,,0,0.0,3,14.9254,0,0.0,0,0.0,narco
+2252636,Los Tucanes de Tijuana,El H2,,0,0.0,7,32.8638,0,0.0,0,0.0,narco
+1993958,Los Tucanes de Tijuana,El hijo de la mafia,,3,13.5135,6,27.027,0,0.0,0,0.0,narco
+2063313,Los Tucanes de Tijuana,El jabali,,1,5.3476,8,42.7807,0,0.0,0,0.0,narco
+1862010,Los Tucanes de Tijuana,El Jb,,0,0.0,6,28.3019,0,0.0,0,0.0,narco
+1224764,Los Tucanes de Tijuana,El Jefazo,,1,5.848,1,5.848,0,0.0,0,0.0,migracion
+1854123,Los Tucanes de Tijuana,El Jefe De La Sierra,,0,0.0,8,35.2423,2,8.8106,2,8.8106,narco
+1969690,Los Tucanes de Tijuana,El jefe de la sierra - con banda sinaloense,,0,0.0,8,35.0877,2,8.7719,2,8.7719,narco
+1853875,Los Tucanes de Tijuana,El Karis,,0,0.0,8,45.7143,1,5.7143,0,0.0,narco
+1851509,Los Tucanes de Tijuana,El Mambo Del Bigote,,0,0.0,4,11.5607,0,0.0,0,0.0,narco
+1854836,Los Tucanes de Tijuana,El Manny Flores,,3,13.1579,3,13.1579,0,0.0,0,0.0,migracion
+1766228,Los Tucanes de Tijuana,El Manos Verdes,,0,0.0,7,37.4332,0,0.0,0,0.0,narco
+2081770,Los Tucanes de Tijuana,El mas bravo de los bravos,,1,4.2735,4,17.094,0,0.0,0,0.0,narco
+2066853,Los Tucanes de Tijuana,El metro,,0,0.0,4,17.0213,2,8.5106,0,0.0,narco
+1055953,Los Tucanes de Tijuana,El Milagro,,1,4.8544,2,9.7087,0,0.0,0,0.0,narco
+1847623,Los Tucanes de Tijuana,El Muletas,,0,0.0,8,31.6206,1,3.9526,0,0.0,narco
+1154567,Los Tucanes de Tijuana,El MZ,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2122415,Los Tucanes de Tijuana,El narco,,0,0.0,3,19.1083,0,0.0,0,0.0,narco
+1805038,Los Tucanes de Tijuana,El Narizon,,0,0.0,1,6.8966,0,0.0,0,0.0,narco
+1494078,Los Tucanes de Tijuana,El Ojo De Agua,,0,0.0,1,4.5662,0,0.0,0,0.0,narco
+2090779,Los Tucanes de Tijuana,El paisano,,2,10.5263,1,5.2632,1,5.2632,0,0.0,migracion
+1936915,Los Tucanes de Tijuana,El pap de los pollitos,,1,5.814,7,40.6977,0,0.0,0,0.0,narco
+2013415,Los Tucanes de Tijuana,El pap de los pollitos - con banda sinaloense,,1,5.814,7,40.6977,0,0.0,0,0.0,narco
+8280077,Los Tucanes de Tijuana,El Pariente,,3,17.9641,2,11.976,0,0.0,0,0.0,migracion
+2071765,Los Tucanes de Tijuana,El paro,,3,17.6471,4,23.5294,0,0.0,0,0.0,narco
+1650699,Los Tucanes de Tijuana,El Pesado,,3,17.4419,4,23.2558,0,0.0,0,0.0,narco
+965611,Los Tucanes de Tijuana,El Poblano,,0,0.0,3,20.8333,0,0.0,0,0.0,narco
+1860677,Los Tucanes de Tijuana,El Polimenso,,0,0.0,10,42.735,0,0.0,0,0.0,narco
+1175789,Los Tucanes de Tijuana,El Postre,,0,0.0,2,12.2699,0,0.0,0,0.0,narco
+8281220,Los Tucanes de Tijuana,El Primito,,1,4.386,8,35.0877,0,0.0,0,0.0,narco
+1511832,Los Tucanes de Tijuana,El Primo,,0,0.0,2,11.0497,0,0.0,0,0.0,narco
+9889147,Los Tucanes de Tijuana,El Primo De La Costa,,1,4.1841,6,25.1046,0,0.0,0,0.0,narco
+1857875,Los Tucanes de Tijuana,El Puma,,2,12.1951,10,60.9756,0,0.0,0,0.0,narco
+1969477,Los Tucanes de Tijuana,El puño de polvo,,2,11.3636,2,11.3636,0,0.0,0,0.0,migracion
+2081798,Los Tucanes de Tijuana,El rayito,,1,5.3763,2,10.7527,0,0.0,0,0.0,narco
+1933259,Los Tucanes de Tijuana,El rbol,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2010378,Los Tucanes de Tijuana,El rbol - con banda sinaloense,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2047979,Los Tucanes de Tijuana,El Regalito,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1945332,Los Tucanes de Tijuana,El resbalón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2192142,Los Tucanes de Tijuana,El Shaka,,0,0.0,3,14.5631,1,4.8544,0,0.0,narco
+2071551,Los Tucanes de Tijuana,El sierra,,4,19.7044,7,34.4828,0,0.0,0,0.0,narco
+1859310,Los Tucanes de Tijuana,El Sinverguenza,,0,0.0,1,5.3191,0,0.0,0,0.0,narco
+2048113,Los Tucanes de Tijuana,El Subconsciente,,0,0.0,1,6.3694,0,0.0,0,0.0,narco
+1857824,Los Tucanes de Tijuana,El Tío Borrachales,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2082720,Los Tucanes de Tijuana,El tocayo,,4,23.2558,2,11.6279,0,0.0,0,0.0,migracion
+1763215,Los Tucanes de Tijuana,El Trailero,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1847556,Los Tucanes de Tijuana,El Tres Letras,,1,5.4945,6,32.967,0,0.0,0,0.0,narco
+8281207,Los Tucanes de Tijuana,El Viejon,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1858045,Los Tucanes de Tijuana,El Virus Del Amor,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2224728,Los Tucanes de Tijuana,El Yanky,,0,0.0,3,14.5631,1,4.8544,0,0.0,narco
+2085679,Los Tucanes de Tijuana,Empinando el codo,,2,11.4286,0,0.0,0,0.0,0,0.0,migracion
+1934280,Los Tucanes de Tijuana,En cajita de oro,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1755047,Los Tucanes de Tijuana,Eres Mi Sueño,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1815388,Los Tucanes de Tijuana,Esa Loción Me Mata,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8281255,Los Tucanes de Tijuana,Eso Me Pasa,,0,0.0,0,0.0,0,0.0,0,0.0,none
+919231,Los Tucanes de Tijuana,Espejeando,,0,0.0,1,4.5455,0,0.0,0,0.0,narco
+1179815,Los Tucanes de Tijuana,Estoy A Dieta,,0,0.0,0,0.0,2,12.8205,0,0.0,politica_mx
+2098616,Los Tucanes de Tijuana,Es tu bronca,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1088237,Los Tucanes de Tijuana,Es Verdad,,0,0.0,0,0.0,0,0.0,0,0.0,none
+11225990,Los Tucanes de Tijuana,Es Verdad (En Vivo),,0,0.0,0,0.0,0,0.0,0,0.0,none
+1436052,Los Tucanes de Tijuana,Fiesta En La Sierra,,1,4.8309,4,19.3237,0,0.0,0,0.0,narco
+1982530,Los Tucanes de Tijuana,Fiesta en la sierra - con banda sinaloense,,1,4.8309,4,19.3237,0,0.0,0,0.0,narco
+2083127,Los Tucanes de Tijuana,Frontera roja,,3,19.7368,2,13.1579,3,19.7368,0,0.0,migracion
+2092241,Los Tucanes de Tijuana,Gatos rayados,,5,22.0264,0,0.0,0,0.0,0,0.0,migracion
+2123979,Los Tucanes de Tijuana,Gente del crtel,,2,9.7561,6,29.2683,0,0.0,0,0.0,narco
+2101133,Los Tucanes de Tijuana,Gerardo el poderoso,,0,0.0,2,12.1951,3,18.2927,0,0.0,politica_mx
+1854230,Los Tucanes de Tijuana,Gracias Porque Te Fuiste,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1979659,Los Tucanes de Tijuana,Gracias Porque Te Fuiste (Versión Banda Sinaloense),,0,0.0,0,0.0,0,0.0,0,0.0,none
+8281592,Los Tucanes de Tijuana,Gracias Viejo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1326674,Los Tucanes de Tijuana,Hacemos Bonita Pareja,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1462654,Los Tucanes de Tijuana,Hombre De Negocios,,0,0.0,1,6.0606,1,6.0606,0,0.0,narco
+2058339,Los Tucanes de Tijuana,Hotel corazón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2121811,Los Tucanes de Tijuana,J.r.,,0,0.0,3,19.1083,0,0.0,0,0.0,narco
+1474533,Los Tucanes de Tijuana,Jugo A La Vida,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2217122,Los Tucanes de Tijuana,Julián Pérez,,2,7.2727,2,7.2727,0,0.0,0,0.0,migracion
+2123239,Los Tucanes de Tijuana,Julin perez,,2,7.2727,2,7.2727,0,0.0,0,0.0,migracion
+1374790,Los Tucanes de Tijuana,Kiki Urias,,3,16.3934,2,10.929,0,0.0,0,0.0,migracion
+8281221,Los Tucanes de Tijuana,La Boda Prometida,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1847617,Los Tucanes de Tijuana,La Chica Sexy,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2048205,Los Tucanes de Tijuana,La Chiqui Baby,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1829621,Los Tucanes de Tijuana,La Chona (Remix),,0,0.0,1,2.9412,0,0.0,0,0.0,narco
+6888850,Los Tucanes de Tijuana,La Coyote (Serie de TV “Señora Acero 3” Soundtrack Version),,8,22.1607,9,24.9307,0,0.0,0,0.0,narco
+1858320,Los Tucanes de Tijuana,La Familia Michoacana,,1,5.848,2,11.6959,0,0.0,0,0.0,narco
+1146754,Los Tucanes de Tijuana,La Fiesta De Los Panes,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8275754,Los Tucanes de Tijuana,La Gran Noche,,0,0.0,0,0.0,0,0.0,0,0.0,none
+13870328,Los Tucanes de Tijuana,La Justiciera De La Frontera,,7,14.8936,19,40.4255,0,0.0,0,0.0,narco
+8280026,Los Tucanes de Tijuana,La Ley 57,,7,28.1124,2,8.0321,0,0.0,0,0.0,migracion
+2000418,Los Tucanes de Tijuana,La mesa servida,,1,4.8309,2,9.6618,0,0.0,0,0.0,narco
+2048917,Los Tucanes de Tijuana,La Nacha Bustos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1851598,Los Tucanes de Tijuana,La Perra,,0,0.0,14,47.2973,0,0.0,0,0.0,narco
+2048639,Los Tucanes de Tijuana,La Perra De Parra,,0,0.0,14,47.2973,0,0.0,0,0.0,narco
+2098259,Los Tucanes de Tijuana,La piedrita colombiana,,0,0.0,3,16.129,0,0.0,0,0.0,narco
+1020623,Los Tucanes de Tijuana,La Piñata,,0,0.0,14,47.2973,0,0.0,0,0.0,narco
+1249120,Los Tucanes de Tijuana,La Pista Secreta,,0,0.0,9,46.1538,0,0.0,0,0.0,narco
+2048742,Los Tucanes de Tijuana,La Profecia,,0,0.0,2,9.7561,0,0.0,0,0.0,narco
+1395506,Los Tucanes de Tijuana,La Recompensa,,2,13.6054,5,34.0136,0,0.0,0,0.0,narco
+11225999,Los Tucanes de Tijuana,Las Heladas (En Vivo),,0,0.0,8,32.9218,0,0.0,0,0.0,narco
+1983778,Los Tucanes de Tijuana,La Tambora Va A Sonar,,1,4.6296,11,50.9259,0,0.0,0,0.0,narco
+8281195,Los Tucanes de Tijuana,La Tartamuda,,0,0.0,1,6.0976,0,0.0,0,0.0,narco
+1047023,Los Tucanes de Tijuana,La Troca,,1,5.8824,1,5.8824,0,0.0,0,0.0,migracion
+13869998,Los Tucanes de Tijuana,La Venganza De Sarita,,0,0.0,5,15.1057,0,0.0,0,0.0,narco
+8276855,Los Tucanes de Tijuana,La vida es alegría,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2072362,Los Tucanes de Tijuana,Lista negra,,0,0.0,6,35.0877,0,0.0,0,0.0,narco
+2128284,Los Tucanes de Tijuana,Los borregos,,2,8.1967,6,24.5902,0,0.0,2,8.1967,narco
+1124923,Los Tucanes de Tijuana,Los Chiquinarcos,,1,6.2893,3,18.8679,0,0.0,0,0.0,narco
+1938594,Los Tucanes de Tijuana,Los Chiquinarcos - Con Banda Sinaloense,,1,6.2893,3,18.8679,0,0.0,0,0.0,narco
+8275698,Los Tucanes de Tijuana,Los Chiquinarcos (Intro),,0,0.0,1,27.027,0,0.0,0,0.0,narco
+10667734,Los Tucanes de Tijuana,Los Chiquinarcos - Intro Banda Sinaloense,,0,0.0,1,27.027,0,0.0,0,0.0,narco
+8279918,Los Tucanes de Tijuana,Los Compadres,,1,6.3291,3,18.9873,0,0.0,0,0.0,narco
+1687893,Los Tucanes de Tijuana,Los Compas De Almoloya,,1,5.4645,1,5.4645,0,0.0,0,0.0,migracion
+2239232,Los Tucanes de Tijuana,Los Dichos De Lupita,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2055539,Los Tucanes de Tijuana,Los guardaespaldas,,0,0.0,5,29.9401,0,0.0,0,0.0,narco
+1396602,Los Tucanes de Tijuana,Los Juniors,,0,0.0,1,6.2893,0,0.0,0,0.0,narco
+1248701,Los Tucanes de Tijuana,Los Mas Buscados,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2117056,Los Tucanes de Tijuana,Los ms buscadas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8275703,Los Tucanes de Tijuana,Los Pelones,,2,12.2699,8,49.0798,0,0.0,0,0.0,narco
+8275702,Los Tucanes de Tijuana,Los Pelones (Intro),,2,64.5161,0,0.0,0,0.0,0,0.0,migracion
+1858742,Los Tucanes de Tijuana,Luna Llena,,0,0.0,1,7.9365,0,0.0,0,0.0,narco
+2080471,Los Tucanes de Tijuana,Lupe bombas,,2,7.6336,0,0.0,0,0.0,0,0.0,migracion
+8275661,Los Tucanes de Tijuana,Manuel Borgia (El Mexicano),,3,10.0,3,10.0,0,0.0,2,6.6667,migracion
+1513138,Los Tucanes de Tijuana,Manuel Caro Carrillo,,0,0.0,1,5.6818,0,0.0,0,0.0,narco
+8275699,Los Tucanes de Tijuana,Mario Peralta (El Plateado),,4,20.3046,1,5.0761,0,0.0,0,0.0,migracion
+2087129,Los Tucanes de Tijuana,Masacre en vallarta,,2,10.4712,0,0.0,0,0.0,0,0.0,migracion
+8275659,Los Tucanes de Tijuana,Más Vale Cholo,,0,0.0,5,18.797,2,7.5188,0,0.0,narco
+8276854,Los Tucanes de Tijuana,Me acostumbre a tus besos,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1859000,Los Tucanes de Tijuana,Me Gusta La Banda,,1,3.6765,1,3.6765,0,0.0,0,0.0,migracion
+871702,Los Tucanes de Tijuana,Me Haces Mucha Falta,,0,0.0,4,25.8065,0,0.0,0,0.0,narco
+1125986,Los Tucanes de Tijuana,Me Robaste El Corazón,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2051080,Los Tucanes de Tijuana,Mi Amor Inseparable,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8280001,Los Tucanes de Tijuana,Mi Consuelo,,1,6.25,0,0.0,0,0.0,0,0.0,migracion
+8275761,Los Tucanes de Tijuana,Mi estrella de Hollywood,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1965726,Los Tucanes de Tijuana,Mil promesas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8281187,Los Tucanes de Tijuana,Mis Tres Viejas (Intro),,0,0.0,1,19.2308,0,0.0,0,0.0,narco
+8275657,Los Tucanes de Tijuana,Mi Tiendita,,1,4.6948,1,4.6948,0,0.0,0,0.0,migracion
+1981551,Los Tucanes de Tijuana,Mi venganza,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2059599,Los Tucanes de Tijuana,Morenita querida,,0,0.0,0,0.0,3,16.2162,0,0.0,politica_mx
+1775923,Los Tucanes de Tijuana,No Porque Se Muera Un Chivo,,1,7.2464,0,0.0,0,0.0,0,0.0,migracion
+2083724,Los Tucanes de Tijuana,No solo de traficante,,1,5.4348,4,21.7391,0,0.0,0,0.0,narco
+8281262,Los Tucanes de Tijuana,No te sorprendas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2074391,Los Tucanes de Tijuana,Nuestro destino,,0,0.0,0,0.0,0,0.0,0,0.0,none
+776061,Los Tucanes de Tijuana,Ombligo A Ombligo,,0,0.0,3,6.3694,0,0.0,0,0.0,narco
+10919705,Los Tucanes de Tijuana,Ombligo A Ombligo (Tucanes Mix),,0,0.0,3,6.9767,0,0.0,0,0.0,narco
+1978283,Los Tucanes de Tijuana,Operacion casablanca,,0,0.0,0,0.0,0,0.0,2,12.1951,politica_us
+981722,Los Tucanes de Tijuana,Operacion Pesada,,4,20.8333,5,26.0417,0,0.0,0,0.0,narco
+981151,Los Tucanes de Tijuana,Parranda Y Parranda,,1,6.7114,0,0.0,0,0.0,0,0.0,migracion
+8276801,Los Tucanes de Tijuana,Parrandeando,,1,4.2373,1,4.2373,0,0.0,0,0.0,migracion
+2058502,Los Tucanes de Tijuana,Pellizcando al animal,,2,11.5607,3,17.341,0,0.0,0,0.0,narco
+2082960,Los Tucanes de Tijuana,Pensé pegarme un tiro,,0,0.0,6,36.8098,0,0.0,0,0.0,narco
+1569649,Los Tucanes de Tijuana,Pies Boca Abajo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8275760,Los Tucanes de Tijuana,Preciosura,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8276842,Los Tucanes de Tijuana,Producto garantizado,,2,11.6959,2,11.6959,0,0.0,0,0.0,migracion
+1989539,Los Tucanes de Tijuana,Producto garantizado - con banda sinaloense,,2,11.6959,2,11.6959,0,0.0,0,0.0,migracion
+1218042,Los Tucanes de Tijuana,Promesas,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1860099,Los Tucanes de Tijuana,Propiedad Privada,,3,16.3043,2,10.8696,0,0.0,0,0.0,migracion
+1972567,Los Tucanes de Tijuana,Propiedad privada - con banda sinaloense,,3,15.2284,2,10.1523,0,0.0,0,0.0,migracion
+2207574,Los Tucanes de Tijuana,Que Me Entierren Con La Banda,,0,0.0,1,5.5556,0,0.0,0,0.0,narco
+10669057,Los Tucanes de Tijuana,Que Te Perdone Tu Madre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2052789,Los Tucanes de Tijuana,Rafa peña,,2,12.5,3,18.75,1,6.25,0,0.0,narco
+1996066,Los Tucanes de Tijuana,Ramón arellano - con banda sinaloense,,1,6.7114,6,40.2685,0,0.0,0,0.0,narco
+11225989,Los Tucanes de Tijuana,Ramón Arellano (En Vivo),,1,5.2632,9,47.3684,0,0.0,0,0.0,narco
+1850841,Los Tucanes de Tijuana,Rehabilitado,,0,0.0,0,0.0,0,0.0,0,0.0,none
+13032554,Los Tucanes de Tijuana,Rehabilitado (Versión Banda Sinaloense),,0,0.0,0,0.0,0,0.0,0,0.0,none
+2062430,Los Tucanes de Tijuana,Rigo campos - retro,,0,0.0,2,12.8205,0,0.0,0,0.0,narco
+2248743,Los Tucanes de Tijuana,Ritmo Navideño,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1234847,Los Tucanes de Tijuana,Roberto Palazuelos,,0,0.0,1,4.4843,1,4.4843,0,0.0,narco
+2049898,Los Tucanes de Tijuana,Salió Del Closet,,0,0.0,0,0.0,0,0.0,0,0.0,none
+13032555,Los Tucanes de Tijuana,Salió Del Closet (Versión Banda Sinaloense),,0,0.0,0,0.0,0,0.0,0,0.0,none
+11225988,Los Tucanes de Tijuana,Secuestro De Amor (En Vivo),,0,0.0,5,23.3645,0,0.0,0,0.0,narco
+1768076,Los Tucanes de Tijuana,Se Desgrano La Mazorca,,0,0.0,3,16.3043,0,0.0,1,5.4348,narco
+1853084,Los Tucanes de Tijuana,Se Equivoco El Pístolero,,0,0.0,6,36.3636,0,0.0,0,0.0,narco
+952946,Los Tucanes de Tijuana,Seis Pies Boca Abajo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1857107,Los Tucanes de Tijuana,Siempre Contigo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1846876,Los Tucanes de Tijuana,Sin Ti Soy Un Loco,,6,28.8462,0,0.0,0,0.0,0,0.0,migracion
+8276849,Los Tucanes de Tijuana,Si un gato muere,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2098474,Los Tucanes de Tijuana,Socias de la mafia,,1,5.3476,7,37.4332,0,0.0,0,0.0,narco
+1844787,Los Tucanes de Tijuana,Soltero Y Con Dinero,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1957271,Los Tucanes de Tijuana,Soy de durango,,2,11.6959,2,11.6959,0,0.0,0,0.0,migracion
+1354718,Los Tucanes de Tijuana,Soy Parrandero,,1,5.7803,1,5.7803,0,0.0,0,0.0,migracion
+977874,Los Tucanes de Tijuana,Soy Parrandero (Versión Banda Sinaloense),,1,5.7803,1,5.7803,0,0.0,0,0.0,migracion
+1860570,Los Tucanes de Tijuana,Soy Todo Tuyo,,0,0.0,0,0.0,0,0.0,0,0.0,none
+908024,Los Tucanes de Tijuana,Suena La Banda,,1,5.4945,4,21.978,0,0.0,0,0.0,narco
+8281599,Los Tucanes de Tijuana,Suerte marcada,,0,0.0,1,5.7803,4,23.1214,0,0.0,politica_mx
+8281265,Los Tucanes de Tijuana,Te deberías de morir,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1712396,Los Tucanes de Tijuana,Temporada En La Sierra,,1,5.1813,0,0.0,0,0.0,0,0.0,migracion
+2048843,Los Tucanes de Tijuana,Te Perdí Para Siempre,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1861813,Los Tucanes de Tijuana,Tolín Infante,,3,14.0845,4,18.7793,0,0.0,0,0.0,narco
+1229543,Los Tucanes de Tijuana,Tus Verdades,,0,0.0,0,0.0,0,0.0,0,0.0,none
+2067815,Los Tucanes de Tijuana,Veneno,,0,0.0,0,0.0,0,0.0,0,0.0,none
+1848140,Los Tucanes de Tijuana,Vicente Zambada,,0,0.0,2,10.2564,0,0.0,0,0.0,narco
+1993825,Los Tucanes de Tijuana,Vicente zambada - con banda sinaloense,,0,0.0,3,15.4639,0,0.0,0,0.0,narco
+2004867,Los Tucanes de Tijuana,Ya no existes,,0,0.0,1,9.009,0,0.0,0,0.0,narco
+8280006,Los Tucanes de Tijuana,Ya no quiero llorar,,0,0.0,0,0.0,0,0.0,0,0.0,none
+8276856,Los Tucanes de Tijuana,Ya no te quiero,,0,0.0,0,0.0,0,0.0,0,0.0,none
+9933276,Los Tigres del Norte,La Rascadera,1974,0,0.0,0,0.0,0,0.0,0,0.0,none
+969467,Los Tigres del Norte,La Banda Del Carro Rojo,1975,3,15.7068,1,5.2356,0,0.0,0,0.0,migracion
+1648680,Los Tigres del Norte,La Tumba De Mi Madre,1975,0,0.0,0,0.0,0,0.0,0,0.0,none
+1038906,Los Tigres del Norte,La muerte del soplón,1976,0,0.0,1,4.9751,0,0.0,0,0.0,narco
+1620978,Los Tigres del Norte,Caja de muerto,1981,3,16.8539,1,5.618,0,0.0,0,0.0,migracion
+1019607,Los Tigres del Norte,Un día a la vez,1981,0,0.0,3,18.5185,0,0.0,0,0.0,narco
+686622,Los Tigres del Norte,Jaula de Oro,1983,7,34.4828,0,0.0,0,0.0,0,0.0,migracion
+1332151,Los Tigres del Norte,Pedro y Pablo,1983,3,13.4529,1,4.4843,0,0.0,0,0.0,migracion
+1457668,Los Tigres del Norte,Por qué me quité del vicio,1983,1,2.7174,0,0.0,0,0.0,0,0.0,migracion
+1484679,Los Tigres del Norte,América,1986,7,31.6742,0,0.0,0,0.0,0,0.0,migracion
+9937700,Los Tigres del Norte,"Ay, Ay, Hay",1986,0,0.0,0,0.0,0,0.0,0,0.0,none
+5345263,Los Tigres del Norte,Porque Te Extraño,1988,1,4.1494,0,0.0,0,0.0,0,0.0,migracion
+1560297,Los Tigres del Norte,Tres Veces Mojado,1988,13,55.0847,0,0.0,0,0.0,0,0.0,migracion
+970698,Los Tigres del Norte,El contagio,1989,0,0.0,0,0.0,0,0.0,0,0.0,none
+1083808,Los Tigres del Norte,Mi Buena Suerte,1989,1,8.7719,0,0.0,0,0.0,0,0.0,migracion
+1353882,Los Tigres del Norte,Corazón Usado,1990,0,0.0,0,0.0,0,0.0,0,0.0,none
+882709,Los Tigres del Norte,Ya Te Velé,1990,0,0.0,0,0.0,0,0.0,0,0.0,none
+1539385,Los Tigres del Norte,Ahora Me Voy,1991,0,0.0,0,0.0,0,0.0,0,0.0,none
+1341688,Los Tigres del Norte,Cuando Se Llega a Viejo,1991,0,0.0,0,0.0,0,0.0,0,0.0,none
+1600258,Los Tigres del Norte,Hoy no es mi día,1991,1,3.7175,0,0.0,0,0.0,0,0.0,migracion
+1061208,Los Tigres del Norte,La dieta,1991,0,0.0,0,0.0,1,4.6512,0,0.0,politica_mx
+934449,Los Tigres del Norte,Orgullo Maldito,1991,0,0.0,0,0.0,0,0.0,0,0.0,none
+2046170,Los Tucanes de Tijuana,Tú Eres,1991,0,0.0,0,0.0,0,0.0,0,0.0,none
+1211901,Los Tigres del Norte,El Maestro,1993,0,0.0,0,0.0,0,0.0,0,0.0,none
+1511399,Los Tigres del Norte,En Nombre de Tu Padre,1993,0,0.0,1,6.4935,0,0.0,0,0.0,narco
+690325,Los Tigres del Norte,Pacas de a Kilo,1993,1,4.4248,5,22.1239,2,8.8496,0,0.0,narco
+2002774,Los Tigres del Norte,Tumba Falsa,1993,0,0.0,0,0.0,0,0.0,0,0.0,none
+921064,Los Tucanes de Tijuana,El Centenario,1993,3,16.8539,2,11.236,0,0.0,0,0.0,migracion
+1365556,Los Tigres del Norte,Asómate a Mi Copa,1994,0,0.0,3,17.4419,0,0.0,0,0.0,narco
+1550819,Los Tigres del Norte,Entre El Amor y Yo,1994,1,6.0241,0,0.0,0,0.0,0,0.0,migracion
+999864,Los Tigres del Norte,La Mesa del Rincón,1994,0,0.0,1,4.8309,0,0.0,0,0.0,narco
+1557421,Los Tigres del Norte,Los Dos Plebes,1994,1,4.0816,3,12.2449,0,0.0,0,0.0,narco
+1649459,Los Tigres del Norte,Si No Me Falla el Corazón,1994,0,0.0,0,0.0,0,0.0,0,0.0,none
+1629929,Los Tigres del Norte,Te Malpasan de Amor,1994,0,0.0,0,0.0,0,0.0,0,0.0,none
+1646682,Los Tigres del Norte,El Ejemplo,1995,0,0.0,0,0.0,0,0.0,0,0.0,none
+958211,Los Tigres del Norte,Golpes En El Corazón,1995,0,0.0,0,0.0,0,0.0,0,0.0,none
+8792791,Los Tigres del Norte,También las Mujeres Pueden (Versión 1995),1995,3,13.7615,5,22.9358,0,0.0,0,0.0,narco
+2089369,Los Tucanes de Tijuana,El Compositor,1995,0,0.0,1,3.4602,0,0.0,0,0.0,narco
+1797181,Los Tucanes de Tijuana,El Güero Palma,1995,0,0.0,6,26.6667,0,0.0,0,0.0,narco
+1948073,Los Tucanes de Tijuana,El Jefe X,1995,0,0.0,1,5.7803,0,0.0,0,0.0,narco
+910519,Los Tucanes de Tijuana,La Chona,1995,0,0.0,1,3.125,0,0.0,0,0.0,narco
+10351570,Los Tucanes de Tijuana,La Chona (En Vivo),1995,0,0.0,6,12.3203,1,2.0534,0,0.0,narco
+1668939,Los Tucanes de Tijuana,Mis Tres Animales,1995,4,22.2222,2,11.1111,0,0.0,0,0.0,migracion
+10351572,Los Tucanes de Tijuana,Mis Tres Animales (En Vivo),1995,4,14.5985,2,7.2993,0,0.0,0,0.0,migracion
+1626950,Los Tucanes de Tijuana,Mundo De Amor,1995,0,0.0,0,0.0,0,0.0,0,0.0,none
+1947231,Los Tucanes de Tijuana,Porque Me Enamore De Ti,1995,0,0.0,0,0.0,0,0.0,0,0.0,none
+1406533,Los Tigres del Norte,Cuestión Olvidada,1996,0,0.0,0,0.0,0,0.0,0,0.0,none
+1370210,Los Tigres del Norte,Mi sangre prisionera,1996,0,0.0,0,0.0,0,0.0,0,0.0,none
+1434460,Los Tigres del Norte,No pude enamorarme más,1996,0,0.0,0,0.0,0,0.0,0,0.0,none
+1325402,Los Tigres del Norte,Con Que Derecho,1997,0,0.0,0,0.0,0,0.0,0,0.0,none
+1460436,Los Tigres del Norte,El mojado acaudalado,1997,15,87.7193,0,0.0,0,0.0,0,0.0,migracion
+1080084,Los Tigres del Norte,El Sucesor,1997,0,0.0,0,0.0,0,0.0,0,0.0,none
+1211561,Los Tigres del Norte,Jefe de Jefes,1997,2,7.8431,2,7.8431,0,0.0,0,0.0,migracion
+10351574,Los Tigres del Norte,Jefe De Jefes (En Vivo),1997,2,7.5472,3,11.3208,0,0.0,0,0.0,narco
+1011650,Los Tigres del Norte,La Baraja Bendita,1997,0,0.0,6,15.748,0,0.0,0,0.0,narco
+875731,Los Tigres del Norte,Las Novías del Traficante,1997,0,0.0,1,5.7471,0,0.0,0,0.0,narco
+1437789,Los Tigres del Norte,Mis Dos Patrias,1997,5,18.2482,0,0.0,0,0.0,0,0.0,migracion
+1671321,Los Tucanes de Tijuana,El Tucanazo,1997,0,0.0,0,0.0,0,0.0,0,0.0,none
+1706940,Los Tucanes de Tijuana,Secuestro De Amor,1997,0,0.0,3,19.6078,0,0.0,0,0.0,narco
+1951039,Los Tucanes de Tijuana,El Heredero,1998,1,4.5455,7,31.8182,0,0.0,0,0.0,narco
+1322440,Los Tucanes de Tijuana,Las Heladas,1998,0,0.0,4,24.2424,0,0.0,0,0.0,narco
+1376562,Los Tigres del Norte,De Harina y de Maíz,1999,3,9.4637,4,12.6183,0,0.0,0,0.0,narco
+1777835,Los Tigres del Norte,El Triunfo,1999,0,0.0,0,0.0,0,0.0,0,0.0,none
+1421286,Los Tigres del Norte,Lágrimas (Lágrimas del Corazón),1999,0,0.0,0,0.0,0,0.0,0,0.0,none
+1482872,Los Tigres del Norte,La Liebre,1999,3,17.0455,1,5.6818,0,0.0,0,0.0,migracion
+873087,Los Tigres del Norte,No Quiero Tu Lástima,1999,0,0.0,0,0.0,0,0.0,0,0.0,none
+1063617,Los Tigres del Norte,Prisión de Amor,1999,0,0.0,0,0.0,0,0.0,0,0.0,none
+2073731,Los Tucanes de Tijuana,Al Por Mayor,1999,0,0.0,0,0.0,0,0.0,0,0.0,none
+1428901,Los Tigres del Norte,De paisano a paisano,2000,17,71.73,4,16.8776,0,0.0,0,0.0,migracion
+1324877,Los Tigres del Norte,La inflación,2000,0,0.0,4,9.6154,0,0.0,0,0.0,narco
+984292,Los Tigres del Norte,Me Declaro Culpable,2000,0,0.0,0,0.0,0,0.0,0,0.0,none
+1303393,Los Tigres del Norte,Pokar Alto,2000,2,14.7059,3,22.0588,0,0.0,0,0.0,narco
+1765192,Los Tigres del Norte,"Tú, Yo y la Luna",2000,0,0.0,0,0.0,0,0.0,0,0.0,none
+1267726,Los Tucanes de Tijuana,Gripa Colombiana,2000,1,5.5556,1,5.5556,0,0.0,0,0.0,migracion
+1667341,Los Tucanes de Tijuana,Me Gusta Vivir De Noche,2000,0,0.0,0,0.0,0,0.0,0,0.0,none
+1033138,Los Tucanes de Tijuana,Mis Tres Viejas,2000,1,5.1282,1,5.1282,0,0.0,0,0.0,migracion
+1093828,Los Tigres del Norte,De Rama En Rama,2001,2,11.9048,0,0.0,0,0.0,0,0.0,migracion
+1281526,Los Tigres del Norte,Mi Fantasía,2001,0,0.0,0,0.0,0,0.0,0,0.0,none
+1084702,Los Tigres del Norte,En Que Fallé,2002,0,0.0,4,18.0995,0,0.0,0,0.0,narco
+1258595,Los Tigres del Norte,La Reina del Sur,2002,3,11.583,7,27.027,0,0.0,0,0.0,narco
+1444550,Los Tigres del Norte,Al corazón le vale,2003,0,0.0,0,0.0,0,0.0,0,0.0,none
+1427758,Los Tigres del Norte,José Pérez León,2004,8,31.8725,0,0.0,0,0.0,0,0.0,migracion
+1761594,Los Tigres del Norte,La Manzanita,2004,0,0.0,0,0.0,0,0.0,0,0.0,none
+1198047,Los Tigres del Norte,Celebrando Tu Partida,2005,0,0.0,4,14.2857,0,0.0,0,0.0,narco
+1176183,Los Tigres del Norte,Directo al Corazón,2005,1,4.5662,0,0.0,0,0.0,0,0.0,migracion
+1119972,Los Tigres del Norte,Infiel por Amor,2005,2,11.0497,2,11.0497,0,0.0,0,0.0,migracion
+1025627,Los Tigres del Norte,La Sorpresa,2005,0,0.0,1,3.8462,0,0.0,0,0.0,narco
+1486786,Los Tigres del Norte,Socios,2005,0,0.0,0,0.0,0,0.0,0,0.0,none
+1389266,Los Tigres del Norte,Le Compré la Muerte a Mi Hijo,2006,0,0.0,1,4.878,0,0.0,0,0.0,narco
+1611419,Los Tigres del Norte,Señor Locutor,2006,0,0.0,6,20.4778,0,0.0,0,0.0,narco
+1571735,Los Tigres del Norte,Una Herida de Amor,2006,2,12.7389,0,0.0,0,0.0,0,0.0,migracion
+1265418,Los Tigres del Norte,Detalles,2007,0,0.0,0,0.0,0,0.0,0,0.0,none
+1655906,Los Tigres del Norte,Emociones,2007,0,0.0,0,0.0,2,9.5238,0,0.0,politica_mx
+1844854,Los Tucanes de Tijuana,Se Fue Mi Amor,2008,0,0.0,0,0.0,0,0.0,0,0.0,none
+211437,Los Tigres del Norte,La Granja,2009,1,4.9261,0,0.0,0,0.0,0,0.0,migracion
+2048472,Los Tigres del Norte,Canción Mixteca,2010,2,31.25,0,0.0,0,0.0,0,0.0,migracion
+1845419,Los Tucanes de Tijuana,El Diablo,2010,0,0.0,4,17.0213,2,8.5106,0,0.0,narco
+1852272,Los Tucanes de Tijuana,El Señor De La O,2013,0,0.0,8,41.8848,0,0.0,0,0.0,narco
+1966939,Los Tigres del Norte,El gallo del mojado,2014,7,44.3038,0,0.0,0,0.0,0,0.0,migracion
+1853165,Los Tigres del Norte,La Bala,2014,0,0.0,1,3.9062,0,0.0,0,0.0,narco
+4429169,Los Tigres del Norte,Que tal si eres tu,2014,3,6.5789,0,0.0,0,0.0,0,0.0,migracion
+2185132,Los Tucanes de Tijuana,La Señora De Acero (Soundtrack de la Serie de TV ”Señora Acero”),2014,0,0.0,5,13.8122,0,0.0,0,0.0,narco
+8822836,Los Tucanes de Tijuana,Laurita Garza,2015,1,5.7143,2,11.4286,1,5.7143,0,0.0,narco
+2499268,Los Tucanes de Tijuana,Panchito El F1,2015,1,4.1841,7,29.2887,0,0.0,0,0.0,narco
+2460796,Los Tigres del Norte,Ataúd,2016,0,0.0,2,9.4787,0,0.0,0,0.0,narco
+12203860,Los Tigres del Norte,Cuando Seas Grande,2016,0,0.0,0,0.0,0,0.0,0,0.0,none
+9930395,Los Tucanes de Tijuana,Los Implacables,2016,1,4.6729,4,18.6916,0,0.0,0,0.0,narco
+10696737,Los Tucanes de Tijuana,Me Gusta Vivir De Noche / Amor Platónico / Mundo De Amor,2016,0,0.0,1,2.8902,0,0.0,0,0.0,narco
+1442502,Los Tucanes de Tijuana,El Papa De Los Pollitos,2017,1,5.5866,7,39.1061,0,0.0,0,0.0,narco
+10271381,Los Tucanes de Tijuana,Suena La Banda (En Vivo),2018,1,4.9751,5,24.8756,0,0.0,0,0.0,narco
+4873182,Los Tigres del Norte,América (Live At Folsom Prison),2019,4,19.6078,1,4.902,0,0.0,0,0.0,migracion
+4873162,Los Tigres del Norte,De Paisano a Paisano (Live At Folsom Prison),2019,17,72.3404,4,17.0213,0,0.0,0,0.0,migracion
+4873172,Los Tigres del Norte,En Qué Fallé (Live At Folsom Prison),2019,0,0.0,4,18.0995,0,0.0,0,0.0,narco
+4873176,Los Tigres del Norte,Golpes en el Corazón (Live At Folsom Prison),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873152,Los Tigres del Norte,Introducción (Diálogo),2019,1,31.25,0,0.0,0,0.0,0,0.0,migracion
+4873183,Los Tigres del Norte,Jamás los Olvidaremos (Diálogo),2019,0,0.0,1,22.2222,0,0.0,0,0.0,narco
+4873164,Los Tigres del Norte,La Bala (Live At Folsom Prison),2019,0,0.0,1,3.9216,0,0.0,0,0.0,narco
+4873166,Los Tigres del Norte,La Baraja Bendita (Live At Folsom Prison),2019,0,0.0,5,14.0845,0,0.0,0,0.0,narco
+4873160,Los Tigres del Norte,La Jaula de Oro (Live At Folsom Prison),2019,7,35.0,0,0.0,0,0.0,0,0.0,migracion
+4873158,Los Tigres del Norte,La Prisión de Folsom (Folsom Prison Blues) [Live At Folsom Prison],2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873180,Los Tigres del Norte,La Puerta Negra (Live At Folsom Prison),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873175,Los Tigres del Norte,Lo Que Merezco Yo (Diálogo),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873161,Los Tigres del Norte,Los Tigres del Norte Su Pueblo (Diálogo),2019,1,32.2581,0,0.0,0,0.0,0,0.0,migracion
+4873173,Los Tigres del Norte,Mi Canción (Diálogo),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873174,Los Tigres del Norte,Mi Sangre Prisionera (Live At Folsom Prison),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873169,Los Tigres del Norte,Mis Ídolos (Diálogo),2019,1,14.9254,1,14.9254,0,0.0,0,0.0,migracion
+4873181,Los Tigres del Norte,No Están Solos (Diálogo),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873163,Los Tigres del Norte,Por Portar Un Arma (Diálogo),2019,0,0.0,1,23.2558,0,0.0,0,0.0,narco
+4873177,Los Tigres del Norte,Por un Momento (Diálogo),2019,1,28.5714,0,0.0,0,0.0,0,0.0,migracion
+4873178,Los Tigres del Norte,Señor Locutor (Live At Folsom Prison),2019,0,0.0,6,20.4778,0,0.0,0,0.0,narco
+4873165,Los Tigres del Norte,Tres Strikes (Diálogo),2019,0,0.0,0,0.0,1,14.0845,0,0.0,politica_mx
+4873168,Los Tigres del Norte,Tres Veces Mojado (Live At Folsom Prison),2019,13,55.0847,0,0.0,0,0.0,0,0.0,migracion
+4873179,Los Tigres del Norte,Una Persona Mejor (Diálogo),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873167,Los Tigres del Norte,Una Vida Mejor (Diálogo),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+4873170,Los Tigres del Norte,Un Día a la Vez (Live At Folsom Prison),2019,0,0.0,3,22.5564,0,0.0,0,0.0,narco
+4873171,Los Tigres del Norte,Vivir en las Sombras (Diálogo),2019,3,30.0,1,10.0,0,0.0,0,0.0,migracion
+4873159,Los Tigres del Norte,Yo lo Conocí (Diálogo),2019,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361867,Los Tigres del Norte,Acá Entre Nos,2020,2,9.1743,0,0.0,0,0.0,0,0.0,migracion
+5361868,Los Tigres del Norte,Aprendiste a Volar,2020,1,5.814,0,0.0,1,5.814,0,0.0,migracion
+5361869,Los Tigres del Norte,De Qué Manera Te Olvido,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361879,Los Tigres del Norte,El Arracadas,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361877,Los Tigres del Norte,El Último Beso,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361872,Los Tigres del Norte,Hermoso Cariño,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5184974,Los Tigres del Norte,La Ley Del Monte,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361873,Los Tigres del Norte,Lástima Que Seas Ajena,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361875,Los Tigres del Norte,Los Mandados,2020,9,49.7238,3,16.5746,0,0.0,0,0.0,migracion
+5361874,Los Tigres del Norte,Mujeres Divinas,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361876,Los Tigres del Norte,Palabra de Rey,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361870,Los Tigres del Norte,Por Tu Maldito Amor,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361871,Los Tigres del Norte,Si Acaso Vuelves,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+5361880,Los Tigres del Norte,Un Consentido de Dios,2020,2,10.3627,1,5.1813,0,0.0,0,0.0,migracion
+5361878,Los Tigres del Norte,Yo Quiero Saber de Ti,2020,0,0.0,0,0.0,0,0.0,0,0.0,none
+12007326,Los Tucanes de Tijuana,El Chapo Isidro,2020,1,5.7143,7,40.0,0,0.0,0,0.0,narco
+5567252,Los Tucanes de Tijuana,Hoy Más Que Nunca,2020,5,7.8247,0,0.0,0,0.0,0,0.0,migracion
+11467450,Los Tigres del Norte,La Reunión,2021,0,0.0,0,0.0,0,0.0,0,0.0,none
+9146818,Los Tucanes de Tijuana,El Chavo,2021,1,3.9841,4,15.9363,0,0.0,0,0.0,narco
+11467430,Los Tigres del Norte,La Carta,2022,5,11.6009,2,4.6404,0,0.0,0,0.0,migracion
+8018974,Los Tucanes de Tijuana,Yo Las Pongo,2022,2,7.2993,1,3.6496,0,0.0,0,0.0,migracion
+8416260,Los Tucanes de Tijuana,Yo Las Pongo (Mixed),2022,0,0.0,0,0.0,0,0.0,0,0.0,none
+10492139,Los Tigres del Norte,Pan Y Miel,2023,0,0.0,1,3.663,1,3.663,0,0.0,narco
+10492140,Los Tigres del Norte,She is wow,2023,0,0.0,0,0.0,1,3.69,0,0.0,politica_mx
+9763477,Los Tucanes de Tijuana,Comandante 09,2023,1,3.2468,17,55.1948,2,6.4935,0,0.0,narco
+10265679,Los Tucanes de Tijuana,"La Mera Mera (Tijuana, Baja California Norte)",2023,6,15.2284,25,63.4518,0,0.0,0,0.0,narco
+9462754,Los Tucanes de Tijuana,La Tierra del Corrido,2023,4,12.8205,1,3.2051,0,0.0,0,0.0,migracion
+9855500,Los Tucanes de Tijuana,Sa’Que Caray,2023,0,0.0,0,0.0,0,0.0,0,0.0,none
+10492109,Los Tigres del Norte,Aquí Mando Yo,2024,1,3.2362,5,16.1812,3,9.7087,0,0.0,narco
+10492141,Los Tigres del Norte,La Última Y Nos Vamos,2024,0,0.0,0,0.0,0,0.0,0,0.0,none
+10196077,Los Tigres del Norte,La Venganza,2024,0,0.0,0,0.0,0,0.0,0,0.0,none
+11132501,Los Tucanes de Tijuana,Le Apodan El Fresa,2024,1,3.876,7,27.1318,1,3.876,0,0.0,narco
+10766753,Los Tucanes de Tijuana,Yo Las Pongo (Mixed) [Partido Fest 2024],2024,2,6.4309,1,3.2154,0,0.0,0,0.0,migracion
+12897890,Los Tigres del Norte,El Corrido De Pedro y Homero,2025,0,0.0,0,0.0,0,0.0,0,0.0,none
+11495941,Los Tigres del Norte,La Lotería,2025,2,9.3458,1,4.6729,0,0.0,0,0.0,migracion
+12328230,Los Tucanes de Tijuana,Rigo Campos,2025,0,0.0,0,0.0,0,0.0,0,0.0,none
