@@ -19,4 +19,7 @@ data/raw/
 
 # Generated files (re-created by export_dashboard.py)
 dashboard/prompts/
+
+# Local safety backups written by ingest_songs.py before each overwrite
+data/processed/songs.backup-*.csv
 data/processed/songs.json
